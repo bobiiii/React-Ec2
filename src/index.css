@@ -1,3 +1,30 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+/* navbar css start */
+.navbackground{
+    background-color: #458500;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: 700;
+    word-spacing: 1em;
+}
+.abc{
+    color: #FFFFFF;
+}
+
+.btnspace {
+    white-space: nowrap;
+    border-radius: 10px;
+  }
+
+
+ .bstimg img{
+    
+    height: 40px;
+    background: none;
+ } 
+  
+
+
+
+/* navbar css start */
+
