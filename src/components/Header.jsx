@@ -1,10 +1,11 @@
 import React from 'react'
 import logoImage from "../components/logo.jpg"
 import cart from "../components/cart.png"
+import search from "../components/search.png"
 function Header() {
   return (
     <>
-    <div>
+
     <nav className="navbar navbar-expand-lg navbar-dark  navbackground">
   <div className="container-fluid">
     <img src={logoImage} alt="" /> 
@@ -47,18 +48,32 @@ function Header() {
             <li><a className="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
+        <div className='  navsectionmain ms-4'>
+        <div className=" nav-item navsection  ">
+          <p>New</p>
+          |
+          <p> speacials</p>
+          |
+          <p> Try</p>
+          |
+          <p> Best</p>
+          <p>Sellers</p>
+        </div>
+
+        </div>
+
       </ul>
+
       <form className="d-flex me-2">
-        <input className="form-control me-3" type="search" placeholder="Search iHerb Products" aria-label="Search"/>
+        <input className="form-control me-3" type="search" placeholder="Search iHerb Products" aria-label="Search"  />
         <button className="btn btn-outline-light btnspace " type="submit">Sign in</button>
       </form>
-      <div className="bstimg ">
+      <div className="bstimg">
         <img src={cart} alt="" />
       </div>
     </div>
   </div>
 </nav>
-</div>
     </>
   )
 }
