@@ -114,6 +114,15 @@
     height:366px;
   } 
   
+  @media screen and (max-width: 450px) {
+    .carousel-item img {
+        width: 1440px;
+        height: 200px;
+    }
+}
+
+
+
 .herocards1{
     width: 220px;
     height: 50px;
@@ -142,9 +151,7 @@
 
 
 @media (max-width: 450px) {
-    #carouselExampleControls {
-      display: none;
-    }
+
     .herocards{
         display: none;
     }
@@ -158,7 +165,7 @@
 
 
 .speacilsSection{
-    width: 1343px;
+    width: 100%;
     height: 405.98px;
     background: #FAFAFA;
 }
@@ -193,3 +200,82 @@
 }
 
 /*  speacilsSection css End */
+
+
+
+/* tradingsection css start */
+
+.tradingsection{
+    width: 100%;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    background: #FAFAFA;
+}
+
+.treandingdiv{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.trdtext{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.trdinput{
+    width: 156px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -7.09px 0px;
+}
+/* tradingsection css End */
+
+
+
+/* footer css Start  */
+
+.footerimage img{
+    width: 100%;
+    
+
+}
+
+.footerimage {
+    width: 100%;
+    
+
+}
+
+.ftrtext{
+    color: gray;
+}
+
+.ftrsection{
+    background: #FAFAFA;
+    height: 80vh;
+    
+}
+
+.qrimg img{
+    height: 80px;
+    width: 80px;
+}
+
+
+@media (max-width: 450px) {
+
+    .ftrsection{
+        height: 100%;
+    }
+  }
+
+/* footer css End */
