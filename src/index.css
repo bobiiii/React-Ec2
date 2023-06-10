@@ -166,7 +166,7 @@
 
 .speacilsSection {
     width: 100%;
-    height: 405.98px;
+    
     background: #FAFAFA;
 }
 
@@ -198,6 +198,19 @@
     border-radius: 8px;
 
 }
+
+.card-wrapper{
+    
+}
+.card{
+    width: calc(100% / 5);
+    margin: 0.5em;
+}
+.card > img{
+    width: 100%;
+}
+
+
 
 /*  speacilsSection css End */
 

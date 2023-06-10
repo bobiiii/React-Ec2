@@ -1,11 +1,16 @@
 
-import Header from "./components/Header"
+import { Route, Routes } from "react-router-dom"
 import Layout from "./components/Layout"
-import './index.css'
+import Homepage from "./components/Homepage"
+
 function App() {
   return (
     <Layout>
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
 
+      </Routes>
+      
     </Layout>
   )
 }
