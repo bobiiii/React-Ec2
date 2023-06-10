@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
     
-      <div classNameName='footerimage '>
+      <div classNameName='footerimage'>
         <img src={footer} alt="" />
       </div>
       <section className='container-fluid ftrsection '>
