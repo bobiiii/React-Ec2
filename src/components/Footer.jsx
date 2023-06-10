@@ -3,6 +3,7 @@ import footer from "../images/footerline.png"
 import Qr from "../images/qr-code.png"
 import playstore from "../images/appstore.png"
 import Footercenter from './Footercenter'
+import Footerend from './Footerend'
 function Footer() {
   return (
     <>
@@ -134,12 +135,12 @@ function Footer() {
           </footer>
         </div>
         <hr/>
+        <br />
+        <Footercenter/>
+        <Footerend/>
       </section>
-      <Footercenter/>
-      <br />
-      <br />
-      <br />
-      <br />
+      
+      
 
 
     </>
