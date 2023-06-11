@@ -1,29 +1,29 @@
-
 /* navbar css start */
-.navbackground{
+.navbackground {
     background-color: #458500;
     color: #FFFFFF;
     font-size: 1em;
     font-weight: 700;
     word-spacing: 1em;
 }
-.abc{
+
+.abc {
     color: #FFFFFF;
 }
 
 .btnspace {
     white-space: nowrap;
     border-radius: 10px;
-  }
+}
 
 
- .bstimg img{
-    
+.bstimg img {
+
     height: 40px;
     background: none;
- } 
-  
-.navsection{
+}
+
+.navsection {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -31,8 +31,8 @@
     gap: 0.2em;
 }
 
- 
-.navsectionmain{
+
+.navsectionmain {
     display: flex;
     background: #FFFFFF;
     border-radius: 8px;
@@ -48,11 +48,11 @@
 
 /* Hero Section css start */
 
-.mainhero{
+.mainhero {
     display: flex;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -63,7 +63,7 @@
     gap: 1em;
 }
 
-.shopbtn{
+.shopbtn {
     background: linear-gradient(0deg, #EF6C00 0%, #F38A00 100%);
     border-radius: 5px;
     margin-bottom: 1em;
@@ -72,14 +72,14 @@
     font-size: 14px;
 }
 
-.cruveclr{
+.cruveclr {
     width: 48px;
     height: 48px;
-    
+
     background: linear-gradient(315deg, #468101 50%, #FFD529 50%);
 }
 
-.herolast{
+.herolast {
     padding: 5px;
     width: 628px;
     height: 48px;
@@ -89,7 +89,7 @@
     flex-grow: 0;
 }
 
-.hero2{
+.hero2 {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -103,18 +103,18 @@
 
 @media (max-width: 767px) {
     .mainhero {
-      display: none;
+        display: none;
     }
-  }
+}
 
 
 /* Carousel */
-.carousel-item img{
-    width:1440px ;
-    height:366px;
-  } 
-  
-  @media screen and (max-width: 450px) {
+.carousel-item img {
+    width: 1440px;
+    height: 366px;
+}
+
+@media screen and (max-width: 450px) {
     .carousel-item img {
         width: 1440px;
         height: 200px;
@@ -123,7 +123,7 @@
 
 
 
-.herocards1{
+.herocards1 {
     width: 220px;
     height: 50px;
     left: calc(50% - 200px/2 - 400px);
@@ -134,28 +134,28 @@
     border-style: solid;
     border-color: #E0E0E0;
     box-shadow: 2px 3px 3px rgba(248, 242, 242, 0.24);
-}  
+}
 
-.herocards{
+.herocards {
     display: flex;
     justify-content: center;
 }
 
-.card1dis{
+.card1dis {
     color: #F38A00;
 }
 
-.seeallcard{
+.seeallcard {
     text-decoration: none;
 }
 
 
 @media (max-width: 450px) {
 
-    .herocards{
+    .herocards {
         display: none;
     }
-  }
+}
 
 
 /* Hero Section css End */
@@ -164,26 +164,26 @@
 /*  speacilsSection css start */
 
 
-.speacilsSection{
+.speacilsSection {
     width: 100%;
-    
+
     background: #FAFAFA;
 }
 
-.speacilsSectionWrap{
+.speacilsSectionWrap {
     display: flex;
     justify-content: space-between;
     margin: 5px;
 }
 
-.SpecialsTextstyle{
+.SpecialsTextstyle {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
 }
 
-.cardscontainer{
+.cardscontainer {
     width: 1370px;
     height: 344px;
     left: 15px;
@@ -191,22 +191,22 @@
     background: #FAFAFA;
 }
 
-.cardsbody{
+.cardsbody {
     width: 213.33px;
     height: 280px;
     background: #FFFFFF;
     border-radius: 8px;
-    
+
 }
 
-.card-wrapper{
-    
-}
-.card{
+.card-wrapper {}
+
+.card {
     width: calc(100% / 5);
     margin: 0.5em;
 }
-.card > img{
+
+.card>img {
     width: 100%;
 }
 
@@ -218,7 +218,7 @@
 
 /* tradingsection css start */
 
-.tradingsection{
+.tradingsection {
     width: 100%;
     height: 46px;
     left: 0px;
@@ -226,20 +226,20 @@
     background: #FAFAFA;
 }
 
-.treandingdiv{
+.treandingdiv {
     display: flex;
     text-align: center;
     align-items: center;
 }
 
-.trdtext{
+.trdtext {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
 }
 
-.trdinput{
+.trdinput {
     width: 156px;
     height: 32px;
     background: #FFFFFF;
@@ -250,45 +250,556 @@
     flex-grow: 0;
     margin: -7.09px 0px;
 }
+
 /* tradingsection css End */
 
 
 
 /* footer css Start  */
 
-.footerimage img{
-    width: 100%;
-    
 
-}
-
-.footerimage {
-    width: 100%;
-    
-
-}
-
-.ftrtext{
+.ftrtext {
     color: gray;
 }
 
-.ftrsection{
+.ftrsection {
     background: #FAFAFA;
-    height: 80vh;
-    
+    height: 100%;
 }
 
-.qrimg img{
+.qrimg {
+    display: flex;
+}
+
+.qrimg img {
     height: 80px;
     width: 80px;
 }
 
 
 @media (max-width: 450px) {
-
-    .ftrsection{
+    .ftrsection {
         height: 100%;
     }
-  }
+}
+
+
+.footercenter {
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width : 450px) {
+
+    .footercenter {
+        background-color: #FAFAFA;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .ftritems {
+        width: 90%;
+    }
+
+
+
+}
+
+.textoffer {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+}
+
+
+.ftritems {
+    width: 60%;
+}
+
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding: 15px 10px;
+    border-radius: 5em;
+}
+
+.social-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    background-color: #FAFAFA;
+    transition: 0.3s;
+}
+
+
+
+.social-buttons svg {
+    transition: 0.3s;
+    height: 20px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.facebook svg {
+    fill: #f2f2f2;
+}
+
+.facebook:hover svg {
+    fill: #3b5998;
+}
+
+
+
+.github svg {
+    width: 25px;
+    height: 25px;
+    fill: #f2f2f2;
+}
+
+.github:hover svg {
+    fill: #333;
+}
+
+.linkedin {
+    background-color: #0077b5;
+}
+
+.linkedin svg {
+    fill: #f2f2f2;
+}
+
+.linkedin:hover svg {
+    fill: #0077b5;
+}
+
+.instagram {
+    background-color: #c13584;
+}
+
+.instagram svg {
+    fill: #f2f2f2;
+}
+
+.instagram:hover svg {
+    fill: #c13584;
+}
+
+.number {
+    color: #E57125;
+}
+
+.fotrpra {
+    text-align: left;
+}
+
+.fotrpra2 {
+    text-align: left;
+}
+
+
+.endfooter {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.endfooterwrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.endpra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endpra2 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .endpra {
+        display: none;
+    }
+
+    .endpra2 {
+        text-align: center;
+    }
+
+    .endftrlink {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.endftrlink {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+
 
 /* footer css End */
+
+
+/* Check Out css start */
+
+.checkousection {
+    width: 100%;
+    height: 70vh;
+    background: #FFFFFF;
+}
+
+.headingcart {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.cartlogocnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+/* .crtlogo{
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    background: #F5F5F5;
+    border-radius: 2em;
+} */
+
+.cartlogocnt img {
+    width: 100px;
+    height: 100px;
+}
+
+.shpgtext {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Start-Shopping {
+    text-decoration: none;
+}
+
+/* Check Out css end*/
+
+
+/* dashboard css Start  */
+
+
+
+.dashboardsection {
+    display: flex;
+    gap: 1em;
+    color: black;
+    width: 100%;
+}
+
+.sidebarsection {
+    width: 15%;
+}
+
+.dashusercard {
+    display: flex;
+    width: 100%;
+}
+
+.dashuser {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.dashuser i {
+    margin-right: 10px;
+
+}
+
+.dashuser img {
+    border-radius: 50em;
+    height: 80px;
+    width: 100px;
+    background: none;
+}
+
+.dashusercards {
+    height: 98px;
+    left: 0px;
+    right: 772.93px;
+    top: 0px;
+    color: gray;
+}
+
+.Hey {
+    color: #121212;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.Customer-since {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #666666;
+}
+
+
+.dashusercards2 {
+    height: 100%;
+    left: 568.33px;
+    right: 0px;
+    top: 0px;
+    width: 80%;
+    background: #E5F8E6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.dashprice {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* .dashcardshearbtn {
+    left: 16.67%;
+    right: 16.67%;
+    top: 12.5%;
+    bottom: 12.5%;
+    color: #F38A00;
+} */
+
+.dashcardshearbtn img {
+    height: 15px;
+    width: 16px;
+    color: #F38A00;
+}
+
+
+.salescard {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card-inline {
+    flex-basis: 30%;
+}
+
+
+
+
+.cookie-card {
+    max-width: 320px;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.title {
+    font-weight: 600;
+    color: rgb(31 41 55);
+}
+
+.description {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: rgb(75 85 99);
+}
+
+.description a {
+    --tw-text-opacity: 1;
+    color: rgb(59 130 246);
+}
+
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    -moz-column-gap: 1rem;
+    column-gap: 1rem;
+    flex-shrink: 0;
+}
+
+.pref {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(31 41 55);
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+    background-color: transparent;
+}
+
+.pref:hover {
+    color: rgb(156 163 175);
+}
+
+.pref:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.accept {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    background-color: rgb(17 24 39);
+    font-weight: 500;
+    border-radius: 0.5rem;
+    color: #fff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border: none;
+    transition: all .15s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.accept:hover {
+    background-color: rgb(55 65 81);
+}
+
+.accept:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/* dashboard css End */
+
+
+/* Sales and offers css start */
+
+.cruveclrsale {
+    width: 48px;
+    height: 48px;
+
+    background: linear-gradient(315deg, #026ACD 50%, #02AD5F 50%);
+}
+
+.sales-andd-ooffer-section{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.sale-and-offer-route{
+    justify-content: space-around;
+    gap: 0.5em;
+}
+
+.All-Sales{
+    width: 70vh;
+    height: 31.99px;
+    background: #FFFFFF;
+    border: 2px solid #458500;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.All-Sales p{
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #458500;
+text-align: center;
+}
+
+.All-f-t-s{
+    width: 40%;
+    height: 31.99px;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 16px;
+    justify-content: center;   
+}
+.All-f-t-s p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+    text-align: center;
+    }
+
+    .All-f-t-s-para{
+        text-align: center;
+        
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+
+.sales-products{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+/* sales and offer css end */
