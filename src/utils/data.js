@@ -48,7 +48,7 @@ oldPrice: "₹351.79",
 newPrice: "₹502.56",
 rating: 35643
 },{
-img:image6,
+img:image3,
 title: `NOW Foods, Iron, Double
 Strength, 36 mg, 90 Veg
 Capsules`,

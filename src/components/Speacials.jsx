@@ -14,16 +14,16 @@ function Speacials() {
       </div>
 
 
-      <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <div className="card-wrapper container-fluid d-flex  ">
               {slide1.map((item, index) => {
                 return (<>
-                  <div className="card " key={index} >
-                    <img src={item.img} className="card-img-top w-100 h-50" alt="..." />
+                  <div className="card py-2 " key={index} >
+                    <img src={item.img} className=" align-self-center w-75 h-50" alt="..." />
                     <div className="card-body d-flex flex-column justify-content-between">
-                      <h5 className="card-title">{item.title}</h5>
+                      <h5 className="card-title fs-cs-3 ">{item.title}</h5>
                       <div className="d-flex">
                         <div>
                         <i className="bi bi-star"></i>
@@ -33,8 +33,8 @@ function Speacials() {
                         <div><span> &nbsp; {item.rating}</span></div>
                       </div>
                       <div className="d-flex">
-                        <h6 className="text-danger fs-5">{item.oldPrice}</h6>
-                        <h6 className="fs-5">{item.newPrice}</h6>
+                        <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
+                        <h6 className="fs-cs-2">{item.newPrice}</h6>
                       </div>
 
                     </div>
@@ -118,7 +118,7 @@ function Speacials() {
                     <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>
                       <div className="d-flex">
-                        <h6 className=" px-2 text-danger fs-5">{item.oldPrice}</h6>
+                        <h6 className=" px-2 text-danger fs-cs-1">{item.oldPrice}</h6>
                         <h6 className="fs-5">{item.newPrice}</h6>
                       </div>
 

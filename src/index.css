@@ -10,6 +10,21 @@
 .abc{
     color: #FFFFFF;
 }
+.fs-cs-1{
+    font-size: 0.8rem;
+}
+.fs-cs-2{
+    font-size: 1.0rem;
+}
+.fs-cs-3{
+    font-size: 1.2rem;
+}
+.fs-cs-4{
+    font-size: 1.4rem;
+}
+.fs-cs-5{
+    font-size: 1.6rem;
+}
 
 .btnspace {
     white-space: nowrap;
@@ -200,15 +215,18 @@
 }
 
 .card-wrapper{
+    width: 100%;
+    background-color: yellow;
+    /* width: calc(100% / 5); */
     
 }
 .card{
-    width: calc(100% / 5);
-    margin: 0.5em;
+    
 }
 .card > img{
-    width: 100%;
+    
 }
+
 
 
 
@@ -290,5 +308,59 @@
         height: 100%;
     }
   }
+
+
+  
+
+  /* For Mobile */
+  @media (max-width: 767px) { 
+    .card-wrapper > :nth-child(n+4) {
+      display: none;
+    }
+    .card{
+        width: calc(100% / 3);
+        background-color: #868380;
+     
+    }
+  }
+
+  /* For Tablet */
+  @media (min-width: 768px) and (max-width: 1023px) { 
+    .card-wrapper > :nth-child(n+5) {
+      display: none;
+      
+    }
+    .card{
+        width: calc(100% / 4);
+        background-color: #8d6545;
+     
+    }
+  }
+
+  /* For Laptop */
+  @media ( ) { 
+    .card-wrapper > :nth-child(n+6) {
+      display: none;
+      
+    }
+    .card{
+        width: calc(100% / 5);
+        background-color: #3f2b1a;
+     
+    }
+  }
+
+  /* For Large Laptop */
+  @media () { 
+    .card-wrapper > :nth-child(n+6) {
+      display: none;
+    }
+    .card{
+        width: calc(100% / 5);
+        background-color: #468101;
+     
+    }
+  }
+
 
 /* footer css End */
