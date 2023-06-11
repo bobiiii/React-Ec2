@@ -4,6 +4,7 @@ import Qr from "../images/qr-code.png"
 import playstore from "../images/appstore.png"
 import Footercenter from './Footercenter'
 import Footerend from './Footerend'
+import google from "../images/google.png" 
 function Footer() {
   return (
     <>
@@ -119,14 +120,25 @@ function Footer() {
                       className="mb-4 mt-0 d-inline-block mx-auto"
                       style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
                     />
+                    
                     <div className='ms-3 qrimg'>
                       <img src={Qr} alt="" />
-                      <img src={playstore} alt="" className='ms-4' style={{
+                      <div>
+                      <img src={google} alt="" className='ms-4' style={{
                         width: '90px',
                         height: '26.8px',
                         left: '10px',
                         top: '0px'
                       }} />
+                      
+                      <img src={playstore} alt="" className='ms-4 mt-3' style={{
+                        width: '90px',
+                        height: '26.8px',
+                        left: '10px',
+                        top: '0px'
+                      }} />
+                      </div>
+                      
                     </div>
                   </div>
                 </div>

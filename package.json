@@ -13,11 +13,7 @@
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "react-router-dom": "v6.3"
-=======
     "react-router-dom": "6.3"
->>>>>>> 7404ed898c22653e01447399fa537112ee06e2d2
   },
   "devDependencies": {
     "@types/react": "^18.0.37",
