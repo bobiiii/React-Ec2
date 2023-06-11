@@ -3,7 +3,7 @@ import image2 from "../images/63.png"
 import image3 from "../images/96.png"
 import image4 from "../images/164.png"
 import image5 from "../images/174.png"
-import image6 from "../images/128.png"
+// import image6 from "../images/128.png"
 
 
 export const slide1 = [{
