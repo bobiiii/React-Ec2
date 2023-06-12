@@ -1,10 +1,12 @@
 import React from 'react'
 import userlogo from "../images/userlogo.png"
 import share from "../images/share.png"
-
+import Header from "./Header"
+import Footer from './Footer'
 function Dashboard() {
     return (
         <>
+        <Header></Header>
             <section className='container-fluid dashboardsection'>
                 <div className='sidebarsection'>
                     <div className="sidebar mt-3 ">
@@ -137,6 +139,7 @@ function Dashboard() {
 
                 </div>
             </section>
+            <Footer></Footer>
         </>
     )
 }

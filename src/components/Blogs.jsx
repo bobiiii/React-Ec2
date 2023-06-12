@@ -3,9 +3,12 @@ import logoImage from "../images/logo.jpg"
 import Blog from "../images/blogsec.png"
 import blogpro from "../images/blogspro.png"
 import user1 from "../images/user1.png"
+import Header from "./Header"
+import Footer from './Footer'
 function Blogs() {
     return (
         <>
+        <Header></Header>
             <section classNameName='container-fluid'>
                 <nav className="navbar navbar-expand-lg navbar-light NAVBAR2">
                     <div className="container-fluid">
@@ -282,6 +285,7 @@ throughout this blog are not approved to diagnose, treat, cure, or prevent disea
 
 
             </section>
+            <Footer></Footer>
         </>
     )
 }

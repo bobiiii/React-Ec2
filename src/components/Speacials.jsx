@@ -3,10 +3,10 @@ import Carouselcards from "./Carouselcards"
 import {slide1} from "../utils/data"
 
 
-
 function Speacials() {
   return (
     <>
+    
       <div className='speacilsSection container-fluid'>
         <br />
         <div className='speacilsSectionWrap container-fluid '>
@@ -22,7 +22,7 @@ function Speacials() {
             <div className="card-wrapper container-fluid d-flex  ">
               {slide1.map((item, index) => {
                 return (<>
-                  <div className="card py-2 " key={index} >
+                  <div className="card py-2 card-cont " key={index} >
                     <img src={item.img} className=" align-self-center w-75 h-50" alt="..." />
                     <div className="card-body d-flex flex-column justify-content-between">
                       <h5 className="card-title fs-cs-3 ">{item.title}</h5>
@@ -115,7 +115,7 @@ function Speacials() {
             <div className="card-wrapper container-fluid d-flex  ">
               {slide1.map((item, index) => {
                 return (<>
-                  <div className="card " key={index} >
+                  <div className="card card-cont " key={index} >
                     <img src={item.img} className="card-img-top w-100 h-50" alt="..." />
                     <div className="card-body">
                       <h5 className="card-title">{item.title}</h5>

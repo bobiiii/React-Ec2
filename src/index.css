@@ -199,13 +199,13 @@
 }
 
 .cardscontainer {
-    width: 1370px;
+    width: 100%;
     height: 344px;
     left: 15px;
     top: 62.02px;
     background: #FAFAFA;
 }
-
+    
 .cardsbody {
     width: 213.33px;
     height: 280px;
@@ -218,12 +218,6 @@
     width: 100%;
     background-color: yellow;
     /* width: calc(100% / 5); */
-    
-}
-.card{
-    
-}
-.card > img{
     
 }
 
@@ -1045,6 +1039,30 @@ line-height: 14px;
     width: 100%;
     height: 100%;
 }
+
+
+.cor-our-mission{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.cor-our-mission-wrap{
+    width: 100%;
+    height: 100%;
+    background-color: #458500;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    align-items: center;  
+}
+
+
+
 
 
 

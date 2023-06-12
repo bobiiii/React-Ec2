@@ -6,9 +6,12 @@ import sale3 from "../images/sale3.png"
 import sale4 from "../images/sale4.png"
 import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
+import Header from "./Header"
+import Footer from './Footer'
 function Saleandoffers() {
     return (
         <>
+        <Header></Header>
             <section style={{ background: "#FAFAFA" }}>
                 <div className='mainhero'>
                     <div className='hero' style={{ background: '#02AD5F' }}>
@@ -350,6 +353,7 @@ function Saleandoffers() {
 
 
             </section>
+            <Footer></Footer>
         </>
     )
 }
