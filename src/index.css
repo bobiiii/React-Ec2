@@ -10,19 +10,24 @@
 .abc {
     color: #FFFFFF;
 }
-.fs-cs-1{
+
+.fs-cs-1 {
     font-size: 0.8rem;
 }
-.fs-cs-2{
+
+.fs-cs-2 {
     font-size: 1.0rem;
 }
-.fs-cs-3{
+
+.fs-cs-3 {
     font-size: 1.2rem;
 }
-.fs-cs-4{
+
+.fs-cs-4 {
     font-size: 1.4rem;
 }
-.fs-cs-5{
+
+.fs-cs-5 {
     font-size: 1.6rem;
 }
 
@@ -199,13 +204,13 @@
 }
 
 .cardscontainer {
-    width: 1370px;
+    width: 100%;
     height: 344px;
     left: 15px;
     top: 62.02px;
     background: #FAFAFA;
 }
-
+    
 .cardsbody {
     width: 213.33px;
     height: 280px;
@@ -214,22 +219,7 @@
 
 }
 
-.card-wrapper{
-    width: 100%;
-    background-color: yellow;
-    /* width: calc(100% / 5); */
-    
-}
-.card{
-    
-}
-.card > img{
-    
-}
-
-
-
-
+ 
 /*  speacilsSection css End */
 
 
@@ -302,57 +292,75 @@
 }
 
 
-  
 
-  /* For Mobile */
-  @media (max-width: 767px) { 
-    .card-wrapper > :nth-child(n+4) {
-      display: none;
+
+/* For Mobile */
+@media (max-width: 767px) {
+    .card-wrapper> :nth-child(n+4) {
+        display: none;
     }
-    .card{
+
+    .card {
         width: calc(100% / 3);
-        background-color: #868380;
-     
+        margin: 0px 0.2rem;
     }
-  }
 
-  /* For Tablet */
-  @media (min-width: 768px) and (max-width: 1023px) { 
-    .card-wrapper > :nth-child(n+5) {
-      display: none;
-      
+    .card-cont>img {
+        width: 45%;
+}
+}
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-wrapper> :nth-child(n+5) {
+        display: none;
+
     }
-    .card{
+
+    .card {
         width: calc(100% / 4);
-        background-color: #8d6545;
-     
+        margin: 0px 0.2rem;
     }
-  }
 
-  /* For Laptop */
-  /* @media ( ) { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
-      
-    }
-    .card{
-        width: calc(100% / 5);
-        background-color: #3f2b1a;
-     
-    }
-  } */
+    .card-cont>img {
 
-  /* For Large Laptop */
-  /* @media () { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
+        width: 50%;
+
     }
-    .card{
+}
+
+/* For Laptop */
+@media (min-width: 1024px) and (max-width: 1220px) {
+    .card-wrapper> :nth-child(n+6) {
+        display: none;
+
+    }
+
+    .card {
         width: calc(100% / 5);
-        background-color: #468101;
-     
     }
-  } */
+
+    .card-cont>img {
+        width: 60%;
+}
+}
+
+/* For Large Laptop */
+@media (min-width: 1220px) {
+    .card-wrapper> :nth-child(n+7) {
+        display: none;
+    }
+
+    .card {
+        width: calc(100% / 6);
+        margin: 0px 0.2rem;
+
+
+    }
+    .card-cont>img {
+        width: 65%;
+}
+}
 
 
 /* footer css End */
@@ -801,11 +809,10 @@
 .cruveclrsale {
     width: 48px;
     height: 48px;
-
     background: linear-gradient(315deg, #026ACD 50%, #02AD5F 50%);
 }
 
-.sales-andd-ooffer-section{
+.sales-andd-ooffer-section {
     height: 100%;
     width: 70%;
     display: flex;
@@ -814,12 +821,16 @@
 
 }
 
-.sale-and-offer-route{
+.sales-andd-ooffer-section-start {
+    width: 100%;
+}
+
+.sale-and-offer-route {
     justify-content: space-around;
     gap: 0.5em;
 }
 
-.All-Sales{
+.All-Sales {
     width: 70vh;
     height: 31.99px;
     background: #FFFFFF;
@@ -828,50 +839,247 @@
     justify-content: center;
 }
 
-.All-Sales p{
+.All-Sales p {
 
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-color: #458500;
-text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #458500;
+    text-align: center;
+
 }
 
-.All-f-t-s{
+.All-f-t-s {
     width: 40%;
     height: 31.99px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 16px;
-    justify-content: center;   
+    justify-content: center;
+    text-align: center;
 }
-.All-f-t-s p{
+
+.All-f-t-s p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     color: #666666;
+    margin-top: 5px;
+}
+
+.All-f-t-s-para {
     text-align: center;
-    }
-
-    .All-f-t-s-para{
-        text-align: center;
-        
-        justify-content: center;
-        display: flex;
-        align-items: center;
-    }
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
 
-.sales-products{
+.sales-products {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 
 }
 
+.brand-off-week {
+    width: 100%;
+    height: 250.27px;
+    left: 0px;
+    top: 1694.53px;
+    background: #C8E6C9;
+}
+
+.brand-week-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+
+.View-all-Brands {
+    border: 1px solid black;
+    border-radius: 0.6em;
+    width: 100%;
+}
+
+.more-way {
+    width: 100%;
+    height: 100%;
+}
+
+.more-way-cards {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 450px) {
+    .more-way-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .card {
+        flex: 0 0 100%;
+    }
+}
+
+.equal-height-card {
+    height: 100%;
+}
+
+.sale-last-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+
 /* sales and offer css end */
+
+
+
+/* Blogs css start */
+.custom-input {
+    height: 40px;
+    /* Adjust the height value as desired */
+}
+
+.custom-button {
+    height: 38px;
+    /* Adjust the height value as desired */
+}
+
+.ul-item-style {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.NAVBAR2 {
+    background: #FFFFFF;
+}
+
+
+.blog-hero-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abc {
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    border-radius: 20em;
+    width: 35%;
+    background-color: #458500;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-products-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-user-section {
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.blog-user-section-cards {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.Explore-section-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog-para {
+    width: 90%;
+    height: 100%;
+
+}
+/* Blogs css End*/
+
+
+
+
+/* Corporate css Start*/
+.corporate-navbar-background{
+    background-color: #639829;
+}
+
+.nvl{
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 14px;
+}
+
+
+.corporate-hero-image{
+    width: 100%;
+    height: 100%;
+}
+
+.corporate-hero-image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.cor-our-mission{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.cor-our-mission-wrap{
+    width: 100%;
+    height: 100%;
+    background-color: #458500;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    align-items: center;  
+}
+
+
+
+
+
+
+/* Corporate css End*/
+
+

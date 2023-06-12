@@ -1,10 +1,11 @@
-import React from 'react'
+
 import userlogo from "../images/userlogo.png"
-import share from "../images/share.png"
+// import share from "../images/share.png"
 
 function Dashboard() {
     return (
         <>
+        
             <section className='container-fluid dashboardsection'>
                 <div className='sidebarsection'>
                     <div className="sidebar mt-3 ">
@@ -87,10 +88,10 @@ function Dashboard() {
                         <a href="" className='ms-1 text-decoration-none text-secondary'> Dashboard </a>
                     </div>
                     <div className='dashusercard mt-5 '>
-                        <div class="container dashusercards">
-                            <div class="row">
-                                <div class="col">
-                                    <div class="dashuser">
+                        <div className="container dashusercards">
+                            <div className="row">
+                                <div className="col">
+                                    <div className="dashuser">
                                         <img src={userlogo} alt="" />
                                         <div className='ms-2 mt-2'>
                                             <p className='Hey'>Hey Adetosin2000@gmail... <div className='Customer-since'>Customer since May 23 2023</div> </p>
@@ -111,24 +112,24 @@ function Dashboard() {
                     </div>
                     
                     <div className=' container-fluid  salescard mt-5'>
-                        <div class="cookie-card">
-                            <span class="title">🍪 Orders</span>
-                            <p class="description ms-4 mb-2">Track your order progress, request returns,
+                        <div className="cookie-card">
+                            <span className="title">🍪 Orders</span>
+                            <p className="description ms-4 mb-2">Track your order progress, request returns,
                                 reorder, or write reviews.  </p>
                         </div>
-                        <div class="cookie-card">
-                            <span class="title">🍪 Orders</span>
-                            <p class="description ms-4 mb-2">Track your order progress, request returns,
+                        <div className="cookie-card">
+                            <span className="title">🍪 Orders</span>
+                            <p className="description ms-4 mb-2">Track your order progress, request returns,
                                 reorder, or write reviews.  </p>
                         </div>
-                        <div class="cookie-card">
-                            <span class="title">🍪 Orders</span>
-                            <p class="description ms-4 mb-2">Track your order progress, request returns,
+                        <div className="cookie-card">
+                            <span className="title">🍪 Orders</span>
+                            <p className="description ms-4 mb-2">Track your order progress, request returns,
                                 reorder, or write reviews.  </p>
                         </div>
-                        <div class="cookie-card">
-                            <span class="title">🍪 Orders</span>
-                            <p class="description ms-4 mb-2">Track your order progress, request returns,
+                        <div className="cookie-card">
+                            <span className="title">🍪 Orders</span>
+                            <p className="description ms-4 mb-2">Track your order progress, request returns,
                                 reorder, or write reviews.  </p>
                         </div>
                         
@@ -137,6 +138,7 @@ function Dashboard() {
 
                 </div>
             </section>
+            
         </>
     )
 }

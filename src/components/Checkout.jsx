@@ -1,10 +1,12 @@
-import React from 'react'
+
 import shpcart from "../images/shpngcart.png"
-import { slide1 } from "../utils/data"
 import Carouselcards from './Carouselcards'
+
+
 function Checkout() {
     return (
         <>
+        
             <section>
                 <div className='checkousection container-fluid '>
                     <div className='mt-2 '>
@@ -33,6 +35,7 @@ function Checkout() {
 
       <Carouselcards></Carouselcards>
             </section>
+            
         </>
     )
 }
