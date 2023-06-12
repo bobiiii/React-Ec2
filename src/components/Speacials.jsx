@@ -3,7 +3,6 @@ import Carouselcards from "./Carouselcards"
 // import {slide1} from "../utils/data"
 
 
-
 function Speacials() {
   return (
     <>
