@@ -3,7 +3,7 @@ import image2 from "../images/63.png"
 import image3 from "../images/96.png"
 import image4 from "../images/164.png"
 import image5 from "../images/174.png"
-import image6 from "../images/128.png"
+// import image6 from "../images/128.png"
 
 
 export const slide1 = [{
@@ -48,7 +48,7 @@ oldPrice: "₹351.79",
 newPrice: "₹502.56",
 rating: 35643
 },{
-img:image6,
+img:image3,
 title: `NOW Foods, Iron, Double
 Strength, 36 mg, 90 Veg
 Capsules`,
