@@ -1,15 +1,14 @@
-import React from 'react'
+
 import logoImage from "../images/logo.jpg"
 import Blog from "../images/blogsec.png"
 import blogpro from "../images/blogspro.png"
 import user1 from "../images/user1.png"
-import Header from "./Header"
-import Footer from './Footer'
+
 function Blogs() {
     return (
         <>
-        <Header></Header>
-            <section classNameName='container-fluid'>
+
+            <section className='container-fluid'>
                 <nav className="navbar navbar-expand-lg navbar-light NAVBAR2">
                     <div className="container-fluid">
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +41,7 @@ function Blogs() {
 
                 <div className='blog-hero-section container-fluid'>
                     <div>
-                        <p>WHAT'S NEW </p>
+                        <p>WHATS NEW </p>
                         <h3>The Best Natural Remedies for
                             Managing Allergies and Asthma</h3>
                         <p> <span className='text-success'>May 2024</span> | 218 Views </p>
@@ -67,7 +66,7 @@ function Blogs() {
                     <div className="card" style={{ width: '20rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -86,7 +85,7 @@ function Blogs() {
                     <div className="card" style={{ width: '20rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -105,7 +104,7 @@ function Blogs() {
                     <div className="card" style={{ width: '20rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -191,7 +190,7 @@ function Blogs() {
                     <div className="card" style={{ width: '18rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -210,7 +209,7 @@ function Blogs() {
                     <div className="card" style={{ width: '18rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -229,7 +228,7 @@ function Blogs() {
                     <div className="card" style={{ width: '18rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -248,7 +247,7 @@ function Blogs() {
                     <div className="card" style={{ width: '18rem', background: "#F5F5F5" }}>
                         <img src={blogpro} className="card-img-top" alt="..." />
                         <div className="card-body">
-                            <p styles={{
+                            <p style={{
                                 fontFamily: 'Lato',
                                 fontStyle: 'normal',
                                 fontWeight: 700,
@@ -285,7 +284,7 @@ throughout this blog are not approved to diagnose, treat, cure, or prevent disea
 
 
             </section>
-            <Footer></Footer>
+            
         </>
     )
 }
