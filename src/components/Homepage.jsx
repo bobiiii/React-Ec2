@@ -7,7 +7,7 @@ function Homepage() {
   return (
     <>
 
-<Hero />
+     <Hero />
       <Speacials />
       <Trending />
     </>

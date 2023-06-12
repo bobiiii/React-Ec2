@@ -12,10 +12,7 @@ function Speacials() {
           <div> <button type="button" className="btn btn-success">View All</button> </div>
         </div>
       </div>
-
-
       <Carouselcards></Carouselcards>
-
       <br />
 
     </>
