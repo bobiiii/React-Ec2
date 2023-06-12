@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import facebook from "../images/facebook-logo.png.png"
 import twitter from "../images/twitter-logo.png.png"
 import youtube from "../images/youtube-logo.png.png"
@@ -19,7 +19,7 @@ function Footercenter() {
           <br />
           
           <p className='fotrpra'>Your email address will be used to send you Health Newsletters and emails about iHerb’s products, services, sales,
-            and special offers. You can unsubscribe at any time by clicking on the unsubscribe link in each email. For more
+            and special offers.You can unsubscribe at any time by clicking on the unsubscribe link in each email. For more
             information on our use of your personal information and your rights, see our Privacy Policy.</p>
 
           <p className='fotrpra2'>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>

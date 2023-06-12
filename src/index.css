@@ -10,19 +10,24 @@
 .abc {
     color: #FFFFFF;
 }
-.fs-cs-1{
+
+.fs-cs-1 {
     font-size: 0.8rem;
 }
-.fs-cs-2{
+
+.fs-cs-2 {
     font-size: 1.0rem;
 }
-.fs-cs-3{
+
+.fs-cs-3 {
     font-size: 1.2rem;
 }
-.fs-cs-4{
+
+.fs-cs-4 {
     font-size: 1.4rem;
 }
-.fs-cs-5{
+
+.fs-cs-5 {
     font-size: 1.6rem;
 }
 
@@ -214,22 +219,7 @@
 
 }
 
-.card-wrapper{
-    width: 100%;
-    background-color: yellow;
-    /* width: calc(100% / 5); */
-    
-}
-.card{
-    
-}
-.card > img{
-    
-}
-
-
-
-
+ 
 /*  speacilsSection css End */
 
 
@@ -302,57 +292,75 @@
 }
 
 
-  
 
-  /* For Mobile */
-  @media (max-width: 767px) { 
-    .card-wrapper > :nth-child(n+4) {
-      display: none;
+
+/* For Mobile */
+@media (max-width: 767px) {
+    .card-wrapper> :nth-child(n+4) {
+        display: none;
     }
-    .card{
+
+    .card {
         width: calc(100% / 3);
-        background-color: #868380;
-     
+        margin: 0px 0.2rem;
     }
-  }
 
-  /* For Tablet */
-  @media (min-width: 768px) and (max-width: 1023px) { 
-    .card-wrapper > :nth-child(n+5) {
-      display: none;
-      
+    .card-cont>img {
+        width: 45%;
+}
+}
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-wrapper> :nth-child(n+5) {
+        display: none;
+
     }
-    .card{
+
+    .card {
         width: calc(100% / 4);
-        background-color: #8d6545;
-     
+        margin: 0px 0.2rem;
     }
-  }
 
-  /* For Laptop */
-  /* @media ( ) { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
-      
-    }
-    .card{
-        width: calc(100% / 5);
-        background-color: #3f2b1a;
-     
-    }
-  } */
+    .card-cont>img {
 
-  /* For Large Laptop */
-  /* @media () { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
+        width: 50%;
+
     }
-    .card{
+}
+
+/* For Laptop */
+@media (min-width: 1024px) and (max-width: 1220px) {
+    .card-wrapper> :nth-child(n+6) {
+        display: none;
+
+    }
+
+    .card {
         width: calc(100% / 5);
-        background-color: #468101;
-     
     }
-  } */
+
+    .card-cont>img {
+        width: 60%;
+}
+}
+
+/* For Large Laptop */
+@media (min-width: 1220px) {
+    .card-wrapper> :nth-child(n+7) {
+        display: none;
+    }
+
+    .card {
+        width: calc(100% / 6);
+        margin: 0px 0.2rem;
+
+
+    }
+    .card-cont>img {
+        width: 65%;
+}
+}
 
 
 /* footer css End */
@@ -805,7 +813,7 @@
     background: linear-gradient(315deg, #026ACD 50%, #02AD5F 50%);
 }
 
-.sales-andd-ooffer-section{
+.sales-andd-ooffer-section {
     height: 100%;
     width: 70%;
     display: flex;
@@ -814,12 +822,12 @@
 
 }
 
-.sale-and-offer-route{
+.sale-and-offer-route {
     justify-content: space-around;
     gap: 0.5em;
 }
 
-.All-Sales{
+.All-Sales {
     width: 70vh;
     height: 31.99px;
     background: #FFFFFF;
@@ -828,25 +836,26 @@
     justify-content: center;
 }
 
-.All-Sales p{
+.All-Sales p {
 
-font-family: 'Lato';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-color: #458500;
-text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #458500;
+    text-align: center;
 }
 
-.All-f-t-s{
+.All-f-t-s {
     width: 40%;
     height: 31.99px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 16px;
-    justify-content: center;   
+    justify-content: center;
 }
-.All-f-t-s p{
+
+.All-f-t-s p {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -854,21 +863,21 @@ text-align: center;
     line-height: 20px;
     color: #666666;
     text-align: center;
-    }
+}
 
-    .All-f-t-s-para{
-        text-align: center;
-        
-        justify-content: center;
-        display: flex;
-        align-items: center;
-    }
+.All-f-t-s-para {
+    text-align: center;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
 
 
-.sales-products{
+.sales-products {
     width: 100%;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 
