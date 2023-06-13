@@ -49,14 +49,14 @@ function Header() {
               </li>
               <div className='  navsectionmain ms-4'>
                 <div className=" nav-item navsection  ">
-                  <p>New</p>
+                  <p><a href="" className='text-decoration-none text-success'>New</a></p>
                   |
-                  <p> speacials</p>
+                  <p> <a href="" className='text-decoration-none text-success'>speacials</a></p>
                   |
-                  <p> Try</p>
+                  <p> <a href="" className='text-decoration-none text-success'>Try</a></p>
                   |
-                  <p> Best</p>
-                  <p>Sellers</p>
+                  <p> <a href="" className='text-decoration-none text-success'>Best</a></p>
+                  <p><a href="" className='text-decoration-none text-success' >Sellers</a></p>
                 </div>
 
               </div>

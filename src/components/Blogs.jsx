@@ -9,7 +9,7 @@ function Blogs() {
     return (
         <>
         <Header></Header>
-            <section classNameName='container-fluid'>
+            <section className='container-fluid'>
                 <nav className="navbar navbar-expand-lg navbar-light NAVBAR2">
                     <div className="container-fluid">
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@ function Blogs() {
 
                 <div className='get-offer mt-5 container-fluid'>
                     <div className=''>
-                        <p className='abc'> Popular Articles
+                        <p className='Popular-Articles'> Popular Articles
                             Get 20% Off your first order with NEW20 X </p>
                     </div>
                 </div>
