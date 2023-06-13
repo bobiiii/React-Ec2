@@ -339,9 +339,7 @@ function Corporate() {
                 <a href="" className='btn btn-outline-success'>Read more</a>
             </div>
             <div className='Chief-Operating-Officer-cards-section d-flex justify-content-arround'>
-              <h6>hello</h6>
-              <p className='ms-2'>iHerb Names Miriee Chang as Chief Operating
-Officer</p>
+              
             </div>
           </div>
 
