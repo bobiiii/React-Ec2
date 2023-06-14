@@ -7,7 +7,7 @@ import user1 from "../images/user1.png"
 function Blogs() {
     return (
         <>
-
+        
             <section className='container-fluid'>
                 <nav className="navbar navbar-expand-lg navbar-light NAVBAR2">
                     <div className="container-fluid">
@@ -57,7 +57,7 @@ function Blogs() {
 
                 <div className='get-offer mt-5 container-fluid'>
                     <div className=''>
-                        <p className='abc'> Popular Articles
+                        <p className='Popular-Articles'> Popular Articles
                             Get 20% Off your first order with NEW20 X </p>
                     </div>
                 </div>

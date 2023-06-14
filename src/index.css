@@ -77,8 +77,8 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 692px;
-    height: 48px;
+    width: 45%;
+    height: 100%;
     background: #FFD529;
     gap: 1em;
 }
@@ -93,9 +93,7 @@
 }
 
 .cruveclr {
-    width: 48px;
-    height: 48px;
-
+    width: 10%;
     background: linear-gradient(315deg, #468101 50%, #FFD529 50%);
 }
 
@@ -114,8 +112,8 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 692px;
-    height: 48px;
+    width: 45%;
+    height: 100%;
     background: #468101;
     gap: 1em;
     color: #FFFFFF;
@@ -285,11 +283,7 @@
 }
 
 
-@media (max-width: 450px) {
-    .ftrsection {
-        height: 100%;
-    }
-}
+
 
 
 
@@ -299,16 +293,27 @@
     .card-wrapper> :nth-child(n+4) {
         display: none;
     }
+    /* .card{
+        width: calc(100% / 3);
+         background-color: #868380; 
+     
+    } */
 
     .card-box {
         width: calc(100% / 3);
         margin: 0px 0.2rem;
     }
+    
+        .card-cont>img {
+            width: 45%;
+    }
+    .ftrsection {
+        height: 100%;
+    }
 
-    .card-cont>img {
-        width: 45%;
-}
-}
+  }
+  
+
 
 /* Homepage CSS Start  */
 .live-box{
@@ -325,6 +330,12 @@
         display: none;
 
     }
+    /* .card{
+        width: calc(100% / 4);
+        background-color: #8d6545;
+     
+    } */
+  }
 
     .card-box {
         width: calc(100% / 4);
@@ -339,7 +350,7 @@
     .live-cards{
         width: calc(100% / 4);
     }
-}
+
 
 /* For Laptop */
 @media (min-width: 1024px) and (max-width: 1220px) {
@@ -999,7 +1010,16 @@
     justify-content: space-between;
 }
 
-.abc {
+.blog-sec-img {
+   width:100% ;
+}
+
+.blog-sec-img img {
+   width:100% ;
+}
+
+
+.Popular-Articles {
     align-items: center;
     text-align: center;
     height: 10vh;
@@ -1014,17 +1034,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    
 }
 
 .blog-user-section {
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    
 }
 
 .blog-user-section-cards {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .Explore-section-cards {
@@ -1033,6 +1057,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1em;
 }
 
 .blog-para {
@@ -1090,9 +1115,159 @@ line-height: 14px;
 }
 
 
+.corporate-about{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.cor-box-image-section{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cor-box-image-section img{
+    width:70%;
+}
+
+
+.Wallherb-at-a-Glance-background{
+    background-color: #F6F6F6;
+}
+
+.Wallherb-at-a-Glance-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.Wallherb-at-a-Glance-section-cards{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Wallherb-at-a-Glance-cards-size{
+    width: 20%;
+    text-align: center;
+}
+
+.wallherb1-logos img{
+    width: 64px;
+    height:64px ;
+}
+
+
+.Leadership-sction{
+    width: 100%;
+    height: 100%;
+}
+
+.Leadership-member-section{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.leadership-user img{
+   width: 150px;
+   height: 150px;
+}
+
+.Press-Releases-main-section{
+    background-color: #F6F6F6;;
+}
+
+.Press-Releases-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.Chief-Operating-Officer{
+    width: 50%;
+}
+
+.Chief-Operating-Officer-cards-section{
+    width: 30%;
+    background: #FFFFFF;
+}
+
+.Chief-Operating-Officer img{
+    width: 90%;
+}
+
+.cheif-cards img{
+    /* height: 50%; */
+    width: 100%;
+}
+
+.Global-Responsibility-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+
+.Culture-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Culture-section-img img{
+    width: 80%;
+}
+
+.Culture-section-texts{
+    width: 50%;
+}
+
+
+.iHerb-Shared-Values-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.iHerb-Shared-Values-section img{
+   width: 80%;
+}
+
+.corporate-footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
 
 
 
+.corporate-footer-last-links{
+    text-align: center;
+    
+}
+
+.corporate-footer-last-links a{
+    text-decoration: none ;
+    color: white;
+}
 
 /* Corporate css End*/
 
