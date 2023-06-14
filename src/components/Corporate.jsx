@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logoImage from "../images/logo.jpg"
 import corimg from "../images/corimg.png"
 import cor2 from "../images/cor2.png"
@@ -64,7 +64,7 @@ function Corporate() {
         <div className='container-lg cor-our-mission'>
           <div className='cor-our-mission-wrap' >
             <h4>Our Mission</h4>
-            <p className='text-center'>iHerb is on a mission to make health and wellness accessible to all. </p>
+            <p className='text-center'>iHerb is on a mission to make health and wellness accessible to all.</p>
             <p className='text-center'>Since our founding in 1996, we have been dedicated to offering Earth’s best-curated selection of health and wellness products, at the best possible value,
               delivered with the most convenient experience. We believe that health and wellness should be a universal right made possible through compassion and our
               collective action. This belief will continue to guide us as we endeavor to make our mission a reality.</p>

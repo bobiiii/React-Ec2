@@ -1,17 +1,26 @@
 
+import BestSellers from "./BestSellers"
 import Hero from "./Hero"
+import NewArrivals from "./NewArrivals"
 import Speacials from "./Speacials"
 import Trending from "./Trending"
-import Header from "./Header"
-import Footer from './Footer'
+import WallHerbLive from "./WallHerbLive"
+
+
 function Homepage() {
   return (
     <>
-     <Header></Header>
-     <Hero />
+
+      <Hero />
+      <div className="my-3">
       <Speacials />
       <Trending />
-      <Footer></Footer>
+      <BestSellers/>
+      <NewArrivals/>
+      <WallHerbLive/>
+      
+      
+      </div>
     </>
   )
 }

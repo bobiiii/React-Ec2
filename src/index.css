@@ -10,19 +10,24 @@
 .abc {
     color: #FFFFFF;
 }
-.fs-cs-1{
+
+.fs-cs-1 {
     font-size: 0.8rem;
 }
-.fs-cs-2{
+
+.fs-cs-2 {
     font-size: 1.0rem;
 }
-.fs-cs-3{
+
+.fs-cs-3 {
     font-size: 1.2rem;
 }
-.fs-cs-4{
+
+.fs-cs-4 {
     font-size: 1.4rem;
 }
-.fs-cs-5{
+
+.fs-cs-5 {
     font-size: 1.6rem;
 }
 
@@ -212,16 +217,7 @@
 
 }
 
-.card-wrapper{
-    width: 100%;
-    background-color: yellow;
-    /* width: calc(100% / 5); */
-    
-}
-
-
-
-
+ 
 /*  speacilsSection css End */
 
 
@@ -287,32 +283,52 @@
 }
 
 
-@media (max-width: 450px) {
-    .ftrsection {
-        height: 100%;
-    }
-}
 
 
-  
 
-  /* For Mobile */
-  @media (max-width: 767px) { 
-    .card-wrapper > :nth-child(n+4) {
-      display: none;
+
+
+/* For Mobile */
+@media (max-width: 767px) {
+    .card-wrapper> :nth-child(n+4) {
+        display: none;
     }
     /* .card{
         width: calc(100% / 3);
          background-color: #868380; 
      
     } */
-  }
 
-  /* For Tablet */
-  @media (min-width: 768px) and (max-width: 1023px) { 
-    .card-wrapper > :nth-child(n+5) {
-      display: none;
-      
+    .card-box {
+        width: calc(100% / 3);
+        margin: 0px 0.2rem;
+    }
+    
+        .card-cont>img {
+            width: 45%;
+    }
+    .ftrsection {
+        height: 100%;
+    }
+
+  }
+  
+
+
+/* Homepage CSS Start  */
+.live-box{
+
+    background: linear-gradient(180deg, #FFD653 0%, #F5B300 100%);
+}
+/* Homepage CSS End */
+
+
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-wrapper> :nth-child(n+5) {
+        display: none;
+
     }
     /* .card{
         width: calc(100% / 4);
@@ -321,30 +337,55 @@
     } */
   }
 
-  /* For Laptop */
-  /* @media ( ) { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
-      
+    .card-box {
+        width: calc(100% / 4);
+        margin: 0px 0.2rem;
     }
-    .card{
-        width: calc(100% / 5);
-        background-color: #3f2b1a;
-     
-    }
-  } */
 
-  /* For Large Laptop */
-  /* @media () { 
-    .card-wrapper > :nth-child(n+6) {
-      display: none;
+    .card-cont>img {
+
+        width: 50%;
+
     }
-    .card{
+    .live-cards{
+        width: calc(100% / 4);
+    }
+
+
+/* For Laptop */
+@media (min-width: 1024px) and (max-width: 1220px) {
+    .card-wrapper> :nth-child(n+6) {
+        display: none;
+
+    }
+
+    .card-box {
         width: calc(100% / 5);
-        background-color: #468101;
-     
     }
-  } */
+
+    .card-cont>img {
+        width: 60%;
+}
+
+
+}
+
+/* For Large Laptop */
+@media (min-width: 1220px) {
+    .card-wrapper> :nth-child(n+7) {
+        display: none;
+    }
+
+    .card-box {
+        width: calc(100% / 6);
+        margin: 0px 0.2rem;
+
+
+    }
+    .card-cont>img {
+        width: 65%;
+}
+}
 
 
 /* footer css End */
