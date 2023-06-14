@@ -10,6 +10,15 @@ import wallherb5 from "../images/wallherb5.png"
 import wallherb6 from "../images/wallherb6.png"
 import ceo from "../images/ceo.png"
 import cheif from "../images/cheif.png"
+import global from "../images/global.png"
+import cul from "../images/cul.png"
+import corlastimg from "../images/corlastimg.png"
+import facebook from "../images/facebook-logo.png.png"
+import twitter from "../images/twitter-logo.png.png"
+import youtube from "../images/youtube-logo.png.png"
+import pin from "../images/pinterest-logo.png.png"
+import insta from "../images/instagram-logo.png.png"
+
 function Corporate() {
   return (
     <>
@@ -336,19 +345,185 @@ function Corporate() {
                 right made possible through compassion and our collective action – and everyone, no
                 matter who they are or where they are, should have easy access to products that will
                 help them live their healthiest, best life. <a href=""> https://www.iherb.com/</a> </p>
-                <a href="" className='btn btn-outline-success'>Read more</a>
+              <a href="" className='btn btn-outline-success'>Read more</a>
             </div>
-            <div className='Chief-Operating-Officer-cards-section d-flex justify-content-arround'>
-              
+            <div className='Chief-Operating-Officer-cards-section'>
+
+              <div className="card border-0" style={{ width: "100%" }}>
+                <div className="row g-0 d-flex">
+                  <div className="col-md-4 cheif-cards">
+                    <img src={cheif} className="img-fluid rounded-start mt-3" alt="Image" />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <p className='fs-cs-1'>May 03, 2023</p>
+                      <p className="card-text fs-cs-1 " style={{ color: "#222222" }}>iHerb Names Miriee Chang as Chief Operating
+                        Officer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card border-0" style={{ width: "100%" }}>
+                <div className="row g-0 d-flex">
+                  <div className="col-md-4 cheif-cards">
+                    <img src={cheif} className="img-fluid rounded-start mt-3" alt="Image" />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <p className='fs-cs-1'>May 03, 2023</p>
+                      <p className="card-text fs-cs-1 " style={{ color: "#222222" }}>iHerb Names Miriee Chang as Chief Operating
+                        Officer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="card border-0" style={{ width: "100%" }}>
+                <div className="row g-0 d-flex">
+                  <div className="col-md-4 cheif-cards">
+                    <img src={cheif} className="img-fluid rounded-start mt-3" alt="Image" />
+                  </div>
+                  <div className="col-md-8">
+                    <div className="card-body">
+                      <p className='fs-cs-1'>May 03, 2023</p>
+                      <p className="card-text fs-cs-1 " style={{ color: "#222222" }}>iHerb Names Miriee Chang as Chief Operating
+                        Officer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <a href="" className='btn btn-outline-success fs-cs-1' style={{ width: "100&" }}> View all press releases </a>
+
+
+
+
             </div>
+          </div>
+          <br />
+        </section>
+
+
+        <section style={{ background: "#E5E5E5" }}>
+          <br />
+          <div className='Global-Responsibility-section container-lg'>
+            <div>
+              hello
+            </div>
+
+            <div>
+              hello
+            </div>
+            <div>
+              hello
+            </div>
+
           </div>
 
         </section>
 
-        <br />
-        <br />
-        <br />
 
+
+        <div className='Culture-section container-lg mt-5'>
+          <div className='Culture-section-img'>
+            <img src={cul} alt="" />
+          </div>
+          <div className='Culture-section-texts mt-5'>
+            <h5>Culture</h5>
+            <p>At iHerb, our culture is based on shared values that unite our organization
+              worldwide. These values speak to who we are, the culture we’re building,
+              and how every single team member contributes to our larger company
+              mission. Because we believe that everyone’s voice is powerful and
+              essential, we strongly emphasize personal growth and development,
+              collaboration, engagement, and teamwork.</p>
+            <a href="#" className='btn btn-outline-success'>View iHerb Careers</a>
+          </div>
+        </div>
+
+
+
+        <div className='iHerb-Shared-Values-section container-lg mt-5'>
+          <h4>iHerb Shared Values</h4>
+          <br />
+          <img src={corlastimg} alt="" />
+        </div>
+
+        <br />
+        <div className='corporate-footer' style={{ background: "#222222" }}>
+
+          <section className='container-lg'>
+            <br />
+            <div className="container text-center text-md-start mt-5 ">
+              <div className="row mt-3">
+
+                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                  <h6 className="text-uppercase fw-bold text-light fs-cs-1">iHerb | CORPORATE</h6>
+                  <hr
+                    className="mb-4 mt-0 d-inline-block mx-auto"
+                    style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
+                  />
+
+                </div>
+
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                  <h6 className="text-uppercase fw-bold text-light fs-cs-1">About Us</h6>
+
+                  <p>
+                    <a href="#!" className=" text-light text-decoration-none fs-cs-1">press</a>
+                  </p>
+
+                </div>
+
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark">
+
+                  <h6 className="text-uppercase fw-bold text-light text-decoration-none fs-cs-1">Global Responsibility</h6>
+
+                  <p>
+                    <a href="#!" className="text-secondary text-decoration-none text-light">Careers</a>
+                  </p>
+                </div>
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                  <a href="" className='btn btn-outline-light fs-cs-1'>Shop iHerb.com</a>
+
+                </div>
+
+                <div className="social-buttons " style={{ background: "#222222" }}>
+                  <a href="#" className="social-button github ">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="#" className="social-button github" >
+                    <img src={twitter} alt="" />
+                  </a>
+                  <a href="#" className="social-button github" >
+                    <img src={youtube} alt="" />
+                  </a>
+                  <a href="#" className="social-button github" >
+                    <img src={pin} alt="" />
+                  </a>
+                  <a href="#" className="social-button github" >
+                    <img src={insta} alt="" />
+                  </a>
+                </div>
+
+
+                <div className='corporate-footer-last-links mt-2 fs-cs-2 container-lg'>
+                  <a href=""> Privacy Policy</a>
+                  <a href=""> | Supply Chains Act </a>
+                  <a href=""> | Terms of Use </a>
+                  <a href=""> | Accessibility </a>
+                  <a href=""> | California: Privacy </a>
+                  <a href=""> | Do Not Sell My Personal Information </a>
+
+                </div>
+                <br />
+                <br />
+                <br />
+              </div>
+            </div>
+          </section>
+        </div>
       </section>
     </>
   )

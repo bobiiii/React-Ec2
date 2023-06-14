@@ -1160,13 +1160,73 @@ line-height: 14px;
 
 .Chief-Operating-Officer-cards-section{
     width: 30%;
+    background: #FFFFFF;
 }
 
 .Chief-Operating-Officer img{
-    width: 70%;
+    width: 90%;
+}
+
+.cheif-cards img{
+    /* height: 50%; */
+    width: 100%;
+}
+
+.Global-Responsibility-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
 }
 
 
+.Culture-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Culture-section-img img{
+    width: 80%;
+}
+
+.Culture-section-texts{
+    width: 50%;
+}
+
+
+.iHerb-Shared-Values-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.iHerb-Shared-Values-section img{
+   width: 80%;
+}
+
+.corporate-footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.corporate-footer-last-links{
+    text-align: center;
+    
+}
+
+.corporate-footer-last-links a{
+    text-decoration: none ;
+    color: white;
+}
 
 /* Corporate css End*/
 
