@@ -1,3 +1,5 @@
+/* eslint-disable no-irregular-whitespace */
+/* eslint-disable react/no-unescaped-entities */
 
 import logoImage from "../images/logo.jpg"
 import corimg from "../images/corimg.png"
@@ -10,7 +12,7 @@ import wallherb5 from "../images/wallherb5.png"
 import wallherb6 from "../images/wallherb6.png"
 import ceo from "../images/ceo.png"
 import cheif from "../images/cheif.png"
-import global from "../images/global.png"
+// import global from "../images/global.png"
 import cul from "../images/cul.png"
 import corlastimg from "../images/corlastimg.png"
 import facebook from "../images/facebook-logo.png.png"
