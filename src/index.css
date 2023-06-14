@@ -338,8 +338,6 @@
     }
     .live-cards{
         width: calc(100% / 4);
-        
-        border: 1px solid red;
     }
 }
 
