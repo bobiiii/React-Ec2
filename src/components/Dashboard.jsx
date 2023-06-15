@@ -1,5 +1,6 @@
 
 import userlogo from "../images/userlogo.png"
+import Carouselcards from "./Carouselcards"
 // import share from "../images/share.png"
 
 function Dashboard() {
@@ -82,7 +83,7 @@ function Dashboard() {
                         </ul>
                     </div>
                 </div>
-                <div className='container-fluid'>
+                <div className='container-fluid dash-first-cards-sec'>
                     <div className='mt-4 '>
                         <a href="" className='text-decoration-none text-secondary'>My Account </a>
                         <a href="" className='ms-1 text-decoration-none text-secondary'> Dashboard </a>
@@ -136,8 +137,19 @@ function Dashboard() {
                     </div>
 
 
+  {/* <div>
+      <Carouselcards></Carouselcards>
+  </div> */}
+
                 </div>
+
+                
+
+                
+
+                
             </section>
+
             
         </>
     )

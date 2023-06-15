@@ -77,7 +77,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 45%;
+    width: 50%;
     height: 100%;
     background: #FFD529;
     gap: 1em;
@@ -112,7 +112,7 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 45%;
+    width: 50%;
     height: 100%;
     background: #468101;
     gap: 1em;
@@ -294,11 +294,22 @@
         display: none;
     }
 
+    /* .card{
+        width: calc(100% / 3);
+         background-color: #868380; 
+     
+    } */
+
     .card-box {
         width: calc(100% / 4);
         margin: 0px 0.2rem;
     }
     
+
+    .card-cont>img {
+        width: 45%;
+    }
+
     .ftrsection {
         height: 100%;
     }
@@ -717,6 +728,19 @@ color: #D32F2F;
     width: 15%;
 }
 
+
+.dash-first-cards-sec{
+    width: 100%;
+    
+}
+
+.dash-last-cards{
+    width: 50%;
+
+
+}
+
+
 .dashusercard {
     display: flex;
     width: 100%;
@@ -906,8 +930,7 @@ color: #D32F2F;
 /* Sales and offers css start */
 
 .cruveclrsale {
-    width: 48px;
-    height: 48px;
+    width: 10%;
     background: linear-gradient(315deg, #026ACD 50%, #02AD5F 50%);
 }
 
@@ -983,6 +1006,7 @@ color: #D32F2F;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1em;
 
 }
 
@@ -1044,8 +1068,10 @@ color: #D32F2F;
     width: 100%;
     display: flex;
     justify-content: center;
-    color: #000000;
+    gap:0.5em;
+    flex-wrap: wrap;
 }
+
 
 /* sales and offer css end */
 
@@ -1346,3 +1372,158 @@ color: #D32F2F;
 }
 
 /* Corporate css End*/
+/* Corporate css End*/
+
+
+
+/* Affilliates css start*/
+
+.affiliates-section-top {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.affiliates-section-top-buttuns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.affiliates-section-login-buttun {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.Why-Join-section{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      
+
+
+}
+
+
+.faq-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-section-size{
+
+    width: 50%;
+}
+
+
+.Promote-leading-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Affilliates css end*/
+
+
+
+
+
+/* Recommendation css Start*/
+.rec-section-img img{
+    width: 100%;
+}
+
+.Get-personalized-section{
+    width: 100%;
+    height: 100%;
+    text-align: center  ;
+}
+
+.quiz-image-section img{
+    width: 50%;
+}
+
+
+.our-recommendations-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.tick-img img{
+  width: 32px;
+  height: 32px;
+}
+
+
+.Enjoy-the-quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+
+.rec-live-cards{
+    width: 100%;
+}
+
+
+.rec-last-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.Why-Join-card-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.Why-Join-card-section-size{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* Recommendation css End*/
+
+
+
+
+
+/* Community css Start*/
+ 
+.iHerb-Community-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+
+
+
+/* Community css end*/

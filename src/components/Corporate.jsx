@@ -301,7 +301,7 @@ function Corporate() {
 
         <section className='Press-Releases-main-section mt-5'>
           <br />
-          <h5 className='text-center'>Press Releases</h5>
+          <h5 className='text-center '>Press Releases</h5>
           <div className='Press-Releases-section container-lg mt-5'>
             <div className='Chief-Operating-Officer'>
               <p>May 03, 2023</p>
@@ -356,7 +356,7 @@ function Corporate() {
                 right made possible through compassion and our collective action – and everyone, no
                 matter who they are or where they are, should have easy access to products that will
                 help them live their healthiest, best life. <a href=""> https://www.iherb.com/</a> </p>
-              <a href="" className='btn btn-outline-success'>Read more</a>
+              <a href="" className='btn btn-outline-success mb-4'>Read more</a>
             </div>
             <div className='Chief-Operating-Officer-cards-section'>
 
@@ -402,31 +402,26 @@ function Corporate() {
                   </div>
                 </div>
               </div>
-              <br />
-              <a href="" className='btn btn-outline-success fs-cs-1' style={{ width: "100&" }}> View all press releases </a>
+              
+              <a href="" className='btn btn-outline-success fs-cs-1 mt-4' style={{ width: "100&" }}> View all press releases </a>
 
 
 
 
             </div>
           </div>
-          <br />
         </section>
+        
 
 
-        <section style={{ background: "#E5E5E5" }}>
-          <br />
+        <section className="mt-5" style={{ background: "#E5E5E5" }}>
+          
           <div className='Global-Responsibility-section container-lg'>
             <div>
-              hello
+             Panding
             </div>
 
-            <div>
-              hello
-            </div>
-            <div>
-              hello
-            </div>
+            
 
           </div>
 
@@ -454,31 +449,27 @@ function Corporate() {
 
         <div className='iHerb-Shared-Values-section container-lg mt-5'>
           <h4>iHerb Shared Values</h4>
-          <br />
-          <img src={corlastimg} alt="" />
+          
+          <img src={corlastimg} alt="" className="mt-5" />
         </div>
 
-        <br />
-        <div className='corporate-footer' style={{ background: "#222222" }}>
+        <div className='corporate-footer mt-5' style={{ background: "#222222" }}>
 
-          <section className='container-lg'>
-            <br />
+          <section className='container-lg '>
+
             <div className="container text-center text-md-start mt-5 ">
-              <div className="row mt-3">
+              <div className="row mt-3 ">
 
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
-                  <h6 className="text-uppercase fw-bold text-light fs-cs-1">iHerb | CORPORATE</h6>
-                  <hr
-                    className="mb-4 mt-0 d-inline-block mx-auto"
-                    style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
-                  />
+                  <h6 className="text-uppercase fw-bold text-light fs-cs-1 mt-5">iHerb | CORPORATE</h6>
+                  
 
                 </div>
 
                 <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
-                  <h6 className="text-uppercase fw-bold text-light fs-cs-1">About Us</h6>
+                  <h6 className="text-uppercase fw-bold text-light fs-cs-1 mt-5">About Us</h6>
 
                   <p>
                     <a href="#!" className=" text-light text-decoration-none fs-cs-1">press</a>
@@ -488,15 +479,15 @@ function Corporate() {
 
                 <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark">
 
-                  <h6 className="text-uppercase fw-bold text-light text-decoration-none fs-cs-1">Global Responsibility</h6>
+                  <h6 className="text-uppercase fw-bold text-light text-decoration-none fs-cs-1 mt-5">Global Responsibility</h6>
 
-                  <p>
-                    <a href="#!" className="text-secondary text-decoration-none text-light">Careers</a>
+                  <p >
+                    <a href="#!" className="text-secondary text-decoration-none text-light ">Careers</a>
                   </p>
                 </div>
                 <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
-                  <a href="" className='btn btn-outline-light fs-cs-1'>Shop iHerb.com</a>
+                  <a href="" className='btn btn-outline-light fs-cs-1 mt-5'>Shop iHerb.com</a>
 
                 </div>
 
@@ -519,7 +510,7 @@ function Corporate() {
                 </div>
 
 
-                <div className='corporate-footer-last-links mt-2 fs-cs-2 container-lg'>
+                <div className='corporate-footer-last-links mt-2 fs-cs-2 container-lg mb-5'>
                   <a href=""> Privacy Policy</a>
                   <a href=""> | Supply Chains Act </a>
                   <a href=""> | Terms of Use </a>
@@ -528,9 +519,7 @@ function Corporate() {
                   <a href=""> | Do Not Sell My Personal Information </a>
 
                 </div>
-                <br />
-                <br />
-                <br />
+            
               </div>
             </div>
           </section>
