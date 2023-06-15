@@ -77,8 +77,8 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 692px;
-    height: 48px;
+    width: 50%;
+    height: 100%;
     background: #FFD529;
     gap: 1em;
 }
@@ -93,9 +93,7 @@
 }
 
 .cruveclr {
-    width: 48px;
-    height: 48px;
-
+    width: 10%;
     background: linear-gradient(315deg, #468101 50%, #FFD529 50%);
 }
 
@@ -114,8 +112,8 @@
     justify-content: center;
     flex-direction: row;
     padding: 5px;
-    width: 692px;
-    height: 48px;
+    width: 50%;
+    height: 100%;
     background: #468101;
     gap: 1em;
     color: #FFFFFF;
@@ -210,7 +208,7 @@
     top: 62.02px;
     background: #FAFAFA;
 }
-    
+
 .cardsbody {
     width: 213.33px;
     height: 280px;
@@ -219,7 +217,7 @@
 
 }
 
- 
+
 /*  speacilsSection css End */
 
 
@@ -285,81 +283,193 @@
 }
 
 
-@media (max-width: 450px) {
-    .ftrsection {
-        height: 100%;
-    }
-}
+
 
 
 
 
 /* For Mobile */
 @media (max-width: 767px) {
-    .card-wrapper> :nth-child(n+4) {
+    .card-wrapper-cs> :nth-child(n+4) {
         display: none;
     }
 
-    .card {
+    /* .card{
         width: calc(100% / 3);
-        margin: 0px 0.2rem;
-    }
+         background-color: #868380; 
+     
+    } */
 
-    .card-cont>img {
-        width: 45%;
-}
-}
-
-/* For Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .card-wrapper> :nth-child(n+5) {
-        display: none;
-
-    }
-
-    .card {
+    .card-box {
         width: calc(100% / 4);
         margin: 0px 0.2rem;
     }
+    
 
     .card-cont>img {
-
-        width: 50%;
-
+        width: 45%;
     }
+
+    .ftrsection {
+        height: 100%;
+    }
+
 }
 
-/* For Laptop */
-@media (min-width: 1024px) and (max-width: 1220px) {
-    .card-wrapper> :nth-child(n+6) {
+
+
+/* Homepage CSS Start  */
+.live-box {
+
+    background: linear-gradient(180deg, #FFD653 0%, #F5B300 100%);
+}
+
+/* Homepage CSS End */
+
+
+/* Brand of week CSS Start */
+.brand-week-clr{
+    background-color: #C8E6C9;
+
+}
+
+.brand-cards{
+    
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.card-wrapper-cs2 img{
+    width: 100px;
+    ;
+    height: 2rem
+    
+
+}
+
+.brand-week button {
+    background-color: transparent;
+
+
+}
+
+
+
+
+/* Brand of week CSS End */
+
+
+/* Yearly cards carousel */
+.year-box{
+    
+    height: 15rem;
+    overflow: hidden auto;
+
+}
+.year-box h3{
+    color: #F38A00;
+}
+.year-line{
+        position: relative;
+}
+
+
+.year-line:before {
+    content: "";
+    width: 6rem;
+    height: 3px;
+    background: #191970;
+    left: 0;
+    top: 5%;
+    position: absolute;}
+
+
+    .year-line:after {
+        content: "";
+        display: block;
+        width: 6rem;
+        height: 3px;
+        background: #191970;
+        right: 0;
+        top: 5%;
+        position: absolute;
+      }
+
+/* Yearly cards carousel */
+
+
+/* Product detail page Start */
+.special-banner{
+    background-color: #FFF3F8;
+}
+.special-banner > h4{
+color: #D32F2F;
+
+}
+
+/* Product detail page End */
+
+
+
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .card-wrapper-cs> :nth-child(n+5) {
         display: none;
 
     }
 
-    .card {
+}
+
+.card-box {
+    width: calc(100% / 4);
+    margin: 0px 0.2rem;
+}
+
+.card-cont>img {
+
+    width: 50%;
+
+}
+
+.live-cards {
+    width: calc(100% / 4);
+}
+
+
+/* For Laptop */
+@media (min-width: 1024px) and (max-width: 1220px) {
+    .card-wrapper-cs> :nth-child(n+6) {
+        display: none;
+
+    }
+
+    .card-box {
         width: calc(100% / 5);
     }
 
     .card-cont>img {
         width: 60%;
-}
+    }
+
+
 }
 
 /* For Large Laptop */
 @media (min-width: 1220px) {
-    .card-wrapper> :nth-child(n+7) {
+    .card-wrapper-cs> :nth-child(n+7) {
         display: none;
     }
 
-    .card {
+    .card-box {
         width: calc(100% / 6);
         margin: 0px 0.2rem;
 
 
     }
+
     .card-cont>img {
         width: 65%;
-}
+    }
 }
 
 
@@ -618,6 +728,19 @@
     width: 15%;
 }
 
+
+.dash-first-cards-sec{
+    width: 100%;
+    
+}
+
+.dash-last-cards{
+    width: 50%;
+
+
+}
+
+
 .dashusercard {
     display: flex;
     width: 100%;
@@ -807,8 +930,7 @@
 /* Sales and offers css start */
 
 .cruveclrsale {
-    width: 48px;
-    height: 48px;
+    width: 10%;
     background: linear-gradient(315deg, #026ACD 50%, #02AD5F 50%);
 }
 
@@ -884,6 +1006,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1em;
 
 }
 
@@ -945,8 +1068,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    color: #000000;
+    gap:0.5em;
+    flex-wrap: wrap;
 }
+
 
 /* sales and offer css end */
 
@@ -985,7 +1110,16 @@
     justify-content: space-between;
 }
 
-.abc {
+.blog-sec-img {
+    width: 100%;
+}
+
+.blog-sec-img img {
+    width: 100%;
+}
+
+
+.Popular-Articles {
     align-items: center;
     text-align: center;
     height: 10vh;
@@ -1000,17 +1134,21 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .blog-user-section {
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+
 }
 
 .blog-user-section-cards {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .Explore-section-cards {
@@ -1019,6 +1157,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1em;
 }
 
 .blog-para {
@@ -1026,60 +1165,365 @@
     height: 100%;
 
 }
+
 /* Blogs css End*/
 
 
 
 
 /* Corporate css Start*/
-.corporate-navbar-background{
+.corporate-navbar-background {
     background-color: #639829;
 }
 
-.nvl{
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 14px;
+.nvl {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
 }
 
 
-.corporate-hero-image{
+.corporate-hero-image {
     width: 100%;
     height: 100%;
 }
 
-.corporate-hero-image img{
+.corporate-hero-image img {
     width: 100%;
     height: 100%;
 }
 
 
-.cor-our-mission{
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.cor-our-mission {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 
-.cor-our-mission-wrap{
+.cor-our-mission-wrap {
     width: 100%;
     height: 100%;
     background-color: #458500;
     text-align: center;
     color: #FFFFFF;
     font-family: 'Lato';
-    align-items: center;  
+    align-items: center;
+}
+
+
+.corporate-about {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.cor-box-image-section {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.cor-box-image-section img {
+    width: 70%;
+}
+
+
+.Wallherb-at-a-Glance-background {
+    background-color: #F6F6F6;
+}
+
+.Wallherb-at-a-Glance-section {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.Wallherb-at-a-Glance-section-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Wallherb-at-a-Glance-cards-size {
+    width: 20%;
+    text-align: center;
+}
+
+.wallherb1-logos img {
+    width: 64px;
+    height: 64px;
+}
+
+
+.Leadership-sction {
+    width: 100%;
+    height: 100%;
+}
+
+.Leadership-member-section {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.leadership-user img {
+    width: 150px;
+    height: 150px;
+}
+
+.Press-Releases-main-section {
+    background-color: #F6F6F6;
+    ;
+}
+
+.Press-Releases-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Chief-Operating-Officer {
+    width: 50%;
+}
+
+.Chief-Operating-Officer-cards-section {
+    width: 30%;
+    background: #FFFFFF;
+}
+
+.Chief-Operating-Officer img {
+    width: 90%;
+}
+
+.cheif-cards img {
+    /* height: 50%; */
+    width: 100%;
+}
+
+.Global-Responsibility-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+
+.Culture-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Culture-section-img img {
+    width: 80%;
+}
+
+.Culture-section-texts {
+    width: 50%;
+}
+
+
+.iHerb-Shared-Values-section {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.iHerb-Shared-Values-section img {
+    width: 80%;
+}
+
+.corporate-footer {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.corporate-footer-last-links {
+    text-align: center;
+
+}
+
+.corporate-footer-last-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Corporate css End*/
+/* Corporate css End*/
+
+
+
+/* Affilliates css start*/
+
+.affiliates-section-top {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.affiliates-section-top-buttuns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.affiliates-section-login-buttun {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.Why-Join-section{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      
+
+
+}
+
+
+.faq-section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-section-size{
+
+    width: 50%;
+}
+
+
+.Promote-leading-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Affilliates css end*/
+
+
+
+
+
+/* Recommendation css Start*/
+.rec-section-img img{
+    width: 100%;
+}
+
+.Get-personalized-section{
+    width: 100%;
+    height: 100%;
+    text-align: center  ;
+}
+
+.quiz-image-section img{
+    width: 50%;
+}
+
+
+.our-recommendations-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.tick-img img{
+  width: 32px;
+  height: 32px;
+}
+
+
+.Enjoy-the-quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+
+.rec-live-cards{
+    width: 100%;
+}
+
+
+.rec-last-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.Why-Join-card-section{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.Why-Join-card-section-size{
+    width: 70%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* Recommendation css End*/
+
+
+
+
+
+/* Community css Start*/
+ 
+.iHerb-Community-section{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
 }
 
 
 
 
-
-
-/* Corporate css End*/
-
-
+/* Community css end*/
