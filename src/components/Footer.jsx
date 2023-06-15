@@ -8,7 +8,7 @@ import google from "../images/google.png"
 function Footer() {
   return (
     <>
-      <div classNameName='footerimage'>
+      <div className='footerimage'>
         <img src={footer} alt="" style={{ width: "100%", height: "auto" }} />
       </div>
       <section className='container-fluid ftrsection '>

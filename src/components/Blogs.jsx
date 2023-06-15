@@ -57,7 +57,7 @@ function Blogs() {
 
                 <div className='get-offer mt-5 container-fluid'>
                     <div className=''>
-                        <p className='Popular-Articles'> Popular Articles
+                        <p className='Popular-Articles text-light'> Popular Articles
                             Get 20% Off your first order with NEW20 X </p>
                     </div>
                 </div>
