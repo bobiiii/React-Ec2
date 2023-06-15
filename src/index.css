@@ -729,12 +729,12 @@ color: #D32F2F;
 }
 
 
-.dash-first-cards-sec{
+.dash-first-cards-sec {
     width: 100%;
-    
+
 }
 
-.dash-last-cards{
+.dash-last-cards {
     width: 50%;
 
 
@@ -1068,7 +1068,7 @@ color: #D32F2F;
     width: 100%;
     display: flex;
     justify-content: center;
-    gap:0.5em;
+    gap: 0.5em;
     flex-wrap: wrap;
 }
 
@@ -1401,31 +1401,31 @@ color: #D32F2F;
 }
 
 
-.Why-Join-section{
-      width: 100%;
-      height: 100%;
-      text-align: center;
-      align-items: center;
-      
+.Why-Join-section {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+
 
 
 }
 
 
-.faq-section{
+.faq-section {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.faq-section-size{
+.faq-section-size {
 
     width: 50%;
 }
 
 
-.Promote-leading-text{
+.Promote-leading-text {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -1440,35 +1440,35 @@ color: #D32F2F;
 
 
 /* Recommendation css Start*/
-.rec-section-img img{
+.rec-section-img img {
     width: 100%;
 }
 
-.Get-personalized-section{
+.Get-personalized-section {
     width: 100%;
     height: 100%;
-    text-align: center  ;
+    text-align: center;
 }
 
-.quiz-image-section img{
+.quiz-image-section img {
     width: 50%;
 }
 
 
-.our-recommendations-cards{
+.our-recommendations-cards {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
 }
 
-.tick-img img{
-  width: 32px;
-  height: 32px;
+.tick-img img {
+    width: 32px;
+    height: 32px;
 }
 
 
-.Enjoy-the-quiz{
+.Enjoy-the-quiz {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1476,12 +1476,12 @@ color: #D32F2F;
 }
 
 
-.rec-live-cards{
+.rec-live-cards {
     width: 100%;
 }
 
 
-.rec-last-cards{
+.rec-last-cards {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1489,16 +1489,16 @@ color: #D32F2F;
     flex-wrap: wrap;
 }
 
-.Why-Join-card-section{
+.Why-Join-card-section {
     width: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;
     display: flex;
-    
+
 }
 
-.Why-Join-card-section-size{
+.Why-Join-card-section-size {
     width: 70%;
     display: flex;
     text-align: center;
@@ -1515,12 +1515,39 @@ color: #D32F2F;
 
 
 /* Community css Start*/
- 
-.iHerb-Community-section{
+
+.iHerb-Community-section {
     width: 100%;
-    height: 100%;
+    height: 35vh;
     text-align: center;
 
+}
+
+.pan {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+
+    background: #F7F7F7;
+    border-radius: 30px;
+}
+
+.community-icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+
+.community-icon-card {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
