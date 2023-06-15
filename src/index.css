@@ -290,7 +290,7 @@
 
 /* For Mobile */
 @media (max-width: 767px) {
-    .card-wrapper> :nth-child(n+4) {
+    .card-wrapper-cs> :nth-child(n+4) {
         display: none;
     }
 
@@ -301,9 +301,10 @@
     } */
 
     .card-box {
-        width: calc(100% / 3);
+        width: calc(100% / 4);
         margin: 0px 0.2rem;
     }
+    
 
     .card-cont>img {
         width: 45%;
@@ -326,19 +327,97 @@
 /* Homepage CSS End */
 
 
+/* Brand of week CSS Start */
+.brand-week-clr{
+    background-color: #C8E6C9;
+
+}
+
+.brand-cards{
+    
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.card-wrapper-cs2 img{
+    width: 100px;
+    ;
+    height: 2rem
+    
+
+}
+
+.brand-week button {
+    background-color: transparent;
+
+
+}
+
+
+
+
+/* Brand of week CSS End */
+
+
+/* Yearly cards carousel */
+.year-box{
+    
+    height: 15rem;
+    overflow: hidden auto;
+
+}
+.year-box h3{
+    color: #F38A00;
+}
+.year-line{
+        position: relative;
+}
+
+
+.year-line:before {
+    content: "";
+    width: 6rem;
+    height: 3px;
+    background: #191970;
+    left: 0;
+    top: 5%;
+    position: absolute;}
+
+
+    .year-line:after {
+        content: "";
+        display: block;
+        width: 6rem;
+        height: 3px;
+        background: #191970;
+        right: 0;
+        top: 5%;
+        position: absolute;
+      }
+
+/* Yearly cards carousel */
+
+
+/* Product detail page Start */
+.special-banner{
+    background-color: #FFF3F8;
+}
+.special-banner > h4{
+color: #D32F2F;
+
+}
+
+/* Product detail page End */
+
+
+
 
 /* For Tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .card-wrapper> :nth-child(n+5) {
+    .card-wrapper-cs> :nth-child(n+5) {
         display: none;
 
     }
 
-    /* .card{
-        width: calc(100% / 4);
-        background-color: #8d6545;
-     
-    } */
 }
 
 .card-box {
@@ -359,7 +438,7 @@
 
 /* For Laptop */
 @media (min-width: 1024px) and (max-width: 1220px) {
-    .card-wrapper> :nth-child(n+6) {
+    .card-wrapper-cs> :nth-child(n+6) {
         display: none;
 
     }
@@ -377,7 +456,7 @@
 
 /* For Large Laptop */
 @media (min-width: 1220px) {
-    .card-wrapper> :nth-child(n+7) {
+    .card-wrapper-cs> :nth-child(n+7) {
         display: none;
     }
 
@@ -1292,6 +1371,7 @@
     color: white;
 }
 
+/* Corporate css End*/
 /* Corporate css End*/
 
 
