@@ -3,6 +3,17 @@ import image2 from "../images/63.png"
 import image3 from "../images/96.png"
 import image4 from "../images/164.png"
 import image5 from "../images/174.png"
+import img1 from "../images/slide2/img1.png"
+import img2 from "../images/slide2/img2.png"
+import img3 from "../images/slide2/img3.png"
+import img4 from "../images/slide2/img4.png"
+import img5 from "../images/slide2/img5.png"
+import img6 from "../images/slide2/img6.png"
+import img7 from "../images/slide2/img7.png"
+import img8 from "../images/slide2/img8.png"
+import img9 from "../images/slide2/img9.png"
+import img10 from "../images/slide2/img10.png"
+
 // import image6 from "../images/128.png"
 
 
@@ -57,3 +68,50 @@ newPrice: "₹804.00",
 rating: 9865
 },
 ]
+
+
+export const slide2 =[{
+    img: img1, 
+},
+{
+    img: img2 ,
+},
+{
+    img: img3,
+},
+{
+    img: img4,
+},
+{
+    img: img5,
+},
+{
+    img: img6,
+},
+{
+    img: img7,
+},
+{
+    img: img8,
+},
+{
+    img: img9,
+},
+{
+    img: img10,
+},
+{
+    img: img6,
+},
+{
+    img: img7,
+},
+{
+    img: img8,
+},
+{
+    img: img9,
+},
+{
+    img: img10,
+}]

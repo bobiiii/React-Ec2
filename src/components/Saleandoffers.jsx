@@ -6,6 +6,7 @@ import sale3 from "../images/sale3.png"
 import sale4 from "../images/sale4.png"
 import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
+import BrandOfWeek from "./BrandOfWeek"
 
 
 function Saleandoffers() {
@@ -255,21 +256,8 @@ function Saleandoffers() {
                     </div>
 
                 </div>
-                <br />
-                <div className='brand-off-week d-flex justify-content-center container-fluid'>
-                    <div className='mt-4 justify-content-center'>
-                        <div>
-                            <h3 className='brand-week-text'>Brands of the Week - Up to 20% off</h3>
-                        </div>
-                        <div>
-                            <p className='text-center'>Offer ends May 31, 2023 at 10 AM PT.</p>
-                        </div>
-                        <div className='View-all-Brands'>
-                            <h6 className='text-center'>View all Brands of the Week</h6>
-                        </div>
-                    </div>
-
-                </div>
+                <BrandOfWeek/>
+                
 
                 <div className='more-way mt-5 container-fluid'>
                     <div className='text-center'>

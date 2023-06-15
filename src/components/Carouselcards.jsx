@@ -6,7 +6,39 @@ function Carouselcards() {
           <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="card-wrapper  container-fluid d-flex  ">
+                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex  ">
+                  {slide1.map((item, index) => {
+                    return (<>
+                      <div className="card  pt- 2 card-cont" key={index} >
+                        <img src={item.img} className="align-self-center h-50" alt="..." />
+                        <div className="card-body d-flex flex-column justify-content-between">
+                          <h5 className="card-title fs-cs-2 ">{item.title}</h5>
+                          <div className="d-flex">
+                            <div>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i></div>
+                            <div><span> &nbsp; {item.rating}</span></div>
+                          </div>
+                          <div className="d-flex">
+                            <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
+                            &nbsp; 
+                            <h6 className="fs-cs-2">{item.newPrice}</h6>
+                          </div>
+    
+                        </div>
+                      </div>
+    
+                    </>)
+                  })}
+    
+    
+    
+                </div>
+              </div>
+              <div className="carousel-item ">
+                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex  ">
                   {slide1.map((item, index) => {
                     return (<>
                       <div className="card pt-2 card-cont" key={index} >
@@ -38,39 +70,7 @@ function Carouselcards() {
                 </div>
               </div>
               <div className="carousel-item ">
-                <div className="card-wrapper  container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card pt-2 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        <div className="card-body d-flex flex-column justify-content-between">
-                          <h5 className="card-title fs-cs-2 ">{item.title}</h5>
-                          <div className="d-flex">
-                            <div>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i></div>
-                            <div><span> &nbsp; {item.rating}</span></div>
-                          </div>
-                          <div className="d-flex">
-                            <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
-                            &nbsp; 
-                            <h6 className="fs-cs-2">{item.newPrice}</h6>
-                          </div>
-    
-                        </div>
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              <div className="carousel-item ">
-                <div className="card-wrapper  container-fluid d-flex  ">
+                <div className="card-wrapper card-wrapper-cs   container-fluid d-flex  ">
                   {slide1.map((item, index) => {
                     return (<>
                       <div className="card pt-2 card-cont" key={index} >

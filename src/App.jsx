@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard"
 import Saleandoffers from "./components/Saleandoffers"
 import Blogs from "./components/Blogs"
 import Corporate from "./components/Corporate"
+import ProductDetail from "./components/ProductDetail"
 function App() {
   return (
     <Layout>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/sale" element={<Saleandoffers/>}/>
         <Route path="/blog" element={<Blogs/>}/>
         <Route path="/cor" element={<Corporate/>}/>
+        <Route path="/product-detail" element={<ProductDetail/>}/>
       </Routes>
       
     </Layout>
