@@ -7,7 +7,6 @@ import sale4 from "../images/sale4.png"
 import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
 
-
 function Saleandoffers() {
     return (
         <>
@@ -265,7 +264,7 @@ function Saleandoffers() {
                             <p className='text-center'>Offer ends May 31, 2023 at 10 AM PT.</p>
                         </div>
                         <div className='View-all-Brands'>
-                            <h6 className='text-center'>View all Brands of the Week</h6>
+                            <h6 className='text-center'> <a href="" className="text-decoration-none text-dark"> View all Brands of the Week </a> </h6>
                         </div>
                     </div>
 
@@ -302,7 +301,7 @@ function Saleandoffers() {
 
 
 
-                    <div className='sale-last-section  mt-3' style={{ background: " #F5F5F5" }}>
+                    <div className='sale-last-section  mt-5' style={{ background: " #F5F5F5" }}>
                         <br />
                         <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
                             <img src={sale1} className="card-img-top" alt="..." />
@@ -344,7 +343,8 @@ function Saleandoffers() {
                                 <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
                                     Inflammation and </p>
                             </div>
-                        </div>
+                        </div> 
+                                             
 
                     </div>
 

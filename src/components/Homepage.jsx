@@ -18,8 +18,6 @@ function Homepage() {
       <BestSellers/>
       <NewArrivals/>
       <WallHerbLive/>
-      
-      
       </div>
     </>
   )
