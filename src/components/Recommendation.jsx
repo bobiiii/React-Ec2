@@ -75,7 +75,7 @@ function Recommendation() {
             <div className="text-center mt-3">
               <p className=''>Meets strict standards and
                 Current Good Manufacturing
-                Practices set by the FDA</p>
+                Practices set by the FDA  </p>
             </div>
           </div>
           <div className="card p-3 py-4 border-0" style={{ width: "25%", background: "#EDF3E6" }}>

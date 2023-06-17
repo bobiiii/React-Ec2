@@ -9,6 +9,7 @@ import Corporate from "./components/Corporate"
 import Affilliates from "./components/Affilliates"
 import Recommendation from "./components/Recommendation"
 import Community from "./components/Community"
+import Aboutus from "./components/Aboutus"
 function App() {
   return (
         <Layout>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/aff" element={<Affilliates/>}/>
         <Route path="/rec" element={<Recommendation/>}/>
         <Route path="/com" element={<Community/>}/>
+        <Route path="/about" element={<Aboutus/>}/>
       </Routes>
     </Layout>
       

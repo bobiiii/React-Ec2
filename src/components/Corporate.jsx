@@ -94,135 +94,119 @@ function Corporate() {
         </div>
 
 
+
         <br />
         <br />
         <section className='Wallherb-at-a-Glance-background'>
           <br />
-          <div className='Wallherb-at-a-Glance-section  container-lg mt-5'>
-            <div className='mt-5'>
-              <h3>Wallherb at a Glance</h3>
+          <div className='mt-5 text-center'>
+            <h3>Wallherb at a Glance</h3>
+          </div>
+
+          <div className='Leadership-member-section container-lg' >
+
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb1} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <h5>180+ countries</h5>
+                <p className='fs-cs-2 text-center'>We deliver around the world
+                  with 16 languages, over 80
+                  currencies, and over 30
+                  payment options to support
+                  our mission of making
+                  health and wellness
+                  accessible to all.</p>
+              </div>
             </div>
 
-            <div className='Wallherb-at-a-Glance-section-cards'>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb1} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>180+ <br />
-                    countries</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>We deliver around the world
-                      with 16 languages, over 80
-                      currencies, and over 30
-                      payment options to support
-                      our mission of making
-                      health and wellness
-                      accessible to all.</p>
-                  </div>
-                </div>
+
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb2} width="100" className="rounded-circle" />
               </div>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb2} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>30K+
-                    <br />
-                    products</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>We offer the same reputable
-                      brands found at large
-                      national stores. All products
-                      are sold and shipped by
-                      iHerb—not by
-                      <a href="">third-party
-                        sellers</a>
-                      .</p>
-                  </div>
-                </div>
+              <div className="text-center mt-3">
+                <h5>30K+ products</h5>
+                <p className='fs-cs-2 text-center'>We offer the same reputable brands found at
+                  large national stores. All products are sold
+                  and shipped by iHerb—not by  <a href="" className='text-decoration-none'>third-party
+                    sellers.</a> </p>
               </div>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb3} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>Authentic
-                    <br />
-                    reviews</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>Our 33M+ product reviews
-                      are written by real
-                      customers who purchased
-                      the products directly from
-                      iHerb.</p>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-
             </div>
-            <div className='Wallherb-at-a-Glance-section-cards'>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb4} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>9.5M+ active
-                    <br />
-                    customers</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>We have cultivated
-                      customer trust and loyalty
-                      through the quality and
-                      authenticity of our products
-                      and the great brands,
-                      convenience, and value we
-                      offer.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb5} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>8 fulfillment
-                    <br />
-                    centers</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>All of our 8 fulfillment
-                      centers and inventory hubs
-                      are climate-controlled and
-                      GMP- or ISO-compliant
-                      ensuring the highest quality
-                      and freshest products.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="card p-3 py-4 border-0  Wallherb-at-a-Glance-cards-size" style={{ background: "#F6F6F6" }}>
-                <div className="text-center wallherb1-logos ">
-                  <img src={wallherb6} width="100" className="rounded-circle" />
-                </div>
-                <div className="text-center mt-3">
-                  <h5>2,000+ team
 
-                    <br />
-                    members</h5>
-                  <div className='wallherb1-logos-text'>
-                    <p>We’re truly a global
-                      company with team
-                      members all around the
-                      world.</p>
-                  </div>
-                </div>
-              </div>
 
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb3} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <h5>Authentic
+                  reviews</h5>
+                <p className='fs-cs-2 text-center'>Our 33M+ product reviews
+                  are written by real
+                  customers who purchased
+                  the products directly from
+                  iHerb.</p>
+              </div>
             </div>
+
+
+
+
+
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb4} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <h5>9.5M+ active customers</h5>
+                <p className='fs-cs-2 text-center'>We have cultivated
+                  customer trust and loyalty
+                  through the quality and
+                  authenticity of our products
+                  and the great brands,
+                  convenience, and value we
+                  offer.</p>
+              </div>
+            </div>
+
+
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb5} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <h5>8 fulfillment
+                  centers</h5>
+                <p className='fs-cs-2 text-center'>All of our 8 fulfillment
+                  centers and inventory hubs
+                  are climate-controlled and
+                  GMP- or ISO-compliant
+                  ensuring the highest quality
+                  and freshest products.</p>
+              </div>
+            </div>
+
+
+
+            <div className="card p-3 py-4 border-0" style={{ width: "20rem", background: '#F6F6F6' }}>
+              <div className="text-center iHerb-at-a-glance-icon">
+                <img src={wallherb5} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <h5>2,000+ team
+                  members</h5>
+                <p className='fs-cs-2 text-center'>We’re truly a global
+                  company with team
+                  members all around the
+                  world.</p>
+              </div>
+            </div>
+
+
+
+
 
           </div>
 
@@ -237,7 +221,7 @@ function Corporate() {
 
           <div className='Leadership-member-section container-lg'>
 
-            <div className="card p-3 py-4 border-0">
+            <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
               <div className="text-center leadership-user">
                 <img src={ceo} width="100" className="rounded-circle" />
               </div>
@@ -246,7 +230,16 @@ function Corporate() {
                   CEO</p>
               </div>
             </div>
-            <div className="card p-3 py-4 border-0">
+            <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
+              <div className="text-center leadership-user">
+                <img src={ceo} width="100" className="rounded-circle" />
+              </div>
+              <div className="text-center mt-3">
+                <p ><span style={{ color: "#458500" }}>Emun Zabihi </span> <br />
+                  CEO</p>
+              </div>
+            </div>
+            <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
               <div className="text-center leadership-user">
                 <img src={ceo} width="100" className="rounded-circle" />
               </div>
@@ -255,7 +248,7 @@ function Corporate() {
                   CEO</p>
               </div>
             </div>
-            <div className="card p-3 py-4 border-0">
+            <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
               <div className="text-center leadership-user">
                 <img src={ceo} width="100" className="rounded-circle" />
               </div>
@@ -264,16 +257,7 @@ function Corporate() {
                   CEO</p>
               </div>
             </div>
-            <div className="card p-3 py-4 border-0">
-              <div className="text-center leadership-user">
-                <img src={ceo} width="100" className="rounded-circle" />
-              </div>
-              <div className="text-center mt-3">
-                <p ><span style={{ color: "#458500" }}>Emun Zabihi</span> <br />
-                  CEO</p>
-              </div>
-            </div>
-            <div className="card p-3 py-4 border-0">
+            <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
               <div className="text-center leadership-user">
                 <img src={ceo} width="100" className="rounded-circle" />
               </div>
@@ -393,7 +377,7 @@ function Corporate() {
                   </div>
                 </div>
               </div>
-              
+
               <a href="" className='btn btn-outline-success fs-cs-1 mt-4' style={{ width: "100&" }}> View all press releases </a>
 
 
@@ -402,17 +386,17 @@ function Corporate() {
             </div>
           </div>
         </section>
-        
+
 
 
         <section className="mt-5" style={{ background: "#E5E5E5" }}>
-          
+
           <div className='Global-Responsibility-section container-lg'>
             <div>
-             Panding
+              Panding
             </div>
 
-            
+
 
           </div>
 
@@ -440,7 +424,7 @@ function Corporate() {
 
         <div className='iHerb-Shared-Values-section container-lg mt-5'>
           <h4>iHerb Shared Values</h4>
-          
+
           <img src={corlastimg} alt="" className="mt-5" />
         </div>
 
@@ -454,7 +438,7 @@ function Corporate() {
                 <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                   <h6 className="text-uppercase fw-bold text-light fs-cs-1 mt-5">iHerb | CORPORATE</h6>
-                  
+
 
                 </div>
 
@@ -510,7 +494,7 @@ function Corporate() {
                   <a href=""> | Do Not Sell My Personal Information </a>
 
                 </div>
-            
+
               </div>
             </div>
           </section>
