@@ -646,7 +646,7 @@
 }
 
 .sidebarsection {
-    width: 15%;
+    width: 10rem;
 }
 
 
@@ -1715,3 +1715,87 @@
 
 
 /* Community css end*/
+
+
+
+
+/* Herbs and spices  css start*/
+
+
+.categories-top-bar{
+    width: 100%;
+    height: 100%;
+}
+
+.Herbs-Spices-heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.categories-dropdown{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.spices1-banner-image img{
+    width: 100%;
+}
+
+
+.herbs-section-main-spacing{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+
+.center-section{
+    width: 100%;
+
+}
+
+.herb-section-first-cards{
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.herb-cards-image-sec img{
+    width: 160px;
+    height: 160px;
+
+}
+
+.herb-cards-image-sec {
+    align-items: center;
+}
+
+.Get-the-latest-deals-section{
+    background: #E0E0E0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Get-the-latest-deals-section-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.srch-btn{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Herbs and spices  css End*/

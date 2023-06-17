@@ -10,6 +10,7 @@ import Affilliates from "./components/Affilliates"
 import Recommendation from "./components/Recommendation"
 import Community from "./components/Community"
 import Aboutus from "./components/Aboutus"
+import HerbsandSpice from "./components/HerbsandSpice"
 function App() {
   return (
         <Layout>
@@ -24,6 +25,7 @@ function App() {
         <Route path="/rec" element={<Recommendation/>}/>
         <Route path="/com" element={<Community/>}/>
         <Route path="/about" element={<Aboutus/>}/>
+        <Route path="/herb" element={<HerbsandSpice/>}/>
       </Routes>
     </Layout>
       
