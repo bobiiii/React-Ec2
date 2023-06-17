@@ -123,12 +123,12 @@ function Affilliates() {
       <div className='Why-Join-card-section'>
 
         <div className='Why-Join-card-section-size'>
-          <div className="card p-3 py-4 border-0" >
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
             <div className="text-center leadership-user" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -138,27 +138,12 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
             <div className="text-center leadership-user" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
-            </div>
-            <div className="text-center mt-3">
-              <div >
-
-
-
-              </div>
-            </div>
-          </div>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
-              <img src={affimg} width="100" className="rounded-circle" />
-              <p>
-                Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -169,12 +154,13 @@ function Affilliates() {
             </div>
           </div>
 
-          <div className="card p-3 py-4 border-0" >
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
             <div className="text-center leadership-user" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -184,12 +170,13 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
             <div className="text-center leadership-user" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -199,12 +186,15 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
+
+
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
             <div className="text-center leadership-user" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA  </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -214,6 +204,24 @@ function Affilliates() {
               </div>
             </div>
           </div>
+
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user" style={{ width: "80%" }}>
+              <img src={affimg} width="100" className="rounded-circle" />
+              <p>
+                Europe/CIS/Georgia/Ukraine
+                MENA </p>
+            </div>
+            <div className="text-center mt-3">
+              <div >
+
+
+
+              </div>
+            </div>
+          </div>
+
 
         </div>
 
@@ -244,7 +252,7 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0" >Competitive Commission Rates </h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">

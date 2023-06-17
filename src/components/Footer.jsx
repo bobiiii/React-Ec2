@@ -13,7 +13,7 @@ function Footer() {
       </div>
       <section className='container-fluid ftrsection '>
         <br />
-        <div className="container my-5 ">
+        <div className="container my-5  ">
           <footer
             className="text-center text-lg-start text-gray ftrtext "
             style={{ backgroundColor: '#F5F5F5;', marginTop: "1em" }}
