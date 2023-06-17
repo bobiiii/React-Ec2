@@ -871,10 +871,16 @@
 .sale-and-offer-route {
     justify-content: space-around;
     gap: 0.5em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
 
+
+
 .All-Sales {
-    width: 70vh;
+    width: 12rem;
     height: 31.99px;
     background: #FFFFFF;
     border: 2px solid #458500;
@@ -894,8 +900,6 @@
 }
 
 .All-f-t-s {
-    width: 40%;
-    height: 31.99px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 16px;

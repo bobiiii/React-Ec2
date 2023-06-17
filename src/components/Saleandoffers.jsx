@@ -43,16 +43,16 @@ function Saleandoffers() {
                                 Sales & Offers</p>
                         </div>
                         <div className='d-flex justify-content-center justify-content-space-around sale-and-offer-route mt-3'>
-                            <div className='All-Sales'>
+                            <div className='All-Sales ' >
                                 <p>All Sales & Offers (11)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Featured (8)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Trials (2)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Specials (1)</p>
                             </div>
                         </div>
