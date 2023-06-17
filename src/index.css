@@ -736,13 +736,12 @@
 
 
 
+
 /* .dash-first-cards-sec{
     width: 100%;
     background-color: orange;
-    
 }
-
-.dash-last-cards{
+.dash-last-cards {
     width: 50%;
     background-color: #3b5998;
 
@@ -959,10 +958,16 @@
 .sale-and-offer-route {
     justify-content: space-around;
     gap: 0.5em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
 
+
+
 .All-Sales {
-    width: 70vh;
+    width: 12rem;
     height: 31.99px;
     background: #FFFFFF;
     border: 2px solid #458500;
@@ -982,8 +987,6 @@
 }
 
 .All-f-t-s {
-    width: 40%;
-    height: 31.99px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 16px;
@@ -1265,7 +1268,11 @@
 .Wallherb-at-a-Glance-cards-size {
     width: 20%;
     text-align: center;
-}
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+ }
 
 .wallherb1-logos img {
     width: 64px;
@@ -1279,7 +1286,7 @@
 }
 
 .Leadership-member-section {
-    width: 60%;
+    width: 90%;
     height: 100%;
     text-align: center;
     display: flex;
@@ -1565,12 +1572,272 @@ button {
 
 .iHerb-Community-section {
     width: 100%;
-    height: 100%;
+    height: 35vh;
     text-align: center;
 
 }
 
+.pan {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
 
+    background: #F7F7F7;
+    border-radius: 30px;
+}
+
+.community-icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+
+}
+
+
+.community-icon-card {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Latest-happy-customers {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
+
+
+.Latest-happy-customers-card-cont {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.Latest-happy-customers-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.Latest-happy-customers-card-res {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.Latest-happy-customers-card-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Latest-happy-users-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.com-user-img img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.Most-active-cards-cont{
+    
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.Most-active-cards-cont-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 1.1em;
+    width: 100%;
+}
+
+
+.Most-active-cards{
+    width: 35rem;
+    
+}
+
+.active-cards{
+    border-radius: 0.5em ;
+    border: 1px  solid rgb(217, 207, 207);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding:0.1em;
+    
+
+}
+
+
+.Picture-gallery-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.Picture-gallery-img img{
+    width: 80%;
+    height:80%;
+}
+
+.about-section-image img{
+    width: 100%;
+}
+
+.iHerb-at-a-glance-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.iHerb-at-a-glance-section-wrap{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.about-top-ten-section{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-top-ten-section-wrap{
+    width: 60%;
+    
+}
+
+.about-top-ten-section-list{
+    display: flex;
+    gap: 1em;
+    text-align: left;
+}
+
+.about-top-ten-section-list-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.iHerb-is-run-sention{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iHerb-is-run-sention-wrap{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.iHerb-is-run-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.iHerb-is-run-cards-wrap{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.iHerb-House-Brands-offer-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Moreno{
+    text-align: left;
+}
+
+
+.iHerb-House-Brands-offer-cards{
+   width: 50%;
+   height: 100%; 
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;   
+}
+
+.Herb-House-Brands-offer-section-text{
+    width: 50%;
+    
+}
+
+.iHerb-House-Brands-offer-section-text-size{
+    width: 20rem;
+
+}
+
+
+.iHerb-at-a-glance-icon img{
+    width: 48px;
+    height: 48px;
+}
 
 
 /* Community css end*/

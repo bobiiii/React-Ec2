@@ -44,16 +44,16 @@ function Saleandoffers() {
                                 Sales & Offers</p>
                         </div>
                         <div className='d-flex justify-content-center justify-content-space-around sale-and-offer-route mt-3'>
-                            <div className='All-Sales'>
+                            <div className='All-Sales ' >
                                 <p>All Sales & Offers (11)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Featured (8)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Trials (2)</p>
                             </div>
-                            <div className='All-f-t-s'>
+                            <div className='All-f-t-s All-Sales'>
                                 <p>Specials (1)</p>
                             </div>
                         </div>
@@ -289,9 +289,9 @@ function Saleandoffers() {
 
 
 
-                    <div className='sale-last-section  mt-5' style={{ background: " #F5F5F5" }}>
-                        <br />
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <div className='sale-last-section container-fluid mt-5' style={{ background: " #F5F5F5" }}>
+
+                        <div className="card  " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
                             <img src={sale1} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
