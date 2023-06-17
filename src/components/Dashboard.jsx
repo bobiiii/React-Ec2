@@ -1,14 +1,21 @@
 
-import userlogo from "../images/userlogo.png"
-import Carouselcards from "./Carouselcards"
+import userLogo from "../images/userlogo.png"
+import Orders from "../images/dashboard/vector2.png"
+import SaleOffer from "../images/dashboard/vector3.png"
+import MyLIst from "../images/dashboard/vector4.png"
+import Affiliate from "../images/dashboard/vector5.png"
+import Address from "../images/dashboard/vector6.png"
+// import SaleOffer from "../images/dashboard/vector6.png"
+// import Carouselcards from "./Carouselcards"
 // import share from "../images/share.png"
 
 function Dashboard() {
     return (
         <>
         
-            <section className='container-fluid dashboardsection'>
-                <div className='sidebarsection'>
+            <section className='d-grid container-fluid dashboardsection '>
+               <div className="row">
+                <div className='col-lg-2 col-md-3 col-sm-12   sidebarsection '>
                     <div className="sidebar mt-3 ">
                         <h5 className="sidebar-heading ms-3">My Account</h5>
                         <hr className='line ms-3' />
@@ -83,66 +90,75 @@ function Dashboard() {
                         </ul>
                     </div>
                 </div>
-                <div className='container-fluid dash-first-cards-sec'>
-                    <div className='mt-4 '>
-                        <a href="" className='text-decoration-none text-secondary'>My Account </a>
-                        <a href="" className='ms-1 text-decoration-none text-secondary'> Dashboard </a>
-                    </div>
-                    <div className='dashusercard mt-5 '>
-                        <div className="container dashusercards">
-                            <div className="row">
-                                <div className="col">
-                                    <div className="dashuser">
-                                        <img src={userlogo} alt="" />
-                                        <div className='ms-2 mt-2'>
-                                            <p className='Hey'>Hey Adetosin2000@gmail... <div className='Customer-since'>Customer since May 23 2023</div> </p>
-                                        </div>
-                                    </div>
-                                </div>
+                <div className="d-sm-none d-md-block col-lg-10 col-md-9 mt-3   dashboard-main "> 
+                <div className="mt-2 d-flex justify-content-between">
+                    <div className="d-flex align-items-center">
+                        <img src={userLogo} className="" style={{width: "5rem",height: "4rem"}} />
+                        <div className="d-flex flex-column">
+                            <h5 className="fs-cs-3 mb-0">Hey babar@gmail.com</h5>
+                            <span>Customer since 2015</span>
                             </div>
-
-
-                        </div>
-                        <div className='dashusercards2 '>
-                            <p className='ms-2'>Rewards available <div className='dashprice '>$0.00</div> <div>Rewards Code:
-                                KZH0402 <span className='dashcardshearbtn'>  </span> </div></p>
-                            <div className='mt-5 me-1'>
-                                <a href="" className='text-decoration-none '>View details</a>
-                            </div>
-                        </div>
                     </div>
-                    
-                    <div className=' container-fluid  salescard mt-5'>
-                        <div className="cookie-card">
-                            <span className="title">🍪 Orders</span>
-                            <p className="description ms-4 mb-2">Track your order progress, request returns,
-                                reorder, or write reviews.  </p>
-                        </div>
-                        <div className="cookie-card">
-                            <span className="title">🍪 Orders</span>
-                            <p className="description ms-4 mb-2">Track your order progress, request returns,
-                                reorder, or write reviews.  </p>
-                        </div>
-                        <div className="cookie-card">
-                            <span className="title">🍪 Orders</span>
-                            <p className="description ms-4 mb-2">Track your order progress, request returns,
-                                reorder, or write reviews.  </p>
-                        </div>
-                        <div className="cookie-card">
-                            <span className="title">🍪 Orders</span>
-                            <p className="description ms-4 mb-2">Track your order progress, request returns,
-                                reorder, or write reviews.  </p>
-                        </div>
+                    <div className="dashboard-reward ps-2 d-flex flex-column w-50 border">
+                        <span className="fw-bold">Rewards Available</span>
+                        <span className="fw-bold">$0.00</span>
+                        <span>Rewards Code: KhI7758</span>
+                    </div>
+                </div>
+
+                <div className="d-grid mt-3 ">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6  my-2  d-flex align-items-center p-2 border rounded-3">
+                            <img src={Orders} alt="orders" className="w-25 h-50 px-2"/>
+                            <div className="ms-1">
+                                <h5 className="mb-0 " >Orders</h5>
+                                <span className="m-0 p-0">Track your order progress, request returns,
+reorder, or write reviews.
+                                </span>
+                                </div>    
+                            </div>
+                            <div className="col-lg-4 col-md-6  my-2  d-flex align-items-center p-2 border rounded-3">
+                            <img src={SaleOffer} alt="orders" className="w-25 h-50 px-2"/>
+                            <div className="ms-1">
+                                <h5 className="mb-0 " >Sales & Offers</h5>
+                                <span className="m-0 p-0">Shop all of our promotional offers.
+                                </span>
+                                </div>    
+                            </div>
+                            <div className="col-lg-4 col-md-6  my-2  d-flex align-items-center p-2 border rounded-3">
+                            <img src={MyLIst} alt="orders" className="w-25 h-50 px-2"/>
+                            <div className="ms-1">
+                                <h5 className="mb-0 " >My lists</h5>
+                                <span className="m-0 p-0">Add your favorite items to keep track of
+availability and purchase later!
+                                </span>
+                                </div>    
+                            </div>
+                            <div className="col-lg-4 col-md-6  my-2  d-flex align-items-center p-2 border rounded-3">
+                            <img src={Affiliate} alt="orders" className="w-25 h-50 px-2"/>
+                            <div className="ms-1">
+                                <h5 className="mb-0 " >Affiliate Program</h5>
+                                <span className="m-0 p-0">Become an iHerb affiliate and earn when you
+share!
+                                </span>
+                                </div>    
+                            </div>
+                            <div className="col-lg-4 col-md-6  my-2  d-flex align-items-center p-2 border rounded-3">
+                            <img src={Address} alt="orders" className="w-25 h-50 px-2"/>
+                            <div className="ms-1">
+                                <h5 className="mb-0 " >Address Book</h5>
+                                <span className="m-0 p-0">Manage your delivery address(es) in one
+convenient place.
+                                </span>
+                                </div>    
+                            </div>
+                        
                         
                     </div>
 
-
-  {/* <div>
-      <Carouselcards></Carouselcards>
-  </div> */}
-
                 </div>
-
+                </div>
+</div>
                 
 
                 

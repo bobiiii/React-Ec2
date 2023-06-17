@@ -26,8 +26,7 @@ function App() {
         <Route path="/com" element={<Community/>}/>
       </Routes>
     </Layout>
-      
-  )
+     )
 }
 
 export default App

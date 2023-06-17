@@ -3,14 +3,14 @@ import { slide1 } from "../utils/data"
 function CardBox() {
   return (
         <>
-          <div  className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
+          <div  className="carousel carousel-dark slide mx-2" data-bs-interval="false" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="card-wrapper bg-success card-wrapper-cs   container-fluid d-flex  ">
+                <div className="card-wrapper  overflow-scroll  card-wrapper-cs   container-fluid d-flex  ">
                   {slide1.map((item, index) => {
                     return (<>
-                      <div className="card  pt-2 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
+                      <div className="card  mx-2 pt-2 card-cont" key={index} >
+                        <img src={item.img} className="align-self-center " style={{height: "8rem"}} alt="..." />
                         <div className="card-body d-flex flex-column justify-content-between">
                           <h5 className="card-title fs-cs-2 ">{item.title}</h5>
                           <div className="d-flex">
