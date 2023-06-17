@@ -21,6 +21,8 @@ import twitter from "../images/twitter-logo.png.png"
 import youtube from "../images/youtube-logo.png.png"
 import pin from "../images/pinterest-logo.png.png"
 import insta from "../images/instagram-logo.png.png"
+import WorldIco from "../images/Shape1.png"
+
 
 function Corporate() {
   return (
@@ -396,20 +398,52 @@ function Corporate() {
           </div>
         </section>
 
-
-
-        <section className="mt-5" style={{ background: "#E5E5E5" }}>
-
-          <div className='Global-Responsibility-section container-lg'>
-            <div>
-              Panding
-            </div>
-
-
-
+        
+    {/* Global Responsibility */}
+    
+    <div className="container-fluid py-3 Global-rs-bg ">
+      <div className="d-flex justify-content-center py-2">
+        <div className="w-25 p-2  border  ">
+          
+          <span className=""><img className="pe-2" style={{height:"2rem"}} src={WorldIco}/></span>
+          <h3 className="d-inline fs-cs-3  "> 
+            Global Responsibility</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In pariatur consequatur illo corrupti alias ipsa consequuntur 
+            nisi, rerum architecto neque expedita laudantium
+             reprehenderit quidem </p>
           </div>
+        <div className="w-25 px-3 py-1 mx-2 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+          <h4 className="fs-cs-3 py-3">Sustainability</h4>
+          <p>
+          Through a number of ongoing eco-
+friendly initiatives, we are committed
+to the reduction of our carbon
+footprint. In our workplaces, products,
+and shipping, we strive to integrate
+the best sustainable practices, while
+maintaining the highest quality of
+standards for our customers.
+          </p>
+          <button className=" w-50 bg-transparent border-1 text-light border-light">Read more</button>
+        </div>
+        <div className="w-25 px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+          <h4 className="fs-cs-3 py-3">Philanthropy</h4>
+          <p className="">We are currently involved in various
+educational projects in Cambodia,
+including the building and running of
+two new schools, as well as the
+promotion of childrens education
+through the Cambodian Childrens
+Fund and New Hope Cambodia.</p>
+          <button className="w-50 bg-transparent border-1 text-light border-light">Learn more</button>
+        </div>
 
-        </section>
+      </div>
+
+
+    </div>
+
+        
 
 
 

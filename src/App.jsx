@@ -30,8 +30,7 @@ function App() {
         <Route path="/herb" element={<HerbsandSpice/>}/>
       </Routes>
     </Layout>
-      
-  )
+     )
 }
 
 export default App
