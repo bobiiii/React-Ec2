@@ -28,8 +28,7 @@ function App() {
         <Route path="/about" element={<Aboutus/>}/>
       </Routes>
     </Layout>
-      
-  )
+     )
 }
 
 export default App

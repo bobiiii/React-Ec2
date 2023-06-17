@@ -304,7 +304,7 @@
         width: calc(100% / 4);
         margin: 0px 0.2rem;
     }
-    
+
 
     .card-cont>img {
         width: 45%;
@@ -328,22 +328,21 @@
 
 
 /* Brand of week CSS Start */
-.brand-week-clr{
+.brand-week-clr {
     background-color: #C8E6C9;
 
 }
 
-.brand-cards{
-    
+.brand-cards {
+
     overflow-x: scroll;
     overflow-y: scroll;
 }
-.card-wrapper-cs2 img{
+
+.card-wrapper-cs2 img {
     width: 100px;
     ;
     height: 2rem
-    
-
 }
 
 .brand-week button {
@@ -359,17 +358,19 @@
 
 
 /* Yearly cards carousel */
-.year-box{
-    
+.year-box {
+
     height: 15rem;
     overflow: hidden auto;
 
 }
-.year-box h3{
+
+.year-box h3 {
     color: #F38A00;
 }
-.year-line{
-        position: relative;
+
+.year-line {
+    position: relative;
 }
 
 
@@ -380,29 +381,31 @@
     background: #191970;
     left: 0;
     top: 5%;
-    position: absolute;}
+    position: absolute;
+}
 
 
-    .year-line:after {
-        content: "";
-        display: block;
-        width: 6rem;
-        height: 3px;
-        background: #191970;
-        right: 0;
-        top: 5%;
-        position: absolute;
-      }
+.year-line:after {
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 3px;
+    background: #191970;
+    right: 0;
+    top: 5%;
+    position: absolute;
+}
 
 /* Yearly cards carousel */
 
 
 /* Product detail page Start */
-.special-banner{
+.special-banner {
     background-color: #FFF3F8;
 }
-.special-banner > h4{
-color: #D32F2F;
+
+.special-banner>h4 {
+    color: #D32F2F;
 
 }
 
@@ -718,24 +721,29 @@ color: #D32F2F;
 
 
 .dashboardsection {
-    display: flex;
-    gap: 1em;
-    color: black;
-    width: 100%;
-}
 
+}
+.dashboard-main{
+    border: 1px solid green
+}
 .sidebarsection {
-    width: 15%;
+    border: 1px solid blue;
+}
+
+.dashboard-reward{
+    background-color: #E5F8E6;
 }
 
 
-.dash-first-cards-sec {
+
+
+/* .dash-first-cards-sec{
     width: 100%;
-
+    background-color: orange;
 }
-
 .dash-last-cards {
     width: 50%;
+    background-color: #3b5998;
 
 
 }
@@ -750,9 +758,9 @@ color: #D32F2F;
     display: flex;
     align-items: center;
     /* background-color: red; */
-}
+/* } */
 
-.dashuser i {
+/* .dashuser i {
     margin-right: 10px;
 
 }
@@ -809,7 +817,7 @@ color: #D32F2F;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-}
+} */
 
 /* .dashcardshearbtn {
     left: 16.67%;
@@ -819,7 +827,7 @@ color: #D32F2F;
     color: #F38A00;
 } */
 
-.dashcardshearbtn img {
+/* .dashcardshearbtn img {
     height: 15px;
     width: 16px;
     color: #F38A00;
@@ -917,12 +925,12 @@ color: #D32F2F;
 
 .accept:hover {
     background-color: rgb(55 65 81);
-}
+} */
 
-.accept:focus {
+/* .accept:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
-}
+} */
 
 /* dashboard css End */
 
@@ -1377,6 +1385,44 @@ color: #D32F2F;
 .corporate-footer-last-links a {
     text-decoration: none;
     color: white;
+}
+
+.Global-rs-img {
+    /* background-image: url("./images/global-bg-card.jpg"); */
+    position: relative;
+}
+
+.Global-rs-img::before {
+    content: "";
+    background-image: url("./images/global-bg-card.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+
+}
+
+.Global-rs-img h4,
+p,
+button {
+    position: relative;
+    opacity: 1;
+
+
+
+
+
+
+}
+
+
+
+.Global-rs-bg {
+    background: #E5E5E5;
+
 }
 
 /* Corporate css End*/
