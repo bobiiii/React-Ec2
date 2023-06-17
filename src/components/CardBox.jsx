@@ -1,5 +1,6 @@
 // import React from 'react'
 import { slide1 } from "../utils/data"
+
 function CardBox() {
   return (
         <>
