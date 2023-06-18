@@ -66,7 +66,16 @@ Capsules`,
 oldPrice: "₹723.60",
 newPrice: "₹804.00",
 rating: 9865
-},
+}
+,
+{
+    img: image3 ,
+}
+,
+{
+    img: image3,
+}
+
 ]
 
 
@@ -111,6 +120,24 @@ export const slide2 =[{
 },
 {
     img: img9,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
 },
 {
     img: img10,

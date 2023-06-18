@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+// import React from 'react'
 import about1 from "../images/about1.png"
 import about2 from "../images/about2.png"
 import about3 from "../images/about3.png"
@@ -9,14 +10,28 @@ import sale3 from "../images/sale3.png"
 import sale4 from "../images/sale4.png"
 import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
-import ceo from "../images/ceo.png"
+// import ceo from "../images/ceo.png"
 import wallherb1 from "../images/wallherb1.png"
 import wallherb2 from "../images/wallherb2.png"
 import wallherb3 from "../images/wallherb3.png"
 import wallherb4 from "../images/wallherb4.png"
 import wallherb5 from "../images/wallherb5.png"
-import wallherb6 from "../images/wallherb6.png"
+// import wallherb6 from "../images/wallherb6.png"
+import androidLogo from "../images/about/vector3.png"
+import appleLogo from "../images/about/vector2.png"
+import googleLogo from "../images/about/vector1.png"
+import drImg from "../images/about/img4.png"
+import Slider from 'react-slick'
+
 function Aboutus() {
+    const settings={
+        
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      
+    }
     return (
         <>
             <div className='mainhero'>
@@ -135,15 +150,83 @@ function Aboutus() {
                                 compliant to keep products safe and fresh.</p>
                         </div>
                     </div>
+ </div>
 
 
 
-
-
-                </div>
 
 
                 {/*  Affordable and has a great selection  panding  */}
+                <div className='affordable-cs-main'>
+                <div className='container-fluid affordable-cs text-white'>
+                    <div className='d-flex flex-wrap justify-content-evenly align-items-center h-75'>
+                        <div className='d-flex align-items-center '>
+                            <img src={androidLogo} className='px-1' alt='img'/>
+                            <div className='d-flex flex-column'>
+                                <span className='fs-cs-4 fw-bold'>4.8 <span className='fs-cs-2'>/ 5</span></span>
+                                <span className='fs-cs-1'>351k ratings</span>
+                            </div>
+                        </div>
+                        <div className='d-flex align-items-center '>
+                            <img src={appleLogo} className='px-1' alt='img'/>
+                            <div className='d-flex flex-column'>
+                                <span className='fs-cs-4 fw-bold'>4.8 <span className='fs-cs-2'>/ 5</span></span>
+                                <span className='fs-cs-1'>351k ratings</span>
+                            </div>
+                        </div>
+                        <div className='d-flex align-items-center '>
+                            <img src={googleLogo} className='px-1' alt='img'/>
+                            <div className='d-flex flex-column'>
+                                <span className='fs-cs-4 fw-bold'>4.8 <span className='fs-cs-2'>/ 5</span></span>
+                                <span className='fs-cs-1'>351k ratings</span>
+                            </div>
+                        </div>
+                        <div className='d-flex w-25 align-items-center justify-content-end '>
+                            <img src={drImg} className='px-1' alt='img'/>
+                            <div className='d-flex flex-column  '>
+                                <span className='fs-cs-1 lh-1 '>Dr. Michael Murray recommends
+shopping with iHerb</span>
+                                <span className='fs-cs-1'>Watch the video</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                <div className='container w-75 pt-3  text-dark text-center   rounded-3 pt-2 border affordable-cs2'>
+                
+                    <Slider {...settings}  >
+                <div className='d-flex flex-column align-items-center  '>
+                    <h6>Japneese (Auto Translated)</h6>
+                <h4 >Affordable and has a great selection</h4>
+                <span >Show More</span>
+                </div>
+                <div className='d-flex flex-column align-items-center  '>
+                    <h6>Japneese (Auto Translated)</h6>
+                <h4 >Affordable and has a great selection</h4>
+                
+                </div>
+                <div className='d-flex flex-column align-items-center  '>
+                    <h6>Japneese (Auto Translated)</h6>
+                <h4 >Affordable and has a great selection</h4>
+                
+                </div>
+                <div className='d-flex flex-column align-items-center  '>
+                    <h6>Japneese (Auto Translated)</h6>
+                <h4 >Affordable and has a great selection</h4>
+                
+                </div>
+                
+                    </Slider>
+                    <a className='text-center' href='/'>Read more reviews</a>
+                
+
+                </div>
+
+                </div>
+                </div>
+
+
+
+
 
                 <div className='container-fluid  text-center mt-5'>
                     <h3>Top 10 reasons to make iHerb your #1 choice for Natural Products!</h3>
