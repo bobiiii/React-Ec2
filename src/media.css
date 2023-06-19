@@ -1,6 +1,6 @@
 /* Footer start */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
       .endfooterwrap {
             display: flex;
             justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 480px) {
 
       .footercenter {
             background-color: #FAFAFA;
@@ -88,7 +88,7 @@
 }
 
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:480px) {
       .Get-the-wallHerb-App-Today-for-mobile {
             display: none;
       }
@@ -103,7 +103,7 @@
 
 /* About start */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
       .iHerb-a-a-glance-for-mobile h3 {
             font-size: 24px;
       }
@@ -262,7 +262,7 @@
 }
 
 
-@media screen and (min-width : 450px) {
+@media screen and (min-width : 480px) {
       .iHerb-is-run-cards-for-mobile-dis-on {
             display: none;
       }
@@ -282,7 +282,7 @@
 /* Sale and Offer start */
 
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 480px) {
       .sale-last-section-for-mobile {
             display: none;
       }
@@ -316,7 +316,7 @@
 
 /* checkout start */
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 480px) {
 
 
       .checkousection {
@@ -358,7 +358,7 @@
 }
 
 
-@media screen and (min-width : 450px) {
+@media screen and (min-width : 480px) {
       .check-mobile-section {
             display: none;
       }
@@ -379,7 +379,7 @@
 
 /* Corporate start */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
       .cor-our-mission-wrap h4 {
             margin-top: 1rem;
             font-family: 'Lato';
@@ -458,41 +458,91 @@
             display: none;
       }
 
-  .at-a-Glance-for-mobile-text-size{
+      .at-a-Glance-for-mobile-text-size {
 
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 26px;
-  }
-
-
-.We-deliver-around-for-mobile h5{
-      text-align: start;
-      
-font-family: 'Helvetica';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-}
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+      }
 
 
-.We-deliver-around-for-mobile p{
-      text-align: start;
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 18px;
-}
+      .We-deliver-around-for-mobile h5 {
+            text-align: start;
+
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+      }
+
+
+      .We-deliver-around-for-mobile p {
+            text-align: start;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+      }
+
+
+      .Press-Releases-text-size-for-mob {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+      }
+
+
+      .Press-Releases-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      }
+
+      .Chief-Operating-Officer {
+            width: 100%;
+      }
+
+
+      .Chief-Operating-Officer p {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+      }
+
+
+
+      .Chief-Operating-Officer h5 {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 22px;
+      }
+
+
+      .Chief-Operating-Officer-cards-section {
+            width: 50%;
+            background: #FFFFFF;
+        }
   
 
 
+
 }
 
 
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:480px) {
 
       .cor-our-mission-for-mobiles {
             display: none;

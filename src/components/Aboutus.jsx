@@ -159,7 +159,7 @@ function Aboutus() {
                 {/*  Affordable and has a great selection  panding  */}
                 <div className='affordable-cs-main'>
                 <div className='container-fluid affordable-cs text-white'>
-                    <div className='d-flex flex-wrap justify-content-evenly align-items-center h-75'>
+                    <div className='d-flex flex-sm-column flex-wrap justify-content-evenly align-items-center h-75'>
                         <div className='d-flex align-items-center '>
                             <img src={androidLogo} className='px-1' alt='img'/>
                             <div className='d-flex flex-column'>
@@ -181,7 +181,7 @@ function Aboutus() {
                                 <span className='fs-cs-1'>351k ratings</span>
                             </div>
                         </div>
-                        <div className='d-flex w-25 align-items-center justify-content-end '>
+                        <div className='d-flex  align-items-center justify-content-end '>
                             <img src={drImg} className='px-1' alt='img'/>
                             <div className='d-flex flex-column  '>
                                 <span className='fs-cs-1 lh-1 '>Dr. Michael Murray recommends
@@ -191,7 +191,7 @@ shopping with iHerb</span>
                         </div>
                         
                     </div>
-                <div className='container w-75 pt-3  text-dark text-center   rounded-3 pt-2 border affordable-cs2'>
+                <div className='container w-75 pt-3 d-sm-none  text-dark text-center   rounded-3 pt-2 border affordable-cs2'>
                 
                     <Slider {...settings}  >
                 <div className='d-flex flex-column align-items-center  '>

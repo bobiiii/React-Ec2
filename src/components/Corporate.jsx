@@ -319,8 +319,9 @@ function Corporate() {
 
         <section className='Press-Releases-main-section mt-5'>
           <br />
-          <h5 className='text-center '>Press Releases</h5>
-          <div className='Press-Releases-section container-lg mt-5'>
+          <h5 className='text-center Press-Releases-text-size-for-mob'>Press Releases</h5>
+          <div className='Press-Releases-section  container-fluid mt-5'>
+            
             <div className='Chief-Operating-Officer'>
               <p>May 03, 2023</p>
               <h5>iHerb Names Miriee Chang as Chief Operating
@@ -429,6 +430,7 @@ function Corporate() {
 
 
             </div>
+
           </div>
         </section>
 
