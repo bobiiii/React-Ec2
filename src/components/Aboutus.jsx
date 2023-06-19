@@ -200,7 +200,7 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div className='top-ten-numbers'> 
+                            <div className='top-ten-numbers'>
                                 <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>4.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
@@ -330,8 +330,22 @@ function Aboutus() {
                     </div>
 
 
-                    <div className='iHerb-is-run-cards container-fluid mt-5'>
+                    <div className='iHerb-is-run-cards container-fluid mt-5 for-mob-is-none'>
                         <div className='iHerb-is-run-cards-wrap mb-5'>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                             <div className="card  iHerb-is-run-cards-for-mobile" style={{ width: '18rem' }}>
@@ -409,13 +423,68 @@ function Aboutus() {
 
 
 
+                    {/* For Moble */}
+
+                    <div className='iHerb-is-run-cards container-fluid  mt-5  iHerb-is-run-cards-for-mobile-dis-on'>
+                        <div className='iHerb-is-run-cards-wrap mb-5'>
+                            <div className='d-flex iHerb-is-run-cards-for-mob' >
+                                <div className='forrrrrimg'>
+                                    <img src={about2} alt="" />
+                                </div>
+                                <div className='iHerb-is-run-cards-for-mob-text'>
+
+                                    <p>Moreno Valley, CA </p>
+                                    <h4>USA</h4>
+                                </div>
+                            </div>
+
+                            <div className='d-flex iHerb-is-run-cards-for-mob' >
+                                <div className='forrrrrimg'>
+                                    <img src={about2} alt="" />
+                                </div>
+                                <div className='iHerb-is-run-cards-for-mob-text'>
+
+                                    <p>Moreno Valley, CA </p>
+                                    <h4>USA</h4>
+                                </div>
+                            </div>
+
+
+                            <div className='d-flex iHerb-is-run-cards-for-mob' >
+                                <div className='forrrrrimg'>
+                                    <img src={about2} alt="" />
+                                </div>
+                                <div className='iHerb-is-run-cards-for-mob-text'>
+
+                                    <p>Moreno Valley, CA </p>
+                                    <h4>USA</h4>
+                                </div>
+                            </div>
+
+                            <div className='d-flex iHerb-is-run-cards-for-mob' >
+                                <div className='forrrrrimg'>
+                                    <img src={about2} alt="" />
+                                </div>
+                                <div className='iHerb-is-run-cards-for-mob-text'>
+
+                                    <p>Moreno Valley, CA </p>
+                                    <h4>USA</h4>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    {/* For Moble */}
+
+
                 </section>
 
 
 
 
                 <div className='iHerb-House-Brands-offer-section container-fluid mt-5'>
-                    <div className='iHerb-House-Brands-offer-cards'>
+                    <div className='iHerb-House-Brands-offer-cards offer-the-best-value-is-mobile-noneeeee'>
 
                         <div className='iHerb-House-Brands-offer-cards-img'>
                             <img src={about3} alt="" />
@@ -442,12 +511,58 @@ function Aboutus() {
 
 
                     </div>
+
+
+                    {/* for mobile */}
+
+                    <div className='iHerb-House-Brands-offer-section-for-mobile-on '>
+                        <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
+                            <h4>iHerb House Brands offer the
+                                best value</h4>
+                        </div>
+
+                        <div className='iHerb-House-Brands-offer-images-sections-cont mt-4'>
+                            <div className='iHerb-House-Brands-offer-images-sections container-fluid d-flex mt-2'>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+
+
+                            </div>
+
+
+                            <div className='iHerb-House-Brands-offer-images-sections container-fluid d-flex mt-2'>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+
+
+                            </div>
+
+
+                            <div className='iHerb-House-Brands-offer-images-sections container-fluid d-flex mt-2'>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+                                <div className='iHerb-House-Brands-offer-images-div'> <img src={about3} alt="" /> </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    {/* for mobile */}
+
+
+
                     <div className='iHerb-House-Brands-offer-section-text'>
 
                         <div className='iHerb-House-Brands-offer-section-text-size'>
 
 
-                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
+                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile offer-the-best-value-is-mobile-noneeeee
+                            '>
                                 <h4>iHerb House Brands offer the
                                     best value</h4>
                             </div>
@@ -492,6 +607,7 @@ function Aboutus() {
                         </div>
                     </div>
                 </div>
+
 
 
 

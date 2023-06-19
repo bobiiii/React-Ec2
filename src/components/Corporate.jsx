@@ -66,7 +66,7 @@ function Corporate() {
           <img src={corimg} alt="" />
         </div>
 
-        <div className='container-lg cor-our-mission'>
+        <div className='container-lg cor-our-mission  cor-our-mission-for-desktop '>
           <div className='cor-our-mission-wrap' >
             <h4>Our Mission</h4>
             <p className='text-center'>iHerb is on a mission to make health and wellness accessible to all.</p>
@@ -75,6 +75,30 @@ function Corporate() {
               collective action. This belief will continue to guide us as we endeavor to make our mission a reality.</p>
           </div>
         </div>
+
+
+
+
+        {/* for mobile */}
+
+        <div className=' cor-our-mission cor-our-mission-for-mobiles'>
+          <div className='cor-our-mission-wrap' >
+            <h4>Our Mission</h4>
+            <p className='text-center'>iHerb is on a mission to make health and wellness accessible to all.</p>
+            <p className='text-center'>Since our founding in 1996, we have been dedicated to offering Earth’s best-curated selection of health and wellness products, at the best possible value,
+              delivered with the most convenient experience. We believe that health and wellness should be a universal right made possible through compassion and our
+              collective action. This belief will continue to guide us as we endeavor to make our mission a reality.</p>
+          </div>
+        </div>
+
+
+        {/* for mobile */}
+
+
+
+
+
+
         <div className='container-lg mt-5 corporate-about'>
           <h4>About Us</h4>
           <p>We’re the world’s largest eCommerce platform dedicated to vitamins, minerals, and
@@ -84,24 +108,32 @@ function Corporate() {
             supplements to skincare to grocery items, we ship over
             30,000 products, from over 1,200 brands to more than 180+ countries, and we’re
             proud to provide the very best value.</p>
-          <div>
+          <div className="corporate-about-a-tag">
             <a href="" className='btn btn-outline-success'>Learn More</a>
           </div>
         </div>
 
-        <div className='cor-box-image-section container-lg mt-5'>
+        <div className='cor-box-image-section container-lg mt-5  '>
           <img src={cor2} alt="" />
-          <div className='mt-5'>
+          <div className='mt-5 years-of-bringing-for-desk'>
             <p>26 years of bringing health and wellness products to the world</p>
           </div>
+
+            {/* For Mobile */}
+            <div className='mt-5 years-of-bringing-for-mob'>
+            <h4>26 years of bringing health and wellness products to the world</h4>
+          </div>
+            {/* For Mobile */}
+
+
         </div>
 
-{/*  16 Years Cards */ }
+        {/*  16 Years Cards */}
 
-<CardsCarouselYearly/>
+        <CardsCarouselYearly />
 
 
-{/*  16 Years Cards */ }
+        {/*  16 Years Cards */}
 
 
 
@@ -110,7 +142,7 @@ function Corporate() {
 
         <section className='Wallherb-at-a-Glance-background'>
           <br />
-          <div className='mt-5 text-center'>
+          <div className='mt-5 text-center at-a-Glance-for-mobile-text-size'>
             <h3>Wallherb at a Glance</h3>
           </div>
 
@@ -120,9 +152,9 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb1} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>180+ countries</h5>
-                <p className='fs-cs-2 text-center'>We deliver around the world
+                <p className='fs-cs-2 '>We deliver around the world
                   with 16 languages, over 80
                   currencies, and over 30
                   payment options to support
@@ -137,9 +169,9 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb2} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>30K+ products</h5>
-                <p className='fs-cs-2 text-center'>We offer the same reputable brands found at
+                <p className='fs-cs-2 '>We offer the same reputable brands found at
                   large national stores. All products are sold
                   and shipped by iHerb—not by  <a href="" className='text-decoration-none'>third-party
                     sellers.</a> </p>
@@ -151,10 +183,10 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb3} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>Authentic
                   reviews</h5>
-                <p className='fs-cs-2 text-center'>Our 33M+ product reviews
+                <p className='fs-cs-2 '>Our 33M+ product reviews
                   are written by real
                   customers who purchased
                   the products directly from
@@ -170,9 +202,9 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb4} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>9.5M+ active customers</h5>
-                <p className='fs-cs-2 text-center'>We have cultivated
+                <p className='fs-cs-2 '>We have cultivated
                   customer trust and loyalty
                   through the quality and
                   authenticity of our products
@@ -187,10 +219,10 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb5} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>8 fulfillment
                   centers</h5>
-                <p className='fs-cs-2 text-center'>All of our 8 fulfillment
+                <p className='fs-cs-2 '>All of our 8 fulfillment
                   centers and inventory hubs
                   are climate-controlled and
                   GMP- or ISO-compliant
@@ -205,10 +237,10 @@ function Corporate() {
               <div className="text-center iHerb-at-a-glance-icon">
                 <img src={wallherb5} width="100" className="rounded-circle" />
               </div>
-              <div className="text-center mt-3">
+              <div className="text-center mt-3 We-deliver-around-for-mobile">
                 <h5>2,000+ team
                   members</h5>
-                <p className='fs-cs-2 text-center'>We’re truly a global
+                <p className='fs-cs-2 '>We’re truly a global
                   company with team
                   members all around the
                   world.</p>
@@ -344,6 +376,8 @@ function Corporate() {
                 help them live their healthiest, best life. <a href=""> https://www.iherb.com/</a> </p>
               <a href="" className='btn btn-outline-success mb-4'>Read more</a>
             </div>
+
+
             <div className='Chief-Operating-Officer-cards-section'>
 
               <div className="card border-0" style={{ width: "100%" }}>
@@ -398,52 +432,52 @@ function Corporate() {
           </div>
         </section>
 
-        
-    {/* Global Responsibility */}
-    
-    <div className="container-fluid py-3 Global-rs-bg ">
-      <div className="d-flex justify-content-center py-2">
-        <div className="w-25 p-2  border  ">
-          
-          <span className=""><img className="pe-2" style={{height:"2rem"}} src={WorldIco}/></span>
-          <h3 className="d-inline fs-cs-3  "> 
-            Global Responsibility</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In pariatur consequatur illo corrupti alias ipsa consequuntur 
-            nisi, rerum architecto neque expedita laudantium
-             reprehenderit quidem </p>
+
+        {/* Global Responsibility */}
+
+        <div className="container-fluid py-3 Global-rs-bg ">
+          <div className="d-flex justify-content-center py-2">
+            <div className="w-25 p-2  border  ">
+
+              <span className=""><img className="pe-2" style={{ height: "2rem" }} src={WorldIco} /></span>
+              <h3 className="d-inline fs-cs-3  ">
+                Global Responsibility</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In pariatur consequatur illo corrupti alias ipsa consequuntur
+                nisi, rerum architecto neque expedita laudantium
+                reprehenderit quidem </p>
+            </div>
+            <div className="w-25 px-3 py-1 mx-2 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+              <h4 className="fs-cs-3 py-3">Sustainability</h4>
+              <p>
+                Through a number of ongoing eco-
+                friendly initiatives, we are committed
+                to the reduction of our carbon
+                footprint. In our workplaces, products,
+                and shipping, we strive to integrate
+                the best sustainable practices, while
+                maintaining the highest quality of
+                standards for our customers.
+              </p>
+              <button className=" w-50 bg-transparent border-1 text-light border-light">Read more</button>
+            </div>
+            <div className="w-25 px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+              <h4 className="fs-cs-3 py-3">Philanthropy</h4>
+              <p className="">We are currently involved in various
+                educational projects in Cambodia,
+                including the building and running of
+                two new schools, as well as the
+                promotion of childrens education
+                through the Cambodian Childrens
+                Fund and New Hope Cambodia.</p>
+              <button className="w-50 bg-transparent border-1 text-light border-light">Learn more</button>
+            </div>
+
           </div>
-        <div className="w-25 px-3 py-1 mx-2 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
-          <h4 className="fs-cs-3 py-3">Sustainability</h4>
-          <p>
-          Through a number of ongoing eco-
-friendly initiatives, we are committed
-to the reduction of our carbon
-footprint. In our workplaces, products,
-and shipping, we strive to integrate
-the best sustainable practices, while
-maintaining the highest quality of
-standards for our customers.
-          </p>
-          <button className=" w-50 bg-transparent border-1 text-light border-light">Read more</button>
-        </div>
-        <div className="w-25 px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
-          <h4 className="fs-cs-3 py-3">Philanthropy</h4>
-          <p className="">We are currently involved in various
-educational projects in Cambodia,
-including the building and running of
-two new schools, as well as the
-promotion of childrens education
-through the Cambodian Childrens
-Fund and New Hope Cambodia.</p>
-          <button className="w-50 bg-transparent border-1 text-light border-light">Learn more</button>
+
+
         </div>
 
-      </div>
 
-
-    </div>
-
-        
 
 
 
