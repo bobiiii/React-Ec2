@@ -48,13 +48,13 @@ function Aboutus() {
                 </div>
 
 
-                <div className='text-center mt-5'>
+                <div className='text-center mt-5 iHerb-a-a-glance-for-mobile'>
                     <h3>iHerb at a glance</h3>
                 </div>
 
 
 
-                <div className='Leadership-member-section container-lg'>
+                <div className='Leadership-member-section container-lg '>
 
                     <div className="card p-3 py-4 border-0" style={{ width: "20rem" }}>
                         <div className="text-center iHerb-at-a-glance-icon">
@@ -145,7 +145,7 @@ function Aboutus() {
 
                 {/*  Affordable and has a great selection  panding  */}
 
-                <div className='container-fluid  text-center mt-5'>
+                <div className='container-fluid  text-center mt-5 Top-10-reasons'>
                     <h3>Top 10 reasons to make iHerb your #1 choice for Natural Products!</h3>
                 </div>
 
@@ -153,8 +153,8 @@ function Aboutus() {
                     <div className='about-top-ten-section-wrap'>
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>1</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>1.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>World's best value for over 30,000 brand name products, shipped to you directly </h4>
@@ -169,8 +169,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>2</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>2.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>No membership or yearly subscription fees </h4>
@@ -183,8 +183,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>3</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>3.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Authentic reviews from purchasing customers</h4>
@@ -200,8 +200,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>4</h3>
+                            <div className='top-ten-numbers'> 
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>4.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Assurance of freshness and quality</h4>
@@ -216,8 +216,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>5</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>5.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Air-conditioned and super clean warehouses</h4>
@@ -232,8 +232,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>6</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>6.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Solid commitment to personal privacy</h4>
@@ -248,8 +248,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>7</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>7.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Fast, affordable shipping and Easy Return</h4>
@@ -263,8 +263,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>8</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>8.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>24/7 customer service</h4>
@@ -276,8 +276,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>9</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>9.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Eco-friendly initiatives</h4>
@@ -289,8 +289,8 @@ function Aboutus() {
 
 
                         <div className='d-flex  about-top-ten-section-list'>
-                            <div>
-                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>10</h3>
+                            <div className='top-ten-numbers'>
+                                <h3 style={{ fontFamily: 'Lato', color: '#2E7D32' }}>10.</h3>
                             </div>
                             <div className='about-top-ten-section-list-text'>
                                 <h4>Save even more, or get your order free!</h4>
@@ -334,7 +334,7 @@ function Aboutus() {
                         <div className='iHerb-is-run-cards-wrap mb-5'>
 
 
-                            <div className="card" style={{ width: '18rem' }}>
+                            <div className="card  iHerb-is-run-cards-for-mobile" style={{ width: '18rem' }}>
                                 <img src={about2} className="card-img-top" alt="..." />
                                 <div className="card-body  Moreno ">
                                     <p className="card-text">Moreno Valley, CA</p>
@@ -417,24 +417,24 @@ function Aboutus() {
                 <div className='iHerb-House-Brands-offer-section container-fluid mt-5'>
                     <div className='iHerb-House-Brands-offer-cards'>
 
-                        <div>
+                        <div className='iHerb-House-Brands-offer-cards-img'>
+                            <img src={about3} alt="" />
+                        </div >
+                        <div className='iHerb-House-Brands-offer-cards-img'>
                             <img src={about3} alt="" />
                         </div>
-                        <div>
+                        <div className='iHerb-House-Brands-offer-cards-img'>
                             <img src={about3} alt="" />
                         </div>
-                        <div>
-                            <img src={about3} alt="" />
-                        </div>
-                        <div>
-                            <img src={about3} alt="" />
-                        </div>
-
-                        <div>
+                        <div className='iHerb-House-Brands-offer-cards-img'>
                             <img src={about3} alt="" />
                         </div>
 
-                        <div>
+                        <div className='iHerb-House-Brands-offer-cards-img'>
+                            <img src={about3} alt="" />
+                        </div>
+
+                        <div className='iHerb-House-Brands-offer-cards-img'>
                             <img src={about3} alt="" />
                         </div>
 
@@ -447,19 +447,19 @@ function Aboutus() {
                         <div className='iHerb-House-Brands-offer-section-text-size'>
 
 
-                            <div >
+                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <h4>iHerb House Brands offer the
                                     best value</h4>
                             </div>
 
-                            <div className='mt-4'>
+                            <div className='mt-4 iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <h6>Made and sold by us</h6>
                                 <p>Save money by shopping for iHerb house brand products made and
                                     sold directly by us - not third-party brands.</p>
                             </div>
 
 
-                            <div>
+                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <h6>Premium quality</h6>
                                 <p>All  <a href="" className='text-decoration-none'>iHerb Brands</a> meet strict standards and Current Good
                                     Manufacturing Practices set by the FDA. We use only well-
@@ -467,7 +467,7 @@ function Aboutus() {
                             </div>
 
 
-                            <div>
+                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <h6>90-day, money-back guarantee</h6>
                                 <p>We're so confident in our iHerb Brands that we offer a full refund if
                                     you don’t love our products.</p>
@@ -475,7 +475,7 @@ function Aboutus() {
 
 
 
-                            <div>
+                            <div className='iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <h6>Independently tested</h6>
                                 <p>We've introduced the <a href="" className='text-decoration-none'>iTested program</a> to get our House Brand
                                     products tested by independent third-party labs for quality and
@@ -483,7 +483,7 @@ function Aboutus() {
                                     products that meet the highest standards.</p>
                             </div>
 
-                            <div className='mb-5'>
+                            <div className='mb-5 iHerb-House-Brands-offer-section-text-size-for-mobile'>
                                 <a href="" className='text-decoration-none '>Learn More</a>
                             </div>
 
@@ -503,7 +503,7 @@ function Aboutus() {
                         <img src={corlastimg} alt="" className="mt-4 mb-5" />
                     </div>
 
-                    <div className='sale-last-section container-fluid mt-5' style={{ background: " #F5F5F5" }}>
+                    <div className='sale-last-section container-fluid mt-5 about-last-section-for-moile' style={{ background: " #F5F5F5" }}>
                         <br />
                         <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
                             <img src={sale1} className="card-img-top" alt="..." />

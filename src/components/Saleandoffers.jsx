@@ -37,7 +37,7 @@ function Saleandoffers() {
 
                 <div className='sales-andd-ooffer-section container-fluid mt-5'>
                     <div className='mt-5 sales-andd-ooffer-section-start '>
-                        <h1>Sales & Offers</h1>
+                        <h1 className="Sales-and-offer-for-mobile">Sales & Offers</h1>
                         <div className='d-flex justify-content-center'>
                             <a href="" className='text-align-center'> Home </a>
                             <p className='ms-2'>/
@@ -57,7 +57,7 @@ function Saleandoffers() {
                                 <p>Specials (1)</p>
                             </div>
                         </div>
-                        <div className='All-f-t-s-para mt-5 '>
+                        <div className='All-f-t-s-para mt-5 aaaaaa'>
                             <p>Shop all of our promos in one place! From Brands of the Week to Specials and Trial Offers, find the biggest savings on must-have
                                 health and wellness products right here.</p>
                         </div>
@@ -289,7 +289,7 @@ function Saleandoffers() {
 
 
 
-                    <div className='sale-last-section container-fluid mt-5' style={{ background: " #F5F5F5" }}>
+                    <div className='sale-last-section sale-last-section-for-mobile container-fluid mt-5' style={{ background: " #F5F5F5" }}>
 
                         <div className="card  " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
                             <img src={sale1} className="card-img-top" alt="..." />
