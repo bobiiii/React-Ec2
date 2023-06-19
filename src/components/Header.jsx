@@ -1,14 +1,15 @@
-import React from 'react'
+
 import logoImage from "../images/logo.jpg"
 import cart from "../images/cart.png"
-import dollar from "../images/dollar-sign.png"
-import share from "../images/sharelogo.png"
+// import dollar from "../images/dollar-sign.png"
+import vectorShare from "../images/shareVector.svg"
+import vectorDollar from "../images/dollarVector.svg"
 
 function Header() {
   return (
     <>
 
-      <nav className="navbar navbar-expand-lg navbar-dark  navbackground">
+      <nav className="navbar-dektop navbar  navbar-expand-lg navbar-dark  navbackground">
         <div className="container-fluid">
           <img src={logoImage} alt="" />
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +80,20 @@ function Header() {
 
 
     {/*  Mobile Screen */}
-
+<div className='navbar-mobile container-fluid bg-success'>
+  <div className='d-flex flex-grow-0 justify-content-center align-items-center'>
+    <div className='flex-grow-1 py-2 navbar-search'>
+    <i className="fa fa-search"></i>
+    <input type="text" className="form-control ps-4" placeholder="Search WallHerb"/>
+    </div>
+    <div className='navbar-icons  '><img src={vectorDollar} alt="Share Icon"/>
+</div>
+    <div className='navbar-icons  '><img src={vectorShare} alt="Share Icon"/>
+</div>
+    
+    
+  </div>
+</div>
   
   {/*  Mobile Screen */}
 

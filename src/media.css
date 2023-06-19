@@ -1,5 +1,65 @@
-/* Footer start */
 
+/* Navbar start */
+
+@media screen and (max-width:480px) {
+      .navbar-dektop{
+            display: none;
+      }
+      .navbar-mobile{
+            background-color: #458500;
+      }
+      .navbar-search{
+            position: relative;
+      }
+      .navbar-search > i{
+            position: absolute;
+            top: 35%;
+            left: 2%;
+      }
+      .navbar-search > input{
+            height: 80%;
+      }
+      .navbar-icons > img{
+            width: 1.5rem;
+            height: 1.2rem;
+            margin: 0px 5px;
+            
+      }
+}
+
+
+
+/* About */
+
+@media screen and (max-width:480px) {
+      .affordable-cs-main img {
+      width: 4rem;
+      height: 3.5rem;
+      margin: 10px ;
+      
+      }
+      .affordable-cs-main{
+            font-size: 0.7rem;
+            
+            }
+      .affordable-cs2{
+            display: none;
+            }
+}
+
+
+
+
+@media screen and (min-width:481px) {
+      .navbar-mobile{
+            display: none;
+      }
+}
+
+
+
+
+/* Footer start */
 @media screen and (max-width:480px) {
       .endfooterwrap {
             display: flex;

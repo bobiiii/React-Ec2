@@ -3,12 +3,12 @@ import Footer from "./Footer"
 
 // import Main from "./Main"
 // eslint-disable-next-line react/prop-types
-function Layout({ children }) {
+function Layout({ children, excludeHeaderFooter }) {
   return (
     <>
-      <Header />
+       {!excludeHeaderFooter && <Header />}
       <main>{children}</main>
-      <Footer />
+      {!excludeHeaderFooter && <Footer />}
     </>
   )
 }

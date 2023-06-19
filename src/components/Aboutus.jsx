@@ -158,13 +158,49 @@ function Aboutus() {
 
                 {/*  Affordable and has a great selection  panding  */}
                 <div className='affordable-cs-main'>
-                <div className='container-fluid affordable-cs text-white'>
-                    <div className='d-flex flex-sm-column flex-wrap justify-content-evenly align-items-center h-75'>
-                        <div className='d-flex align-items-center '>
+                <div className=' container-fluid affordable-cs text-white'>
+                 {/* for small device */}
+                   <div className=" d-flex  d-md-none d-lg-none  container-fluid flex-column  justify-content-center  align-items-center">
+                    <div className="d-flex align-items-center">
+                    <img src={androidLogo} className='px-1' alt='img'/>
+                        <div className="d-flex flex-column align-items-center ">
+                            <span>4.8 <span>/ 5</span></span>
+                            <span>351k reviews</span>
+                        </div>
+                    </div>
+                    <div className="d-flex align-items-center">
+                    <img src={googleLogo} className='' alt='img'/>
+                    <div className="d-flex flex-column align-items-center">
+                            <span>4.8 <span>/ 5</span></span>
+                            <span>Over 999k reviews</span>
+                        </div>
+                    </div>
+                    <div className="d-flex align-items-center ">
+                    <img src={appleLogo} className='' alt='img'/>
+                    <div className="d-flex flex-column align-items-center">
+                            <span>4.5 <span>/ 5</span></span>
+                            <span>969k reviews</span>
+                        </div>
+                    </div>
+                    
+                    <div className="d-flex align-items-center text-center">
+                    <img src={drImg} className='' alt='img'/>
+                            <div className='d-flex flex-column  '>
+                                <span className=' '>Dr. Michael Murray recommends
+shopping with iHerb</span>
+                                <span className=''>Watch the video</span>
+                            </div>
+                    </div>
+                   </div>
+                   
+                   
+                   {/* for large and medium device */}
+                    <div className='d-none d-md-flex   flex-wrap  justify-content-evenly align-items-center '>
+                        <div className='d-flex   align-items-center '>
                             <img src={androidLogo} className='px-1' alt='img'/>
                             <div className='d-flex flex-column'>
-                                <span className='fs-cs-4 fw-bold'>4.8 <span className='fs-cs-2'>/ 5</span></span>
-                                <span className='fs-cs-1'>351k ratings</span>
+                                <span className=' '>4.8 <span className='fs-cs-2'>/ 5</span></span>
+                                <span className=''>351k ratings</span>
                             </div>
                         </div>
                         <div className='d-flex align-items-center '>
@@ -191,7 +227,7 @@ shopping with iHerb</span>
                         </div>
                         
                     </div>
-                <div className='container w-75 pt-3 d-sm-none  text-dark text-center   rounded-3 pt-2 border affordable-cs2'>
+                <div className='d-none d-lg-block mt-2 container  w-75 pt-3 d-sm-none  text-dark text-center   rounded-3 pt-2 border affordable-cs2'>
                 
                     <Slider {...settings}  >
                 <div className='d-flex flex-column align-items-center  '>

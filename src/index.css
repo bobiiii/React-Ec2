@@ -284,24 +284,27 @@
 
 
 
-
+@media (min-width:300px) and (max-width:600px) {
+    .card-wrapper-cs> :nth-child(n+3) {
+        display: none;
+    }
+}
 
 
 
 /* For Mobile */
+
+
+
 @media (max-width:767px) {
     .card-wrapper-cs> :nth-child(n+4) {
         display: none;
     }
 
-    /* .card{
-        width: calc(100% / 3);
-         background-color: #868380; 
-     
-    } */
+    
 
     .card-box {
-        width: calc(100% / 4);
+        width: calc(100% / 3);
         margin: 0px 0.2rem;
     }
 
@@ -1738,13 +1741,13 @@ button {
 
 /* About */
 .affordable-cs-main{
-    height: 35vh;
+    height: auto;
 }
 
 .affordable-cs{
 position: relative;
-height: 25vh;
-background-color: #2E7D32;
+height: auto;
+background-color: #438a47;
 }
 
 .affordable-cs2{
