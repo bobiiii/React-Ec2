@@ -1,0 +1,201 @@
+/* Footer start */
+
+@media screen and (max-width:450px) {
+      .endfooterwrap {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 90%;
+            font-size: 10px;
+            height: 100%;
+      }
+
+
+
+}
+
+
+@media screen and (max-width : 450px) {
+
+      .footercenter {
+            background-color: #FAFAFA;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: right;
+            text-align: start;
+            font-size: 10px;
+      }
+
+
+      .ftritems {
+            width: 90%;
+      }
+
+
+      .textoffer {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 15px;
+      }
+
+
+      .social-buttons {
+            align-items: start;
+      }
+
+
+
+
+
+      .social-button {
+            display: flex;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin: 0 10px;
+            background-color: #FAFAFA;
+            transition: 0.3s;
+      }
+
+      .social-buttons svg {
+            transition: 0.3s;
+            height: 10px;
+      }
+
+      .mobile-g-none {
+            display: none;
+      }
+
+
+      .mobile-installiicon-section {
+            width: 60%;
+      }
+
+      .mobile-qr-none {
+            display: none;
+      }
+
+
+      .Get-the-wallHerb-App-Today-for-mobile {
+            font-size: 12px;
+      }
+
+}
+
+
+@media screen and (min-width:450px) {
+      .Get-the-wallHerb-App-Today-for-mobile {
+            display: none;
+      }
+}
+
+
+
+/* Footer end*/
+
+
+
+
+/* About start */
+
+@media screen and (max-width:450px) {
+      .iHerb-a-a-glance-for-mobile h3 {
+            font-size: 24px;
+      }
+
+      .Top-10-reasons {
+            width: 80%;
+      }
+
+      .about-top-ten-section-wrap {
+            width: 100%;
+
+      }
+
+      .about-top-ten-section-list {
+            display: flex;
+            gap: 1em;
+            text-align: left;
+            flex-direction: column;
+
+      }
+
+
+      .top-ten-numbers h3 {
+
+            font-family: 'Lato';
+            font-style: italic;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 66px;
+      }
+
+
+      .about-top-ten-section-list-text h4 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+      }
+
+      .about-top-ten-section-list-text p {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+.iHerb-House-Brands-offer-section-text-size-for-mobile{
+      text-align: center;
+}
+
+
+.about-last-section-for-moile{
+      display: none;
+}
+
+}
+
+/* About End */
+
+
+
+
+
+/* Sale and Offer start */
+
+
+  @media screen and (max-width : 450px) {
+      .sale-last-section-for-mobile{
+            display: none;
+      }
+      
+      
+      .Sales-and-offer-for-mobile{
+            text-align: left;
+      }
+      
+      .sales-andd-ooffer-section {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        
+        }      
+
+
+        .aaaaaa{
+            text-align: left;
+        }
+  }
+
+/* Sale and Offer End */

@@ -1,6 +1,9 @@
 import React from 'react'
 import logoImage from "../images/logo.jpg"
 import cart from "../images/cart.png"
+import dollar from "../images/dollar-sign.png"
+import share from "../images/sharelogo.png"
+
 function Header() {
   return (
     <>
@@ -73,6 +76,15 @@ function Header() {
           </div>
         </div>
       </nav>
+
+
+    {/*  Mobile Screen */}
+
+  
+  {/*  Mobile Screen */}
+
+
+
     </>
   )
 }
