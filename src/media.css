@@ -1,6 +1,6 @@
 /* Footer start */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
       .endfooterwrap {
             display: flex;
             justify-content: center;
@@ -15,7 +15,7 @@
 }
 
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width : 480px) {
 
       .footercenter {
             background-color: #FAFAFA;
@@ -88,7 +88,7 @@
 }
 
 
-@media screen and (min-width:450px) {
+@media screen and (min-width:480px) {
       .Get-the-wallHerb-App-Today-for-mobile {
             display: none;
       }
@@ -103,7 +103,7 @@
 
 /* About start */
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
       .iHerb-a-a-glance-for-mobile h3 {
             font-size: 24px;
       }
@@ -153,16 +153,125 @@
             line-height: 24px;
       }
 
-.iHerb-House-Brands-offer-section-text-size-for-mobile{
-      text-align: center;
+      .iHerb-House-Brands-offer-section-text-size-for-mobile {
+            text-align: center;
+      }
+
+
+      .about-last-section-for-moile {
+            display: none;
+      }
+
+
+      .iHerb-is-run-sention {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+
+      }
+
+      .iHerb-is-run-sention-wrap {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+
+      }
+
+      .iHerb-is-run-sention-wrap h4 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+      }
+
+
+
+      .iHerb-is-run-sention-wrap p {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+
+      .iHerb-is-run-cards-for-mob {
+            text-align: start;
+      }
+
+      .iHerb-is-run-cards-for-mob img {
+            width: 80%;
+            height: 70%;
+            border-radius: 8px 0px 0px 8px;
+      }
+
+
+      .iHerb-is-run-cards-for-mob-text p {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+      .iHerb-is-run-cards-for-mob-text {
+            width: 10rem;
+      }
+
+
+      .iHerb-is-run-cards-for-mob-text h4 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+
+
+      .for-mob-is-none {
+            display: none;
+      }
+
+      .iHerb-House-Brands-offer-images-sections {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+      }
+
+
+
+
+      .iHerb-House-Brands-offer-images-div img {
+
+            width: 100%;
+            height: 100%;
+      }
+
+      .offer-the-best-value-is-mobile-noneeeee {
+            display: none;
+      }
+
 }
 
 
-.about-last-section-for-moile{
-      display: none;
+@media screen and (min-width : 480px) {
+      .iHerb-is-run-cards-for-mobile-dis-on {
+            display: none;
+      }
+
+      .iHerb-House-Brands-offer-section-for-mobile-on {
+            display: none;
+      }
 }
 
-}
 
 /* About End */
 
@@ -173,29 +282,280 @@
 /* Sale and Offer start */
 
 
-  @media screen and (max-width : 450px) {
-      .sale-last-section-for-mobile{
+@media screen and (max-width : 480px) {
+      .sale-last-section-for-mobile {
             display: none;
       }
-      
-      
-      .Sales-and-offer-for-mobile{
+
+
+      .Sales-and-offer-for-mobile {
             text-align: left;
       }
-      
+
       .sales-andd-ooffer-section {
             height: 100%;
             width: 100%;
             display: flex;
             justify-content: center;
             text-align: center;
-        
-        }      
+
+      }
 
 
-        .aaaaaa{
+      .aaaaaa {
             text-align: left;
-        }
-  }
+      }
+}
 
 /* Sale and Offer End */
+
+
+
+
+
+
+/* checkout start */
+
+@media screen and (max-width : 480px) {
+
+
+      .checkousection {
+            width: 100%;
+            height: 50vh;
+            background: #FFFFFF;
+      }
+
+
+      .Shopping-Cart-for-mobile-none {
+            display: none;
+      }
+
+      .Start-Shopping-btn-for-mobile {
+            display: none;
+      }
+
+
+
+      .check-mobile-section {
+            width: 100%;
+            height: 100%;
+            text-align: justify;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+
+            background: #FFF9C4;
+            border: 1px solid #8A6702;
+            border-radius: 8px;
+
+      }
+
+
+
+
+}
+
+
+@media screen and (min-width : 480px) {
+      .check-mobile-section {
+            display: none;
+      }
+
+      .check-mobile-section-text {
+            display: none;
+      }
+
+}
+
+
+/*checkOut end  */
+
+
+
+
+
+
+/* Corporate start */
+
+@media screen and (max-width:480px) {
+      .cor-our-mission-wrap h4 {
+            margin-top: 1rem;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 32px;
+      }
+
+
+      .cor-our-mission-wrap p {
+
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            text-align: center;
+      }
+
+      .cor-our-mission-for-desktop {
+            display: none;
+      }
+
+      .corporate-about {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+      }
+
+
+
+      .corporate-about h4 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+      }
+
+
+      .corporate-about p {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+      }
+
+
+      .corporate-about-a-tag a {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 26px;
+      }
+
+      .cor-box-image-section img {
+            display: none;
+      }
+
+
+      .years-of-bringing-for-mob h4 {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+      }
+
+
+
+      .years-of-bringing-for-desk {
+            display: none;
+      }
+
+      .at-a-Glance-for-mobile-text-size {
+
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+      }
+
+
+      .We-deliver-around-for-mobile h5 {
+            text-align: start;
+
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+      }
+
+
+      .We-deliver-around-for-mobile p {
+            text-align: start;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 18px;
+      }
+
+
+      .Press-Releases-text-size-for-mob {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+      }
+
+
+      .Press-Releases-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+      }
+
+      .Chief-Operating-Officer {
+            width: 100%;
+      }
+
+
+      .Chief-Operating-Officer p {
+            font-family: 'Helvetica';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+      }
+
+
+
+      .Chief-Operating-Officer h5 {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 17px;
+            line-height: 22px;
+      }
+
+
+      .Chief-Operating-Officer-cards-section {
+            width: 50%;
+            background: #FFFFFF;
+        }
+  
+
+
+
+}
+
+
+
+@media screen and (min-width:480px) {
+
+      .cor-our-mission-for-mobiles {
+            display: none;
+      }
+
+      .years-of-bringing-for-mob {
+            display: none;
+      }
+
+
+}
+
+
+
+
+/* Corporate start */
