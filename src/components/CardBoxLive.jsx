@@ -22,7 +22,7 @@ function CardBoxLive() {
           <div  className="carousel live-box carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex  ">
+                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex   ">
                   {slide1.map((item, index) => {
                     return (<div key={index} className="w-100 mt-2 live-cards   ">
                       <div className="card d-flex justify-content-center  mx-3 card-cont" key={index} >
