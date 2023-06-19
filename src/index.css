@@ -704,11 +704,10 @@
 
 }
 .dashboard-main{
-    border: 1px solid green
+    
 }
 .sidebarsection {
-    width: 10rem;
-    border: 1px solid blue;
+    
 }
 
 .dashboard-reward{
@@ -1735,6 +1734,30 @@ button {
     flex-wrap: wrap;
     gap: 2em;
 }
+
+
+/* About */
+.affordable-cs-main{
+    height: 35vh;
+}
+
+.affordable-cs{
+position: relative;
+height: 25vh;
+background-color: #2E7D32;
+}
+
+.affordable-cs2{
+    background-color: white;
+    height: 20vh;
+    position: absolute;
+    top: 70% ;
+    left: 0;
+    right:0 ;
+}
+
+
+
 
 .about-top-ten-section{
     width: 100%;
