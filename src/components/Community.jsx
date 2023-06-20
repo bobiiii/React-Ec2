@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+// import React from 'react'
 import comone from "../images/comone.png"
 import comtwo from "../images/comtwo.png"
 import comthree from "../images/comthree.png"
@@ -144,7 +145,7 @@ function Community() {
                             <div style={{ width: "20rem" }} className='text-center '>
                                 <h4 className='fs-cs-2'>"I was looking for a good Organic Raw Apple
                                     Cider Vinegar, and found this one! It is delicious
-                                    and ad ..."
+                                    and ad .."
                                     <a href="" className='text-decoration-none'>See Full Review</a> </h4>
                             </div>
                         </div>
