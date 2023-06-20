@@ -22,6 +22,7 @@ import youtube from "../images/youtube-logo.png.png"
 import pin from "../images/pinterest-logo.png.png"
 import insta from "../images/instagram-logo.png.png"
 import WorldIco from "../images/Shape1.png"
+import cornav from "../images/cornav.png"
 
 
 function Corporate() {
@@ -62,6 +63,30 @@ function Corporate() {
             </div>
           </div>
         </nav>
+
+
+
+
+        {/* for mobile */}
+        <div className="nvbar-cor-for-mob container-fluid  ">
+          <div className="d-flex nvbar-cor-for-mob-two-div">
+            <div><h5 className="text-light"> WalHerb</h5></div>
+            <div><img src={cornav} alt="" /></div>
+          </div>
+
+          <div>
+            <h1 className="nvbar-cor-for-mob-last-link">a</h1>
+          </div>
+        </div>
+
+
+        {/* for mobile */}
+
+
+
+
+
+
         <div className='corporate-hero-image'>
           <img src={corimg} alt="" />
         </div>
@@ -119,11 +144,11 @@ function Corporate() {
             <p>26 years of bringing health and wellness products to the world</p>
           </div>
 
-            {/* For Mobile */}
-            <div className='mt-5 years-of-bringing-for-mob'>
+          {/* For Mobile */}
+          <div className='mt-5 years-of-bringing-for-mob'>
             <h4>26 years of bringing health and wellness products to the world</h4>
           </div>
-            {/* For Mobile */}
+          {/* For Mobile */}
 
 
         </div>
@@ -317,11 +342,11 @@ function Corporate() {
         </div>
 
 
-        <section className='Press-Releases-main-section mt-5'>
+        <section className='Press-Releases-main-section mt-5 '>
           <br />
           <h5 className='text-center Press-Releases-text-size-for-mob'>Press Releases</h5>
           <div className='Press-Releases-section  container-fluid mt-5'>
-            
+
             <div className='Chief-Operating-Officer'>
               <p>May 03, 2023</p>
               <h5>iHerb Names Miriee Chang as Chief Operating
@@ -379,9 +404,13 @@ function Corporate() {
             </div>
 
 
-            <div className='Chief-Operating-Officer-cards-section'>
+            <div className='Chief-Operating-Officer-cards-section  Chief-Operating-Officer-cards-section-for-mobil-block-sec'>
 
               <div className="card border-0" style={{ width: "100%" }}>
+
+
+
+
                 <div className="row g-0 d-flex">
                   <div className="col-md-4 cheif-cards">
                     <img src={cheif} className="img-fluid rounded-start mt-3" alt="Image" />
@@ -424,12 +453,50 @@ function Corporate() {
                 </div>
               </div>
 
-              <a href="" className='btn btn-outline-success fs-cs-1 mt-4' style={{ width: "100&" }}> View all press releases </a>
+
+              <a href="" className='btn btn-outline-success fs-cs-1   ' style={{ width: "100&" }}> View all press releases </a>
+            </div>
 
 
 
+
+
+
+
+
+            {/* for mobile */}
+
+            <div className="Chief-Operating-Officer-cards-section  Chief-Operating-Officer-cards-section-for-mob mt-5" >
+
+              <div className="Chief-Operating-Officer-cards-for-mob mt-5  " >
+                <div className="Chief-cards-images">
+                  <img src={cheif} alt="" />
+                  <div>
+                    <p className="Chief-Operating-cards-text-mob">May 03, 2023</p>
+                    <h5 className="Chief-Operating-cards-text-mob-h5">wallHerb Names Miriee Chang as Chief Operating Officer </h5>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+
+              <div className="Chief-Operating-Officer-cards-for-mob  " >
+                <div className="Chief-cards-images">
+                  <img src={cheif} alt="" />
+                  <div>
+                    <p className="Chief-Operating-cards-text-mob">May 03, 2023</p>
+                    <h5 className="Chief-Operating-cards-text-mob-h5">wallHerb Names Miriee Chang as Chief Operating Officer </h5>
+                  </div>
+                </div>
+              </div>
+              <hr />
+
+              <a href="" className='btn btn-success fs-cs-1 ' style={{ width: "50%", background: "white", color: "#458500" }}> View all press releases </a>
 
             </div>
+
+            {/* for mobile */}
+
 
           </div>
         </section>
@@ -437,9 +504,9 @@ function Corporate() {
 
         {/* Global Responsibility */}
 
-        <div className="container-fluid py-3 Global-rs-bg ">
-          <div className="d-flex justify-content-center py-2">
-            <div className="w-25 p-2  border  ">
+        <div className="container-fluid py-3 Global-rs-bg mt-5   ">
+          <div className="d-flex justify-content-center py-2 Global-rs-bg-wrap">
+            <div className=" p-2  border  Global-rs-bg-wrap-div">
 
               <span className=""><img className="pe-2" style={{ height: "2rem" }} src={WorldIco} /></span>
               <h3 className="d-inline fs-cs-3  ">
@@ -448,7 +515,7 @@ function Corporate() {
                 nisi, rerum architecto neque expedita laudantium
                 reprehenderit quidem </p>
             </div>
-            <div className="w-25 px-3 py-1 mx-2 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+            <div className="Global-rs-bg-wrap-div px-3 py-1 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
               <h4 className="fs-cs-3 py-3">Sustainability</h4>
               <p>
                 Through a number of ongoing eco-
@@ -462,7 +529,7 @@ function Corporate() {
               </p>
               <button className=" w-50 bg-transparent border-1 text-light border-light">Read more</button>
             </div>
-            <div className="w-25 px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+            <div className="Global-rs-bg-wrap-div px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
               <h4 className="fs-cs-3 py-3">Philanthropy</h4>
               <p className="">We are currently involved in various
                 educational projects in Cambodia,
@@ -514,14 +581,16 @@ function Corporate() {
             <div className="container text-center text-md-start mt-5 ">
               <div className="row mt-3 ">
 
-                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+
+                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 cor-ftr-for-desk">
 
                   <h6 className="text-uppercase fw-bold text-light fs-cs-1 mt-5">iHerb | CORPORATE</h6>
 
 
                 </div>
 
-                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 cor-ftr-for-desk">
 
                   <h6 className="text-uppercase fw-bold text-light fs-cs-1 mt-5">About Us</h6>
 
@@ -531,7 +600,7 @@ function Corporate() {
 
                 </div>
 
-                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark">
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark cor-ftr-for-desk">
 
                   <h6 className="text-uppercase fw-bold text-light text-decoration-none fs-cs-1 mt-5">Global Responsibility</h6>
 
@@ -539,13 +608,38 @@ function Corporate() {
                     <a href="#!" className="text-secondary text-decoration-none text-light ">Careers</a>
                   </p>
                 </div>
-                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 cor-ftr-for-desk">
 
                   <a href="" className='btn btn-outline-light fs-cs-1 mt-5'>Shop iHerb.com</a>
 
+
+
                 </div>
 
-                <div className="social-buttons " style={{ background: "#222222" }}>
+
+                {/* for mobile */}
+
+                <div className="text-light cor-ftr-for-mob">
+
+                  <div className="cor-ftr-for-mob-text-for-mob"> <h3>walHerb | CORPORATE</h3>  </div>
+                  <div className="cor-ftr-for-mob-text-for-mob"><h4>About Us</h4></div>
+                  <div className="cor-ftr-for-mob-text-for-mob"><h4>Press</h4></div>
+                  <div className="cor-ftr-for-mob-text-for-mob"><h4>Global Responsibility</h4></div>
+                  <div className="cor-ftr-for-mob-text-for-mob"><h4>Careers</h4></div>
+
+                  <div >
+                    <a href="" className='btn btn-outline-light fs-cs-1 '>Shop iHerb.com</a>
+                  </div>
+
+
+                </div>
+
+
+                {/* for mobile */}
+
+
+
+                <div className="social-buttons social-buttons-cor-footer-for-mob " style={{ background: "#222222" }}>
                   <a href="#" className="social-button github ">
                     <img src={facebook} alt="" />
                   </a>

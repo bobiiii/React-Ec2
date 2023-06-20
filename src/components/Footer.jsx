@@ -11,18 +11,19 @@ function Footer() {
       <div className='footerimage'>
         <img src={footer} alt="" style={{ width: "100%", height: "auto" }} />
       </div>
-      <section className='container-fluid ftrsection '>
-        <br />
-        <div className="container my-5  ">
+      <section className=' ftrsection ' >
+        
+        
+        <div className=" my-5   this-footer-none-for-mobile " style={{    background: "#FAFAFA"}}>
           <footer
-            className="text-center text-lg-start text-gray ftrtext "
-            style={{ backgroundColor: '#F5F5F5;', marginTop: "1em" }}
+            className="text-center text-lg-start text-gray ftrtext  "
+            style={{ backgroundColor: '#F5F5F5', marginTop: "1em" }}
           >
             <section className="">
               <div className="container text-center text-md-start mt-5 ">
-                <div className="row mt-3">
+                <div className="row mt-3 ">
 
-                  <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 mt-5">
 
                     <h6 className="text-uppercase fw-bold text-dark">ABOUT</h6>
                     <hr
@@ -43,7 +44,7 @@ function Footer() {
                     </p>
                   </div>
 
-                  <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 mt-5">
 
                     <h6 className="text-uppercase fw-bold text-dark">COMPANY</h6>
                     <hr
@@ -64,7 +65,7 @@ function Footer() {
                     </p>
                   </div>
 
-                  <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark">
+                  <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 text-dark mt-5">
 
                     <h6 className="text-uppercase fw-bold text-dark text-decoration-none">RESOURCES</h6>
                     <hr
@@ -87,7 +88,7 @@ function Footer() {
                       <a href="#!" className="text-secondary text-decoration-none">Sales & Offers</a>
                     </p>
                   </div>
-                  <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
 
                     <h6 className="text-uppercase fw-bold text-dark">CUSTOMER SERVECIES</h6>
                     <hr
@@ -113,7 +114,7 @@ function Footer() {
                     </div>
                   </div>
 
-                  <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mobile-qr-none">
+                  <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mb-5 mobile-qr-none">
 
                     <h6 className="text-uppercase fw-bold text-dark">MOBILE APPS</h6>
                     <hr
@@ -147,6 +148,7 @@ function Footer() {
           </footer>
         </div>
 
+ 
         {/* <div className="accordion w-100" id="basicAccordion">
   <div className="accordion-item">
     <h2 className="accordion-header" id="headingOne">
@@ -208,17 +210,82 @@ function Footer() {
 </div> */}
 
 
+<div className="accordion w-100 for-desktop-screen-this-ftr-none" id="basicAccordion" >
+  <div className="accordion-item" >
+    <h2 className="accordion-header" id="headingOne">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne" style={{backgroundColor:"#F5F5F5"}}>
+        <h5 className='footer-for-mobile-text-size'>About</h5>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
+        <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingTwo">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={{backgroundColor:"#F5F5F5"}}>
+        <h5 className='footer-for-mobile-text-size'>Company</h5>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+      data-bs-parent="#basicAccordion" >
+      <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree" style={{backgroundColor:"#F5F5F5"}}>
+        <h5 className='footer-for-mobile-text-size'>Resources</h5>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion" style={{backgroundColor:"#F5F5F5"}}>
+      <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree" style={{backgroundColor:"#F5F5F5"}}>
+        <h5 className='footer-for-mobile-text-size'>Customer Service</h5>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
 
 
         <hr/>
-        <br />
+      
         <Footercenter/>
         <Footerend/>
       </section>
 
 
+ 
 
-      
+
 
 
 
