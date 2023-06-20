@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/no-unescaped-entities */
+// import React from 'react'
 import comone from "../images/comone.png"
 import comtwo from "../images/comtwo.png"
 import comthree from "../images/comthree.png"
@@ -81,21 +82,42 @@ function Community() {
                 <hr />
 
 
+                {/* Happy Customer Heading */}
                 <div className='container  Latest-happy-customers '>
                     <img src={comone} alt="" style={{ width: "40px", height: "40px", textAlign: "center" }} />
                     <h4 className=' mt-2 fs-5'>Latest happy customers</h4>
                 </div>
 
 
-                <div className='Latest-happy-customers-card-cont'>
-                    <div className='Latest-happy-customers-card container-fluid'>
+                <div className='Latest-happy-customers-card-cont   '>
+                    <div className='Latest-happy-customers-card d-flex flex-nowrap flex-md-wrap flex-lg-wrap overflow-scroll justify-content-md-center  container-fluid'>
+                        {/* first */}
+                        <div className="  p-3 py-4 border-0 w-auto  ">
+                            <div className="text-center leadership-user">
+                                <img src={comtwo} width="100" className="rounded-circle" style={{ width: "116px", height: "116px" }} />
+                            </div>
+                            <div className="text-center mt-3 fs-4" >
+                                <p className='fs-cs-1 ' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
+                                    wrote this
+                                    review on May 25, 2023
+                                </p>
+                            </div>
+                            <div style={{ width: "20rem" }} className='text-center '>
+                                <h4 className='fs-cs-2'>"I was looking for a good Organic Raw Apple
+                                    Cider Vinegar, and found this one! It is delicious
+                                    and ad ..."
+                                    <a href="" className='text-decoration-none'>See Full Review</a> </h4>
+                            </div>
+                        </div>
 
-                        <div className="card p-3 py-4 border-0 Latest-happy-customers-card-res">
+
+                        {/* first */}
+                        <div className="  p-3 py-4 border-0 w-auto  ">
                             <div className="text-center leadership-user">
                                 <img src={comtwo} width="100" className="rounded-circle" style={{ width: "116px", height: "116px" }} />
                             </div>
-                            <div className="text-center mt-3" style={{ width: "10em" }}>
-                                <p className='fs-cs-1' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
+                            <div className="text-center mt-3 fs-4" >
+                                <p className='fs-cs-1 ' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
                                     wrote this
                                     review on May 25, 2023
                                 </p>
@@ -107,29 +129,15 @@ function Community() {
                                     <a href="" className='text-decoration-none'>See Full Review</a> </h4>
                             </div>
                         </div>
-                        <div className="card p-3 py-4 border-0 Latest-happy-customers-card-res">
+
+
+                        {/* first */}
+                        <div className="  p-3 py-4 border-0 w-auto  ">
                             <div className="text-center leadership-user">
                                 <img src={comtwo} width="100" className="rounded-circle" style={{ width: "116px", height: "116px" }} />
                             </div>
-                            <div className="text-center mt-3" style={{ width: "10em" }}>
-                                <p className='fs-cs-1' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
-                                    wrote this
-                                    review on May 25, 2023 lore
-                                </p>
-                            </div>
-                            <div style={{ width: "20rem" }} className='text-center '>
-                                <h4 className='fs-cs-2'>"I was looking for a good Organic Raw Apple
-                                    Cider Vinegar, and found this one! It is delicious
-                                    and ad ...
-                                    <a href="" className='text-decoration-none'>See Full Review</a> </h4>
-                            </div>
-                        </div>
-                        <div className="card p-3 py-4 border-0 Latest-happy-customers-card-res">
-                            <div className="text-center leadership-user">
-                                <img src={comtwo} width="100" className="rounded-circle" style={{ width: "116px", height: "116px" }} />
-                            </div>
-                            <div className="text-center mt-3" style={{ width: "10em" }}>
-                                <p className='fs-cs-1' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
+                            <div className="text-center mt-3 fs-4" >
+                                <p className='fs-cs-1 ' > <span><a href="" className='text-decoration-none me-1'>iHerb Customer</a></span>
                                     wrote this
                                     review on May 25, 2023
                                 </p>
@@ -137,7 +145,7 @@ function Community() {
                             <div style={{ width: "20rem" }} className='text-center '>
                                 <h4 className='fs-cs-2'>"I was looking for a good Organic Raw Apple
                                     Cider Vinegar, and found this one! It is delicious
-                                    and ad ..."
+                                    and ad .."
                                     <a href="" className='text-decoration-none'>See Full Review</a> </h4>
                             </div>
                         </div>
@@ -148,6 +156,10 @@ function Community() {
                     </div>
                 </div>
 
+
+
+
+                {/* Dynamic Health LAb */}
                 <div className='Latest-happy-customers-card-cont container-fluid mt-5'>
                     <div className='Latest-happy-customers-card container-fluid mb-5'>
                         <div className='Latest-happy-customers-card-2 d-flex'>
@@ -184,13 +196,17 @@ function Community() {
                     </div>
                 </div>
                 <hr />
+
+
+
+                    {/* Featured Profiles  Heading*/}
                 <div className='container  Latest-happy-customers  mt-5'>
                     <img src={comfour} alt="" style={{ width: "40px", height: "40px", textAlign: "center" }} />
                     <h4 className=' mt-2 fs-5'>Featured profiles</h4>
                 </div>
 
 
-
+                    {/* Featured Profiles */}
                 <div className='Latest-happy-users-cards container-fluid'>
 
                     <div className="container mt-4 mb-4 p-3 d-flex justify-content-center" style={{ width: "16rem", boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.1)' }}>
@@ -281,7 +297,7 @@ function Community() {
 
                 <hr className='mt-5' />
 
-
+                    {/* Active profiles india */}
                 <div className='container  Latest-happy-customers mt-5 '>
                     <img src={comsix} alt="" style={{ width: "40px", height: "40px", textAlign: "center" }} />
                     <h4 className=' mt-2 fs-5'>Most active profiles in

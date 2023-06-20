@@ -10,7 +10,7 @@ import wallherb2 from "../images/wallherb2.png"
 import wallherb3 from "../images/wallherb3.png"
 import wallherb4 from "../images/wallherb4.png"
 import wallherb5 from "../images/wallherb5.png"
-import wallherb6 from "../images/wallherb6.png"
+// import wallherb6 from "../images/wallherb6.png"
 import ceo from "../images/ceo.png"
 import cheif from "../images/cheif.png"
 // import global from "../images/global.png"
@@ -505,8 +505,8 @@ function Corporate() {
         {/* Global Responsibility */}
 
         <div className="container-fluid py-3 Global-rs-bg mt-5   ">
-          <div className="d-flex justify-content-center py-2 Global-rs-bg-wrap">
-            <div className=" p-2  border  Global-rs-bg-wrap-div">
+          <div className="d-flex   flex-column flex-md-row py-2 ">
+            <div className="p-2  align-self-center ">
 
               <span className=""><img className="pe-2" style={{ height: "2rem" }} src={WorldIco} /></span>
               <h3 className="d-inline fs-cs-3  ">
@@ -515,7 +515,7 @@ function Corporate() {
                 nisi, rerum architecto neque expedita laudantium
                 reprehenderit quidem </p>
             </div>
-            <div className="Global-rs-bg-wrap-div px-3 py-1 lh-sm  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+            <div className="px-2 py-1 w-100 text-center  rounded-3  lh-sm mx-1  Global-rs-img text-light d-flex flex-column justify-content-between ">
               <h4 className="fs-cs-3 py-3">Sustainability</h4>
               <p>
                 Through a number of ongoing eco-
@@ -527,9 +527,9 @@ function Corporate() {
                 maintaining the highest quality of
                 standards for our customers.
               </p>
-              <button className=" w-50 bg-transparent border-1 text-light border-light">Read more</button>
+              <button className=" mx-auto w-auto px-2 py-1 bg-transparent border-1 text-light border-light">Read more</button>
             </div>
-            <div className="Global-rs-bg-wrap-div px-3 py-1  border Global-rs-img text-light d-flex flex-column justify-content-between ">
+            <div className="px-2 py-1 w-100 text-center  rounded-3 mx-1  Global-rs-img text-light d-flex flex-column justify-content-between ">
               <h4 className="fs-cs-3 py-3">Philanthropy</h4>
               <p className="">We are currently involved in various
                 educational projects in Cambodia,
@@ -538,7 +538,7 @@ function Corporate() {
                 promotion of childrens education
                 through the Cambodian Childrens
                 Fund and New Hope Cambodia.</p>
-              <button className="w-50 bg-transparent border-1 text-light border-light">Learn more</button>
+              <button className="mx-auto px-2 py-1 w-auto bg-transparent border-1 text-light border-light">Learn more</button>
             </div>
 
           </div>

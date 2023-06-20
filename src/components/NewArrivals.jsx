@@ -1,4 +1,5 @@
-import CardBox from "./CardBox"
+// import CardBox from "./CardBox"
+import Carouselcards from './Carouselcards'
 function NewArrivals() {
   return (
     <>
@@ -11,7 +12,7 @@ function NewArrivals() {
               </div>
           </div>
       
-      <CardBox/>
+      <Carouselcards/>
  </>
   )
 }

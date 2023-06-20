@@ -1434,9 +1434,12 @@ button {
     gap: 1rem;
     /* flex-wrap: wrap; */
 }
+.Global-rs-bg-wrap{
+
+}
 
 .Global-rs-bg-wrap-div{
-    width: 25%;
+    /* width: 25%; */
 }
 
 
@@ -1631,32 +1634,28 @@ button {
 
 
 .Latest-happy-customers-card-cont {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+    
+    
+    
+    
+    
+    
 
 }
 
 
-.Latest-happy-customers-card {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
+/* .Latest-happy-customers-card {
+    display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* width: 100%; */
+    /* flex-wrap: wrap;
 
-}
+} */
 
 .Latest-happy-customers-card-res {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    width: auto;
 
 }
 

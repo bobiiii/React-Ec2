@@ -1,5 +1,6 @@
 
-import CardBox from './CardBox'
+// import CardBox from './CardBox'
+import Carouselcards from './Carouselcards'
 
 function BestSellers() {
     return (
@@ -12,7 +13,7 @@ function BestSellers() {
               <div> <button type="button" className="btn btn-success">View All</button> 
               </div>
           </div>
-            <CardBox />
+            <Carouselcards/>
 
         </>
     )
