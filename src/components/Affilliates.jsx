@@ -32,10 +32,20 @@ function Affilliates() {
         </div>
       </div>
 
+
+
+   {/* For mobile */}
+   
+    <div className='wallHerb-Affiliates-for-mobile container-fluid mt-2 mb-2'>
+       <h4>wallHerb Affiliates</h4>
+    </div>
+
+   {/* For mobile */}
+
       <section style={{ background: "#EDF7E5" }}>
         <div className='affiliates-section-top  container-fluid '>
-          <div>
-            <h3 >Become an iHerb affiliate <br />
+          <div >
+            <h3 className='affiliates-section-top-text-for-mob' >Become an iHerb affiliate <br />
               and earn when you share!</h3>
             <div className='affiliates-section-top-buttuns mt-3'>
               <a href="" className='text-decoration-none btn ' style={{ background: "#458500", color: "#FFFFFF" }}>Apply to Partnerize</a>
@@ -49,70 +59,78 @@ function Affilliates() {
 
 
       <div className='Why-Join-section container-fluid mt-5'>
-        <h3 className='fs-cs-5'>Why Join?</h3>
+        <h3 className='fs-cs-5 Why-Join-section-h3-text'>Why Join?</h3>
 
-        <div className='faq-section mt-5'>
-          <section class="py-12 py-sm-24 bg-info-light  faq-section-size">
-            <div class="container ">
 
-              <div class="mw-3xl mx-auto">
 
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-0">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-0">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0" >Top Global Retailer</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-0">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0" >Wide Variety of Products</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                  <p class="d-none mw-md mt-4 mb-0 text-secondary" >Lorem ipsum dolor sit amet, to the consectr adipiscing elit. Volutpat tempor to the condi mentum vitae vel purus.</p>
-                </button>
 
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-0">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0" >Tools for Success</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </section>
 
-        </div>
+    <div className='faq-section mt-5'>
+    <div className="accordion faq-section-size" id="basicAccordion">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingOne">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+      <h6>Competitive Commission Rates</h6>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+        <a href="" className='text-decoration-none text-dark'>hello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingTwo">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <h6>Top Global Retailer</h6>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <h6>Wide Variety of Products</h6>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
 
+    
+  </div>
+
+  <div className="accordion-item ">
+    <h2 className="accordion-header " id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <h6>Tools for Success</h6>
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+    </div>
 
 
 
@@ -120,15 +138,47 @@ function Affilliates() {
       </div>
 
 
+
+     {/* for mobile */}
+
+
+     <div className='Promote-a-leading-company-for-mobile mt-5 container-fluid'>
+       <div className='Promote-a-leading-company-for-mobile-h3-size'>
+          <h3>Promote a leading company in
+health and wellness</h3>
+       </div>
+       <div className='Promote-a-leading-company-for-mobile-btn-text'>
+       <a href="" className='text-decoration-none btn ' style={{ background: "#458500", color: "#FFFFFF" }}>Apply to Partnerize</a>
+       </div>
+
+       <div className='Partnering-directly-for-mobile-text mt-5'>
+
+     <h3>Partner through a Global
+Subnetwork</h3>
+
+          <p>Partnering directly with iHerb through Partnerize will
+earn you the highest commission rate. Alternatively, we
+are integrated with a number of subnetworks targeting
+specific regions. Feel free to apply to our program
+through one of the following subnetworks:</p>
+       </div>
+
+
+     </div>
+
+
+     {/* for mobile */}
+
+
       <div className='Why-Join-card-section'>
 
         <div className='Why-Join-card-section-size'>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user  Why-Join-card-size-for-mobile " style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -138,27 +188,12 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
-            </div>
-            <div className="text-center mt-3">
-              <div >
-
-
-
-              </div>
-            </div>
-          </div>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
-              <img src={affimg} width="100" className="rounded-circle" />
-              <p>
-                Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -169,12 +204,13 @@ function Affilliates() {
             </div>
           </div>
 
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -184,12 +220,13 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -199,12 +236,13 @@ function Affilliates() {
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" >
-            <div className="text-center leadership-user" style={{ width: "80%" }}>
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
                 Europe/CIS/Georgia/Ukraine
-                MENA</p>
+                MENA </p>
             </div>
             <div className="text-center mt-3">
               <div >
@@ -214,6 +252,24 @@ function Affilliates() {
               </div>
             </div>
           </div>
+
+
+          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+            <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
+              <img src={affimg} width="100" className="rounded-circle" />
+              <p>
+                Europe/CIS/Georgia/Ukraine
+                MENA </p>
+            </div>
+            <div className="text-center mt-3">
+              <div >
+
+
+
+              </div>
+            </div>
+          </div>
+
 
         </div>
 
@@ -221,7 +277,7 @@ function Affilliates() {
 
 
       <div className='Why-Join-section container-fluid mt-5'>
-        <h3 className='fs-cs-5'>Program FAQ</h3>
+        <h3 className='fs-cs-5  Why-Join-section-Program-FAQ-text-size'>Program FAQ</h3>
 
         <div className='faq-section mt-5'>
           <section class="py-12 py-sm-24 bg-info-light  faq-section-size">
@@ -229,10 +285,10 @@ function Affilliates() {
 
               <div class="mw-3xl mx-auto ">
 
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
+                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1 aaaa">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >What are the requirements to join?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +300,7 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >How do I earn commission?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -256,7 +312,7 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >When do I get paid?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -268,7 +324,7 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >What is the cookie duration?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -280,7 +336,8 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >Can I participate in the Affiliate program if I
+don’t live in the US?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -292,7 +349,8 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >Can I participate in both the Affiliate and
+Rewards program?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -304,7 +362,8 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >I’m an Influencer. Can I join the Affiliate
+program?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -316,7 +375,7 @@ function Affilliates() {
                 <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
                   <div class="d-flex justify-content-between">
                     <div>
-                      <h6 class="fs-7 mb-0" >Competitive Commission Rates</h6>
+                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >How do I reach out if I have questions?</h6>
                     </div>
                     <div class="ps-4">
                       <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -339,7 +398,7 @@ function Affilliates() {
 
       </div>
 
-      <div className='sale-last-section  mt-5' style={{ background: " #F5F5F5" }}>
+      <div className='sale-last-section aff-last-section-for-mobile-none container-fluid  mt-5' style={{ background: " #F5F5F5" }}>
                         <br />
                         <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
                             <img src={sale1} className="card-img-top" alt="..." />
@@ -386,6 +445,79 @@ function Affilliates() {
 
                     </div>
 
+
+
+
+  {/* isko thk krna ha
+  
+        <div className="accordion w-100" id="basicAccordion">
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingOne">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+        About
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+        <a href="">heello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingTwo">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Company
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="">heello</a>
+      </div>
+    </div>
+  </div>
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Resources
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="">heello</a>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <div className="accordion-item">
+    <h2 className="accordion-header" id="headingThree">
+      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Customer Service
+      </button>
+    </h2>
+    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+      data-bs-parent="#basicAccordion">
+      <div className="accordion-body">
+      <a href="">heello</a>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+  
+  
+  
+  */}
 
 
 

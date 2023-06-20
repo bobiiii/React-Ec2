@@ -66,7 +66,25 @@ Capsules`,
 oldPrice: "₹723.60",
 newPrice: "₹804.00",
 rating: 9865
-},
+}
+,{
+    img:image5,
+    title: `California Gold Nutrition,
+    Immune 4, Immune System
+    Support, 60 Veggie Capsules`,
+    oldPrice: "₹351.79",
+    newPrice: "₹502.56",
+    rating: 35643
+    },{
+    img:image3,
+    title: `NOW Foods, Iron, Double
+    Strength, 36 mg, 90 Veg
+    Capsules`,
+    oldPrice: "₹723.60",
+    newPrice: "₹804.00",
+    rating: 9865
+    }
+    
 ]
 
 
@@ -111,6 +129,24 @@ export const slide2 =[{
 },
 {
     img: img9,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
+},
+{
+    img: img10,
 },
 {
     img: img10,

@@ -284,27 +284,30 @@
 
 
 
-
+@media (min-width:300px) and (max-width:600px) {
+    .card-wrapper-cs> :nth-child(n+3) {
+        display: none;
+    }
+}
 
 
 
 /* For Mobile */
-@media (max-width: 767px) {
+
+
+
+@media (max-width:767px) {
     .card-wrapper-cs> :nth-child(n+4) {
         display: none;
     }
 
-    /* .card{
-        width: calc(100% / 3);
-         background-color: #868380; 
-     
-    } */
+    
 
     .card-box {
-        width: calc(100% / 4);
+        width: calc(100% / 3);
         margin: 0px 0.2rem;
     }
-    
+
 
     .card-cont>img {
         width: 45%;
@@ -328,22 +331,21 @@
 
 
 /* Brand of week CSS Start */
-.brand-week-clr{
+.brand-week-clr {
     background-color: #C8E6C9;
 
 }
 
-.brand-cards{
-    
+.brand-cards {
+
     overflow-x: scroll;
     overflow-y: scroll;
 }
-.card-wrapper-cs2 img{
+
+.card-wrapper-cs2 img {
     width: 100px;
     ;
     height: 2rem
-    
-
 }
 
 .brand-week button {
@@ -359,17 +361,21 @@
 
 
 /* Yearly cards carousel */
-.year-box{
+.year-box {
     
+
     height: 15rem;
-    overflow: hidden auto;
+    overflow: auto auto;
 
 }
-.year-box h3{
+
+.year-box h3 {
     color: #F38A00;
 }
-.year-line{
-        position: relative;
+
+.year-line {
+    position: relative;
+    
 }
 
 
@@ -380,29 +386,34 @@
     background: #191970;
     left: 0;
     top: 5%;
-    position: absolute;}
+    position: absolute;
+    
+}
 
 
-    .year-line:after {
-        content: "";
-        display: block;
-        width: 6rem;
-        height: 3px;
-        background: #191970;
-        right: 0;
-        top: 5%;
-        position: absolute;
-      }
+.year-line:after {
+    content: "";
+    display: block;
+    width: 6rem;
+    height: 3px;
+    background: #191970;
+    right: 0;
+    top: 5%;
+    position: absolute;
+    
+}
+
 
 /* Yearly cards carousel */
 
 
 /* Product detail page Start */
-.special-banner{
+.special-banner {
     background-color: #FFF3F8;
 }
-.special-banner > h4{
-color: #D32F2F;
+
+.special-banner>h4 {
+    color: #D32F2F;
 
 }
 
@@ -475,7 +486,7 @@ color: #D32F2F;
 
 /* footer css End */
 .footercenter {
-    background-color: #FAFAFA;
+        
     width: 100%;
     height: 100%;
     display: flex;
@@ -485,26 +496,6 @@ color: #D32F2F;
 }
 
 
-@media screen and (max-width : 450px) {
-
-    .footercenter {
-        background-color: #FAFAFA;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-
-    .ftritems {
-        width: 90%;
-    }
-
-
-
-}
 
 .textoffer {
     font-family: 'Lato';
@@ -718,24 +709,29 @@ color: #D32F2F;
 
 
 .dashboardsection {
-    display: flex;
-    gap: 1em;
-    color: black;
-    width: 100%;
-}
 
+}
+.dashboard-main{
+    
+}
 .sidebarsection {
-    width: 15%;
+    
+}
+
+.dashboard-reward{
+    background-color: #E5F8E6;
 }
 
 
-.dash-first-cards-sec {
+
+
+/* .dash-first-cards-sec{
     width: 100%;
-
+    background-color: orange;
 }
-
 .dash-last-cards {
     width: 50%;
+    background-color: #3b5998;
 
 
 }
@@ -750,9 +746,9 @@ color: #D32F2F;
     display: flex;
     align-items: center;
     /* background-color: red; */
-}
+/* } */
 
-.dashuser i {
+/* .dashuser i {
     margin-right: 10px;
 
 }
@@ -809,7 +805,7 @@ color: #D32F2F;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-}
+} */
 
 /* .dashcardshearbtn {
     left: 16.67%;
@@ -819,7 +815,7 @@ color: #D32F2F;
     color: #F38A00;
 } */
 
-.dashcardshearbtn img {
+/* .dashcardshearbtn img {
     height: 15px;
     width: 16px;
     color: #F38A00;
@@ -917,12 +913,12 @@ color: #D32F2F;
 
 .accept:hover {
     background-color: rgb(55 65 81);
-}
+} */
 
-.accept:focus {
+/* .accept:focus {
     outline: 2px solid transparent;
     outline-offset: 2px;
-}
+} */
 
 /* dashboard css End */
 
@@ -950,10 +946,16 @@ color: #D32F2F;
 .sale-and-offer-route {
     justify-content: space-around;
     gap: 0.5em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
 }
 
+
+
 .All-Sales {
-    width: 70vh;
+    width: 12rem;
     height: 31.99px;
     background: #FFFFFF;
     border: 2px solid #458500;
@@ -973,8 +975,6 @@ color: #D32F2F;
 }
 
 .All-f-t-s {
-    width: 40%;
-    height: 31.99px;
     background: #FFFFFF;
     border: 1px solid #E0E0E0;
     border-radius: 16px;
@@ -1072,6 +1072,10 @@ color: #D32F2F;
     flex-wrap: wrap;
 }
 
+
+.more-way-text-for-desktop{
+    text-align: center;
+}
 
 /* sales and offer css end */
 
@@ -1216,6 +1220,17 @@ color: #D32F2F;
 }
 
 
+.We-deliver-around-for-mobile h5{
+    text-align: center;
+}
+
+
+.We-deliver-around-for-mobile p{
+    text-align: center;
+}
+
+
+
 .corporate-about {
     width: 50%;
     height: 100%;
@@ -1256,7 +1271,11 @@ color: #D32F2F;
 .Wallherb-at-a-Glance-cards-size {
     width: 20%;
     text-align: center;
-}
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+ }
 
 .wallherb1-logos img {
     width: 64px;
@@ -1270,7 +1289,7 @@ color: #D32F2F;
 }
 
 .Leadership-member-section {
-    width: 60%;
+    width: 90%;
     height: 100%;
     text-align: center;
     display: flex;
@@ -1294,8 +1313,11 @@ color: #D32F2F;
     height: 100%;
     display: flex;
     justify-content: space-around;
+    
 
 }
+
+
 
 .Chief-Operating-Officer {
     width: 50%;
@@ -1371,6 +1393,57 @@ color: #D32F2F;
     color: white;
 }
 
+.Global-rs-img {
+    /* background-image: url("./images/global-bg-card.jpg"); */
+    position: relative;
+}
+
+.Global-rs-img::before {
+    content: "";
+    background-image: url("./images/global-bg-card.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.85;
+
+}
+
+.Global-rs-img h4,
+p,
+button {
+    position: relative;
+    opacity: 1;
+
+
+
+
+
+
+}
+
+
+
+.Global-rs-bg {
+    background: #E5E5E5;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    /* flex-wrap: wrap; */
+}
+.Global-rs-bg-wrap{
+
+}
+
+.Global-rs-bg-wrap-div{
+    /* width: 25%; */
+}
+
+
+
 /* Corporate css End*/
 /* Corporate css End*/
 
@@ -1431,6 +1504,8 @@ color: #D32F2F;
     text-align: center;
     align-items: center;
 }
+
+
 
 
 /* Affilliates css end*/
@@ -1539,6 +1614,7 @@ color: #D32F2F;
     display: flex;
     justify-content: center;
     gap: 5em;
+
 }
 
 
@@ -1550,7 +1626,369 @@ color: #D32F2F;
     flex-direction: column;
 }
 
+.Latest-happy-customers {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+}
 
+
+.Latest-happy-customers-card-cont {
+    
+    
+    
+    
+    
+    
+
+}
+
+
+/* .Latest-happy-customers-card {
+    display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* width: 100%; */
+    /* flex-wrap: wrap;
+
+} */
+
+.Latest-happy-customers-card-res {
+    width: auto;
+
+}
+
+.Latest-happy-customers-card-2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Latest-happy-users-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.com-user-img img {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+.Most-active-cards-cont{
+    
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.Most-active-cards-cont-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 1.1em;
+    width: 100%;
+}
+
+
+.Most-active-cards{
+    width: 35rem;
+    
+}
+
+.active-cards{
+    border-radius: 0.5em ;
+    border: 1px  solid rgb(217, 207, 207);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding:0.1em;
+    
+
+}
+
+
+.Picture-gallery-cont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.Picture-gallery-img img{
+    width: 80%;
+    height:80%;
+}
+
+.about-section-image img{
+    width: 100%;
+}
+
+.iHerb-at-a-glance-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.iHerb-at-a-glance-section-wrap{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+/* About */
+.affordable-cs-main{
+    height: auto;
+}
+
+.affordable-cs{
+position: relative;
+height: auto;
+background-color: #438a47;
+}
+
+.affordable-cs2{
+    background-color: white;
+    height: 20vh;
+    position: absolute;
+    top: 70% ;
+    left: 0;
+    right:0 ;
+}
+
+
+
+
+.about-top-ten-section{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-top-ten-section-wrap{
+    width: 60%;
+    
+}
+
+.about-top-ten-section-list{
+    display: flex;
+    gap: 1em;
+    text-align: left;
+}
+
+.about-top-ten-section-list-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.iHerb-is-run-sention{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.iHerb-is-run-sention-wrap{
+    width: 40%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.iHerb-is-run-sention-wrap h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.iHerb-is-run-sention-wrap p{
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+
+
+
+
+.iHerb-is-run-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.iHerb-is-run-cards-wrap{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.iHerb-House-Brands-offer-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.Moreno{
+    text-align: left;
+}
+
+
+.iHerb-House-Brands-offer-cards{
+   width: 50%;
+   height: 100%; 
+   display: flex;
+   flex-wrap: wrap;
+   gap: 1rem;   
+}
+
+.Herb-House-Brands-offer-section-text{
+    width: 50%;
+    
+}
+
+.iHerb-House-Brands-offer-section-text-size{
+    width: 20rem;
+
+}
+
+
+.iHerb-at-a-glance-icon img{
+    width: 48px;
+    height: 48px;
+}
 
 
 /* Community css end*/
+
+
+
+
+/* Herbs and spices  css start*/
+
+
+.categories-top-bar{
+    width: 100%;
+    height: 100%;
+}
+
+.Herbs-Spices-heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.categories-dropdown{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.spices1-banner-image img{
+    width: 100%;
+}
+
+
+.herbs-section-main-spacing{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+
+.center-section{
+    width: 100%;
+
+}
+
+.herb-section-first-cards{
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.herb-cards-image-sec img{
+    width: 160px;
+    height: 160px;
+
+}
+
+.herb-cards-image-sec {
+    align-items: center;
+}
+
+.Get-the-latest-deals-section{
+    background: #E0E0E0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Get-the-latest-deals-section-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    gap: 1rem;
+}
+
+.srch-btn{
+    display: flex;
+    gap: 1rem;
+}
+
+/* Herbs and spices  css End*/
+/* Community css end*/
+
+
+

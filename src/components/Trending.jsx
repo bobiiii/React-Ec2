@@ -1,5 +1,6 @@
 
-import CardBox from './CardBox'
+// import CardBox from './CardBox'
+import Carouselcards from './Carouselcards'
 
 function Trending() {
   return (
@@ -11,7 +12,7 @@ function Trending() {
           <input className='ms-2 trdinput' placeholder='India' type="text" style={{ paddingLeft: '5px' }} />
         </div>
       </div>
-      <CardBox/>
+      <Carouselcards/>
 
     </>
   )

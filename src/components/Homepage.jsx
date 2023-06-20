@@ -12,7 +12,7 @@ function Homepage() {
     <>
 
       <Hero />
-      <div className="my-3">
+      <div className="">
       <Speacials />
       <Trending />
       <BestSellers/>

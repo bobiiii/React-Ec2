@@ -130,58 +130,62 @@ function Blogs() {
                     <hr />
                     <div className='blog-user-section-cards'>
 
-                        <div className="card p-3 py-4 border-0">
+                    <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. </p>
                             </div>
                         </div>
 
 
-                        <div className="card p-3 py-4 border-0">
+                        <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. </p>
                             </div>
                         </div>
-                        <div className="card p-3 py-4 border-0">
+                        <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. </p>
                             </div>
                         </div>
-                        <div className="card p-3 py-4 border-0">
+                        <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. lore</p>
                             </div>
                         </div>
-                        <div className="card p-3 py-4 border-0">
+                        <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. </p>
                             </div>
                         </div>
-                        <div className="card p-3 py-4 border-0">
+                        <div className="card p-3 py-4 border-0" style={{width:"15rem"}}>
                             <div className="text-center">
                                 <img src={user1} width="100" className="rounded-circle" />
                             </div>
                             <div className="text-center mt-3">
-                                <p className=''>Dr. Michael Murray, N.D.</p>
+                                <p className=''>Dr. Michael Murray, N.D. </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
+
                 <div className='text-center'>
                     <button className='btn btn' style={{ backgroundColor: '#458500', color: "#FFFFFF" }}> View All  </button>
                 </div>
