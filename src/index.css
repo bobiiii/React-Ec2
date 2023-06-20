@@ -362,9 +362,10 @@
 
 /* Yearly cards carousel */
 .year-box {
+    
 
     height: 15rem;
-    overflow: hidden auto;
+    overflow: auto auto;
 
 }
 
@@ -374,6 +375,7 @@
 
 .year-line {
     position: relative;
+    
 }
 
 
@@ -385,6 +387,7 @@
     left: 0;
     top: 5%;
     position: absolute;
+    
 }
 
 
@@ -397,7 +400,9 @@
     right: 0;
     top: 5%;
     position: absolute;
+    
 }
+
 
 /* Yearly cards carousel */
 
