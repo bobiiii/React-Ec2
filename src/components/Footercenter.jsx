@@ -9,7 +9,7 @@ import google from "../images/google.png"
 function Footercenter() {
   return (
     <>
-      <div className='footercenter container-fluid '>
+      <div className='footercenter container-fluid ' >
 
         <div className='ftritems'>
           <h6 className='textoffer '> Be the first to get promo offers straight to your inbox </h6>
