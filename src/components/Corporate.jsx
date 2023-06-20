@@ -70,7 +70,7 @@ function Corporate() {
         {/* for mobile */}
         <div className="nvbar-cor-for-mob container-fluid  ">
           <div className="d-flex nvbar-cor-for-mob-two-div">
-            <div><h5 className="text-light"> WalHerb</h5></div>
+            <div><h5 className="text-light"> walHerb</h5></div>
             <div><img src={cornav} alt="" /></div>
           </div>
 
