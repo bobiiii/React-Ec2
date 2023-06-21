@@ -1,4 +1,3 @@
-
 import userLogo from "../images/userlogo.png"
 import Orders from "../images/dashboard/Vec1.png"
 import SaleOffer from "../images/dashboard/Vec3.png"
@@ -6,6 +5,18 @@ import MyLIst from "../images/dashboard/Vec4.png"
 import Affiliate from "../images/dashboard/Vec5.png"
 import Address from "../images/dashboard/Vec6.png"
 import { slide1 } from "../utils/data"
+import home from "../images/home.svg"
+import srch from "../images/srch.svg"
+import bas from "../images/bas.svg"
+import pr from "../images/pr.svg"
+import blgspace from "../images/blgspace.png"
+import mbdash1 from "../images/mbdash1.svg"
+import mbdash2 from "../images/mbdash2.svg"
+import mbdash3 from "../images/mbdash3.svg"
+import mbdash4 from "../images/mbdash4.svg"
+import mbdash5 from "../images/mbdash5.svg"
+import mbdash6 from "../images/mbdash6.svg"
+import mbdash7 from "../images/mbdash7.svg"
 // import SaleOffer from "../images/dashboard/vector6.png"
 // import Carouselcards from "./Carouselcards"
 // import share from "../images/share.png"
@@ -14,7 +25,7 @@ function Dashboard() {
     return (
         <>
 
-            <section className='d-grid container-fluid dashboardsection '>
+            <section className='d-grid container-fluid dashboardsection  '>
                 <div className="row">
                     <div className='col-sm-12 col-md-3 col-lg-2   sidebarsection '>
                         <div className="sidebar mt-3 ">
@@ -92,9 +103,9 @@ function Dashboard() {
                         </div>
                     </div>
                     <div className="d-none  d-md-block col-md-9 col-lg-10  col-md-9 col-lg-10   mt-3 dashboard-main ">
-                       {/* user details */}
-                       
-                        <div className=" my-3 d-flex justify-content-between" style={{height: "15vh"}}>
+                        {/* user details */}
+
+                        <div className=" my-3 d-flex justify-content-between" style={{ height: "15vh" }}>
                             <div className="d-flex align-items-center">
                                 <img src={userLogo} className="" style={{ width: "5rem", height: "4rem" }} />
                                 <div className="d-flex flex-column">
@@ -108,9 +119,9 @@ function Dashboard() {
                                 <span>Rewards Code: KhI7758</span>
                             </div>
                         </div>
-                    
-                            {/* Skills box */}
-                        <div className="d-grid  container-fluid  my-3 "  style={{height: "30vh"}}>
+
+                        {/* Skills box */}
+                        <div className="d-grid  container-fluid  my-3 " style={{ height: "30vh" }}>
                             <div className="row g-2 ">
 
                                 <div className="col-lg-4  gap-2  col-md-5  border  rounded-2 d-flex align-items-center lh-1 py-2 ">
@@ -170,88 +181,753 @@ function Dashboard() {
                         {/* Recommeded  for you*/}
                         <div className="p-2 mt-2 ms-2 "  >
                             <h3 className="fs-cs-3 ">Recommended For You</h3>
-                        
-                        
-
-                        {/* carousel controls */}
-                        <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="card-wrapper   container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card justify-content-center h-50 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              
-
-              <div className="carousel-item ">
-                <div className="card-wrapper   container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card justify-content-center h-50 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              
-
-              <div className="carousel-item ">
-                <div className="card-wrapper   container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card justify-content-center h-50 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              
-              
-              <button className="carousel-control-prev  " type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon arrow-carousel   " aria-hidden="true"></span>
-                <span className="visually-hidden  ">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
-          </div>
 
 
+
+                            {/* carousel controls */}
+                            <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
+                                <div className="carousel-inner">
+                                    <div className="carousel-item active">
+                                        <div className="card-wrapper   container-fluid d-flex  ">
+                                            {slide1.map((item, index) => {
+                                                return (<>
+                                                    <div className="card justify-content-center h-50 card-cont" key={index} >
+                                                        <img src={item.img} className="align-self-center h-50" alt="..." />
+
+                                                    </div>
+
+                                                </>)
+                                            })}
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <div className="carousel-item ">
+                                        <div className="card-wrapper   container-fluid d-flex  ">
+                                            {slide1.map((item, index) => {
+                                                return (<>
+                                                    <div className="card justify-content-center h-50 card-cont" key={index} >
+                                                        <img src={item.img} className="align-self-center h-50" alt="..." />
+
+                                                    </div>
+
+                                                </>)
+                                            })}
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <div className="carousel-item ">
+                                        <div className="card-wrapper   container-fluid d-flex  ">
+                                            {slide1.map((item, index) => {
+                                                return (<>
+                                                    <div className="card justify-content-center h-50 card-cont" key={index} >
+                                                        <img src={item.img} className="align-self-center h-50" alt="..." />
+
+                                                    </div>
+
+                                                </>)
+                                            })}
+
+
+
+                                        </div>
+                                    </div>
+
+
+                                    <button className="carousel-control-prev  " type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="prev">
+                                        <span className="carousel-control-prev-icon arrow-carousel   " aria-hidden="true"></span>
+                                        <span className="visually-hidden  ">Previous</span>
+                                    </button>
+                                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="next">
+                                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span className="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
 
 
 
 
 
-                        
+
+
+
                     </div>
                 </div>
             </section>
+
+
+
+
+            {/* For Mobile */}
+
+            <section >
+
+
+                <h5 className=" container ms-2" style={{
+                    fontFamily: 'Lato',
+                    fontStyle: 'normal',
+                    fontWeight: 700,
+                    fontSize: '16px',
+                    lineHeight: '24px',
+                }}>Quick Links</h5>
+
+                <div className='faq-section mt-3'>
+                    <div className="accordion faq-section-size" id="basicAccordion">
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingSeventeen">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseSeventeen"
+                                    aria-expanded="false"
+                                    aria-controls="collapseSeventeen"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash1}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Orders
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseSeventeen"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingEighteen">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseEighteen"
+                                    aria-expanded="false"
+                                    aria-controls="collapseEighteen"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash2}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                My Lists
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseEighteen"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingEighteen"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingNineteen">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseNineteen"
+                                    aria-expanded="false"
+                                    aria-controls="collapseNineteen"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash3}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Messages
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseNineteen"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingNineteen"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwenty">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwenty"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwenty"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash4}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Customer Service
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseTwenty"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingTwenty"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyOne">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyOne"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwentyOne"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash5}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Language/Currency
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseTwentyOne"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyOne"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyTwo">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwentyTwo"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash6}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Change Password
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseTwentyTwo"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyTwo"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyThree">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwentyThree"
+                                >
+                                    <div className="d-flex align-items-center">
+                                        <img
+                                            src={mbdash7}
+                                            alt="Image"
+                                            className="mr-2"
+                                            style={{ maxHeight: '20px', width: 'auto' }}
+                                        />
+                                        <div>
+                                            <h6
+                                                className="faq-section-one-for-mobile-text-size ms-2"
+                                                style={{ marginBottom: '0', marginTop: '0' }}
+                                            >
+                                                Communication Preferences
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseTwentyThree"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingTwentyThree"
+                                data-bs-parent="#basicAccordion"
+                            >
+                                <div className="accordion-body">
+                                    <a href="" className="text-decoration-none text-dark">
+                                        hello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div style={{ width: "100%" }}>
+                            <img src={blgspace} alt="" />
+                        </div>
+
+
+
+                        <h5 className=" container mt-4 ms-2" style={{
+                            fontFamily: 'Lato',
+                            fontStyle: 'normal',
+                            fontWeight: 700,
+                            fontSize: '16px',
+                            lineHeight: '24px',
+                        }}>My Account</h5>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyFour">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyFour" aria-expanded="false" aria-controls="collapseTwentyFour">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Profile</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentyFour" className="accordion-collapse collapse" aria-labelledby="headingTwentyFour"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>hello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyFive">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyFive" aria-expanded="false" aria-controls="collapseTwentyFive">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>My Reviews</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentyFive" className="accordion-collapse collapse" aria-labelledby="headingTwentyFive"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentySix">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentySix" aria-expanded="false" aria-controls="basicAccordionCollapseTwentySix">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>My Page</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentySix" className="accordion-collapse collapse" aria-labelledby="headingTwentySix"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentySeven">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentySeven" aria-expanded="false" aria-controls="collapseTwentySeven">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>My Rewards</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentySeven" className="accordion-collapse collapse" aria-labelledby="headingTwentySeven"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>Super Rewards</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyEight">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyEight" aria-expanded="false" aria-controls="collapseTwentyEight">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Store Credits</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentyEight" className="accordion-collapse collapse" aria-labelledby="headingTwentyEight"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingTwentyNine">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseTwentyNine" aria-expanded="false" aria-controls="collapseTwentyNine">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Super Rewards</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseTwentyNine" className="accordion-collapse collapse" aria-labelledby="headingTwentyNine"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div style={{ width: "100%" }}>
+                            <img src={blgspace} alt="" />
+                        </div>
+
+
+                        <h5 className=" container ms-2 mt-4" style={{
+                            fontFamily: 'Lato',
+                            fontStyle: 'normal',
+                            fontWeight: 700,
+                            fontSize: '16px',
+                            lineHeight: '24px',
+                        }}>Information</h5>
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirty">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirty" aria-expanded="false" aria-controls="collapseThirty">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>About iHerb</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirty" className="accordion-collapse collapse" aria-labelledby="headingThirty"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>hello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtyTwo">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtyTwo" aria-expanded="false" aria-controls="collapseThirtyTwo">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Rewards Program</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtyTwo" className="accordion-collapse collapse" aria-labelledby="headingThirtyTwo"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtyThree">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtyThree" aria-expanded="false" aria-controls="basicAccordionCollapseThirtyThree">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Shipping</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtyThree" className="accordion-collapse collapse" aria-labelledby="headingThirtyThree"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtyFour">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtyFour" aria-expanded="false" aria-controls="collapseThirtyFour">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Press Releases</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtyFour" className="accordion-collapse collapse" aria-labelledby="headingThirtyFour"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtyFive">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtyFive" aria-expanded="false" aria-controls="collapseThirtyFive">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Privacy Policy</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtyFive" className="accordion-collapse collapse" aria-labelledby="headingThirtyFive"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtySix">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtySix" aria-expanded="false" aria-controls="collapseThirtySix">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Disclaimer</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtySix" className="accordion-collapse collapse" aria-labelledby="headingThirtySix"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtySeven">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtySeven" aria-expanded="false" aria-controls="collapseThirtySeven">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>Terms and Conditions</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtySeven" className="accordion-collapse collapse" aria-labelledby="headingThirtySeven"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>heello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div style={{ width: "100%" }}>
+                            <img src={blgspace} alt="" />
+                        </div>
+
+
+
+                        <h5 className=" container ms-2 mt-4" style={{
+                            fontFamily: 'Lato',
+                            fontStyle: 'normal',
+                            fontWeight: 700,
+                            fontSize: '16px',
+                            lineHeight: '24px',
+                        }}>Settings</h5>
+
+
+
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingThirtyEight">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseThirtyEight" aria-expanded="false" aria-controls="collapseThirtyEight">
+                                    <h6 className='faq-section-one-for-mobile-text-size'>2-Step Verification</h6>
+                                </button>
+                            </h2>
+                            <div id="basicAccordionCollapseThirtyEight" className="accordion-collapse collapse" aria-labelledby="headingThirtyEight"
+                                data-bs-parent="#basicAccordion">
+                                <div className="accordion-body">
+                                    <a href="" className='text-decoration-none text-dark'>hello</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div className="dash-signout-btn-for-mobile ">
+                    <div className="mt-5 mb-5 border border-1 border-secondary" style={{ width: "80%", background: "#FFFFFF", textAlign: "center", borderRadius: "10px" }}>
+                        <a href="" className="btn btn  " style={{
+                            fontFamily: 'Lato',
+                            fontStyle: 'normal',
+                            fontWeight: 700,
+                            fontSize: '16px',
+                        }}  > Sign out </a>
+                    </div>
+                </div>
+
+
+                <div className="dash-last-icon-for-mobile mt-3 mb-3 ">
+                    <div><a href=""><img src={home} alt="" /></a></div>
+                    <div><a href=""><img src={srch} alt="" /></a></div>
+                    <div><a href=""><img src={bas} alt="" /></a></div>
+                    <div><a href=""><img src={pr} alt="" /></a></div>
+                </div>
+
+            </section>
+
+
+            {/* For Mobile */}
+
 
 
         </>
