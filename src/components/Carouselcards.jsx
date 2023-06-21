@@ -1,120 +1,66 @@
 // import React from 'react'
+import Slider from "react-slick";
 import { slide1 } from "../utils/data"
 function Carouselcards() {
-  return (
-        <>
-          <div id="carouselExampleControlsSS" className="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card  pt- 2 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        <div className="card-body d-flex flex-column justify-content-between">
-                          <h5 className="card-title fs-cs-2 ">{item.title}</h5>
-                          <div className="d-flex">
-                            <div>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i></div>
-                            <div><span> &nbsp; {item.rating}</span></div>
-                          </div>
-                          <div className="d-flex">
-                            <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
-                            &nbsp; 
-                            <h6 className="fs-cs-2">{item.newPrice}</h6>
-                          </div>
+  const settings = {
     
-                        </div>
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              <div className="carousel-item ">
-                <div className="card-wrapper card-wrapper-cs  container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card pt-2 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        <div className="card-body d-flex flex-column justify-content-between">
-                          <h5 className="card-title fs-cs-2 ">{item.title}</h5>
-                          <div className="d-flex">
-                            <div>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i></div>
-                            <div><span> &nbsp; {item.rating}</span></div>
-                          </div>
-                          <div className="d-flex">
-                            <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
-                            &nbsp; 
-                            <h6 className="fs-cs-2">{item.newPrice}</h6>
-                          </div>
-    
-                        </div>
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              <div className="carousel-item ">
-                <div className="card-wrapper card-wrapper-cs   container-fluid d-flex  ">
-                  {slide1.map((item, index) => {
-                    return (<>
-                      <div className="card pt-2 card-cont" key={index} >
-                        <img src={item.img} className="align-self-center h-50" alt="..." />
-                        <div className="card-body d-flex flex-column justify-content-between">
-                          <h5 className="card-title fs-cs-2 ">{item.title}</h5>
-                          <div className="d-flex">
-                            <div>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i>
-                            <i className="bi bi-star"></i></div>
-                            <div><span> &nbsp; {item.rating}</span></div>
-                          </div>
-                          <div className="d-flex">
-                            <h6 className="text-danger fs-cs-2">{item.oldPrice}</h6>
-                            &nbsp; 
-                            <h6 className="fs-cs-2">{item.newPrice}</h6>
-                          </div>
-    
-                        </div>
-                      </div>
-    
-                    </>)
-                  })}
-    
-    
-    
-                </div>
-              </div>
-              
-              <button className="carousel-control-prev  " type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon arrow-carousel   " aria-hidden="true"></span>
-                <span className="visually-hidden  ">Previous</span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsSS" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-              </button>
-            </div>
-          </div>
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 6,
+          swipeToSlide: true,
+          infinite: true,
           
-    
-        </>
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+  return (
+        <div>
+    <Slider {...settings}>
+     
+      {slide1.map((item, index)=>{
+        return(<div key={index}>
+          <div className="card  " style={{height: "16rem"}}>
+  <img src={item.img} className="card-img-top w-50 mx-auto pt-3" alt="..."/>
+  <div className="card-body d-flex flex-column justify-content-center   ">
+    <h5 className="card-title fs-cs-1 flex-grow-1 ">{item.title}</h5>
+    <div>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i>
+                            <i className="bi bi-star"></i></div>
+    <div className="fs-cs-1 ">
+      <span className="text-danger">{item.oldPrice} </span> <span>{item.newPrice}</span>
+    </div>
+  </div>
+</div>
+        
+        </div>)
+      })}
+      </Slider>    
+        
+        </div>
       )
     }
     

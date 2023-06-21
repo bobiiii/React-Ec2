@@ -6,7 +6,7 @@ import Carouselcards from "./Carouselcards"
 function Speacials() {
   return (
     <>
-    <div className='speacilsSection d-flex align-items-center justify-content-between px-4 py-2 mt-3  '>
+    <div className='speacilsSection d-flex align-items-center justify-content-between px-4 py-0 mt-2  '>
             <div>
             <h5 className='fs-cs-4 '> Specials </h5>
               
@@ -15,7 +15,7 @@ function Speacials() {
               </div>
           </div>
       
-      <Carouselcards></Carouselcards>
+      <Carouselcards/>
  </>
   )
 }

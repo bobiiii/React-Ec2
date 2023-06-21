@@ -1,16 +1,4 @@
-/* About */
-/* @media screen and (max-width:767px) {
-      .year-line{
-      }
-      .year-line:before {
-      width: 15%;
-      top: 6%;
-}
-.year-line:after {
-      width: 15%;
-      top: 6%;
-}
-} */
+
 @media screen and (min-width:481px) and (max-width:1000px) {
 
       /* .year-line{
@@ -887,22 +875,6 @@
 
 
       }
-
-
-      .Global-rs-bg-wrap {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            gap: 1rem;
-      }
-
-
-      .Global-rs-bg-wrap-div {
-            width: 100%;
-            margin-top: 1rem;
-      }
-
-
       .Global-rs-bg-wrap-div h3 {
 
             font-family: 'Lato';
