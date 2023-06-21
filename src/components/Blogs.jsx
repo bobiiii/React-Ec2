@@ -8,7 +8,9 @@ import blgmob1 from "../images/blgmob1.svg"
 import vectorShare from "../images/shareVector.svg"
 import view from "../images/view.svg"
 import heart from "../images/heart.svg"
-
+import Trending from "./Trending"
+import CardBox from "./CardBox"
+import blgspace from "../images/blgspace.png"
 
 function Blogs() {
     return (
@@ -839,11 +841,103 @@ function Blogs() {
 
 
 
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            References
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+
+
 
 
                     <div>
                     </div>
                 </div>
+
+
+                <div >
+                    <img src={blgspace} style={{ width: "100%" }} alt="" />
+                </div>
+
+                <div className="mt-2 mb-3">
+                    <h4>Shop This Article</h4>
+                </div>
+
+                <CardBox></CardBox>
+
+                <div >
+                    <img src={blgspace} style={{ width: "100%" }} alt="" />
+                </div>
+
+                <div className="accordion w-100 mt-3" id="basicAccordion">
+                    <div className="accordion-item">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingOne">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseOne"
+                                    aria-expanded="false"
+                                    aria-controls="collapseOne"
+                                    style={{ backgroundColor: "#FFFFF", maxHeight: "40px", }}
+                                >
+                                    <h6 className="mt-1">Related Articles</h6>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseOne"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingOne"
+                                data-bs-parent="#basicAccordion"
+                                style={{ maxHeight: "50px" }} // Adjust the height value as desired
+                            >
+                                <div className="accordion-body" style={{ backgroundColor: "#FFFFF" }}>
+                                    <a href="" className="text-decoration-none text-dark">
+                                        heello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="blog-last-card-for-mobile mt-4">
+
+
+
+                    <div className="card " style={{ width: "18rem" }}>
+                        <img src={Blog} className="card-img-top" alt="..." />
+                        <div className="card-body  sales-products-for-mobile-size-text ">
+
+                            <p className="sales-products-for-mobile-size-text-Expires-p">How to Relieve Allergies Naturally</p>
+                            <h5 className="card-title">Wellness</h5>
+                            <p className="card-text sales-products-for-mobile-size-text-Refer-p">The change of seasons can sometimes bring
+                                more than just a shift in the weather or a
+                                transition of colors. For the hundreds of
+
+                            </p>
+                            <div className='text-center sales-products-for-mobile-size-bttn border-1 '>
+                                <a href="#" className="btn btn text-start" style={{   }} >Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </section>
             {/* for mobile */}
 
