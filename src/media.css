@@ -1245,7 +1245,8 @@
       }
 
       .Promote-a-leading-company-for-mobile {
-            display: none;
+            text-align: center;
+            width: 50%;
       }
 
 }
