@@ -17,9 +17,9 @@ import wallherb3 from "../images/wallherb3.png"
 import wallherb4 from "../images/wallherb4.png"
 import wallherb5 from "../images/wallherb5.png"
 // import wallherb6 from "../images/wallherb6.png"
-import androidLogo from "../images/about/vector3.png"
-import appleLogo from "../images/about/vector2.png"
-import googleLogo from "../images/about/vector1.png"
+import androidLogo from "../images/about/Vector3.png"
+import appleLogo from "../images/about/Vector2.png"
+import googleLogo from "../images/about/Vector1.png"
 import drImg from "../images/about/img4.png"
 import Slider from 'react-slick'
 
