@@ -207,7 +207,7 @@ function Community() {
 
 
                     {/* Featured Profiles */}
-                <div className='Latest-happy-users-cards container-fluid'>
+                <div className='  container-fluid d-flex flex-nowrap flex-md-wrap flex-lg-wrap overflow-scroll '>
 
                     <div className="container mt-4 mb-4 p-3 d-flex justify-content-center" style={{ width: "16rem", boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.1)' }}>
                         <div className="card p-4 border-0">

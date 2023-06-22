@@ -515,7 +515,7 @@ function Corporate() {
                 nisi, rerum architecto neque expedita laudantium
                 reprehenderit quidem </p>
             </div>
-            <div className="px-2 py-1 w-100 text-center  rounded-3  lh-sm mx-1  Global-rs-img text-light d-flex flex-column justify-content-between ">
+            <div className="px-2 py-1 mb-1 mb-sm-0 w-100 text-center  rounded-3  lh-sm mx-1  Global-rs-img text-light d-flex flex-column justify-content-between ">
               <h4 className="fs-cs-3 py-3">Sustainability</h4>
               <p>
                 Through a number of ongoing eco-
