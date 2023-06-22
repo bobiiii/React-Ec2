@@ -269,7 +269,7 @@ function Dashboard() {
 
             {/* For Mobile */}
 
-            <section >
+            <section className="this-dash-section-none-is-desktop-screen">
 
 
                 <h5 className=" container ms-2" style={{

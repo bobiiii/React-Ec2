@@ -142,8 +142,8 @@
 
 
 .herocards1 {
-    width: 220px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     left: calc(50% - 200px/2 - 400px);
     top: 301.98px;
     text-align: center;
@@ -1990,5 +1990,72 @@ background-color: #438a47;
 /* Herbs and spices  css End*/
 /* Community css end*/
 
+
+
+
+
+
+
+
+/* Secure css Start */
+
+
+.secure-section-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .secure-section-cont-sidebar {
+    flex: 0 0 20%;
+    border: 1px solid gray;
+  }
+  
+  .secure-section-cont-center {
+    flex: 0 0 75%;
+    width: 100%;
+  }
+  
+  .secure-sidebarsection {
+    width: 100%;
+  }
+
+  .sec-Rewards-values-shown{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 100%    ;
+  }
+  
+  
+
+  .sec-Total-Available-Rewards-card-cont{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #EDF7E5;
+  }  
+
+   .sec-Total-Available-Rewards-card-childs{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+
+   }
+   
+
+   .secure-section-third-card-cont{
+      width: 100%;
+      display: flex;
+      gap: 1rem;
+   }
+
+
+  
+
+/* Secure css End */
 
 
