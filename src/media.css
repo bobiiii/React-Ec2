@@ -1526,7 +1526,7 @@
 
 @media screen and (min-width : 481px) {
       .this-dash-section-none-is-desktop-screen {
-            display: none;
+            /* display: none; */
       }
 }
 

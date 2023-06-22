@@ -706,6 +706,29 @@
 
 /* dashboard css Start  */
 
+.slick-prev,
+.slick-next {
+  color: rgb(0, 0, 0);
+  /* background-color: #a9aaaa; */
+  
+}
+.slick-prev:before{
+    content: "<";
+    color: grey;
+    font-size: 1.5rem;
+    line-height: 10%;
+    font-weight: bolder;
+}
+.slick-next:before{
+    content: ">";
+    color: grey;
+    font-size: 1.5rem;
+    line-height: 10%;
+    font-weight: bolder;
+}
+
+
+
 
 
 .dashboardsection {
