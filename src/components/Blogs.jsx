@@ -332,23 +332,23 @@ function Blogs() {
                         <div className="accordion w-100" id="basicAccordion">
                             <div className="accordion-item">
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingOne">
+                                    <h2 className="accordion-header" id="headingSix">
                                         <button
                                             className="accordion-button collapsed"
                                             type="button"
                                             data-bs-toggle="collapse"
-                                            data-bs-target="#basicAccordionCollapseOne"
+                                            data-bs-target="#basicAccordionCollapseSix"
                                             aria-expanded="false"
-                                            aria-controls="collapseOne"
+                                            aria-controls="collapseSix"
                                             style={{ backgroundColor: "#FFFFF", maxHeight: "40px" }}
                                         >
                                             All
                                         </button>
                                     </h2>
                                     <div
-                                        id="basicAccordionCollapseOne"
+                                        id="basicAccordionCollapseSix"
                                         className="accordion-collapse collapse"
-                                        aria-labelledby="headingOne"
+                                        aria-labelledby="headingSix"
                                         data-bs-parent="#basicAccordion"
                                         style={{ maxHeight: "50px" }} // Adjust the height value as desired
                                     >
@@ -882,23 +882,23 @@ function Blogs() {
                 <div className="accordion w-100 mt-3" id="basicAccordion">
                     <div className="accordion-item">
                         <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingOne">
+                            <h2 className="accordion-header" id="headingSeven">
                                 <button
                                     className="accordion-button collapsed"
                                     type="button"
                                     data-bs-toggle="collapse"
-                                    data-bs-target="#basicAccordionCollapseOne"
+                                    data-bs-target="#basicAccordionCollapseSeven"
                                     aria-expanded="false"
-                                    aria-controls="collapseOne"
+                                    aria-controls="collapseSeven"
                                     style={{ backgroundColor: "#FFFFF", maxHeight: "40px", }}
                                 >
                                     <h6 className="mt-1">Related Articles</h6>
                                 </button>
                             </h2>
                             <div
-                                id="basicAccordionCollapseOne"
+                                id="basicAccordionCollapseSeven"
                                 className="accordion-collapse collapse"
-                                aria-labelledby="headingOne"
+                                aria-labelledby="headingSeven"
                                 data-bs-parent="#basicAccordion"
                                 style={{ maxHeight: "50px" }} // Adjust the height value as desired
                             >
