@@ -34,13 +34,13 @@ function Affilliates() {
 
 
 
-   {/* For mobile */}
-   
-    <div className='wallHerb-Affiliates-for-mobile container-fluid mt-2 mb-2'>
-       <h4>wallHerb Affiliates</h4>
-    </div>
+      {/* For mobile */}
 
-   {/* For mobile */}
+      <div className='wallHerb-Affiliates-for-mobile container-fluid mt-2 mb-2'>
+        <h4>wallHerb Affiliates</h4>
+      </div>
+
+      {/* For mobile */}
 
       <section style={{ background: "#EDF7E5" }}>
         <div className='affiliates-section-top  container-fluid '>
@@ -65,115 +65,129 @@ function Affilliates() {
 
 
 
-    <div className='faq-section mt-5'>
-    <div className="accordion faq-section-size" id="basicAccordion">
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
-      <h6>Competitive Commission Rates</h6>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
-      data-bs-parent="#basicAccordion">
-      <div className="accordion-body">
-        <a href="" className='text-decoration-none text-dark'>hello</a>
+        <div className='faq-section mt-5'>
+          <div className="accordion faq-section-size" id="basicAccordion">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingFive">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Competitive Commission Rates</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>hello</a>
+                </div>
+              </div>
+            </div>
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingSix">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Top Global Retailer</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingSeven">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Wide Variety of Products</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+
+
+            </div>
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingEight">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseEight" aria-expanded="false" aria-controls="basicAccordionCollapseEight">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Tools for Success</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+          </div>
+
+        </div>
+
+
+
+
       </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        <h6>Top Global Retailer</h6>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
-      data-bs-parent="#basicAccordion">
-      <div className="accordion-body">
-      <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
-        <h6>Wide Variety of Products</h6>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
-      data-bs-parent="#basicAccordion">
-      <div className="accordion-body">
-      <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
-    </div>
-
-    
-  </div>
-
-  <div className="accordion-item ">
-    <h2 className="accordion-header " id="headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree">
-        <h6>Tools for Success</h6>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
-      data-bs-parent="#basicAccordion">
-      <div className="accordion-body">
-      <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
-    </div>
-
-    
-  </div>
-</div>
-
-    </div>
 
 
 
-
-      </div>
-
+      {/* for mobile */}
 
 
-     {/* for mobile */}
-
-
-     <div className='Promote-a-leading-company-for-mobile mt-5 container-fluid'>
-       <div className='Promote-a-leading-company-for-mobile-h3-size'>
+      <div className='Promote-a-leading-company-for-mobile mt-5 container-fluid'>
+        <div className='Promote-a-leading-company-for-mobile-h3-size'>
           <h3>Promote a leading company in
-health and wellness</h3>
-       </div>
-       <div className='Promote-a-leading-company-for-mobile-btn-text'>
-       <a href="" className='text-decoration-none btn ' style={{ background: "#458500", color: "#FFFFFF" }}>Apply to Partnerize</a>
-       </div>
+            health and wellness</h3>
+        </div>
+        <div className='Promote-a-leading-company-for-mobile-btn-text'>
+          <a href="" className='text-decoration-none btn ' style={{ background: "#458500", color: "#FFFFFF" }}>Apply to Partnerize</a>
+        </div>
 
-       <div className='Partnering-directly-for-mobile-text mt-5'>
+        <div className='Partnering-directly-for-mobile-text mt-5'>
 
-     <h3>Partner through a Global
-Subnetwork</h3>
+          <h3>Partner with iHerb via all of the top Global affiliate
+            networks</h3>
 
           <p>Partnering directly with iHerb through Partnerize will
-earn you the highest commission rate. Alternatively, we
-are integrated with a number of subnetworks targeting
-specific regions. Feel free to apply to our program
-through one of the following subnetworks:</p>
-       </div>
+            earn you the highest commission rate. Alternatively, we
+            are integrated with a number of subnetworks targeting
+            specific regions. Feel free to apply to our program
+            through one of the following subnetworks:</p>
+        </div>
 
 
-     </div>
+      </div>
 
 
-     {/* for mobile */}
+      {/* for mobile */}
 
 
       <div className='Why-Join-card-section'>
 
         <div className='Why-Join-card-section-size'>
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user  Why-Join-card-size-for-mobile " style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -188,7 +202,7 @@ through one of the following subnetworks:</p>
               </div>
             </div>
           </div>
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -205,7 +219,7 @@ through one of the following subnetworks:</p>
           </div>
 
 
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -221,7 +235,7 @@ through one of the following subnetworks:</p>
             </div>
           </div>
 
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -237,7 +251,7 @@ through one of the following subnetworks:</p>
             </div>
           </div>
 
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -254,7 +268,7 @@ through one of the following subnetworks:</p>
           </div>
 
 
-          <div className="card p-3 py-4 border-0" style={{width:"18rem"}}>
+          <div className="card p-3 py-4 border-0" style={{ width: "18rem" }}>
             <div className="text-center leadership-user Why-Join-card-size-for-mobile" style={{ width: "80%" }}>
               <img src={affimg} width="100" className="rounded-circle" />
               <p>
@@ -280,115 +294,150 @@ through one of the following subnetworks:</p>
         <h3 className='fs-cs-5  Why-Join-section-Program-FAQ-text-size'>Program FAQ</h3>
 
         <div className='faq-section mt-5'>
-          <section class="py-12 py-sm-24 bg-info-light  faq-section-size">
-            <div class="container ">
-
-              <div class="mw-3xl mx-auto ">
-
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1 aaaa">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >What are the requirements to join?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
+          <div className="accordion faq-section-size" id="basicAccordion">
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingNine">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseNine" aria-expanded="false" aria-controls="collapseNine">
+                  <h6 className='faq-section-one-for-mobile-text-size'>What are the requirements to join?</h6>
                 </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >How do I earn commission?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >When do I get paid?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >What is the cookie duration?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >Can I participate in the Affiliate program if I
-don’t live in the US?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >Can I participate in both the Affiliate and
-Rewards program?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >I’m an Influencer. Can I join the Affiliate
-program?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-                <button class="btn p-8 mb-2 w-100 bg-white fw-medium text-start lh-base rounded-4 border border-primary-light border-1">
-                  <div class="d-flex justify-content-between">
-                    <div>
-                      <h6 class="fs-7 mb-0 faq-section-last-font-size-for-mob" >How do I reach out if I have questions?</h6>
-                    </div>
-                    <div class="ps-4">
-                      <svg width="14" height="9" viewbox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.8327 1.5L6.99935 7.33333L1.16602 1.5" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </button>
-
-
+              </h2>
+              <div id="basicAccordionCollapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>hello</a>
+                </div>
               </div>
             </div>
-          </section>
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingTen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseTen" className="accordion-collapse collapse" aria-labelledby="headingTen"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="accordion-item">
+  <h2 className="accordion-header" id="headingEleven">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseEleven" aria-expanded="false" aria-controls="basicAccordionCollapseEleven">
+      <h6 className='faq-section-one-for-mobile-text-size'>When do I get paid?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseEleven" className="accordion-collapse collapse" aria-labelledby="headingEleven"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>Hello</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingTwelve">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                  <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseTwelve" className="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingThirteen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in the Affiliate program if I don’t live in the US?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseThirteen" className="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingFourteen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                  <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in both the Affiliate and Rewards program?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseFourteen" className="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingfifteen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapsefifteen" aria-expanded="false" aria-controls="collapsefifteen">
+                  <h6 className='faq-section-one-for-mobile-text-size'>I’m an Influencer. Can I join the Affiliate program?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapsefifteen" className="accordion-collapse collapse" aria-labelledby="headingfifteen"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div className="accordion-item">
+              <h2 className="accordion-header" id="headingSixteen">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#basicAccordionCollapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                  <h6 className='faq-section-one-for-mobile-text-size'>How do I reach out if I have questions?</h6>
+                </button>
+              </h2>
+              <div id="basicAccordionCollapseSixteen" className="accordion-collapse collapse" aria-labelledby="headingSixteen"
+                data-bs-parent="#basicAccordion">
+                <div className="accordion-body">
+                  <a href="" className='text-decoration-none text-dark'>heello</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+          </div>
 
         </div>
 
@@ -399,56 +448,56 @@ program?</h6>
       </div>
 
       <div className='sale-last-section aff-last-section-for-mobile-none container-fluid  mt-5' style={{ background: " #F5F5F5" }}>
-                        <br />
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale1} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Foods and Supplements for Natural </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale3} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Psychodermatology: Why
-                                    Researchers Think the Mind-
-                                </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale4} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Stress-Related Hair Loss +
-                                    Natural Solutions to Promote</p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale5} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Dry brushing: What It Is +
-                                    Unexpected Health </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale6} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
-                                    Inflammation and </p>
-                            </div>
-                        </div> 
-                                             
-
-                    </div>
+        <br />
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale1} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
+          </div>
+        </div>
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale2} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Foods and Supplements for Natural </p>
+          </div>
+        </div>
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale3} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>Psychodermatology: Why
+              Researchers Think the Mind-
+            </p>
+          </div>
+        </div>
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale4} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>Stress-Related Hair Loss +
+              Natural Solutions to Promote</p>
+          </div>
+        </div>
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale5} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>Dry brushing: What It Is +
+              Unexpected Health </p>
+          </div>
+        </div>
+        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+          <img src={sale6} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
+              Inflammation and </p>
+          </div>
+        </div>
 
 
+      </div>
 
 
-  {/* isko thk krna ha
+
+
+      {/* isko thk krna ha
   
         <div className="accordion w-100" id="basicAccordion">
   <div className="accordion-item">

@@ -1,43 +1,49 @@
-
 @media screen and (min-width:481px) and (max-width:1000px) {
-      .year-line{
-      }
+
+      /* .year-line{
+      } */
       .year-line:before {
-      width: 25%;
-      /* top: 6%; */
-}
-.year-line:after {
-      width: 25%;
-      /* top: 6%; */
-}
+            width: 25%;
+            /* top: 6%; */
+      }
+
+      .year-line:after {
+            width: 25%;
+            /* top: 6%; */
+      }
 }
 
 
 /* Navbar start */
 
 @media screen and (max-width:480px) {
-      .navbar-dektop{
+      .navbar-dektop {
             display: none;
       }
-      .navbar-mobile{
+
+      .navbar-mobile {
             background-color: #458500;
       }
-      .navbar-search{
+
+      .navbar-search {
             position: relative;
       }
-      .navbar-search > i{
+
+      .navbar-search>i {
             position: absolute;
             top: 35%;
             left: 2%;
       }
-      .navbar-search > input{
+
+      .navbar-search>input {
             height: 80%;
       }
-      .navbar-icons > img{
+
+      .navbar-icons>img {
             width: 1.5rem;
             height: 1.2rem;
             margin: 0px 5px;
-            
+
       }
 }
 
@@ -47,25 +53,27 @@
 
 @media screen and (max-width:480px) {
       .affordable-cs-main img {
-      width: 4rem;
-      height: 3.5rem;
-      margin: 10px ;
-      
+            width: 4rem;
+            height: 3.5rem;
+            margin: 10px;
+
       }
-      .affordable-cs-main{
+
+      .affordable-cs-main {
             font-size: 0.7rem;
-            
-            }
-      .affordable-cs2{
+
+      }
+
+      .affordable-cs2 {
             display: none;
-            }
+      }
 }
 
 
 
 
 @media screen and (min-width:481px) {
-      .navbar-mobile{
+      .navbar-mobile {
             display: none;
       }
 }
@@ -161,7 +169,7 @@
 
 
 
-      .footer-for-mobile-text-size{
+      .footer-for-mobile-text-size {
             font-family: 'Lato';
             font-style: normal;
             font-weight: 700;
@@ -170,7 +178,7 @@
       }
 
 
-      .this-footer-none-for-mobile{
+      .this-footer-none-for-mobile {
             display: none;
       }
 
@@ -189,7 +197,8 @@
       .Get-the-wallHerb-App-Today-for-mobile {
             display: none;
       }
-      .for-desktop-screen-this-ftr-none{
+
+      .for-desktop-screen-this-ftr-none {
             display: none;
       }
 }
@@ -409,17 +418,17 @@
             width: 100%;
             /* flex-wrap: wrap; */
             flex-direction: row;
-            
-        }
 
-        .All-Sales {
+      }
+
+      .All-Sales {
             width: 50%;
             height: 31.99px;
             background: #FFFFFF;
             border: 2px solid #458500;
             border-radius: 16px;
             justify-content: center;
-        }
+      }
 
 
       .All-Sales p {
@@ -458,18 +467,18 @@
       }
 
 
-      .sales-products-for-mobile-size-text h5{
-         
+      .sales-products-for-mobile-size-text h5 {
+
             font-family: 'Lato';
             font-style: normal;
             font-weight: 700;
             font-size: 12px;
             line-height: 18px;
-            
-      } 
+
+      }
 
 
-      .sales-products-for-mobile-size-text-Expires-p{
+      .sales-products-for-mobile-size-text-Expires-p {
             font-family: 'Lato';
             font-style: normal;
             font-weight: 700;
@@ -479,7 +488,7 @@
 
 
 
-      .sales-products-for-mobile-size-text-Refer-p{
+      .sales-products-for-mobile-size-text-Refer-p {
             font-family: 'Lato';
             font-style: normal;
             font-weight: 400;
@@ -489,7 +498,7 @@
 
 
 
-      .sales-products-for-mobile-size-bttn a{
+      .sales-products-for-mobile-size-bttn a {
             width: 100%;
             font-family: 'Lato';
             font-style: normal;
@@ -499,47 +508,47 @@
       }
 
 
-    .BrandOfWeek-for-none-mobile-screen{
-      display: none;
-    }
+      .BrandOfWeek-for-none-mobile-screen {
+            display: none;
+      }
 
 
-    .more-way-text-for-mobile{
-      text-align: start;
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 26px;
-    }
+      .more-way-text-for-mobile {
+            text-align: start;
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 26px;
+      }
 
-    .more-way-cards-text-size-for-mobile h5{
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 27px;
-    }
+      .more-way-cards-text-size-for-mobile h5 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+      }
 
-    .more-way-cards-text-size-for-mobile p{
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 21px;
-    }
+      .more-way-cards-text-size-for-mobile p {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+      }
 
 
-   .more-way-cards-text-size-for-mobile a{
-      font-family: 'Lato';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 24px;
-        
+      .more-way-cards-text-size-for-mobile a {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
 
-   }
-  
+
+      }
+
 
 
 }
@@ -552,7 +561,7 @@
             display: none;
       }
 
-      .after-desk-display-none{
+      .after-desk-display-none {
             display: none;
       }
 }
@@ -865,6 +874,7 @@
 
 
       }
+
       .Global-rs-bg-wrap-div h3 {
 
             font-family: 'Lato';
@@ -1208,6 +1218,18 @@
       }
 
 
+      .faq-section-one-for-mobile-text-size {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+      }
+
+
+
+
+
       .aff-last-section-for-mobile-none {
             display: none;
       }
@@ -1223,7 +1245,8 @@
       }
 
       .Promote-a-leading-company-for-mobile {
-            display: none;
+            text-align: center;
+            width: 50%;
       }
 
 }
@@ -1233,4 +1256,355 @@
 
 
 
-/* */
+/* Blogs start */
+
+@media screen and (max-width : 480px) {
+
+      .NAVBAR2 {
+            display: none;
+      }
+
+      .blog-section-for-desktop {
+            display: none;
+      }
+
+      .blog-mobile-nav-cont {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+      }
+
+      .blog-mobile-nav-section {
+            display: flex;
+            gap: 0.2rem;
+
+      }
+
+      .blog-search-section-for-mobile {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+      }
+
+      .blog-search-section-for- {
+            width: 100%;
+            height: 100%;
+      }
+
+      .Select-Category-text-for-mobile {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+
+      .The-Best-Natural-Remedies-for-mobile {
+            width: 90%;
+            height: 100%;
+      }
+
+      .The-Best-Natural-Remedies-for-mobile h5 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+      }
+
+
+      .The-Best-Natural-Remedies-for-mobile-link-views {
+            display: flex;
+            gap: 0.5rem;
+      }
+
+      .The-Best-Natural-Remedies-for-mobile-link-views a {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 24px;
+      }
+
+
+      .blog-Share-text-for-mob {
+            display: flex;
+            gap: 1rem;
+      }
+
+
+      .blog-DISCLAIMER-for-mobile {
+            width: 100%;
+            height: 100%;
+      }
+
+
+      .DISCLAIMER-text-for-mob h4 {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            color: #458500;
+      }
+
+      .This-blog-has-not-been-approved {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+            color: #999999;
+            text-align: justify;
+      }
+
+
+      .In-this-article-blog {
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            color: #191919;
+      }
+
+
+      .blog-name-link-section {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+      }
+
+
+      .blog-name-link-section a {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #1565C0;
+      }
+
+
+
+
+      .blog-text-and-iamges-section-for-mobile {
+            width: 100%;
+            height: 100%;
+      }
+
+
+      .blog-mobile-image-section-cont img {
+            width: 100%;
+            height: 100%;
+      }
+
+
+      .blog-mobile-paras-font-sizes p {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: start;
+
+      }
+
+      .blog-mobile-paras-font-sizes {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: start;
+      }
+
+
+
+      .blog-mobile-paras-font-sizes li {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: justify;
+      }
+
+
+
+      .blog-mobile-heading-font-sizes h6 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 30px;
+            color: #2C7500;
+
+      }
+
+
+
+      .blog-mobile-heading-two-font-sizes h6 {
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16.38px;
+            line-height: 25px;
+      }
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width : 481px) {
+
+      .blog-section-for-mobile-screen {
+            display: none;
+      }
+
+
+}
+
+
+/* Blogs End */
+
+
+
+
+/* Dashboard start */
+
+@media screen and (max-width : 480px) {
+      .sidebarsection {
+            display: none;
+      }
+
+
+
+      .dash-last-icon-for-mobile {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            background: #FFFFFF;
+      }
+
+      .dash-signout-btn-for-mobile {
+            display: flex;
+            justify-content: center;
+            background-color: #FAFAFA;
+            /* height: 15vh; */
+            align-items: center;
+      }
+
+      .dropdown {
+            list-style: none;
+      }
+
+      .blog-last-card-for-mobile {
+            align-items: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+      }
+
+}
+
+
+
+@media screen and (min-width : 481px) {
+      .this-dash-section-none-is-desktop-screen {
+            display: none;
+      }
+}
+
+
+
+/* Dashboard End */
+
+
+
+
+
+
+
+/* Reccommendation start */
+
+/* @media screen and (max-width : 480px) {
+        .rec-heading-font-size-for-mobile{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16.38px;
+            line-height: 25px;
+                 
+        }
+
+
+        .rec-para-font-size-for-mobile{
+
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 21px;
+            
+        }
+
+
+
+
+
+
+
+ } */
+
+
+
+/* Reccommendation End */
+
+
+
+
+/* seecure start */
+
+
+@media screen and (max-width : 680px) and (min-width:481px) {
+
+      .secure-section-cont-center {
+            flex: 0 0 65%;
+            width: 100%;
+      }
+}
+
+@media screen and (max-width : 480px) {
+
+      .secure-section-cont-center {
+            flex: 0 0 40%;
+            width: 100%;
+      }
+
+  
+      .sec-Total-Available-Rewards-card-childs{
+            display: flex;
+            gap: 1rem;
+            width: 100%;
+            flex-wrap: wrap;
+           }
+
+}
+
+
+/* seecure end */

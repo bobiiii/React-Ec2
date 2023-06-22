@@ -7,7 +7,7 @@ import LiveQMark from "../images/LiveQMark.png"
 import Live from "../images/Live.png"
 function CardBoxLive() {
   return (
-        < div className="live-box d-flex flex-column align-items-center ">
+        < div className="live-box d-flex flex-column align-items-center m-2">
         <div className="d-flex justify-content-between w-100 pt-2 px-3 ">
             <div className="ps-2">
               <img className="mx-1" src={wallHerb} alt="wallHerb"/>
