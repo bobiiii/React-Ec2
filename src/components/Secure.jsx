@@ -16,12 +16,13 @@ import secw from "../images/secw.svg"
 import secb from "../images/secb.svg"
 import seci from "../images/seci.svg"
 import Securelastcards from './Securelastcards'
+import Securemobcards from './Securemobcards'
 
 
 function Secure() {
   return (
     <>
-      <section className='containr-fluid'>
+      <section className='containr-fluid secure-section-cont-for-desktop '>
         <div className='secure-section-cont'>
 
 
@@ -43,7 +44,7 @@ function Secure() {
               </div>
 
 
-              <div className=' mt-3 px-2 pt-2 py-1' style={{ background: "#BBDEFB", width: "100%", height: "100%", borderRadius: "10px" }}>
+              <div className=' mt-3 px-2 pt-2 py-1' style={{ background: "#BBDEFB", width: "100%", height: "100%", borderRadius: "10px",border:"1px solid #126CC5" }}>
                 <p ><img src={blgmob1} alt="" />  LIMITED TIME App Offer: Refer anyone to shop the iHerb App from Apr 24 - May 31, 2023 to give them 15% off their first app order.</p>
               </div>
 
@@ -382,6 +383,56 @@ function Secure() {
           </div>
         </div>
       </section>
+
+
+
+
+
+    <section className='secure-section-for-mobile container-fluid'>
+          
+          <div className='mt-3'>
+  
+          <h6 className='text-start secure-font-setup-for-headings'>Rewards Overview</h6>
+
+           <div className='d-flex justify-content-around mt-5'>
+              <div><a href="" className='text-decoration-none text-secondary secure-font-setup-for-a-tags'>Dashboard</a></div>
+              <div><a href="" className='text-decoration-none text-secondary secure-font-setup-for-a-tags'>Trends</a></div>
+              <div><a href="" className='text-decoration-none text-secondary secure-font-setup-for-a-tags'>Share</a></div>
+           </div>
+           <hr />
+
+
+          </div>
+
+
+  <Securemobcards></Securemobcards>
+
+
+
+      
+       
+  <div className='mt-5 '>
+       
+       <h6 className='secure-font-setup-for-another'>About iHerb Rewards</h6>
+       <hr />
+ 
+ <div className='d-flex justify-content-between'>
+   <div >
+    <p className='secure-font-setup-for-p'><a href="" style={{color:"#458500"}}>How It Works</a></p>
+    <p className='secure-font-setup-for-p'><a href="" style={{color:"#458500"}}>Tax Information</a></p>
+    <p className='secure-font-setup-for-p'><a href="" style={{color:"#458500"}}>Terms & Conditions</a></p>
+   </div>
+
+   </div>
+   </div>
+
+
+
+
+    </section>
+  
+
+
     </>
   )
 }

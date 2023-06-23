@@ -417,6 +417,14 @@
 
 }
 
+
+ .Customers-also-viewed-cards-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+
 /* Product detail page End */
 
 
@@ -1040,6 +1048,8 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
 }
 
 @media screen and (max-width: 450px) {
@@ -1119,15 +1129,16 @@
 }
 
 
+
+
 .Popular-Articles {
-    align-items: center;
-    text-align: center;
-    height: 10vh;
+    
+    height: 100%;
     border-radius: 20em;
     width: 35%;
     background-color: #458500;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .blog-products-section {
@@ -1974,6 +1985,27 @@ button {
     gap: 1rem;
 }
 
+
+.herb-links-main-section{
+     text-align: center;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     flex-direction: column;
+    
+}
+
+.herb-links-main-section-child{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
 /* Herbs and spices  css End*/
 /* Community css end*/
 
@@ -2010,6 +2042,7 @@ button {
 .sec-Rewards-values-shown {
     background-color: #F5F5F5;
     border-radius: 10px;
+    border: 1px solid #CCCCCC;
     text-align: center;
     align-items: center;
     display: flex;

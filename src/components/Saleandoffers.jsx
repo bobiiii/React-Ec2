@@ -88,7 +88,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,24 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card " style={{ width: "18rem" }}>
+                        <img src={sale} className="card-img-top" alt="..." />
+                        <div className="card-body  sales-products-for-mobile-size-text ">
+                            <h5 className="card-title">Featured</h5>
+                            <p className="sales-products-for-mobile-size-text-Expires-p">Expires 5/31/23 at 11:59:59 PM PT</p>
+                            <p className="card-text sales-products-for-mobile-size-text-Refer-p">Refer anyone to shop the iHerb App from
+                                April 24 - May 31, 2023 to give them 15%
+                                off their first app order. Plus, y...
+                                <a href="" className='text-decoration-none' > View
+                                    More</a>
+                            </p>
+                            <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
+                            <div className='text-center sales-products-for-mobile-size-bttn'>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -122,7 +139,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +156,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -156,7 +173,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -173,7 +190,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -190,24 +207,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="card " style={{ width: "18rem" }}>
-                        <img src={sale} className="card-img-top" alt="..." />
-                        <div className="card-body  sales-products-for-mobile-size-text ">
-                            <h5 className="card-title">Featured</h5>
-                            <p className="sales-products-for-mobile-size-text-Expires-p">Expires 5/31/23 at 11:59:59 PM PT</p>
-                            <p className="card-text sales-products-for-mobile-size-text-Refer-p">Refer anyone to shop the iHerb App from
-                                April 24 - May 31, 2023 to give them 15%
-                                off their first app order. Plus, y...
-                                <a href="" className='text-decoration-none'> View
-                                    More</a>
-                            </p>
-                            <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
-                            <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -242,7 +242,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ function Saleandoffers() {
                             </p>
                             <p className='text-center sales-products-for-mobile-size-text-Refer-p'>No code Needed</p>
                             <div className='text-center sales-products-for-mobile-size-bttn'>
-                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF" }} >Shop Now</a>
+                                <a href="#" className="btn btn" style={{ backgroundColor: '#458500', color: "#FFFFFF",width:"100%" }} >Shop Now</a>
                             </div>
                         </div>
                     </div>
@@ -277,6 +277,7 @@ function Saleandoffers() {
                     </div>
 
                     <div className='more-way-cards mt-4'>
+                        
                         <div className="card w-50 h-50 equal-height-card" style={{ background: "#FAFAFA" }}>
                             <div className="card-body more-way-cards-text-size-for-mobile" style={{ height: "12rem" }}>
                                 <h5 className="card-title">iHerb Rewards</h5>
