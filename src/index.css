@@ -301,7 +301,7 @@
         display: none;
     }
 
-    
+
 
     .card-box {
         width: calc(100% / 3);
@@ -362,7 +362,7 @@
 
 /* Yearly cards carousel */
 .year-box {
-    
+
 
     height: 15rem;
     overflow: auto auto;
@@ -375,7 +375,7 @@
 
 .year-line {
     position: relative;
-    
+
 }
 
 
@@ -387,7 +387,7 @@
     left: 0;
     top: 5%;
     position: absolute;
-    
+
 }
 
 
@@ -400,7 +400,7 @@
     right: 0;
     top: 5%;
     position: absolute;
-    
+
 }
 
 
@@ -416,6 +416,14 @@
     color: #D32F2F;
 
 }
+
+
+ .Customers-also-viewed-cards-cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
 
 /* Product detail page End */
 
@@ -486,7 +494,7 @@
 
 /* footer css End */
 .footercenter {
-        
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -731,17 +739,13 @@
 
 
 
-.dashboardsection {
+.dashboardsection {}
 
-}
-.dashboard-main{
-    
-}
-.sidebarsection {
-    
-}
+.dashboard-main {}
 
-.dashboard-reward{
+.sidebarsection {}
+
+.dashboard-reward {
     background-color: #E5F8E6;
 }
 
@@ -972,7 +976,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    
+
 }
 
 
@@ -1067,6 +1071,8 @@
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+    gap: 1rem;
+    width: 100%;
 }
 
 @media screen and (max-width: 450px) {
@@ -1096,7 +1102,7 @@
 }
 
 
-.more-way-text-for-desktop{
+.more-way-text-for-desktop {
     text-align: center;
 }
 
@@ -1146,15 +1152,16 @@
 }
 
 
+
+
 .Popular-Articles {
-    align-items: center;
-    text-align: center;
-    height: 10vh;
+    
+    height: 100%;
     border-radius: 20em;
     width: 35%;
     background-color: #458500;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 .blog-products-section {
@@ -1243,12 +1250,12 @@
 }
 
 
-.We-deliver-around-for-mobile h5{
+.We-deliver-around-for-mobile h5 {
     text-align: center;
 }
 
 
-.We-deliver-around-for-mobile p{
+.We-deliver-around-for-mobile p {
     text-align: center;
 }
 
@@ -1298,7 +1305,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
- }
+}
 
 .wallherb1-logos img {
     width: 64px;
@@ -1336,7 +1343,7 @@
     height: 100%;
     display: flex;
     justify-content: space-around;
-    
+
 
 }
 
@@ -1457,11 +1464,10 @@ button {
     gap: 1rem;
     /* flex-wrap: wrap; */
 }
-.Global-rs-bg-wrap{
 
-}
+.Global-rs-bg-wrap {}
 
-.Global-rs-bg-wrap-div{
+.Global-rs-bg-wrap-div {
     /* width: 25%; */
 }
 
@@ -1656,24 +1662,16 @@ button {
 }
 
 
-.Latest-happy-customers-card-cont {
-    
-    
-    
-    
-    
-    
-
-}
+.Latest-happy-customers-card-cont {}
 
 
 /* .Latest-happy-customers-card {
     display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* width: 100%; */
-    /* flex-wrap: wrap;
+/* justify-content: center; */
+/* text-align: center; */
+/* align-items: center; */
+/* width: 100%; */
+/* flex-wrap: wrap;
 
 } */
 
@@ -1688,7 +1686,7 @@ button {
 }
 
 
-.Latest-happy-users-cards{
+.Latest-happy-users-cards {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1704,18 +1702,18 @@ button {
 
 
 
-.Most-active-cards-cont{
-    
+.Most-active-cards-cont {
+
     width: 100%;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
-    
+
 }
 
 
-.Most-active-cards-cont-wrap{
+.Most-active-cards-cont-wrap {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -1726,26 +1724,26 @@ button {
 }
 
 
-.Most-active-cards{
+.Most-active-cards {
     width: 35rem;
-    
+
 }
 
-.active-cards{
-    border-radius: 0.5em ;
-    border: 1px  solid rgb(217, 207, 207);
+.active-cards {
+    border-radius: 0.5em;
+    border: 1px solid rgb(217, 207, 207);
     display: flex;
     justify-content: left;
     align-items: center;
     text-align: center;
     gap: 1em;
-    padding:0.1em;
-    
+    padding: 0.1em;
+
 
 }
 
 
-.Picture-gallery-cont{
+.Picture-gallery-cont {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -1755,25 +1753,25 @@ button {
     gap: 1em;
 }
 
-.Picture-gallery-img img{
+.Picture-gallery-img img {
     width: 80%;
-    height:80%;
+    height: 80%;
 }
 
-.about-section-image img{
+.about-section-image img {
     width: 100%;
 }
 
-.iHerb-at-a-glance-section{
+.iHerb-at-a-glance-section {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
+
 }
 
-.iHerb-at-a-glance-section-wrap{
+.iHerb-at-a-glance-section-wrap {
     height: 100%;
     width: 80%;
     display: flex;
@@ -1786,54 +1784,54 @@ button {
 
 
 /* About */
-.affordable-cs-main{
+.affordable-cs-main {
     height: auto;
 }
 
-.affordable-cs{
-position: relative;
-height: auto;
-background-color: #438a47;
+.affordable-cs {
+    position: relative;
+    height: auto;
+    background-color: #438a47;
 }
 
-.affordable-cs2{
+.affordable-cs2 {
     background-color: white;
     height: 20vh;
     position: absolute;
-    top: 70% ;
+    top: 70%;
     left: 0;
-    right:0 ;
+    right: 0;
 }
 
 
 
 
-.about-top-ten-section{
+.about-top-ten-section {
     width: 100%;
 
     display: flex;
     justify-content: center;
 }
 
-.about-top-ten-section-wrap{
+.about-top-ten-section-wrap {
     width: 60%;
-    
+
 }
 
-.about-top-ten-section-list{
+.about-top-ten-section-list {
     display: flex;
     gap: 1em;
     text-align: left;
 }
 
-.about-top-ten-section-list-text{
+.about-top-ten-section-list-text {
     display: flex;
     flex-direction: column;
     text-align: left;
 }
 
 
-.iHerb-is-run-sention{
+.iHerb-is-run-sention {
     width: 100%;
     text-align: center;
     align-items: center;
@@ -1842,14 +1840,14 @@ background-color: #438a47;
 
 }
 
-.iHerb-is-run-sention-wrap{
+.iHerb-is-run-sention-wrap {
     width: 40%;
     text-align: center;
     align-items: center;
-    
+
 }
 
-.iHerb-is-run-sention-wrap h4{
+.iHerb-is-run-sention-wrap h4 {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
@@ -1857,7 +1855,7 @@ background-color: #438a47;
     line-height: 36px;
 }
 
-.iHerb-is-run-sention-wrap p{
+.iHerb-is-run-sention-wrap p {
 
     font-family: 'Lato';
     font-style: normal;
@@ -1872,14 +1870,14 @@ background-color: #438a47;
 
 
 
-.iHerb-is-run-cards{
+.iHerb-is-run-cards {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 
-.iHerb-is-run-cards-wrap{
+.iHerb-is-run-cards-wrap {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -1888,39 +1886,39 @@ background-color: #438a47;
 }
 
 
-.iHerb-House-Brands-offer-section{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+.iHerb-House-Brands-offer-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.Moreno{
+.Moreno {
     text-align: left;
 }
 
 
-.iHerb-House-Brands-offer-cards{
-   width: 50%;
-   height: 100%; 
-   display: flex;
-   flex-wrap: wrap;
-   gap: 1rem;   
-}
-
-.Herb-House-Brands-offer-section-text{
+.iHerb-House-Brands-offer-cards {
     width: 50%;
-    
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
-.iHerb-House-Brands-offer-section-text-size{
+.Herb-House-Brands-offer-section-text {
+    width: 50%;
+
+}
+
+.iHerb-House-Brands-offer-section-text-size {
     width: 20rem;
 
 }
 
 
-.iHerb-at-a-glance-icon img{
+.iHerb-at-a-glance-icon img {
     width: 48px;
     height: 48px;
 }
@@ -1934,29 +1932,29 @@ background-color: #438a47;
 /* Herbs and spices  css start*/
 
 
-.categories-top-bar{
+.categories-top-bar {
     width: 100%;
     height: 100%;
 }
 
-.Herbs-Spices-heading{
+.Herbs-Spices-heading {
     display: flex;
     gap: 1rem;
 }
 
-.categories-dropdown{
+.categories-dropdown {
     width: 100%;
     height: 100%;
     display: flex;
     gap: 1rem;
 }
 
-.spices1-banner-image img{
+.spices1-banner-image img {
     width: 100%;
 }
 
 
-.herbs-section-main-spacing{
+.herbs-section-main-spacing {
     display: flex;
     width: 100%;
     gap: 1rem;
@@ -1964,12 +1962,12 @@ background-color: #438a47;
 
 
 
-.center-section{
+.center-section {
     width: 100%;
 
 }
 
-.herb-section-first-cards{
+.herb-section-first-cards {
     width: 100;
     display: flex;
     flex-wrap: wrap;
@@ -1978,7 +1976,7 @@ background-color: #438a47;
 }
 
 
-.herb-cards-image-sec img{
+.herb-cards-image-sec img {
     width: 160px;
     height: 160px;
 
@@ -1988,14 +1986,14 @@ background-color: #438a47;
     align-items: center;
 }
 
-.Get-the-latest-deals-section{
+.Get-the-latest-deals-section {
     background: #E0E0E0;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.Get-the-latest-deals-section-text{
+.Get-the-latest-deals-section-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -2005,10 +2003,31 @@ background-color: #438a47;
     gap: 1rem;
 }
 
-.srch-btn{
+.srch-btn {
     display: flex;
     gap: 1rem;
 }
+
+
+.herb-links-main-section{
+     text-align: center;
+     align-items: center;
+     display: flex;
+     justify-content: center;
+     gap: 1rem;
+     flex-direction: column;
+    
+}
+
+.herb-links-main-section-child{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
 
 /* Herbs and spices  css End*/
 /* Community css end*/
@@ -2027,58 +2046,108 @@ background-color: #438a47;
     display: flex;
     flex-direction: row;
     gap: 1rem;
-  }
-  
-  .secure-section-cont-sidebar {
+}
+
+.secure-section-cont-sidebar {
     flex: 0 0 20%;
     border: 1px solid gray;
-  }
-  
-  .secure-section-cont-center {
+}
+
+.secure-section-cont-center {
     flex: 0 0 75%;
     width: 100%;
-  }
-  
-  .secure-sidebarsection {
-    width: 100%;
-  }
+}
 
-  .sec-Rewards-values-shown{
+.secure-sidebarsection {
+    width: 100%;
+}
+
+.sec-Rewards-values-shown {
     background-color: #F5F5F5;
     border-radius: 10px;
+    border: 1px solid #CCCCCC;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
     width: 30%;
-    height: 100%    ;
-  }
-  
-  
+    height: 100%;
+}
 
-  .sec-Total-Available-Rewards-card-cont{
+
+
+.sec-Total-Available-Rewards-card-cont {
     width: 100%;
     border-radius: 10px;
     background-color: #EDF7E5;
-  }  
+}
 
-   .sec-Total-Available-Rewards-card-childs{
+.sec-Total-Available-Rewards-card-childs {
+
     display: flex;
     gap: 1rem;
     width: 100%;
 
-   }
-   
-
-   .secure-section-third-card-cont{
-      width: 100%;
-      display: flex;
-      gap: 1rem;
-   }
+}
 
 
-  
+
+.secure-section-third-card-cont {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    /* justify-content: space-between; */
+
+}
+
+
+.sec-Your-Shopping-Cart-lines{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-align: center;
+
+     
+}
+
+.sec-how-image img{
+    width: 100%;
+}
+
+.secure-section-fourth-card-side-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sec-Trends-report{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-Trends-report-btns{
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+.sec-last-cards-section{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.sec-last-cards-iamges-cont{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap ;
+
+}
+
 
 /* Secure css End */
-
-
