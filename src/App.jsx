@@ -33,7 +33,7 @@ function App() {
         <Route path="/com" element={<Community/>}/>
         <Route path="/about" element={<Aboutus/>}/>
         <Route path="/herb" element={<HerbsandSpice/>}/>
-        <Route path="/Sec" element={<Secure/>}/>
+        <Route path="/sec" element={<Secure/>}/>
       </Routes>
     </Layout>
      )
