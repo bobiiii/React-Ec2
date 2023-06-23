@@ -56,28 +56,29 @@ function Hero() {
 
       <div className='herocards'>
         <div className='herocards1'>
-          <p> IMMUNE SUPPORTS <br />
-            <p className='ms-3 card1dis'>  20% OFF </p>
-          </p>
+          <a href="" className='text-decoration-none text-dark'><p> IMMUNE SUPPORTS <br />
+            <p className='ms-3 '>  20% OFF </p>
+          </p></a>
+          
           <p> </p>
         </div>
         <div className='herocards1'>
-          <p> BEAUTY,BATH, & SELF-CARE <br />
+          <a href="" className='text-decoration-none text-dark'><p> BEAUTY,BATH, & SELF-CARE <br />
             <p className='ms-3'>  20% OFF </p>
           </p>
-          <p> </p>
+          <p> </p></a>
         </div>
         <div className='herocards1'>
-          <p> HERBS & SPICES <br />
+          <a href="" className='text-decoration-none text-dark'><p> HERBS & SPICES <br />
             <p className='ms-3'> UP TO 30% OFF </p>
           </p>
-          <p> </p>
+          <p> </p></a>
         </div>
         <div className='herocards1'>
-          <p> PREBIOTICS <br />
+          <a href="" className='text-decoration-none text-dark'><p> PREBIOTICS <br />
             <p className='ms-3'> UP TO 50% OFF </p>
           </p>
-          <p> </p>
+          <p> </p></a>
         </div>
         <div className='herocards1  '>
           <div className='mt-3 '>

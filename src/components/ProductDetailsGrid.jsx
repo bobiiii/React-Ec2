@@ -1,7 +1,16 @@
 import ProductImage from "../images/ProductDetail/164.png"
+import Customerscards from "./Customerscards"
+import WallHerbLive from "./WallHerbLive"
+import sale1 from "../images/sale1.png"
+import sale2 from "../images/sale2.png"
+import sale3 from "../images/sale3.png"
+import sale4 from "../images/sale4.png"
+import sale5 from "../images/sale5.png"
+import sale6 from "../images/sale6.png"
 
 function ProductDetailsGrid() {
     return (
+        <>
         <div className="container-fluid">
             <div className="row ">
                 <div className="col-lg-3 ">
@@ -84,7 +93,78 @@ function ProductDetailsGrid() {
                     Column
                 </div>
             </div>
+
+
+
+
+   
+   <Customerscards></Customerscards>
+
+
+
         </div>
+
+
+
+  <WallHerbLive></WallHerbLive>
+
+
+
+
+  <div className='sale-last-section sale-last-section-for-mobile container-fluid ' style={{ background: " #F5F5F5" }}>
+
+<div className="card mt-2  " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale1} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
+    </div>
+</div>
+<div className="card mt-2 " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale2} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Foods and Supplements for Natural </p>
+    </div>
+</div>
+<div className="card mt-2" style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale3} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>Psychodermatology: Why
+            Researchers Think the Mind-
+        </p>
+    </div>
+</div>
+<div className="card mt-2" style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale4} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>Stress-Related Hair Loss +
+            Natural Solutions to Promote</p>
+    </div>
+</div>
+<div className="card mt-2" style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale5} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>Dry brushing: What It Is +
+            Unexpected Health </p>
+    </div>
+</div>
+<div className="card mt-2 " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+    <img src={sale6} className="card-img-top" alt="..." />
+    <div className="card-body">
+        <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
+            Inflammation and </p>
+    </div>
+</div> 
+                     
+
+</div>
+
+
+        </>
+  
+   
+
+
+
     )
 }
 

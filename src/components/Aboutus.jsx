@@ -16,6 +16,7 @@ import wallherb2 from "../images/wallherb2.png"
 import wallherb3 from "../images/wallherb3.png"
 import wallherb4 from "../images/wallherb4.png"
 import wallherb5 from "../images/wallherb5.png"
+import wallherb6 from "../images/wallherb6.png"
 // import wallherb6 from "../images/wallherb6.png"
 import androidLogo from "../images/about/Vector3.png"
 import appleLogo from "../images/about/Vector2.png"
@@ -141,7 +142,7 @@ function Aboutus() {
 
                     <div className="card p-3 py-4 border-0" style={{ width: "20rem" }}>
                         <div className="text-center iHerb-at-a-glance-icon">
-                            <img src={wallherb5} width="100" className="rounded-circle" />
+                            <img src={wallherb6} width="100" className="rounded-circle" />
                         </div>
                         <div className="text-center mt-3">
                             <h5>8 fulfillment centers</h5>
