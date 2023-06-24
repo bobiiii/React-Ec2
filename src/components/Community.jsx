@@ -122,7 +122,7 @@ function Community() {
 
 
                 {/* Happy Customer Heading */}
-                <div className='container d-flex  align-items-center'>
+                <div className='container-fluid px-2 d-flex  align-items-center'>
                     <img src={comone} alt="" className="d-none d-md-block" style={{ width: "40px", height: "40px", textAlign: "center" }} />
                     <h4 className=' px-2 fs-5'>Latest happy customers</h4>
                 </div>
@@ -234,7 +234,7 @@ function Community() {
 
 
                 {/* Featured Profiles  Heading*/}
-                <div className='container  Latest-happy-customers  mt-5 '>
+                <div className='container-fluid px-3 Latest-happy-customers  mt-5 '>
                     <img src={comfour} alt="" className="d-none d-md-block" style={{ width: "40px", height: "40px", textAlign: "center" }} />
                     <h4 className=' mt-2 fs-5'>Featured profiles</h4>
                 </div>
@@ -330,6 +330,8 @@ function Community() {
                 </div>
 
                 <hr className='mt-5' />
+
+
 
                 {/* Active profiles india Desktop */}
                 <div className='container mt-5 d-none d-md-block '>
@@ -448,7 +450,7 @@ function Community() {
                 </div>
 
                 {/* Active Profile list Mobile */}
-                <div className="container-fluid  d-md-none">
+                <div className="container-fluid px-2  d-md-none">
                     {/* HGeading */}
                     <div className="mx-2">
                         <h4 className="fs-5">Most Popular Profiles In US</h4>
