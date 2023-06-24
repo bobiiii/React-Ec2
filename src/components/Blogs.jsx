@@ -8,8 +8,12 @@ import blgmob1 from "../images/blgmob1.svg"
 import vectorShare from "../images/shareVector.svg"
 import view from "../images/view.svg"
 import heart from "../images/heart.svg"
-
-
+import Trending from "./Trending"
+import CardBox from "./CardBox"
+import blgspace from "../images/blgspace.png"
+import blgnav1 from "../images/blgnav1.svg"
+import blgnav2 from "../images/blgnav2.svg"
+import blgnav3 from "../images/blgnav3.svg"
 function Blogs() {
     return (
         <>
@@ -27,17 +31,17 @@ function Blogs() {
                                 <button className="btn btn custom-button" type="submit" style={{ backgroundColor: '#458500', color: "#FFFFFF" }}>Search</button>
                             </form>
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ul-item-style">
-                                <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">WELLNESS</a>
+                                <li className="nav-item ">
+                                    <a className="nav-link active " aria-current="page" href="#"> <img src={blgnav1} alt="" className="mb-1" style={{height:"20px"}} />WELLNESS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">FITNESS</a>
+                                    <a className="nav-link active" aria-current="page" href="#"><img className="mb-1" src={blgnav2} alt="" style={{height:"20px"}} /> FITNESS</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">NUTRATION</a>
+                                    <a className="nav-link active" aria-current="page" href="#"> <img src={blgnav3} className="mb-1" alt="" style={{height:"20px"}} /> NUTRATION</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">BEAUTY</a>
+                                    <a className="nav-link active" aria-current="page" href="#"> <img src={blgnav1} className="mb-1" alt="" style={{height:"20px"}} /> BEAUTY</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,7 +54,7 @@ function Blogs() {
                         <p>WHATS NEW </p>
                         <h3>The Best Natural Remedies for
                             Managing Allergies and Asthma</h3>
-                        <p> <span className='text-success'>May 2024</span> | 218 Views </p>
+                        <p> <span className='text-success'>May 2024</span>  |  <img className="mb-1" src={view} alt="" /> 218 Views </p>
                         <p>Suffer from seasonal allergies? A naturopathic doctor
                             summarizes the most effective natural remedies and
                             lifestyle approaches for relieving allergy symptoms.</p>
@@ -63,7 +67,7 @@ function Blogs() {
 
                 <div className='get-offer mt-5 container-fluid'>
                     <div className=''>
-                        <p className='Popular-Articles text-light'> Popular Articles
+                        <p className='Popular-Articles text-light pt-2 px-2 py-2'> Popular Articles
                             Get 20% Off your first order with NEW20 X </p>
                     </div>
                 </div>
@@ -78,11 +82,11 @@ function Blogs() {
                                 fontWeight: 700,
                                 fontSize: '14px',
                                 lineHeight: '15px',
-                            }}>Supplements</p>
+                            }}> <img className="mb-1" src={blgnav1} alt="" /> Supplements</p>
                             <h5 className="card-title">7 Evidence-Based Ways Liquid
                                 Chlorophyll Can Benefit Health </h5>
-                            <p>Oct 2021
-                                526,015 Views</p>
+                            <p>Oct 2021 |
+                            <img className="mb-1 ms-1" src={view} alt="" /> 526,015 Views</p>
                             <p className="card-text">Discover the health benefits of liquid chlorophyll. From improved
                                 skin and immunity to decreased body odor, chlorophyll has many
                                 ways to improve your overall health.</p>
@@ -97,11 +101,12 @@ function Blogs() {
                                 fontWeight: 700,
                                 fontSize: '14px',
                                 lineHeight: '15px',
-                            }}>Supplements</p>
+                            }}> <img className="mb-1" src={blgnav1} alt="" /> Supplements</p>
                             <h5 className="card-title">7 Evidence-Based Ways Liquid
                                 Chlorophyll Can Benefit Health </h5>
-                            <p>Oct 2021
-                                526,015 Views</p>
+                            <p>Oct 2021 
+                                |
+                                <img className="mb-1 ms-1" src={view} alt="" />  526,015 Views</p>
                             <p className="card-text">Discover the health benefits of liquid chlorophyll. From improved
                                 skin and immunity to decreased body odor, chlorophyll has many
                                 ways to improve your overall health.</p>
@@ -116,11 +121,11 @@ function Blogs() {
                                 fontWeight: 700,
                                 fontSize: '14px',
                                 lineHeight: '15px',
-                            }}>Supplements</p>
+                            }}><img className="mb-1" src={blgnav1} alt="" /> Supplements</p>
                             <h5 className="card-title">7 Evidence-Based Ways Liquid
                                 Chlorophyll Can Benefit Health </h5>
-                            <p>Oct 2021
-                                526,015 Views</p>
+                            <p>Oct 2021 |
+                                 <img className="mb-1 ms-1" src={view} alt="" /> 526,015 Views</p>
                             <p className="card-text">Discover the health benefits of liquid chlorophyll. From improved
                                 skin and immunity to decreased body odor, chlorophyll has many
                                 ways to improve your overall health.</p>
@@ -330,23 +335,23 @@ function Blogs() {
                         <div className="accordion w-100" id="basicAccordion">
                             <div className="accordion-item">
                                 <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingOne">
+                                    <h2 className="accordion-header" id="headingSix">
                                         <button
                                             className="accordion-button collapsed"
                                             type="button"
                                             data-bs-toggle="collapse"
-                                            data-bs-target="#basicAccordionCollapseOne"
+                                            data-bs-target="#basicAccordionCollapseSix"
                                             aria-expanded="false"
-                                            aria-controls="collapseOne"
+                                            aria-controls="collapseSix"
                                             style={{ backgroundColor: "#FFFFF", maxHeight: "40px" }}
                                         >
                                             All
                                         </button>
                                     </h2>
                                     <div
-                                        id="basicAccordionCollapseOne"
+                                        id="basicAccordionCollapseSix"
                                         className="accordion-collapse collapse"
-                                        aria-labelledby="headingOne"
+                                        aria-labelledby="headingSix"
                                         data-bs-parent="#basicAccordion"
                                         style={{ maxHeight: "50px" }} // Adjust the height value as desired
                                     >
@@ -839,11 +844,103 @@ function Blogs() {
 
 
 
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            References
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider" /></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+
+
+
+
+
 
 
                     <div>
                     </div>
                 </div>
+
+
+                <div >
+                    <img src={blgspace} style={{ width: "100%" }} alt="" />
+                </div>
+
+                <div className="mt-2 mb-3">
+                    <h4>Shop This Article</h4>
+                </div>
+
+                <CardBox></CardBox>
+
+                <div >
+                    <img src={blgspace} style={{ width: "100%" }} alt="" />
+                </div>
+
+                <div className="accordion w-100 mt-3" id="basicAccordion">
+                    <div className="accordion-item">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header" id="headingSeven">
+                                <button
+                                    className="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#basicAccordionCollapseSeven"
+                                    aria-expanded="false"
+                                    aria-controls="collapseSeven"
+                                    style={{ backgroundColor: "#FFFFF", maxHeight: "40px", }}
+                                >
+                                    <h6 className="mt-1">Related Articles</h6>
+                                </button>
+                            </h2>
+                            <div
+                                id="basicAccordionCollapseSeven"
+                                className="accordion-collapse collapse"
+                                aria-labelledby="headingSeven"
+                                data-bs-parent="#basicAccordion"
+                                style={{ maxHeight: "50px" }} // Adjust the height value as desired
+                            >
+                                <div className="accordion-body" style={{ backgroundColor: "#FFFFF" }}>
+                                    <a href="" className="text-decoration-none text-dark">
+                                        heello
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="blog-last-card-for-mobile mt-4">
+
+
+
+                    <div className="card " style={{ width: "18rem" }}>
+                        <img src={Blog} className="card-img-top" alt="..." />
+                        <div className="card-body  sales-products-for-mobile-size-text ">
+
+                            <p className="sales-products-for-mobile-size-text-Expires-p">How to Relieve Allergies Naturally</p>
+                            <h5 className="card-title">Wellness</h5>
+                            <p className="card-text sales-products-for-mobile-size-text-Refer-p">The change of seasons can sometimes bring
+                                more than just a shift in the weather or a
+                                transition of colors. For the hundreds of
+
+                            </p>
+                            <div className='text-center sales-products-for-mobile-size-bttn border-1 '>
+                                <a href="#" className="btn btn text-start" style={{   }} >Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
             </section>
             {/* for mobile */}
 

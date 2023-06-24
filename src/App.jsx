@@ -13,6 +13,7 @@ import Community from "./components/Community"
 import Aboutus from "./components/Aboutus"
 import HerbsandSpice from "./components/HerbsandSpice"
 import { useLocation } from 'react-router-dom';
+import Secure from "./components/Secure"
 function App() {
 
   const location = useLocation();
@@ -32,6 +33,7 @@ function App() {
         <Route path="/com" element={<Community/>}/>
         <Route path="/about" element={<Aboutus/>}/>
         <Route path="/herb" element={<HerbsandSpice/>}/>
+        <Route path="/sec" element={<Secure/>}/>
       </Routes>
     </Layout>
      )
