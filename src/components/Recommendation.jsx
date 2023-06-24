@@ -9,7 +9,7 @@ import sale3 from "../images/sale3.png"
 import sale4 from "../images/sale4.png"
 import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
-
+import vectorShare from "../images/shareVector.svg"
 function Recommendation() {
   return (
     <>
@@ -46,12 +46,12 @@ function Recommendation() {
         <section >
           <div className='Get-personalized-section container-fluid '>
             <div className='mt-5'>
-              <h3>Get personalized recommendations fast</h3>
-              <p>pAnswer a few questions and we'll help you find the right vitamins and supplements for your
+              <h3 className='secure-font-setup-for-headings'>Get personalized recommendations fast</h3>
+              <p className='secure-font-setup-for-p'>pAnswer a few questions and we'll help you find the right vitamins and supplements for your
                 wellness needs.</p>
-              <a href="" className='btn btn mt-2' style={{ background: "#458500", color: "#FFFFFF" }}>Take the quiz</a>
+              <a href="" className='btn btn mt-2 secure-font-setup-for-p' style={{ background: "#458500", color: "#FFFFFF" }}>Take the quiz</a>
 
-              <p className='mt-2'>We never save or share your personal info.</p>
+              <p className='mt-2 secure-font-setup-for-p' >We never save or share your personal info.</p>
             </div>
           </div>
 
@@ -63,8 +63,8 @@ function Recommendation() {
         </div>
 
         <div className='our-recommendations-text text-center container-fluid mt-5'>
-          <h4>How we select our recommendations</h4>
-          <p>We feature a wide range of vitamins, supplements, herbs, superfoods, sports nutrition, and more to support a healthy lifestyle.</p>
+          <h4 className='secure-font-setup-for-headings'>How we select our recommendations</h4>
+          <p className='secure-font-setup-for-p'>We feature a wide range of vitamins, supplements, herbs, superfoods, sports nutrition, and more to support a healthy lifestyle.</p>
         </div>
 
         <div className='our-recommendations-cards container-lg' >
@@ -73,7 +73,7 @@ function Recommendation() {
               <img src={tick} width="100" className="rounded-circle" />
             </div>
             <div className="text-center mt-3">
-              <p className=''>Meets strict standards and
+              <p className='secure-font-setup-for-p'>Meets strict standards and
                 Current Good Manufacturing
                 Practices set by the FDA  </p>
             </div>
@@ -83,7 +83,7 @@ function Recommendation() {
               <img src={tick} width="100" className="rounded-circle" />
             </div>
             <div className="text-center mt-3">
-              <p className=''>Made with raw materials, unique
+              <p className='secure-font-setup-for-p'>Made with raw materials, unique
                 ingredients, and trusted blends</p>
             </div>
           </div>
@@ -92,7 +92,7 @@ function Recommendation() {
               <img src={tick} width="100" className="rounded-circle" />
             </div>
             <div className="text-center mt-3">
-              <p className=''>Independently tested for quality
+              <p className='secure-font-setup-for-p'>Independently tested for quality
                 through the <a href="" className='text-decoration-none'>iTested program </a></p>
             </div>
           </div>
@@ -102,7 +102,7 @@ function Recommendation() {
               <img src={tick} width="100" className="rounded-circle" />
             </div>
             <div className="text-center mt-3">
-              <p className=''>Includes 90-day, money-back
+              <p className='secure-font-setup-for-p'>Includes 90-day, money-back
                 guarantee</p>
             </div>
           </div>
@@ -114,12 +114,12 @@ function Recommendation() {
   
      <div className='Enjoy-the-quiz text-center container-fluid mt-5'>
       <div>
-         <h4>Enjoy the quiz? Share and earn Rewards!</h4>
-         <p>Get 5% or 10% commission on any referral purchases from the quiz.</p>
+         <h4 className='green-text text-start secure-font-setup-for-headings'>Enjoy the quiz? Share and earn Rewards!</h4>
+         <p className='secure-font-setup-for-p text-start'>Get 5% or 10% commission on any referral purchases from the quiz.</p>
       </div>
 
       <div>
-          <a href="" className='btn btn ' style={{background:"#47A84A",color:"#ffff"}}>Share</a>
+          <a href="" className='btn btn secure-font-setup-for-p d-flex ' style={{background:"#FFFFFF"}}>Share <img src={vectorShare} className='ms-1' alt="" /> </a>
       </div>
 
      </div>
