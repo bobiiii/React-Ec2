@@ -1,4 +1,4 @@
-import React from 'react'
+
 import blgmob1 from "../images/blgmob1.svg"
 import sec2 from "../images/sec2.svg"
 import sec1 from "../images/sec1.svg"
@@ -38,12 +38,12 @@ function Securemobcards() {
 
 
 
-                <div class="card" style={{ width: "100%" }}>
-                  <div class="card-body">
+                <div className="card" style={{ width: "100%" }}>
+                  <div className="card-body">
                     <div className='d-flex justify-content-between'>
                       <div>
-                        <h6 class="card-text secure-font-setup-for-p-another">Rewards Available for Purchase or Cashout  </h6>
-                        <h5 class="card-title secure-font-setup-for-headings">$0.00</h5>
+                        <h6 className="card-text secure-font-setup-for-p-another">Rewards Available for Purchase or Cashout  </h6>
+                        <h5 className="card-title secure-font-setup-for-headings">$0.00</h5>
                         <p className='secure-font-setup-for-p '>$100.00 left until cash-out</p>  
                       </div>
                       
@@ -53,18 +53,18 @@ function Securemobcards() {
                     </div>
 
                     <div className=' border border-2 mt-2' style={{ width: "100%", alignItems: "center", display: "flex", justifyContent: "center" }}>
-                      <a href="#" class="btn btn  secure-font-setup-for-p" style={{ width: "100%" }} >Shop now</a>
+                      <a href="#" className="btn btn  secure-font-setup-for-p" style={{ width: "100%" }} >Shop now</a>
                     </div>
                   </div>
                 </div>
 
 
-                <div class="card" style={{ width: "100%" }}>
-                  <div class="card-body">
+                <div className="card" style={{ width: "100%" }}>
+                  <div className="card-body">
                     <div className='d-flex justify-content-between'>
                       <div>
-                        <h6 class="card-text secure-font-setup-for-p-another">Rewards Available for Purchase or Cashout  </h6>
-                        <h5 class="card-title secure-font-setup-for-headings">$0.00</h5>
+                        <h6 className="card-text secure-font-setup-for-p-another">Rewards Available for Purchase or Cashout  </h6>
+                        <h5 className="card-title secure-font-setup-for-headings">$0.00</h5>
                       </div>
                       <div>
                         <img src={blgmob1} alt="" />
@@ -72,7 +72,7 @@ function Securemobcards() {
                     </div>
 
                     <div className=' border border-2 mt-2' style={{ width: "100%", alignItems: "center", display: "flex", justifyContent: "center" }}>
-                      <a href="#" class="btn btn  secure-font-setup-for-p " style={{ width: "100%" }} >Use Rewards To Shop</a>
+                      <a href="#" className="btn btn  secure-font-setup-for-p " style={{ width: "100%" }} >Use Rewards To Shop</a>
                     </div>
                   </div>
                 </div>
@@ -86,12 +86,12 @@ function Securemobcards() {
 
 
 
-            <div class="card" style={{ width: "100%", background: "#FFF9E7" }}>
-                <div class="card-body">
+            <div className="card" style={{ width: "100%", background: "#FFF9E7" }}>
+                <div className="card-body">
                   <div className='d-flex justify-content-between'>
                     <div>
-                      <h6 class="card-text secure-font-setup-for-headings">Pending Rewards  </h6>
-                      <h5 class="card-title secure-font-setup-for-headings">$0.00</h5>
+                      <h6 className="card-text secure-font-setup-for-headings">Pending Rewards  </h6>
+                      <h5 className="card-title secure-font-setup-for-headings">$0.00</h5>
                       <p className='secure-font-setup-for-p'>As of
                         5/24/23</p>
                     </div>
@@ -107,12 +107,12 @@ function Securemobcards() {
 
 
 
-              <div class="card" style={{ width: "100%" }}>
-                <div class="card-body">
+              <div className="card" style={{ width: "100%" }}>
+                <div className="card-body">
                   <div className=''>
                     <div >
-                      <h6 class="card-text secure-font-setup-for-headings">Lifetime Rewards  </h6>
-                      <h5 class="card-title secure-font-setup-for-headings" style={{color:"#0D487C"}}>$0.00</h5>
+                      <h6 className="card-text secure-font-setup-for-headings">Lifetime Rewards  </h6>
+                      <h5 className="card-title secure-font-setup-for-headings" style={{color:"#0D487C"}}>$0.00</h5>
                       <p className='secure-font-setup-for-p'>As of 5/28/23</p>
                       <p></p>
                     </div>
@@ -132,11 +132,11 @@ function Securemobcards() {
               </div>
 
 
-              <div class="card" style={{ width: "100%", height: "100%" }}>
-                  <div class="card-body">
+              <div className="card" style={{ width: "100%", height: "100%" }}>
+                  <div className="card-body">
                     <div className='d-flex justify-content-between'>
                       <div>
-                        <h6 class="card-text ">Recent Transactions</h6>
+                        <h6 className="card-text ">Recent Transactions</h6>
                       </div>
                       <div >
                         <img src={blgmob1} alt="" />

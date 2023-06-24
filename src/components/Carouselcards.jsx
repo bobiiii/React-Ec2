@@ -8,6 +8,7 @@ function Carouselcards() {
     speed: 500,
     slidesToShow: 6,
     swipeToSlide: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
