@@ -213,56 +213,60 @@ function Footer() {
 
 
 <div className="accordion w-100 for-desktop-screen-this-ftr-none" id="basicAccordion" >
-  <div className="accordion-item" >
-    <h2 className="accordion-header" id="headingOne">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne" style={{backgroundColor:"#F5F5F5"}}>
-        <h5 className='footer-for-mobile-text-size'>About</h5>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
-      data-bs-parent="#basicAccordion">
-      <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
-        <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo" style={{backgroundColor:"#F5F5F5"}}>
-        <h5 className='footer-for-mobile-text-size'>Company</h5>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
-      data-bs-parent="#basicAccordion" >
-      <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingOne">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne"
+      style={{backgroundColor:"#F5F5F5", outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h5 className='footer-for-mobile-text-size' >About</h5>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
       <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
     </div>
   </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-        data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree" style={{backgroundColor:"#F5F5F5"}}>
-        <h5 className='footer-for-mobile-text-size'>Resources</h5>
-      </button>
-    </h2>
-    <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
-      data-bs-parent="#basicAccordion" style={{backgroundColor:"#F5F5F5"}}>
-      <div className="accordion-body">
+</div>
+
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingTwo">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+      style={{backgroundColor:"#F5F5F5", outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h5 className='footer-for-mobile-text-size'>Company</h5>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
       <a href="" className='text-decoration-none text-dark'>heello</a>
-      </div>
     </div>
-
-    
   </div>
+</div>
 
-  <div className="accordion-item">
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingThree">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseThree" aria-expanded="false" aria-controls="collapseThree"
+      style={{backgroundColor:"#F5F5F5", outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h5 className='footer-for-mobile-text-size'>Resources</h5>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
+    data-bs-parent="#basicAccordion" style={{backgroundColor:"#F5F5F5"}}>
+    <div className="accordion-body">
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
+
+
+<div className="accordion-item">
   <h2 className="accordion-header" id="headingFour">
     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
       data-bs-target="#basicAccordionCollapseFour" aria-expanded="false" aria-controls="basicAccordionCollapseFour"
-      style={{backgroundColor:"#F5F5F5"}}>
+      style={{backgroundColor:"#F5F5F5", outline: 'none', boxShadow: 'none', color: 'inherit'}}>
       <h5 className='footer-for-mobile-text-size'>Customer Service</h5>
     </button>
   </h2>
@@ -273,6 +277,7 @@ function Footer() {
     </div>
   </div>
 </div>
+
 
 </div>
 

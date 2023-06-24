@@ -333,36 +333,25 @@ function Blogs() {
                     <div>
                         <h5 className="Select-Category-text-for-mobile">Select Category</h5>
                         <div className="accordion w-100" id="basicAccordion">
-                            <div className="accordion-item">
-                                <div className="accordion-item">
-                                    <h2 className="accordion-header" id="headingSix">
-                                        <button
-                                            className="accordion-button collapsed"
-                                            type="button"
-                                            data-bs-toggle="collapse"
-                                            data-bs-target="#basicAccordionCollapseSix"
-                                            aria-expanded="false"
-                                            aria-controls="collapseSix"
-                                            style={{ backgroundColor: "#FFFFF", maxHeight: "40px" }}
-                                        >
-                                            All
-                                        </button>
-                                    </h2>
-                                    <div
-                                        id="basicAccordionCollapseSix"
-                                        className="accordion-collapse collapse"
-                                        aria-labelledby="headingSix"
-                                        data-bs-parent="#basicAccordion"
-                                        style={{ maxHeight: "50px" }} // Adjust the height value as desired
-                                    >
-                                        <div className="accordion-body" style={{ backgroundColor: "#FFFFF" }}>
-                                            <a href="" className="text-decoration-none text-dark">
-                                                heello
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div className="accordion-item">
+  <h2 className="accordion-header" id="headingSix">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseSix" aria-expanded="false" aria-controls="collapseSix"
+      style={{ backgroundColor: "transparent", maxHeight: "40px", outline: "none", boxShadow: "none", color: "inherit" }}>
+      All
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
+    data-bs-parent="#basicAccordion" style={{ maxHeight: "50px", outline: "none", boxShadow: "none" }}>
+    <div className="accordion-body" style={{ backgroundColor: "transparent" }}>
+      <a href="" className="text-decoration-none text-dark">
+        heello
+      </a>
+    </div>
+  </div>
+</div>
+
+
                         </div>
                     </div>
 
@@ -883,36 +872,36 @@ function Blogs() {
                 </div>
 
                 <div className="accordion w-100 mt-3" id="basicAccordion">
-                    <div className="accordion-item">
-                        <div className="accordion-item">
-                            <h2 className="accordion-header" id="headingSeven">
-                                <button
-                                    className="accordion-button collapsed"
-                                    type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#basicAccordionCollapseSeven"
-                                    aria-expanded="false"
-                                    aria-controls="collapseSeven"
-                                    style={{ backgroundColor: "#FFFFF", maxHeight: "40px", }}
-                                >
-                                    <h6 className="mt-1">Related Articles</h6>
-                                </button>
-                            </h2>
-                            <div
-                                id="basicAccordionCollapseSeven"
-                                className="accordion-collapse collapse"
-                                aria-labelledby="headingSeven"
-                                data-bs-parent="#basicAccordion"
-                                style={{ maxHeight: "50px" }} // Adjust the height value as desired
-                            >
-                                <div className="accordion-body" style={{ backgroundColor: "#FFFFF" }}>
-                                    <a href="" className="text-decoration-none text-dark">
-                                        heello
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="accordion-item">
+    <h2 className="accordion-header" id="headingSeven">
+        <button
+            className="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#basicAccordionCollapseSeven"
+            aria-expanded="false"
+            aria-controls="collapseSeven"
+            style={{ backgroundColor: "transparent", border: "none", boxShadow: "none", color: "#000000" }}
+        >
+            <h6 className="mt-1">Related Articles</h6>
+        </button>
+    </h2>
+    <div
+        id="basicAccordionCollapseSeven"
+        className="accordion-collapse collapse"
+        aria-labelledby="headingSeven"
+        data-bs-parent="#basicAccordion"
+        style={{ maxHeight: "50px" }} // Adjust the height value as desired
+    >
+        <div className="accordion-body" style={{ backgroundColor: "transparent" }}>
+            <a href="" className="text-decoration-none text-dark">
+                heello
+            </a>
+        </div>
+    </div>
+</div>
+
+
                 </div>
 
 
