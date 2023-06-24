@@ -5,7 +5,7 @@ function Customerscards() {
   return (
     <>
     
-       <div className='Customers-also-viewed-card-section mt-4'>
+       <div className='Customers-also-viewed-card-section mt-4 container-fluid'>
                
                <h6>Customers also viewed</h6>
                <hr />

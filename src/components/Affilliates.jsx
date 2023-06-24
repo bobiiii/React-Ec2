@@ -67,73 +67,80 @@ function Affilliates() {
 
         <div className='faq-section mt-5'>
           <div className="accordion faq-section-size" id="basicAccordion">
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFive">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Competitive Commission Rates</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>hello</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingSix">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Top Global Retailer</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+          <div className="accordion-item">
+  <h2 className="accordion-header" id="headingFive">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseFive" aria-expanded="false" aria-controls="collapseFive"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Competitive Commission Rates</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>hello</a>
+    </div>
+  </div>
+</div>
 
 
 
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingSeven">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Wide Variety of Products</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-
-
-            </div>
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingSix">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseSix" aria-expanded="false" aria-controls="collapseSix"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Top Global Retailer</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
 
 
 
 
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingEight">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseEight" aria-expanded="false" aria-controls="basicAccordionCollapseEight">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Tools for Success</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingSeven">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseSeven" aria-expanded="false" aria-controls="collapseSeven"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Wide Variety of Products</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingEight">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseEight" aria-expanded="false" aria-controls="basicAccordionCollapseEight"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Tools for Success</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
+
 
 
 
@@ -295,48 +302,54 @@ function Affilliates() {
 
         <div className='faq-section mt-5'>
           <div className="accordion faq-section-size" id="basicAccordion">
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingNine">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  <h6 className='faq-section-one-for-mobile-text-size'>What are the requirements to join?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>hello</a>
-                </div>
-              </div>
-            </div>
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTen">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseTen" aria-expanded="false" aria-controls="collapseTen">
-                  <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseTen" className="accordion-collapse collapse" aria-labelledby="headingTen"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+          <div className="accordion-item">
+  <h2 className="accordion-header" id="headingNine">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseNine" aria-expanded="false" aria-controls="collapseNine"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>What are the requirements to join?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>hello</a>
+    </div>
+  </div>
+</div>
 
 
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingTen">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseTen" aria-expanded="false" aria-controls="collapseTen"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseTen" className="accordion-collapse collapse" aria-labelledby="headingTen"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
 
-            <div className="accordion-item">
+
+
+
+
+<div className="accordion-item">
   <h2 className="accordion-header" id="headingEleven">
     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-      data-bs-target="#basicAccordionCollapseEleven" aria-expanded="false" aria-controls="basicAccordionCollapseEleven">
+      data-bs-target="#basicAccordionCollapseEleven" aria-expanded="false" aria-controls="basicAccordionCollapseEleven"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
       <h6 className='faq-section-one-for-mobile-text-size'>When do I get paid?</h6>
     </button>
   </h2>
   <div id="basicAccordionCollapseEleven" className="accordion-collapse collapse" aria-labelledby="headingEleven"
     data-bs-parent="#basicAccordion">
-    <div className="accordion-body">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
       <a href="" className='text-decoration-none text-dark'>Hello</a>
     </div>
   </div>
@@ -345,91 +358,101 @@ function Affilliates() {
 
 
 
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingTwelve">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                  <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseTwelve" className="accordion-collapse collapse" aria-labelledby="headingTwelve"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
 
-
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingThirteen">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in the Affiliate program if I don’t live in the US?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseThirteen" className="accordion-collapse collapse" aria-labelledby="headingThirteen"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
-
-
-
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingFourteen">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                  <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in both the Affiliate and Rewards program?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseFourteen" className="accordion-collapse collapse" aria-labelledby="headingFourteen"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingTwelve">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseTwelve" aria-expanded="false" aria-controls="collapseTwelve"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>How do I earn commission?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseTwelve" className="accordion-collapse collapse" aria-labelledby="headingTwelve"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
 
 
 
 
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingfifteen">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapsefifteen" aria-expanded="false" aria-controls="collapsefifteen">
-                  <h6 className='faq-section-one-for-mobile-text-size'>I’m an Influencer. Can I join the Affiliate program?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapsefifteen" className="accordion-collapse collapse" aria-labelledby="headingfifteen"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingThirteen">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseThirteen" aria-expanded="false" aria-controls="collapseThirteen"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in the Affiliate program if I don’t live in the US?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseThirteen" className="accordion-collapse collapse" aria-labelledby="headingThirteen"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingFourteen">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseFourteen" aria-expanded="false" aria-controls="collapseFourteen"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>Can I participate in both the Affiliate and Rewards program?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseFourteen" className="accordion-collapse collapse" aria-labelledby="headingFourteen"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
 
 
 
 
 
-            <div className="accordion-item">
-              <h2 className="accordion-header" id="headingSixteen">
-                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#basicAccordionCollapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                  <h6 className='faq-section-one-for-mobile-text-size'>How do I reach out if I have questions?</h6>
-                </button>
-              </h2>
-              <div id="basicAccordionCollapseSixteen" className="accordion-collapse collapse" aria-labelledby="headingSixteen"
-                data-bs-parent="#basicAccordion">
-                <div className="accordion-body">
-                  <a href="" className='text-decoration-none text-dark'>heello</a>
-                </div>
-              </div>
-            </div>
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingfifteen">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapsefifteen" aria-expanded="false" aria-controls="collapsefifteen"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>I’m an Influencer. Can I join the Affiliate program?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapsefifteen" className="accordion-collapse collapse" aria-labelledby="headingfifteen"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div className="accordion-item">
+  <h2 className="accordion-header" id="headingSixteen">
+    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+      data-bs-target="#basicAccordionCollapseSixteen" aria-expanded="false" aria-controls="collapseSixteen"
+      style={{backgroundColor: 'transparent', outline: 'none', boxShadow: 'none', color: 'inherit'}}>
+      <h6 className='faq-section-one-for-mobile-text-size'>How do I reach out if I have questions?</h6>
+    </button>
+  </h2>
+  <div id="basicAccordionCollapseSixteen" className="accordion-collapse collapse" aria-labelledby="headingSixteen"
+    data-bs-parent="#basicAccordion">
+    <div className="accordion-body" style={{outline: 'none', boxShadow: 'none'}}>
+      <a href="" className='text-decoration-none text-dark'>heello</a>
+    </div>
+  </div>
+</div>
 
 
 
