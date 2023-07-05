@@ -422,6 +422,13 @@
 
 
 /* Product detail page Start */
+
+.Brands-A-Z-cont{
+    display: flex;
+    gap: 1rem;
+}
+
+
 .special-banner {
     background-color: #FFF3F8;
 }
@@ -436,6 +443,14 @@
     width: 100%;
     display: flex;
     justify-content: center;
+ }
+
+
+ .quality-and-safely-section{
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
  }
 
 

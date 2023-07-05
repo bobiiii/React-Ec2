@@ -54,16 +54,16 @@ function Saleandoffers() {
                         </div>
                         <div className='d-flex justify-content-center justify-content-space-around sale-and-offer-route mt-3'>
                             <div className='All-Sales ' >
-                                <p>All Sales & Offers (11)</p>
+                                <p><a href="" className="text-decoration-none green-text">All Sales & Offers (11)</a></p>
                             </div>
                             <div className='All-f-t-s All-Sales'>
-                                <p>Featured (8)</p>
+                                <p><a href="" className="text-decoration-none text-secondary">Featured (8)</a></p>
                             </div>
                             <div className='All-f-t-s All-Sales'>
-                                <p>Trials (2)</p>
+                                <p><a href="" className="text-decoration-none text-secondary">Trials (2)</a></p>
                             </div>
                             <div className='All-f-t-s All-Sales'>
-                                <p>Specials (1)</p>
+                                <p><a href="" className="text-decoration-none text-secondary">Specials (1)</a></p>
                             </div>
                         </div>
                         <hr  className="mt-5 after-desk-display-none"/>
