@@ -26,7 +26,7 @@ const CustomerReviews = () => {
   return (
     <div>
       <div className={styles.customerReviewH1}>Customer reviews</div>
-      <div className="d-flex">
+      <div className="d-md-flex">
         <div>
           <div className="d-flex align-items-center">
             <div className={`${styles.RatingTxt1}`}>4.8</div>
@@ -151,7 +151,7 @@ const CustomerReviews = () => {
         </div>
 
         <div>
-          <div className="d-flex">
+          <div className="d-md-flex">
             <div className="ms-4">
               <div style={{ marginBottom: '20px' }} className={styles.cardH2}>
                 Most helpful positive review

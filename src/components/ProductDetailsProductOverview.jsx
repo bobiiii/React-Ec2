@@ -10,7 +10,7 @@ const ProductDetailsProductOverview = () => {
 
       <div class="container">
         <div class="row justify-content-start">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12">
             <div className="pe-2 pt-2">
               <div className={styles.descH1}>Description</div>
               <div className={styles.descLi}>
@@ -205,7 +205,7 @@ const ProductDetailsProductOverview = () => {
               </div>
             </div>
           </div>
-          <div class="col-4 mt-2">
+          <div class="col-md-4 col-sm-12 mt-2">
             <div className={styles.table2H1}>Supplement Facts</div>
             <div className={styles.table2H2}>
               Serving Size:{' '}

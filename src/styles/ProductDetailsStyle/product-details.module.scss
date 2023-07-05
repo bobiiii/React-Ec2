@@ -197,13 +197,19 @@
 .currentItemLi span:last-child {
   @include fontStyle1(400, 14, 20);
   color: #1976d2;
-  width: 280px;
+  width: 380px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
 
 .currentItemPara {
+  width: 380px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.currentItemPara2 {
   width: 380px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -252,4 +258,75 @@
   color: #000000;
   @include fontStyle1(700, 16, 18);
   text-align: center;
+}
+
+@include media(800px) {
+  .frequencyPlus {
+    display: none;
+  }
+  .freqCheckbox {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  .frequentlyPurchasedH1 {
+    min-width: 26 0px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dividerfrequentlyPurchasedH1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .currentItemPara {
+    width: 380px;
+  }
+  .currentItemPara2 {
+    width: 80px;
+  }
+  .currentItemLi span:last-child {
+    @include fontStyle1(400, 14, 20);
+    color: #1976d2;
+    max-width: 280px;
+    min-width: 150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 180px;
+  }
+}
+
+@include media(500px) {
+  .frequencyPlus {
+    display: none;
+  }
+  .freqCheckbox {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  .frequentlyPurchasedH1 {
+    min-width: 260px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dividerfrequentlyPurchasedH1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .currentItemPara {
+    width: 380px;
+  }
+  .currentItemPara2 {
+    width: 80px;
+  }
+  .currentItemLi span:last-child {
+    width: 180px;
+  }
 }

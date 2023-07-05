@@ -86,7 +86,7 @@ function ProductDetailsGrid() {
     <>
       <div className="container-fluid">
         <div className="row ">
-          <div className="col-lg-3 ">
+          <div className="col-lg-3 col-md-12 col-sm-12 ">
             <img src={ProductImage} className="w-100 py-2" alt="a" />
             <div className="">
               <img className="w-25" src={ProductImage} alt="a" />
@@ -262,7 +262,7 @@ function ProductDetailsGrid() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-12 col-sm-12">
             {/* column */}
             <div className={styles.addToCart_productDetails}>
               <div className={`d-flex justify-content-end ${styles.price1}`}>
@@ -428,7 +428,7 @@ function ProductDetailsGrid() {
       {/* Frequently purchased together */}
 
       <div className="mx-4 mt-4">
-        <div className="d-flex align-items-center">
+        <div className="d-md-flex align-items-center">
           <div className={styles.frequentlyPurchasedH1}>
             Frequently purchased together
           </div>
@@ -437,14 +437,14 @@ function ProductDetailsGrid() {
 
         <div class="container mt-4">
           <div class="row justify-content-center">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12 col-sm-12">
               <div className="d-flex align-items-center justify-content-center">
                 <div>
                   <div style={{ width: '96px', height: '96px' }}>
                     <img src={ComboImg1} alt="" width="100%" height="auto" />
                   </div>
 
-                  <div className={`d-flex align-items-center`}>
+                  <div className={`d-md-flex  align-items-center`}>
                     <div>
                       <Rating
                         size={'small'}
@@ -457,7 +457,7 @@ function ProductDetailsGrid() {
                   </div>
                 </div>
 
-                <div>
+                <div className={styles.frequencyPlus}>
                   <i
                     className="bi bi-plus"
                     style={{ color: 'gray', fontSize: '24px' }}
@@ -468,7 +468,7 @@ function ProductDetailsGrid() {
                     <img src={ComboImg1} alt="" width="100%" height="auto" />
                   </div>
 
-                  <div className={`d-flex align-items-center`}>
+                  <div className={`d-md-flex  align-items-center`}>
                     <div>
                       <Rating size={'small'} value={5} readOnly />
                     </div>
@@ -476,7 +476,7 @@ function ProductDetailsGrid() {
                   </div>
                 </div>
 
-                <div>
+                <div className={styles.frequencyPlus}>
                   <i
                     className="bi bi-plus"
                     style={{ color: 'gray', fontSize: '24px' }}
@@ -487,7 +487,7 @@ function ProductDetailsGrid() {
                     <img src={ComboImg1} alt="" width="100%" height="auto" />
                   </div>
 
-                  <div className={`d-flex align-items-center`}>
+                  <div className={`d-md-flex align-items-center`}>
                     <div>
                       <Rating size={'small'} value={5} readOnly />
                     </div>
@@ -496,8 +496,8 @@ function ProductDetailsGrid() {
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <div>
+            <div class="col-lg-6 col-md-12 col-sm-12 ">
+              <div className={styles.freqCheckbox}>
                 <div className={`form-check ${styles.CurrentItemCheckbox}`}>
                   <input
                     class="form-check-input"
@@ -507,12 +507,12 @@ function ProductDetailsGrid() {
                     checked
                   />
                   <label
-                    class="form-check-label d-flex justify-content-between"
+                    class="form-check-label d-md-flex justify-content-between"
                     for="flexCheckChecked"
                   >
                     <div className={styles.currentItemLi}>
                       <span>Current item </span>
-                      <span className={styles.currentItemPara}>
+                      <span className={styles.currentItemPara2}>
                         {' '}
                         California Gold Nutrition, Gold C, USP Grade Vitamin C,
                         1,000 mg, 60 Veggie
@@ -600,7 +600,7 @@ function ProductDetailsGrid() {
       <div className="mx-4">
         <div className={styles.customerAlsoViewed}>Customers also viewed</div>
         <div className="border-top mb-3"></div>
-        <div className="d-flex justify-content-around mt-4 ">
+        <div className="d-flex flex-wrap  justify-content-around mt-4 ">
           {cardData1.map((item) => {
             return (
               <>
