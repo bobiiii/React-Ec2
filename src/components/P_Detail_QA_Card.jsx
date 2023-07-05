@@ -10,42 +10,47 @@ import {
 const P_Detail_QA_Card = () => {
   return (
     <div className={styles.CardBox}>
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="d-md-flex justify-content-between align-items-center">
         <div className={styles.cardH1}>
           Can i take more than 1 capsule a day?
         </div>
 
         <div>
-          <div>
-            <button
-              className={`btn text-decoration-none ${styles.reportAbuse}`}
-              variant="link"
-            >
-              Report Abuse
-            </button>
-            <button
-              className={`btn text-decoration-none ${styles.btnShare}`}
-              variant="link"
-            >
-              Share
-              <i
-                className="bi bi-share"
-                style={{
-                  width: '16px',
-                  height: '18px',
-                  marginLeft: '5px',
-                  color: '#F38A00',
-                }}
-              ></i>
-            </button>
+          <div className={styles.buttonFlex}>
+            <div className="d-flex">
+              <button
+                className={`btn text-decoration-none ${styles.reportAbuse}`}
+                variant="link"
+              >
+                Report Abuse
+              </button>
+              <button
+                className={`btn text-decoration-none ${styles.btnShare}`}
+                variant="link"
+              >
+                <span className={styles.shareTxt}>Share</span>
+                <i
+                  className="bi bi-share"
+                  style={{
+                    width: '16px',
+                    height: '18px',
+                    marginLeft: '5px',
+                    color: '#F38A00',
+                  }}
+                ></i>
+              </button>
+            </div>
 
-            <button
-              className={`btn ${styles.btnAnswer} `}
-              style={{ marginLeft: '10px' }}
-              variant="outlined"
-            >
-              Answer
-            </button>
+            <div>
+              {' '}
+              <button
+                className={`btn ${styles.btnAnswer} `}
+                style={{ marginLeft: '10px' }}
+                variant="outlined"
+              >
+                Answer
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -67,7 +72,7 @@ const P_Detail_QA_Card = () => {
           <div className={styles.customerTitleDate}>Sep 22, 2021</div>
         </div>
 
-        <div className="d-flex mt-2 mb-2">
+        <div className="d-flex flex-wrap  mt-2 mb-2">
           <div className="d-flex align-items-center ">
             <div className={styles.grayMiniTxt}>
               <i className="bi bi-check-circle me-1"></i>
@@ -93,13 +98,15 @@ const P_Detail_QA_Card = () => {
           </div>
         </div>
 
-        <div className={` mb-2 ${styles.messageDesc}`}>Yes, you can. 🌾🍊</div>
+        <div className={` ${styles.messageDesc}`}>Yes, you can. 🌾🍊</div>
 
-        <div className="d-flex mb-2">
-          <div className={styles.disclaimer}>Disclaimer:</div>
-          <div className={styles.disclaimerMessage}>
+        <div className="d-flex justify-content-between  mb-2">
+          <span className={styles.disclaimerMessage}>
+            <span className={styles.disclaimer}>Disclaimer:</span>
             Not medical or professional advice.
-            <i className="bi bi-info-circle ms-2"></i>
+          </span>
+          <div>
+            <i className="bi bi-info-circle ms-1"></i>
           </div>
         </div>
 
@@ -127,7 +134,7 @@ const P_Detail_QA_Card = () => {
               className={`btn text-decoration-none ${styles.btnShare}`}
               variant="link"
             >
-              Share
+              <span className={styles.shareTxt}>Share</span>
               <i
                 className="bi bi-share"
                 style={{

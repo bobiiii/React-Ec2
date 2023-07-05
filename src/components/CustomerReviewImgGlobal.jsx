@@ -12,7 +12,7 @@ const CustomerReviewImgGlobal = () => {
         Review images
       </div>
 
-      <div className="d-flex">
+      <div className="d-flex flex-wrap ">
         <div style={{ width: '105px', height: '105px' }}>
           <img src={Img3} alt="" width="100%" height="100%" />
         </div>

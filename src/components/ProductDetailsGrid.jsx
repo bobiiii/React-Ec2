@@ -510,7 +510,7 @@ function ProductDetailsGrid() {
                     class="form-check-label d-md-flex justify-content-between"
                     for="flexCheckChecked"
                   >
-                    <div className={styles.currentItemLi}>
+                    <div className={styles.currentItemLi1}>
                       <span>Current item </span>
                       <span className={styles.currentItemPara2}>
                         {' '}
@@ -660,10 +660,10 @@ function ProductDetailsGrid() {
       </div>
 
       <Productsimgs></Productsimgs>
-      <div className="mx-4 mt-5">
+      <div className=" mt-5">
         <ProductDetailQA />
 
-        <div className={` mt-3 ${styles.seeMoreLine}`}>
+        <div className={`  mt-3 ${styles.seeMoreLine}`}>
           See more answers (154)
           <KeyboardArrowRight
             style={{
@@ -675,7 +675,7 @@ function ProductDetailsGrid() {
         </div>
       </div>
 
-      <div className="mx-4 mt-5">
+      <div className={styles.cusReview}>
         <CustomerReviews />
       </div>
       <Customerscards></Customerscards>

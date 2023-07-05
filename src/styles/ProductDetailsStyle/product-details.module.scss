@@ -163,6 +163,12 @@
   margin-bottom: 20px;
 }
 
+.cusReview {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
 .frequentlyPurchasedH1 {
   font-family: Lato;
   font-size: 18px;
@@ -203,6 +209,26 @@
   overflow: hidden;
 }
 
+.currentItemLi1 {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+}
+.currentItemLi1 span:first-child {
+  @include fontStyle1(700, 14, 20);
+  color: #000000;
+  margin-right: 5px;
+  width: 80px;
+}
+.currentItemLi1 span:last-child {
+  @include fontStyle1(400, 14, 20);
+  color: #1976d2;
+  width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .currentItemPara {
   width: 380px;
   text-overflow: ellipsis;
@@ -225,6 +251,10 @@
 }
 .CurrentItemCheckbox > input {
   background: #47a84a;
+}
+.seeMoreLine {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .addSelectedToCartBtn {
@@ -328,5 +358,24 @@
   }
   .currentItemLi span:last-child {
     width: 180px;
+  }
+  .currentItemLi1 span:last-child {
+    width: 100px;
+  }
+  .seeMoreLine {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #126cc5;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+  }
+  .cusReview {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
   }
 }

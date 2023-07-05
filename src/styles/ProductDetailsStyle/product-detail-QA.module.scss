@@ -19,6 +19,7 @@
 }
 
 .btnQuestion {
+  display: block;
   width: 200px;
   height: 48px;
   border-radius: 8px;
@@ -26,6 +27,10 @@
   background-color: #ffffff;
   color: #000000;
   @include fontStyle1(700, 16, 22);
+}
+
+.btnFilter {
+  display: none;
 }
 
 .CardBox {
@@ -46,6 +51,9 @@
   font-size: 16px;
   font-weight: 400;
   color: #126cc5;
+  min-height: 0px !important;
+  min-width: 0px !important;
+  padding: 0px !important;
 }
 .btnShare {
   font-family: Lato;
@@ -63,9 +71,17 @@
   @include fontStyle1(400, 14, 20);
 }
 
+.buttonFlex {
+  display: flex;
+  align-items: center;
+}
+.shareTxt {
+  display: flex;
+}
+
 .grayBox {
   width: 100%;
-  height: 200px;
+  height: auto;
   border-radius: 16px;
   background-color: #f5f5f5;
   padding: 16px 16px;
@@ -110,12 +126,15 @@
   font-size: 16px;
   font-weight: 400;
   color: #333333;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .disclaimer {
   font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   color: #f38a00;
+  margin-right: 5px;
 }
 .disclaimerMessage {
   font-family: Lato;
@@ -137,4 +156,78 @@
   font-weight: 400;
   line-height: 22px;
   color: #126cc5;
+}
+
+.selectFlex {
+  display: flex;
+}
+
+.searchBar {
+  width: 50%;
+}
+
+@include media(770px) {
+  .btnFilter {
+    display: block;
+    width: 50px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #000000;
+    @include fontStyle1(700, 16, 22);
+  }
+  .btnQuestion {
+    display: none;
+  }
+
+  .selectFlex {
+    display: none;
+  }
+  .QASubtitle {
+    color: #949494;
+    @include fontStyle1(400, 14, 20);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+  }
+  .searchBar {
+    width: 100%;
+  }
+  .CardBox {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    border: none;
+    padding: 5px;
+  }
+  .buttonFlex {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .btnShare {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f38a00;
+    min-height: 0px !important;
+    min-width: 0px !important;
+    padding: 0px !important;
+  }
+  .shareTxt {
+    display: none;
+  }
+  .messageDesc {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .seeMoreLine {
+    margin-left: 20px;
+  }
+  .grayBox {
+    margin-top: 20px;
+  }
 }

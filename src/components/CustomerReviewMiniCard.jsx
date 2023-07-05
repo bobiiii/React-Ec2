@@ -1,5 +1,6 @@
 import React from 'react'
-import styles from '../styles/ProductDetailsStyle/Product-detail-customer-review.module.scss'
+import styles from '../styles/ProductDetailsStyle/product-detail-customer-review.module.scss'
+import styles2 from '../styles/ProductDetailsStyle/product-detail-QA.module.scss'
 
 import Img1 from '../images/span.flex-row-center-center.svg'
 
@@ -30,7 +31,7 @@ const CustomerReviewMiniCard = () => {
           <div className={styles.customerTitleDate}>Sep 22, 2021</div>
         </div>
 
-        <div className=" d-flex mt-2  ms-2">
+        <div className=" d-flex flex-wrap  mt-2  ms-2">
           <div>
             <Rating value={5} size="medium" />
           </div>
@@ -71,18 +72,18 @@ const CustomerReviewMiniCard = () => {
             </div>
           </div>
 
-          <div>
+          <div className={styles2.buttonFlex}>
             <button
-              className={`btn text-decoration-none ${styles.reportAbuse}`}
+              className={`btn text-decoration-none ${styles2.reportAbuse}`}
               variant="link"
             >
               Report Abuse
             </button>
             <button
-              className={`btn text-decoration-none ${styles.btnShare}`}
+              className={`btn text-decoration-none ${styles2.btnShare}`}
               variant="link"
             >
-              Share
+              <span className={styles2.shareTxt}>Share</span>
               <i
                 className="bi bi-share"
                 style={{

@@ -152,3 +152,17 @@
   height: 40px;
   border-radius: 32px;
 }
+.cusReviewImg {
+  width: 340px;
+  height: auto;
+}
+@include media(500px) {
+  .cusReviewImg {
+    width: 100%;
+    height: auto;
+  }
+  .writeReviewBtn {
+    width: 100%;
+    height: 48px;
+  }
+}

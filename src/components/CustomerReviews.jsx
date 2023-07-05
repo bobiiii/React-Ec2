@@ -1,6 +1,6 @@
 import React from 'react'
 import CustomerReviewMiniCard from './CustomerReviewMiniCard'
-import styles from '../styles/ProductDetailsStyle/Product-detail-customer-review.module.scss'
+import styles from '../styles/ProductDetailsStyle/product-detail-customer-review.module.scss'
 import { Rating } from '@mui/material'
 import Img1 from '../images/incentive-banner.svg'
 import styled from '@emotion/styled'
@@ -26,7 +26,7 @@ const CustomerReviews = () => {
   return (
     <div>
       <div className={styles.customerReviewH1}>Customer reviews</div>
-      <div className="d-md-flex">
+      <div className="d-lg-flex">
         <div>
           <div className="d-flex align-items-center">
             <div className={`${styles.RatingTxt1}`}>4.8</div>
@@ -140,7 +140,7 @@ const CustomerReviews = () => {
             </div>
           </div>
           <div className="mt-3">
-            <img src={Img1} alt="" width="340px" height="auto" />
+            <img src={Img1} alt="" className={styles.cusReviewImg} />
           </div>
 
           <div>
@@ -151,15 +151,21 @@ const CustomerReviews = () => {
         </div>
 
         <div>
-          <div className="d-md-flex">
+          <div className="d-lg-flex">
             <div className="ms-4">
-              <div style={{ marginBottom: '20px' }} className={styles.cardH2}>
+              <div
+                style={{ marginBottom: '20px', marginTop: '20px' }}
+                className={styles.cardH2}
+              >
                 Most helpful positive review
               </div>
               <CustomerReviewMiniCard />
             </div>
             <div className="ms-4">
-              <div style={{ marginBottom: '20px' }} className={styles.cardH2}>
+              <div
+                style={{ marginBottom: '20px', marginTop: '20px' }}
+                className={styles.cardH2}
+              >
                 Most helpful positive review
               </div>
               <CustomerReviewMiniCard />
