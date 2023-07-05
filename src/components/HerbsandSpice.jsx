@@ -1,6 +1,8 @@
-import React from 'react'
+import Slider from 'react-slick'
+import { slide1 } from '../utils/data'
+import Pagination from "./Pagination/Pagination"
 import spices1 from "../images/spices1.png"
-import spice2 from "../images/spice2.png"
+// import spice2 from "../images/spice2.png"
 import WallHerbLive from "./WallHerbLive"
 import sale1 from "../images/sale1.png"
 import sale2 from "../images/sale2.png"
@@ -10,10 +12,44 @@ import sale5 from "../images/sale5.png"
 import sale6 from "../images/sale6.png"
 import Herblinks from './Herblinks'
 
+
 function HerbsandSpice() {
+    const settings = {
+
+        infinite: true,
+        speed: 500,
+        slidesToShow: 6,
+        swipeToSlide: true,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 6,
+                    swipeToSlide: true,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
     return (
         <>
-
             <div className='mainhero'>
                 <div className='hero '>
                     <div className='ms-5 '>
@@ -36,17 +72,14 @@ function HerbsandSpice() {
                 </div>
             </div>
 
-
             <section className='container-fluid'>
-
                 <div className='categories-top-bar'>
-
                     <div className='categories-dropdown'>
 
                         <ul className='navbar-nav  mb-2 mb-lg-0 '>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categories
+                                    Categories
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="#">Action</a></li>
@@ -60,7 +93,7 @@ function HerbsandSpice() {
                         <ul className='navbar-nav  mb-2 mb-lg-0'>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Grocery
+                                    Grocery
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="#">Action</a></li>
@@ -72,24 +105,16 @@ function HerbsandSpice() {
                         </ul>
                         <a href="" className='text-decoration-none text-dark mt-2'> Herbs & Spices </a>
                     </div>
-
                     <div className='Herbs-Spices-heading '>
                         <h4>Herbs & Spices</h4>
                         <p className='mt-1'>484 Results (showing 1 - 48)</p>
                     </div>
-
-
                 </div>
 
                 <div className='spices1-banner-image'>
                     <img src={spices1} alt="" />
                 </div>
-
-
-                
-                 <Herblinks></Herblinks>
-                
-
+                <Herblinks></Herblinks>
                 <div className='herbs-section-main-spacing'>
 
 
@@ -256,94 +281,31 @@ function HerbsandSpice() {
                             </div>
                         </nav>
 
-
-                        <div className='herb-section-first-cards mt-5 mb-5'>
-
-                            <div class="card herb-cards-image-sec" style={{ width: '16rem' }}>
-                                <img src={spice2} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p class="card-text">Simply Organic, Garlic Powder, 3.64 oz
-                                        (103 g)</p>
-                                    <div className="d-flex">
-                                        <div style={{ color: "#FAC627" }}>
-                                            <i className="bi bi-star" ></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i></div>
-                                        <div><span> &nbsp; 520</span></div>
-                                    </div>
-                                    <h6 className=" fs-cs-2">₹744.03</h6>
-                                    <h6 className="fs-cs-2" style={{ color: "#F38A00" }}>Save 20% in Cart</h6>
-                                </div>
-                            </div>
-
-                            <div class="card herb-cards-image-sec" style={{ width: '16rem' }}>
-                                <img src={spice2} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p class="card-text">Simply Organic, Garlic Powder, 3.64 oz
-                                        (103 g)</p>
-                                    <div className="d-flex">
-                                        <div style={{ color: "#FAC627" }}>
-                                            <i className="bi bi-star" ></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i></div>
-                                        <div><span> &nbsp; 520</span></div>
-                                    </div>
-                                    <h6 className=" fs-cs-2">₹744.03</h6>
-                                    <h6 className="fs-cs-2" style={{ color: "#F38A00" }}>Save 20% in Cart</h6>
-                                </div>
-                            </div>
+                        {/*4 Cards  */}
 
 
-                            <div class="card herb-cards-image-sec" style={{ width: '16rem' }}>
-                                <img src={spice2} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p class="card-text">Simply Organic, Garlic Powder, 3.64 oz
-                                        (103 g)</p>
-                                    <div className="d-flex">
-                                        <div style={{ color: "#FAC627" }}>
-                                            <i className="bi bi-star" ></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i></div>
-                                        <div><span> &nbsp; 520</span></div>
-                                    </div>
-                                    <h6 className=" fs-cs-2">₹744.03</h6>
-                                    <h6 className="fs-cs-2" style={{ color: "#F38A00" }}>Save 20% in Cart</h6>
-                                </div>
-                            </div>
+                        <div className="mb-3">
+                            <Slider {...settings}>
 
+                                {slide1.map((item, index) => {
+                                    return (<div key={index}>
+                                        <div className="card w-100  " style={{ height: "14rem" }}>
+                                            <img src={item.img} className="card-img-top w-50 mx-auto pt-3" alt="..." />
+                                            <div className="card-body d-flex flex-column justify-content-center  pb-0   " style={{ height: "16rem" }}>
+                                                <h5 className="card-title fs-cs-1 flex-grow-1 mb-auto ">{item.title}</h5>
 
-                            <div class="card herb-cards-image-sec" style={{ width: '16rem' }}>
-                                <img src={spice2} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p class="card-text">Simply Organic, Garlic Powder, 3.64 oz
-                                        (103 g)</p>
-                                    <div className="d-flex">
-                                        <div style={{ color: "#FAC627" }}>
-                                            <i className="bi bi-star" ></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i>
-                                            <i className="bi bi-star"></i></div>
-                                        <div><span> &nbsp; 520</span></div>
-                                    </div>
-                                    <h6 className=" fs-cs-2">₹744.03</h6>
-                                    <h6 className="fs-cs-2" style={{ color: "#F38A00" }}>Save 20% in Cart</h6>
-                                </div>
-                            </div>
+                                                <div className="fs-cs-1 ">
+                                                    <span className="text-danger">{item.oldPrice} </span> <span>{item.newPrice}</span>
+                                                </div>
+                                            </div>
+                                        </div>
 
-
-
-
-
-
-
-
-
-
+                                    </div>)
+                                })}
+                            </Slider>
 
                         </div>
+
 
 
 
@@ -351,21 +313,28 @@ function HerbsandSpice() {
 
                             <div className='Get-the-latest-deals-section-text mt-5 mb-5'>
                                 <div>
-                                <h4>Get the latest deals</h4>
+                                    <h4>Get the latest deals</h4>
                                 </div>
                                 <div className=' srch-btn'>
-                                <input class="form-control " type="search" placeholder="Search" aria-label="Search" />
-                                <a href="" className='btn btn' style={{background:"#458500",color:"white"}}> Subscribe</a>
+                                    <input className="form-control " type="search" placeholder="Search" aria-label="Search" />
+                                    <a href="" className='btn btn' style={{ background: "#458500", color: "white" }}> Subscribe</a>
                                 </div>
                                 <div>
-                                <p>Your email will only be used for iHerb communications. You can
-                                    unsubscribe at any time. For more information, see our Privacy
-                                    Policy.</p>
-                                    </div>
+                                    <p>Your email will only be used for iHerb communications. You can
+                                        unsubscribe at any time. For more information, see our Privacy
+                                        Policy.</p>
+                                </div>
                             </div>
 
 
                         </div>
+
+
+                        {/* Paginate */}
+
+
+                        <Pagination itemsPerPage={4} />
+
 
 
 
@@ -376,55 +345,55 @@ function HerbsandSpice() {
 
 
             </section>
-<WallHerbLive></WallHerbLive>
-            
+            <WallHerbLive></WallHerbLive>
 
-<div className='sale-last-section  mt-5' style={{ background: " #F5F5F5" }}>
-                        <br />
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale1} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale2} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Foods and Supplements for Natural </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale3} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Psychodermatology: Why
-                                    Researchers Think the Mind-
-                                </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale4} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Stress-Related Hair Loss +
-                                    Natural Solutions to Promote</p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale5} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>Dry brushing: What It Is +
-                                    Unexpected Health </p>
-                            </div>
-                        </div>
-                        <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
-                            <img src={sale6} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
-                                    Inflammation and </p>
-                            </div>
-                        </div> 
-                                             
 
+            <div className='sale-last-section  mt-5' style={{ background: " #F5F5F5" }}>
+                <br />
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale1} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Natural Remedies for</p>
                     </div>
+                </div>
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale2} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>The Best Foods and Supplements for Natural </p>
+                    </div>
+                </div>
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale3} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>Psychodermatology: Why
+                            Researchers Think the Mind-
+                        </p>
+                    </div>
+                </div>
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale4} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>Stress-Related Hair Loss +
+                            Natural Solutions to Promote</p>
+                    </div>
+                </div>
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale5} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>Dry brushing: What It Is +
+                            Unexpected Health </p>
+                    </div>
+                </div>
+                <div className="card " style={{ width: "12rem", background: " #F5F5F5", border: "none" }}>
+                    <img src={sale6} className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <p className="card-text text-center" style={{ fontSize: "13px" }}>How Spices Combat
+                            Inflammation and </p>
+                    </div>
+                </div>
+
+
+            </div>
 
 
         </>

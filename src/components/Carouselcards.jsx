@@ -30,14 +30,14 @@ function Carouselcards() {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
     ]
   };
   return (
-        <div>
+        <div className="mb-3">
     <Slider {...settings}>
      
       {slide1.map((item, index)=>{
