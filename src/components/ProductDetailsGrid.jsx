@@ -27,6 +27,7 @@ import CustomerReviews from './CustomerReviews'
 import ProductDetailsProductOverview from './ProductDetailsProductOverview'
 import ProductDetailMobileScreen from './ProductDetailMobileScreen/ProductDetailMobileScreen'
 import FrequentlyMobileScreen from './ProductDetailMobileScreen/FrequentlyMobileScreen'
+import ProductDetailCustomerCarousel from './ProductDetailMobileScreen/ProductDetailCustomerCarousel'
 
 function ProductDetailsGrid() {
   const cardData1 = [
@@ -619,62 +620,91 @@ function ProductDetailsGrid() {
 
       {/* Customers also viewed */}
 
-      <div className="mx-4">
-        <div className={styles.customerAlsoViewed}>Customers also viewed</div>
-        <div className="border-top mb-3"></div>
-        <div className="d-flex flex-wrap  justify-content-around mt-4 ">
-          {cardData1.map((item) => {
-            return (
-              <>
-                <div className="">
-                  <div style={{ width: '160px', height: '160px' }}>
-                    <img src={item.img} alt="" width="100%" height="auto" />
-                  </div>
+      <div>
+        {true ? (
+          <div className="mx-2 mt-4">
+            <div className={styles.customerAlsoViewed}>
+              Customers also viewed
+            </div>
+            <div className="border-top mb-3">
+              <div
+                className={`d-flex  justify-content-center mt-4  ${styles.cusAlsoView}`}
+              >
+                <ProductDetailCustomerCarousel />
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="mx-4">
+            <div className={styles.customerAlsoViewed}>
+              Customers also viewed
+            </div>
+            <div className="border-top mb-3">
+              <div
+                className={`d-flex  justify-content-around mt-4  ${styles.cusAlsoView}`}
+              >
+                {cardData1.map((item) => {
+                  return (
+                    <>
+                      <div className={styles.cusAlsoViewCad}>
+                        <div style={{ width: '160px', height: '160px' }}>
+                          <img
+                            src={item.img}
+                            alt=""
+                            width="100%"
+                            height="auto"
+                          />
+                        </div>
 
-                  <div>
-                    <h6 className={styles.customerAlsoViewedH5}>{item.desc}</h6>
-                  </div>
-                  <div className={`d-flex align-items-center`}>
-                    <div>
-                      <Rating
-                        size={'small'}
-                        name="read-only"
-                        value={item.rating}
-                        readOnly
-                      />
-                    </div>
-                    <div className={styles.ratingNo}>{item.ratingNo}</div>
-                  </div>
+                        <div>
+                          <h6 className={styles.customerAlsoViewedH5}>
+                            {item.desc}
+                          </h6>
+                        </div>
+                        <div className={`d-flex align-items-center`}>
+                          <div>
+                            <Rating
+                              size={'small'}
+                              name="read-only"
+                              value={item.rating}
+                              readOnly
+                            />
+                          </div>
+                          <div className={styles.ratingNo}>{item.ratingNo}</div>
+                        </div>
 
-                  <div className="d-flex">
-                    {' '}
-                    <h4
-                      className={styles.ComboWithPriceH1}
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'start',
-                        marginRight: '5px',
-                        color: true ? '#BD3C37' : '#000000',
-                      }}
-                    >
-                      ₹{item.price}
-                    </h4>
-                    <h4
-                      className={styles.ComboWithPriceH1}
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'start',
-                        color: '#747474',
-                      }}
-                    >
-                      ₹{item.salePrice}
-                    </h4>
-                  </div>
-                </div>
-              </>
-            )
-          })}
-        </div>
+                        <div className="d-flex">
+                          {' '}
+                          <h4
+                            className={styles.ComboWithPriceH1}
+                            style={{
+                              display: 'flex',
+                              justifyContent: 'start',
+                              marginRight: '5px',
+                              color: true ? '#BD3C37' : '#000000',
+                            }}
+                          >
+                            ₹{item.price}
+                          </h4>
+                          <h4
+                            className={styles.ComboWithPriceH1}
+                            style={{
+                              display: 'flex',
+                              justifyContent: 'start',
+                              color: '#747474',
+                            }}
+                          >
+                            ₹{item.salePrice}
+                          </h4>
+                        </div>
+                      </div>
+                    </>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       <div>
