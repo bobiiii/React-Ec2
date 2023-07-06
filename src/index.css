@@ -215,6 +215,12 @@
   border-radius: 8px;
 }
 
+.miniVerticalDivider {
+  height: 12px;
+  border-left: 1.5px solid #666666;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 /*  speacilsSection css End */
 
 /* tradingsection css start */
@@ -370,6 +376,7 @@
 
 .Brands-A-Z-cont {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 

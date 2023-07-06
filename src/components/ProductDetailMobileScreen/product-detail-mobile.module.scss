@@ -1,0 +1,144 @@
+@import "../../styles/helperStyle/helper-style";
+
+.greenminiTitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: #458500;
+}
+
+.graySubtitle {
+  @include fontStyle1(400, 14, 21);
+  color: #333333;
+}
+.priceH3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  @include fontStyle1(600, 24, 32);
+  color: #191919;
+}
+.priceH4 {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  @include fontStyle1(600, 20, 28);
+  color: #191919;
+}
+.graySubtitle2 {
+  @include fontStyle1(400, 12, 24);
+  color: #333333;
+}
+.subtitle2 {
+  @include fontStyle1(400, 12, 16);
+  color: #191919;
+}
+.subtitle3 {
+  @include fontStyle1(600, 11, 16);
+  color: #545454;
+}
+.shareBigBtn {
+  border: 1.5px solid #d47500;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.availableOpt {
+  color: #191919;
+  @include fontStyle1(600, 16, 24);
+}
+
+.selectPackageBtn {
+  border: 1px solid #d6d6d6;
+}
+.selectPackageBtn:focus {
+  border: 1.5px solid #458500;
+}
+
+.addToListBtn {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #000000;
+  @include fontStyle1(700, 14, 18);
+  align-items: center;
+  width: 100%;
+}
+
+.productRankLi2 {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.productRankLi2 span:first-child {
+  @include fontStyle1(400, 14, 24);
+  color: #191919;
+}
+.productRankLi2 span:last-child {
+  @include fontStyle1(400, 14, 24);
+  color: #458500;
+  text-decoration: underline;
+}
+.productRankH6 {
+  @include fontStyle1(600, 16, 24);
+  color: #191919;
+}
+
+.descDiv {
+  width: 130px;
+}
+.customerAlsoViewedH5 {
+  color: #000000;
+  @include fontStyle1(400, 12, 18);
+  // max-width: 130px;
+  margin-top: 15px;
+  // text-overflow: ellipsis;
+  // white-space: nowrap;
+  // overflow: hidden;
+  // display: -webkit-box;
+  // -webkit-line-clamp: 4;
+  // -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 100px;
+}
+
+.ratingNo {
+  font-size: 10px;
+  color: rgb(158, 158, 158);
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.saveBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.redSave {
+  @include fontStyle1(600, 16, 24);
+  color: #d32f2f;
+}
+.buyH3 {
+  @include fontStyle1(400, 14, 24);
+  color: #191919;
+}
+.combobuyH3 {
+  @include fontStyle1(600, 16, 24);
+  color: #191919;
+}
+
+.addToCartBtn {
+  background-color: #f38a00;
+  @include fontStyle1(600, 16, 24);
+  border-radius: 8px;
+  height: 48px;
+  width: 270px;
+  margin-top: 20px;
+}
