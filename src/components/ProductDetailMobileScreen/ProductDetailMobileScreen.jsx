@@ -14,6 +14,7 @@ import {
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import ComboImg1 from '../../images/218.jpg.svg'
 import { Rating, IconButton } from '@mui/material'
+import ProductMainImgCarousel from './ProductMainImgCarousel'
 
 const ProductDetailMobileScreen = () => {
   const cardData1 = [
@@ -142,7 +143,9 @@ const ProductDetailMobileScreen = () => {
               </span>
             </div>
           </div>
-          <img src={ProductImage} className="w-100 py-2" alt="a" />
+
+          {/* <img src={ProductImage} className="w-100 py-2" alt="a" /> */}
+          <ProductMainImgCarousel />
         </div>
         <div className="col-lg-6">
           <div className="d-flex justify-content-between">
@@ -244,34 +247,6 @@ const ProductDetailMobileScreen = () => {
                 <div className="ms-2">Add to lists</div>
               </Button>
             </React.Fragment>
-            {/* <React.Fragment>
-              <Button
-                id="fade-button"
-                aria-controls={open ? 'fade-menu' : undefined}
-                aria-haspopup="true"
-                aria-expanded={open ? 'true' : undefined}
-                onClick={handleClick}
-                variant="outlined"
-                class={styles.addToListBtn}
-              >
-                Add to lists
-                <KeyboardArrowDown />
-              </Button>
-              <Menu
-                id="fade-menu"
-                MenuListProps={{
-                  'aria-labelledby': 'fade-button',
-                }}
-                anchorEl={anchorEl}
-                open={open}
-                onClose={handleClose}
-                TransitionComponent={Fade}
-              >
-                <MenuItem onClick={handleClose}>Profile</MenuItem>
-                <MenuItem onClick={handleClose}>My account</MenuItem>
-                <MenuItem onClick={handleClose}>Logout</MenuItem>
-              </Menu>
-            </React.Fragment> */}
           </div>
 
           <div className="">

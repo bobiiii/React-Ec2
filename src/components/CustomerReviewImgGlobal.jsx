@@ -4,40 +4,49 @@ import styles from '../styles/ProductDetailsStyle/product-detail-QA.module.scss'
 import Img3 from '../images/commentimg.svg'
 import Img4 from '../images/overflow-hidden.svg'
 import { KeyboardArrowRight } from '@mui/icons-material'
+import ProductReviewImagesCarousel from './ProductDetailMobileScreen/ProductReviewImagesCarousel'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const CustomerReviewImgGlobal = () => {
+  const matches = useMediaQuery('(max-width:600px)')
   return (
     <div>
       <div style={{ marginBottom: '20px' }} className={style1.cardH2}>
         Review images
       </div>
 
-      <div className="d-flex flex-wrap ">
-        <div style={{ width: '105px', height: '105px' }}>
-          <img src={Img3} alt="" width="100%" height="100%" />
+      {matches ? (
+        <div>
+          <ProductReviewImagesCarousel />
         </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img4} alt="" width="100%" height="100%" />
+      ) : (
+        <div className="d-flex flex-wrap ">
+          <div style={{ width: '105px', height: '105px' }}>
+            <img src={Img3} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img4} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img3} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img4} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px' }}>
+            <img src={Img3} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img4} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img3} alt="" width="100%" height="100%" />
+          </div>
+          <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
+            <img src={Img4} alt="" width="100%" height="100%" />
+          </div>
         </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img3} alt="" width="100%" height="100%" />
-        </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img4} alt="" width="100%" height="100%" />
-        </div>
-        <div style={{ width: '105px', height: '105px' }}>
-          <img src={Img3} alt="" width="100%" height="100%" />
-        </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img4} alt="" width="100%" height="100%" />
-        </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img3} alt="" width="100%" height="100%" />
-        </div>
-        <div style={{ width: '105px', height: '105px', marginLeft: '1px' }}>
-          <img src={Img4} alt="" width="100%" height="100%" />
-        </div>
-      </div>
+      )}
 
       <div className={` mt-3 ${styles.seeMoreLine}`}>
         View all 22,060 images
@@ -51,13 +60,13 @@ const CustomerReviewImgGlobal = () => {
       </div>
 
       <div
-        style={{ marginBottom: '20px', marginTop: '10px' }}
+        style={{ marginBottom: '20px', marginTop: '30px' }}
         className={style1.cardH2}
       >
         Global reviews (244,800)
       </div>
 
-      <div className="d-flex mt-2">
+      <div className="d-lg-flex d-md-flex mt-2">
         <div className={styles.QASubtitle}>
           Product reviews solely reflect the views and opinions expressed by the
           contributors and not thos
