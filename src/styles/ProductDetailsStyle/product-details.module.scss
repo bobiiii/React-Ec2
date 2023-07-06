@@ -1,0 +1,381 @@
+@import "../helperStyle/helper-style";
+
+.productRankH5 {
+  color: #f38a00;
+  @include fontStyle1(700, 18, 24);
+}
+.productRankLi {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.productRankLi span:first-child {
+  @include fontStyle1(700, 16, 20);
+  color: #000000;
+}
+.productRankLi span:last-child {
+  @include fontStyle1(700, 16, 20);
+  color: #1976d2;
+}
+
+.addToCart_productDetails {
+  border: 1px solid #cccccc;
+  padding: 28px 18px;
+  border-radius: 8px;
+}
+
+.price1 {
+  @include fontStyle1(400, 14, 20);
+  color: #666666;
+  margin-bottom: 8px;
+}
+.specialH6 {
+  @include fontStyle1(400, 14, 20);
+  color: #d32f2f;
+  margin-bottom: 8px;
+}
+.redH6 {
+  @include fontStyle1(700, 20, 28);
+  color: #d32f2f;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+.grayH6 {
+  @include fontStyle1(600, 12, 28);
+  color: #666666;
+  margin-bottom: 8px;
+}
+.saveH6 {
+  @include fontStyle1(400, 14, 28);
+  color: #333333;
+  margin-bottom: 8px;
+}
+
+.mainMinusPlusDiv {
+  border: 1px solid #e0e0e0;
+  border-radius: 18px;
+  height: 36px;
+  width: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minusPlusBtn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.digit1 {
+  color: #666666;
+  @include fontStyle1(700, 14, 20);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.addToCartBtn {
+  background-color: #f38a00;
+  @include fontStyle1(700, 18, 24);
+  border-radius: 8px;
+  height: 48px;
+  width: 270px;
+  margin-top: 20px;
+}
+
+.addToListBtn {
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  color: #000000;
+  @include fontStyle1(700, 14, 18);
+  align-items: center;
+  width: 100%;
+}
+
+.comboOffer_productDetails {
+  border: 1px solid #cccccc;
+  //   padding: 28px 18px;
+  border-radius: 8px;
+}
+.dividerFull {
+  border-bottom: 1px solid #cccccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.comboOffer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.comboOffer > span {
+  width: 150px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.comboOfferH1 {
+  @include fontStyle1(700, 16, 21);
+  color: #000000;
+}
+.savePrice {
+  @include fontStyle1(700, 16, 21);
+  color: #f10200;
+  margin-left: 5px;
+}
+
+.ratingNo {
+  font-size: 10px;
+  color: rgb(158, 158, 158);
+}
+
+.ComboWithH5 {
+  color: #000000;
+  @include fontStyle1(700, 14, 18);
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.ComboWithH5Blue {
+  color: #1976d2;
+  @include fontStyle1(700, 14, 18);
+  padding-left: 20px;
+}
+.ComboWithPriceH1 {
+  color: #000000;
+  @include fontStyle1(700, 20, 27);
+  text-align: center;
+}
+
+.addToCartBtn2 {
+  background-color: #f38a00;
+  @include fontStyle1(700, 18, 24);
+  border-radius: 10px;
+  height: 48px;
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cusReview {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+.frequentlyPurchasedH1 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  min-width: 320px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px 0px 0px 25px;
+  border: 1px solid #f5f5f5;
+  background-color: #f5f5f5;
+}
+
+.dividerfrequentlyPurchasedH1 {
+  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.currentItemLi {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+}
+.currentItemLi span:first-child {
+  @include fontStyle1(700, 14, 20);
+  color: #000000;
+  margin-right: 5px;
+  width: 80px;
+}
+.currentItemLi span:last-child {
+  @include fontStyle1(400, 14, 20);
+  color: #1976d2;
+  width: 380px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.currentItemLi1 {
+  list-style: none;
+  margin-bottom: 5px;
+  display: flex;
+}
+.currentItemLi1 span:first-child {
+  @include fontStyle1(700, 14, 20);
+  color: #000000;
+  margin-right: 5px;
+  width: 80px;
+}
+.currentItemLi1 span:last-child {
+  @include fontStyle1(400, 14, 20);
+  color: #1976d2;
+  width: 300px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.currentItemPara {
+  width: 380px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.currentItemPara2 {
+  width: 380px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.currentItemPrice {
+  @include fontStyle1(700, 14, 20);
+  color: #000000;
+}
+
+.CurrentItemCheckbox > input:checked {
+  background: #47a84a;
+}
+.CurrentItemCheckbox > input {
+  background: #47a84a;
+}
+.seeMoreLine {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.addSelectedToCartBtn {
+  background-color: #f38a00;
+  @include fontStyle1(400, 14, 20);
+  border-radius: 10px;
+  height: 30px;
+  width: 156px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customerAlsoViewed {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.customerAlsoViewedH5 {
+  color: #000000;
+  @include fontStyle1(400, 14, 18);
+  max-width: 167px;
+  margin-top: 15px;
+}
+
+.ComboWithPriceH1 {
+  color: #000000;
+  @include fontStyle1(700, 16, 18);
+  text-align: center;
+}
+
+@include media(800px) {
+  .frequencyPlus {
+    display: none;
+  }
+  .freqCheckbox {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  .frequentlyPurchasedH1 {
+    min-width: 26 0px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dividerfrequentlyPurchasedH1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .currentItemPara {
+    width: 380px;
+  }
+  .currentItemPara2 {
+    width: 80px;
+  }
+  .currentItemLi span:last-child {
+    @include fontStyle1(400, 14, 20);
+    color: #1976d2;
+    max-width: 280px;
+    min-width: 150px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 180px;
+  }
+}
+
+@include media(500px) {
+  .frequencyPlus {
+    display: none;
+  }
+  .freqCheckbox {
+    margin-top: 20px;
+    margin-left: -10px;
+  }
+  .frequentlyPurchasedH1 {
+    min-width: 260px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dividerfrequentlyPurchasedH1 {
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .currentItemPara {
+    width: 380px;
+  }
+  .currentItemPara2 {
+    width: 80px;
+  }
+  .currentItemLi span:last-child {
+    width: 180px;
+  }
+  .currentItemLi1 span:last-child {
+    width: 100px;
+  }
+  .seeMoreLine {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #126cc5;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+    padding: 5px 15px;
+  }
+  .cusReview {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+  }
+}

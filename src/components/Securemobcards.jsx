@@ -122,7 +122,7 @@ function Securemobcards() {
                         <p className='secure-font-setup-for-p'>$0.00</p>
                      </div>
                      <div className='d-flex justify-content-between'>
-                        <p className='secure-font-setup-for-p'>Cashed Out</p>
+                        <p className='secure-font-setup-for-p'>Cashhd Out</p>
                         <p className='secure-font-setup-for-p'>$0.00</p>
                      </div>
 
