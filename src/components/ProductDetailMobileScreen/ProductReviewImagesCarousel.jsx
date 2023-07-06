@@ -9,6 +9,7 @@ import ComboImg2 from '../../images/164.jpg.svg'
 import { Rating } from '@mui/material'
 import Img3 from '../../images/commentimg.svg'
 import Img4 from '../../images/overflow-hidden.svg'
+
 const ProductReviewImagesCarousel = () => {
   const cardData1 = [
     {

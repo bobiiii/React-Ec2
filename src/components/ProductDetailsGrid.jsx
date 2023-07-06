@@ -21,7 +21,7 @@ import {
 } from '@mui/icons-material'
 import ComboImg1 from '../images/218.jpg.svg'
 import ComboImg2 from '../images/164.jpg.svg'
-import { Rating } from '@mui/material'
+import { Rating, useMediaQuery } from '@mui/material'
 import ProductDetailQA from './ProductDetailQA'
 import CustomerReviews from './CustomerReviews'
 import ProductDetailsProductOverview from './ProductDetailsProductOverview'
@@ -30,6 +30,8 @@ import FrequentlyMobileScreen from './ProductDetailMobileScreen/FrequentlyMobile
 import ProductDetailCustomerCarousel from './ProductDetailMobileScreen/ProductDetailCustomerCarousel'
 
 function ProductDetailsGrid() {
+  const matches = useMediaQuery('(max-width:600px)')
+
   const cardData1 = [
     {
       img: ComboImg1,
@@ -88,7 +90,7 @@ function ProductDetailsGrid() {
   return (
     <>
       <div className="container-fluid">
-        {true ? (
+        {matches ? (
           <ProductDetailMobileScreen />
         ) : (
           <div className="row ">
@@ -444,7 +446,7 @@ function ProductDetailsGrid() {
 
       {/* Frequently purchased together */}
 
-      {true ? (
+      {matches ? (
         <>
           <FrequentlyMobileScreen />
         </>
@@ -621,7 +623,7 @@ function ProductDetailsGrid() {
       {/* Customers also viewed */}
 
       <div>
-        {true ? (
+        {matches ? (
           <div className="mx-2 mt-4">
             <div className={styles.customerAlsoViewed}>
               Customers also viewed
@@ -681,7 +683,7 @@ function ProductDetailsGrid() {
                               display: 'flex',
                               justifyContent: 'start',
                               marginRight: '5px',
-                              color: true ? '#BD3C37' : '#000000',
+                              color: matches ? '#BD3C37' : '#000000',
                             }}
                           >
                             ₹{item.price}

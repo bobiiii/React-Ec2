@@ -5,15 +5,17 @@ import Img3 from '../images/commentimg.svg'
 import Img4 from '../images/overflow-hidden.svg'
 import { KeyboardArrowRight } from '@mui/icons-material'
 import ProductReviewImagesCarousel from './ProductDetailMobileScreen/ProductReviewImagesCarousel'
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const CustomerReviewImgGlobal = () => {
+  const matches = useMediaQuery('(max-width:600px)')
   return (
     <div>
       <div style={{ marginBottom: '20px' }} className={style1.cardH2}>
         Review images
       </div>
 
-      {true ? (
+      {matches ? (
         <div>
           <ProductReviewImagesCarousel />
         </div>
@@ -64,7 +66,7 @@ const CustomerReviewImgGlobal = () => {
         Global reviews (244,800)
       </div>
 
-      <div className="d-flex mt-2">
+      <div className="d-lg-flex d-md-flex mt-2">
         <div className={styles.QASubtitle}>
           Product reviews solely reflect the views and opinions expressed by the
           contributors and not thos

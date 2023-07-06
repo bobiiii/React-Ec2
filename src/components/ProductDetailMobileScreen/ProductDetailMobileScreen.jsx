@@ -14,6 +14,7 @@ import {
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import ComboImg1 from '../../images/218.jpg.svg'
 import { Rating, IconButton } from '@mui/material'
+import ProductMainImgCarousel from './ProductMainImgCarousel'
 
 const ProductDetailMobileScreen = () => {
   const cardData1 = [
@@ -142,7 +143,9 @@ const ProductDetailMobileScreen = () => {
               </span>
             </div>
           </div>
-          <img src={ProductImage} className="w-100 py-2" alt="a" />
+
+          {/* <img src={ProductImage} className="w-100 py-2" alt="a" /> */}
+          <ProductMainImgCarousel />
         </div>
         <div className="col-lg-6">
           <div className="d-flex justify-content-between">
