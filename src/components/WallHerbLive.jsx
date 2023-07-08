@@ -1,11 +1,9 @@
-import CardBoxLive from "./CardBoxLive"
+import CardBoxLive from './CardBoxLive'
 function WallHerbLive() {
   return (
-    
-    <div className="conatiner-fluid d-none d-md-block">
-    <CardBoxLive/>
+    <div className="container-fluid d-none d-md-block ">
+      <CardBoxLive />
     </div>
-    
   )
 }
 

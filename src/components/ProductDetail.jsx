@@ -3,7 +3,7 @@ import ProductDetailsGrid from './ProductDetailsGrid'
 
 function ProductDetail() {
   return (
-    <div>
+    <div className="container">
       <div className="mainhero">
         <div className="hero ">
           <div className="ms-5 ">

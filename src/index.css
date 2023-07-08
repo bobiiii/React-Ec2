@@ -1032,6 +1032,12 @@
   flex-wrap: wrap;
 }
 
+@media (max-width: 440px) {
+  .sale-last-section {
+    display: none;
+  }
+}
+
 .more-way-text-for-desktop {
   text-align: center;
 }
@@ -1938,3 +1944,20 @@ button {
 }
 
 /* Secure css End */
+
+/* menu */
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./assets/icons/plusIcon.svg");
+  /* transform: rotate(45deg);     */
+  background-position: center;
+}
+.accordion-button::after {
+  margin-right: -20%;
+  background-image: url("./assets/icons/plusIcon.svg");
+  background-color: white;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #ffffff;
+}
