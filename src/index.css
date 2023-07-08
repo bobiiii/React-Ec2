@@ -44,6 +44,11 @@
   font-size: 1.6rem;
 }
 
+/* for mobile screen */
+.fs-cs-6 {
+  font-size: 1.125rem;
+}
+
 .btnspace {
   white-space: nowrap;
   border-radius: 10px;
@@ -236,7 +241,7 @@
 .treandingdiv {
   display: flex;
   text-align: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 .trdtext {
@@ -310,6 +315,35 @@
 /* Homepage CSS Start  */
 .live-box {
   background: linear-gradient(180deg, #ffd653 0%, #f5b300 100%);
+}
+
+.show-button-mobile {
+}
+.show-icon-mobile {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .show-button-mobile {
+    display: none;
+  }
+  .show-icon-mobile {
+    display: flex;
+  }
+}
+
+.bg-color-div {
+  background: #fafafa;
+}
+.chip-homePage {
+}
+
+@media screen and (max-width: 440px) {
+  .bg-color-div {
+    background: #ffffff;
+  }
+  .chip-homepage {
+    font-size: 12px;
+  }
 }
 
 /* Homepage CSS End */
@@ -1946,18 +1980,3 @@ button {
 /* Secure css End */
 
 /* menu */
-
-.accordion-button:not(.collapsed)::after {
-  background-image: url("./assets/icons/plusIcon.svg");
-  /* transform: rotate(45deg);     */
-  background-position: center;
-}
-.accordion-button::after {
-  margin-right: -20%;
-  background-image: url("./assets/icons/plusIcon.svg");
-  background-color: white;
-}
-.accordion-button:not(.collapsed) {
-  color: #ffffff;
-  background-color: #ffffff;
-}

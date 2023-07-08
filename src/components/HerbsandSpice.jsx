@@ -17,6 +17,8 @@ import HerbPagination from './HerbPagination'
 import HerbsMiniBannerCarousel from './HerbsMiniBannerCarousel'
 import ErrorIcon from '@mui/icons-material/Error'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight'
+import { useMediaQuery } from '@mui/material'
+import '../styles/Css/herbs.css'
 
 function HerbsandSpice() {
   const categoriesList = [
@@ -342,9 +344,12 @@ function HerbsandSpice() {
       price: '566.94',
     },
   ]
+
+  const matches = useMediaQuery('(min-width:1450px)')
+
   return (
     <>
-      <div className="container">
+      <div className={matches && 'container'} style={{ background: '#fafafa' }}>
         <div className="mainhero">
           <div className="hero ">
             <div className="ms-5 ">
@@ -485,7 +490,10 @@ function HerbsandSpice() {
             </div>
           </div>
 
-          <div className="herbs-section-main-spacing">
+          <div
+            className="herbs-section-main-spacing"
+            // style={{background: "#ffffff"}}
+          >
             <div className="sidebarsection">
               <div className="sidebar mt-3 ">
                 <ul className="nav flex-column ">
@@ -849,7 +857,10 @@ function HerbsandSpice() {
                   {accordionList.map((item) => {
                     return (
                       <>
-                        <li className="nav-item accordion-item">
+                        <li
+                          className="nav-item accordion-item"
+                          style={{ background: '#fafafa', borderBottom: '0px' }}
+                        >
                           <a
                             className="nav-link text-dark d-flex justify-content-between align-items-baseline accordion-header"
                             id="flush-headingOne"
@@ -861,6 +872,7 @@ function HerbsandSpice() {
                                 fontWeight: '600',
                                 color: '#000000',
                                 marginLeft: '8px',
+                                background: '#fafafa',
                               }}
                               class="accordion-button collapsed"
                               // type="button"

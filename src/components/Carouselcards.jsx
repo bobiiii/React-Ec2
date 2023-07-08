@@ -1,6 +1,9 @@
 // import React from 'react'
 import Slider from 'react-slick'
 import { slide1 } from '../utils/data'
+import '../styles/Css/react-slick-cards.css'
+import { Rating, useMediaQuery } from '@mui/material'
+
 function Carouselcards() {
   const settings = {
     infinite: true,
@@ -20,7 +23,7 @@ function Carouselcards() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -34,17 +37,36 @@ function Carouselcards() {
       },
     ],
   }
+  const matches = useMediaQuery('(max-width:500px)')
   return (
-    <div>
+    <div
+      className="bg-color-div"
+      style={{ width: '100%', overflowX: 'hidden' }}
+    >
       <Slider {...settings}>
         {slide1.map((item, index) => {
           return (
-            <div key={index}>
-              <div className="card w-100  " style={{ height: '16rem' }}>
-                <div className=" mx-auto pt-3" style={{ width: '50%' }}>
+            <div key={index} style={{ backgroundColor: 'white' }}>
+              <div
+                className="card w-100 card-hover card-style "
+                style={{
+                  // height: '18rem',
+                  border: 'none',
+                  backgroundColor: 'white',
+                  paddingBottom: '20px',
+                }}
+              >
+                <div
+                  className={` ${matches ? 'mx-1 pt-0  ' : 'mx-auto pt-3'}`}
+                  style={{ width: '50%' }}
+                >
                   <img
                     src={item.img}
-                    className="card-img-top  mx-auto pt-3"
+                    className={`card-img-top card-image ${
+                      matches
+                        ? 'mx-4 pt-1 pb-1 d-flex  justify-content-center'
+                        : 'mx-auto pt-3'
+                    }`}
                     alt="..."
                     width="100%"
                     height="auto"
@@ -54,18 +76,21 @@ function Carouselcards() {
                   className="card-body d-flex flex-column justify-content-center  pb-0   "
                   style={{ height: '16rem' }}
                 >
-                  <h5 className="card-title fs-cs-1 flex-grow-1 mb-auto ">
+                  <h5
+                    className="card-title fs-cs-1 flex-grow-1 mb-auto card-style-title "
+                    // style={{ maxWidth: '173px' }}
+                  >
                     {item.title}
                   </h5>
-                  <div>
-                    <i className="bi bi-star"></i>
-                    <i className="bi bi-star"></i>
-                    <i className="bi bi-star"></i>
-                    <i className="bi bi-star"></i>
+                  <div className="d-flex align-items-center">
+                    <Rating value={5} size="small" readOnly />
+                    <span className="gray-rating">25780</span>
                   </div>
-                  <div className="fs-cs-1 ">
-                    <span className="text-danger">{item.oldPrice} </span>{' '}
-                    <span>{item.newPrice}</span>
+                  <div className="fs-cs-1 pb-3">
+                    <span className="text-danger price-red">
+                      {item.oldPrice}{' '}
+                    </span>{' '}
+                    <span className="price-gray">{item.newPrice}</span>
                   </div>
                 </div>
               </div>
