@@ -1,9 +1,11 @@
 import SpecialOffer from './SpecialOffer'
 import ProductDetailsGrid from './ProductDetailsGrid'
+import { useMediaQuery } from '@mui/material'
 
 function ProductDetail() {
+  const matches = useMediaQuery('(min-width:1450px)')
   return (
-    <div className="container">
+    <div className={matches && 'container'}>
       <div className="mainhero">
         <div className="hero ">
           <div className="ms-5 ">
