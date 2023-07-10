@@ -9,9 +9,9 @@ function ProductDetail() {
   const matches = useMediaQuery('(min-width:1450px)')
   return (
     <div className={matches && 'container'}>
-      <div className="mt-2 mb-3 ms-2">
+      {/* <div className="mt-2 mb-3 ms-2">
         <HerbsChips />
-      </div>
+      </div> */}
       <div className="mainhero ">
         <div className="hero  ">
           <div className="ms-5 ">

@@ -356,12 +356,16 @@ function HerbsandSpice() {
 
   const matches = useMediaQuery('(min-width:1450px)')
 
+  const matches2 = useMediaQuery('(max-width:600px)')
+
   return (
     <>
       <div className={matches && 'container'} style={{ background: '#fafafa' }}>
-        <div className="mt-2 mb-3 ms-2">
-          <HerbsChips />
-        </div>
+        {matches2 && (
+          <div className="mt-2 mb-3 ms-2">
+            <HerbsChips />
+          </div>
+        )}
         <div className="mainhero">
           <div className="hero ">
             <div className="ms-5 ">
@@ -487,109 +491,119 @@ function HerbsandSpice() {
             <DraggableChipsSlider />
           </div>
 
-          <div
-            className="border-top "
-            style={{
-              borderBottom: '4px solid #e6e4e4',
-              marginBottom: '20px',
-              marginTop: '10px',
-            }}
-          ></div>
+          {matches2 && (
+            <>
+              <div
+                className="border-top "
+                style={{
+                  borderBottom: '4px solid #e6e4e4',
+                  marginBottom: '20px',
+                  marginTop: '10px',
+                }}
+              ></div>
 
-          <div className="d-flex flex-wrap show-icon-mobile mt-2 mb-1">
-            <div
-              style={{
-                width: '50px',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                borderRadius: '10px',
-                border: '1px solid #CCCCCC',
-                height: '50px',
-                marginBottom: '5px',
-              }}
-            >
-              <TuneIcon />
-            </div>
-            <div className="show-icon-mobile ms-1">
-              <select
-                class="form-select"
-                aria-label="Default select example"
-                style={{
-                  width: '84px',
-                  borderRadius: '10px',
-                  border: '1px solid #CCCCCC',
-                  height: '50px',
-                  marginBottom: '5px',
-                }}
-              >
-                <option selected>Sort</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            </div>
-            <div className="show-icon-mobile ms-1">
-              <select
-                class="form-select"
-                aria-label="Default select example"
-                style={{
-                  width: '130px',
-                  borderRadius: '10px',
-                  border: '1px solid #CCCCCC',
-                  height: '50px',
-                  marginBottom: '5px',
-                }}
-              >
-                <option selected>Categories</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            </div>
-            <div className="show-icon-mobile ms-1">
-              <select
-                class="form-select"
-                aria-label="Default select example"
-                style={{
-                  width: '100px',
-                  borderRadius: '10px',
-                  border: '1px solid #CCCCCC',
-                  height: '50px',
-                  marginBottom: '5px',
-                }}
-              >
-                <option selected>Brands</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-            </div>
-          </div>
-
-          <div className="show-icon-mobile d-flex align-items-center justify-content-between mt-3">
-            <div className="fs-cs-2 " style={{ fontWeight: '500' }}>
-              483 Results
-            </div>
-            <div>
-              <div className="d-flex">
-                <button type="button" class="btn btn-link text-decoration-none">
-                  <img
-                    src="./assets/icons/detailFrame.svg"
-                    alt=""
-                    style={{ width: '32px', height: '32px' }}
-                  />
-                </button>
-                <button type="button" class="btn btn-link text-decoration-none">
-                  <img
-                    src="./assets/icons/gridsvg.icon.svg"
-                    alt=""
-                    style={{ width: '32px', height: '32px' }}
-                  />
-                </button>
+              <div className="d-flex flex-wrap show-icon-mobile mt-2 mb-1">
+                <div
+                  style={{
+                    width: '50px',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    borderRadius: '10px',
+                    border: '1px solid #CCCCCC',
+                    height: '50px',
+                    marginBottom: '5px',
+                  }}
+                >
+                  <TuneIcon />
+                </div>
+                <div className="show-icon-mobile ms-1">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                    style={{
+                      width: '84px',
+                      borderRadius: '10px',
+                      border: '1px solid #CCCCCC',
+                      height: '50px',
+                      marginBottom: '5px',
+                    }}
+                  >
+                    <option selected>Sort</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div className="show-icon-mobile ms-1">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                    style={{
+                      width: '130px',
+                      borderRadius: '10px',
+                      border: '1px solid #CCCCCC',
+                      height: '50px',
+                      marginBottom: '5px',
+                    }}
+                  >
+                    <option selected>Categories</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div className="show-icon-mobile ms-1">
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                    style={{
+                      width: '100px',
+                      borderRadius: '10px',
+                      border: '1px solid #CCCCCC',
+                      height: '50px',
+                      marginBottom: '5px',
+                    }}
+                  >
+                    <option selected>Brands</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
               </div>
-            </div>
-          </div>
+
+              <div className="show-icon-mobile d-flex align-items-center justify-content-between mt-3">
+                <div className="fs-cs-2 " style={{ fontWeight: '500' }}>
+                  483 Results
+                </div>
+                <div>
+                  <div className="d-flex">
+                    <button
+                      type="button"
+                      class="btn btn-link text-decoration-none"
+                    >
+                      <img
+                        src="./assets/icons/detailFrame.svg"
+                        alt=""
+                        style={{ width: '32px', height: '32px' }}
+                      />
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-link text-decoration-none"
+                    >
+                      <img
+                        src="./assets/icons/gridsvg.icon.svg"
+                        alt=""
+                        style={{ width: '32px', height: '32px' }}
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
 
           <div className="spices1-banner-image show-button-mobile">
             <img src={spices1} alt="" />
@@ -1232,71 +1246,130 @@ function HerbsandSpice() {
                   matchesMobile ? 'mt-5' : 'mt-1'
                 }`}
               >
-                {cardsData.slice(4, -1).map((item) => {
-                  return (
-                    <>
-                      <div
-                        class="card herb-cards-image-sec show-button-mobile"
-                        style={{ width: '16rem' }}
-                      >
-                        <img src={item.img} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                          <p class="card-text">{item.title}</p>
-                          <div className="d-flex">
-                            <div style={{ color: '#FAC627' }}>
-                              <i className="bi bi-star"></i>
-                              <i className="bi bi-star"></i>
-                              <i className="bi bi-star"></i>
-                              <i className="bi bi-star"></i>
+                <>
+                  {cardsData.slice(4, -1).map((item) => {
+                    return (
+                      <>
+                        <div
+                          class="card herb-cards-image-sec show-button-mobile"
+                          style={{ width: '16rem' }}
+                        >
+                          <img src={item.img} class="card-img-top" alt="..." />
+                          <div class="card-body">
+                            <p class="card-text">{item.title}</p>
+                            <div className="d-flex">
+                              <div style={{ color: '#FAC627' }}>
+                                <i className="bi bi-star"></i>
+                                <i className="bi bi-star"></i>
+                                <i className="bi bi-star"></i>
+                                <i className="bi bi-star"></i>
+                              </div>
+                              <div>
+                                <span> &nbsp; {item.ratingNo}</span>
+                              </div>
                             </div>
-                            <div>
-                              <span> &nbsp; {item.ratingNo}</span>
-                            </div>
+                            <h6 className=" fs-cs-2">₹{item.price}</h6>
+                            <h6
+                              className="fs-cs-2"
+                              style={{ color: '#F38A00' }}
+                            >
+                              Save {item.cartPercentage} in Cart
+                            </h6>
                           </div>
-                          <h6 className=" fs-cs-2">₹{item.price}</h6>
-                          <h6 className="fs-cs-2" style={{ color: '#F38A00' }}>
-                            Save {item.cartPercentage} in Cart
-                          </h6>
                         </div>
-                      </div>
-                    </>
-                  )
-                })}
+                      </>
+                    )
+                  })}
+                </>
               </div>
 
               {/* mobile cards */}
 
               <div className="herb-section-first-cards mt-5 mb-5 show-icon-mobile">
-                {cardsData.slice(4, -1).map((item) => {
-                  return (
-                    <>
-                      <div className="show-icon-mobile">
-                        <HerbsMobileCard item={item} />
-                      </div>
-                    </>
-                  )
-                })}
+                <>
+                  {cardsData.slice(4, 8).map((item) => {
+                    return (
+                      <>
+                        <div className="show-icon-mobile">
+                          <HerbsMobileCard item={item} />
+                        </div>
+                      </>
+                    )
+                  })}
+                </>
               </div>
-
+              {matches2 && (
+                <>
+                  <div
+                    className="show-icon-mobile d-flex flex-column"
+                    width="100%"
+                    style={{ marginBottom: '20px' }}
+                  >
+                    <div className="d-flex justify-content-between my-3">
+                      <div className="fs-cs-2" style={{ fontWeight: '600' }}>
+                        Related blog articles
+                      </div>{' '}
+                      <div>
+                        <CloseOutlinedIcon />
+                      </div>
+                    </div>{' '}
+                    <HerbsMiniBannerCarousel />
+                  </div>
+                </>
+              )}
+              <div className="herb-section-first-cards mt-5 mb-5 show-icon-mobile">
+                <>
+                  {cardsData.slice(8, 10).map((item) => {
+                    return (
+                      <>
+                        <div className="show-icon-mobile">
+                          <HerbsMobileCard item={item} />
+                        </div>
+                      </>
+                    )
+                  })}
+                </>
+              </div>
               <div className="show-icon-mobile">
                 <HerbsSubscribeBox />
               </div>
-
-              <div
-                className="show-icon-mobile d-flex flex-column"
-                width="100%"
-                style={{ marginBottom: '20px' }}
-              >
-                <div className="d-flex justify-content-between my-3">
-                  <div className="fs-cs-2" style={{ fontWeight: '600' }}>
-                    Related blog articles
-                  </div>{' '}
-                  <div>
-                    <CloseOutlinedIcon />
-                  </div>
-                </div>{' '}
-                <HerbsMiniBannerCarousel />
+              <div className="herb-section-first-cards mt-5 mb-5 show-icon-mobile">
+                <>
+                  {cardsData.slice(10, -1).map((item) => {
+                    return (
+                      <>
+                        <div className="show-icon-mobile">
+                          <HerbsMobileCard item={item} />
+                        </div>
+                      </>
+                    )
+                  })}
+                </>
               </div>
+
+              {/* <div className="show-icon-mobile">
+                <HerbsSubscribeBox />
+              </div> */}
+
+              {/* {matches2 && (
+                <>
+                  <div
+                    className="show-icon-mobile d-flex flex-column"
+                    width="100%"
+                    style={{ marginBottom: '20px' }}
+                  >
+                    <div className="d-flex justify-content-between my-3">
+                      <div className="fs-cs-2" style={{ fontWeight: '600' }}>
+                        Related blog articles
+                      </div>{' '}
+                      <div>
+                        <CloseOutlinedIcon />
+                      </div>
+                    </div>{' '}
+                    <HerbsMiniBannerCarousel />
+                  </div>
+                </>
+              )} */}
 
               <div className="d-flex justify-content-center mt-4 mb-3 ">
                 <HerbPagination />
