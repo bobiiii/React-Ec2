@@ -17,10 +17,19 @@ import HerbPagination from './HerbPagination'
 import HerbsMiniBannerCarousel from './HerbsMiniBannerCarousel'
 import ErrorIcon from '@mui/icons-material/Error'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight'
-import { useMediaQuery } from '@mui/material'
+import { IconButton, useMediaQuery } from '@mui/material'
 import '../styles/Css/herbs.css'
+import DraggableChipsSlider from './DraggableChipsSlider'
+import TuneIcon from '@mui/icons-material/Tune'
+import HerbsMobileCard from './HerbsMobileCard'
+import HerbsSubscribeBox from './HerbsSubscribeBox'
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined'
+
+import HerbsChips from './HerbsChips'
 
 function HerbsandSpice() {
+  const matchesMobile = useMediaQuery('(max-width:430px)')
+
   const categoriesList = [
     {
       title: 'Salt',
@@ -350,6 +359,9 @@ function HerbsandSpice() {
   return (
     <>
       <div className={matches && 'container'} style={{ background: '#fafafa' }}>
+        <div className="mt-2 mb-3 ms-2">
+          <HerbsChips />
+        </div>
         <div className="mainhero">
           <div className="hero ">
             <div className="ms-5 ">
@@ -376,9 +388,9 @@ function HerbsandSpice() {
         </div>
 
         <section className="container-fluid">
-          <div className="categories-top-bar">
-            <div className="categories-dropdown">
-              <ul className="navbar-nav  mb-2 mb-lg-0 ">
+          <div className="categories-top-bar ">
+            <div className="categories-dropdown ">
+              <ul className="navbar-nav  mb-2 mb-lg-0 show-button-mobile">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle text-dark"
@@ -416,7 +428,7 @@ function HerbsandSpice() {
                 </li>
               </ul>
 
-              <ul className="navbar-nav  mb-2 mb-lg-0">
+              <ul className="navbar-nav  mb-2 mb-lg-0 show-button-mobile">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle text-dark"
@@ -453,7 +465,10 @@ function HerbsandSpice() {
                   </ul>
                 </li>
               </ul>
-              <a href="" className="text-decoration-none text-dark mt-2">
+              <a
+                href=""
+                className="text-decoration-none text-dark mt-2 show-button-mobile"
+              >
                 {' '}
                 Herbs & Spices{' '}
               </a>
@@ -461,17 +476,130 @@ function HerbsandSpice() {
 
             <div className="Herbs-Spices-heading ">
               <h4>Herbs & Spices</h4>
-              <p className="mt-1">484 Results (showing 1 - 48)</p>
+              <p className="mt-1 show-button-mobile">
+                484 Results (showing 1 - 48)
+              </p>
             </div>
           </div>
 
-          <div className="spices1-banner-image">
+          {/* slider */}
+          <div className="show-icon-mobile mt-1">
+            <DraggableChipsSlider />
+          </div>
+
+          <div
+            className="border-top "
+            style={{
+              borderBottom: '4px solid #e6e4e4',
+              marginBottom: '20px',
+              marginTop: '10px',
+            }}
+          ></div>
+
+          <div className="d-flex flex-wrap show-icon-mobile mt-2 mb-1">
+            <div
+              style={{
+                width: '50px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                borderRadius: '10px',
+                border: '1px solid #CCCCCC',
+                height: '50px',
+                marginBottom: '5px',
+              }}
+            >
+              <TuneIcon />
+            </div>
+            <div className="show-icon-mobile ms-1">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                style={{
+                  width: '84px',
+                  borderRadius: '10px',
+                  border: '1px solid #CCCCCC',
+                  height: '50px',
+                  marginBottom: '5px',
+                }}
+              >
+                <option selected>Sort</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div className="show-icon-mobile ms-1">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                style={{
+                  width: '130px',
+                  borderRadius: '10px',
+                  border: '1px solid #CCCCCC',
+                  height: '50px',
+                  marginBottom: '5px',
+                }}
+              >
+                <option selected>Categories</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div className="show-icon-mobile ms-1">
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                style={{
+                  width: '100px',
+                  borderRadius: '10px',
+                  border: '1px solid #CCCCCC',
+                  height: '50px',
+                  marginBottom: '5px',
+                }}
+              >
+                <option selected>Brands</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+
+          <div className="show-icon-mobile d-flex align-items-center justify-content-between mt-3">
+            <div className="fs-cs-2 " style={{ fontWeight: '500' }}>
+              483 Results
+            </div>
+            <div>
+              <div className="d-flex">
+                <button type="button" class="btn btn-link text-decoration-none">
+                  <img
+                    src="./assets/icons/detailFrame.svg"
+                    alt=""
+                    style={{ width: '32px', height: '32px' }}
+                  />
+                </button>
+                <button type="button" class="btn btn-link text-decoration-none">
+                  <img
+                    src="./assets/icons/gridsvg.icon.svg"
+                    alt=""
+                    style={{ width: '32px', height: '32px' }}
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="spices1-banner-image show-button-mobile">
             <img src={spices1} alt="" />
           </div>
 
-          <Herblinks></Herblinks>
+          <div className="show-button-mobile">
+            <Herblinks />
+          </div>
 
-          <div className="Herb-carousel-mini-banner position-relative">
+          <div className="Herb-carousel-mini-banner position-relative mt-2 show-button-mobile">
             <div
               width="10%"
               style={{
@@ -917,8 +1045,8 @@ function HerbsandSpice() {
             </div>
 
             <div className="center-section">
-              <nav className="navbar navbar-expand-lg navbar-light bg-light ">
-                <div className="container-fluid">
+              <nav className="navbar navbar-expand-lg navbar-light bg-light show-button-mobile">
+                <div className="container-fluid ">
                   <button
                     className="navbar-toggler"
                     type="button"
@@ -1015,12 +1143,12 @@ function HerbsandSpice() {
                 </div>
               </nav>
 
-              <div className="herb-section-first-cards mt-5 mb-5">
+              <div className="herb-section-first-cards mt-5 mb-5 show-button-mobile">
                 {cardsData.slice(0, 4).map((item) => {
                   return (
                     <>
                       <div
-                        class="card herb-cards-image-sec"
+                        class="card herb-cards-image-sec show-button-mobile"
                         style={{ width: '16rem' }}
                       >
                         <img src={item.img} class="card-img-top" alt="..." />
@@ -1048,43 +1176,67 @@ function HerbsandSpice() {
                 })}
               </div>
 
-              <div className="Get-the-latest-deals-section">
-                <div className="Get-the-latest-deals-section-text mt-5 mb-5">
-                  <div>
-                    <h4>Get the latest deals</h4>
-                  </div>
-                  <div className=" srch-btn">
-                    <input
-                      class="form-control "
-                      type="search"
-                      placeholder="Search"
-                      aria-label="Search"
-                    />
-                    <a
-                      href=""
-                      className="btn btn"
-                      style={{ background: '#458500', color: 'white' }}
-                    >
-                      {' '}
-                      Subscribe
-                    </a>
-                  </div>
-                  <div>
-                    <p>
-                      Your email will only be used for iHerb communications. You
-                      can unsubscribe at any time. For more information, see our
-                      Privacy Policy.
-                    </p>
-                  </div>
-                </div>
+              {/* mobile cards */}
+
+              <div
+                className={`herb-section-first-cards mt-5  show-icon-mobile${
+                  matchesMobile ? 'mb-5' : 'mb-1'
+                }`}
+              >
+                {cardsData.slice(0, 4).map((item) => {
+                  return (
+                    <>
+                      <div className="show-icon-mobile">
+                        <HerbsMobileCard item={item} />
+                      </div>
+                    </>
+                  )
+                })}
               </div>
 
-              <div className="herb-section-first-cards mt-5 mb-5">
+              {!matchesMobile && (
+                <div className="Get-the-latest-deals-section show-button-mobile">
+                  <div className="Get-the-latest-deals-section-text mt-5 mb-5">
+                    <div>
+                      <h4>Get the latest deals</h4>
+                    </div>
+                    <div className=" srch-btn">
+                      <input
+                        class="form-control "
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <a
+                        href=""
+                        className="btn btn"
+                        style={{ background: '#458500', color: 'white' }}
+                      >
+                        {' '}
+                        Subscribe
+                      </a>
+                    </div>
+                    <div>
+                      <p>
+                        Your email will only be used for iHerb communications.
+                        You can unsubscribe at any time. For more information,
+                        see our Privacy Policy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              <div
+                className={`herb-section-first-cards  mb-5 show-button-mobile ${
+                  matchesMobile ? 'mt-5' : 'mt-1'
+                }`}
+              >
                 {cardsData.slice(4, -1).map((item) => {
                   return (
                     <>
                       <div
-                        class="card herb-cards-image-sec"
+                        class="card herb-cards-image-sec show-button-mobile"
                         style={{ width: '16rem' }}
                       >
                         <img src={item.img} class="card-img-top" alt="..." />
@@ -1110,6 +1262,40 @@ function HerbsandSpice() {
                     </>
                   )
                 })}
+              </div>
+
+              {/* mobile cards */}
+
+              <div className="herb-section-first-cards mt-5 mb-5 show-icon-mobile">
+                {cardsData.slice(4, -1).map((item) => {
+                  return (
+                    <>
+                      <div className="show-icon-mobile">
+                        <HerbsMobileCard item={item} />
+                      </div>
+                    </>
+                  )
+                })}
+              </div>
+
+              <div className="show-icon-mobile">
+                <HerbsSubscribeBox />
+              </div>
+
+              <div
+                className="show-icon-mobile d-flex flex-column"
+                width="100%"
+                style={{ marginBottom: '20px' }}
+              >
+                <div className="d-flex justify-content-between my-3">
+                  <div className="fs-cs-2" style={{ fontWeight: '600' }}>
+                    Related blog articles
+                  </div>{' '}
+                  <div>
+                    <CloseOutlinedIcon />
+                  </div>
+                </div>{' '}
+                <HerbsMiniBannerCarousel />
               </div>
 
               <div className="d-flex justify-content-center mt-4 mb-3 ">
