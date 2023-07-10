@@ -1,13 +1,19 @@
 import SpecialOffer from './SpecialOffer'
 import ProductDetailsGrid from './ProductDetailsGrid'
 import { useMediaQuery } from '@mui/material'
+import HerbsChips from './HerbsChips'
 
 function ProductDetail() {
+  const matchesMobile = useMediaQuery('(max-width:430px)')
+
   const matches = useMediaQuery('(min-width:1450px)')
   return (
     <div className={matches && 'container'}>
-      <div className="mainhero">
-        <div className="hero ">
+      <div className="mt-2 mb-3 ms-2">
+        <HerbsChips />
+      </div>
+      <div className="mainhero ">
+        <div className="hero  ">
           <div className="ms-5 ">
             <h4> 20% off Immunne Support! </h4>
           </div>
@@ -31,47 +37,51 @@ function ProductDetail() {
         </div>
       </div>
 
-      <div className="container-fluid mt-4">
-        <div className="Brands-A-Z-cont">
-          <a href="" className="text-decoration-none text-secondary">
-            Brands A-Z{' '}
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            California Gold Nutrition
-          </a>
-        </div>
+      {!matchesMobile && (
+        <>
+          <div className="container-fluid mt-4 ">
+            <div className="Brands-A-Z-cont">
+              <a href="" className="text-decoration-none text-secondary">
+                Brands A-Z{' '}
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                California Gold Nutrition
+              </a>
+            </div>
 
-        <div className="Brands-A-Z-cont">
-          <a href="" className="text-decoration-none text-secondary">
-            Categories
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Supplements
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Vitamins
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Vitamin C
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Ascorbic Acid
-          </a>
-        </div>
-        <div className="Brands-A-Z-cont">
-          <a href="" className="text-decoration-none text-secondary">
-            Categories
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Health Topics
-          </a>
-          <a href="" className="text-decoration-none text-secondary">
-            Common Cold & Flu
-          </a>
-        </div>
-      </div>
+            <div className="Brands-A-Z-cont">
+              <a href="" className="text-decoration-none text-secondary">
+                Categories
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Supplements
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Vitamins
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Vitamin C
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Ascorbic Acid
+              </a>
+            </div>
+            <div className="Brands-A-Z-cont">
+              <a href="" className="text-decoration-none text-secondary">
+                Categories
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Health Topics
+              </a>
+              <a href="" className="text-decoration-none text-secondary">
+                Common Cold & Flu
+              </a>
+            </div>
+          </div>
+          <SpecialOffer />
+        </>
+      )}
 
-      <SpecialOffer />
       <ProductDetailsGrid />
     </div>
   )

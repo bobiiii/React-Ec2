@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductImage from '../images/ProductDetail/164.png'
+import ProductImage from '../images/ProductDetail/medicine1.svg'
 import Customerscards from './Customerscards'
 import WallHerbLive from './WallHerbLive'
 import sale1 from '../images/sale1.png'

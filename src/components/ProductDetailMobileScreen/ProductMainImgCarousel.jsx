@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
-import ProductImage from '../../images/ProductDetail/164.png'
+import ProductImage from '../../images/ProductDetail/medicine1.svg'
 
 const ProductMainImgCarousel = () => {
   return (
