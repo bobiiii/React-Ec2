@@ -15,6 +15,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 import ComboImg1 from '../../images/218.jpg.svg'
 import { Rating, IconButton } from '@mui/material'
 import ProductMainImgCarousel from './ProductMainImgCarousel'
+import HerbsChips from '../HerbsChips'
 
 const ProductDetailMobileScreen = () => {
   const cardData1 = [

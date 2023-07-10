@@ -28,6 +28,7 @@ import ProductDetailsProductOverview from './ProductDetailsProductOverview'
 import ProductDetailMobileScreen from './ProductDetailMobileScreen/ProductDetailMobileScreen'
 import FrequentlyMobileScreen from './ProductDetailMobileScreen/FrequentlyMobileScreen'
 import ProductDetailCustomerCarousel from './ProductDetailMobileScreen/ProductDetailCustomerCarousel'
+import HerbsChips from './HerbsChips'
 
 function ProductDetailsGrid() {
   const matches = useMediaQuery('(max-width:600px)')
@@ -89,9 +90,16 @@ function ProductDetailsGrid() {
   }
   return (
     <>
+      {matches && (
+        <div className="mt-2 mb-3 ">
+          <HerbsChips />
+        </div>
+      )}
       <div className="container-fluid">
         {matches ? (
-          <ProductDetailMobileScreen />
+          <>
+            <ProductDetailMobileScreen />
+          </>
         ) : (
           <div className="row ">
             <div className="col-lg-3 col-md-12 col-sm-12 ">
