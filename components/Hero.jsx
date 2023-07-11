@@ -2,6 +2,8 @@ import React from 'react'
 import car1 from "../images/car1.png"
 import car2 from "../images/car2.png"
 import car3 from "../images/car3.png"
+import Image from 'next/image'
+import Link from 'next/link'
 
 function Hero() {
   return (
@@ -33,13 +35,13 @@ function Hero() {
       <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={car1} className="d-block w-100" alt="..." />
+          <Image src={car1} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={car2} className="d-block w-100" alt="..." />
+          <Image src={car2} className="d-block w-100" alt="..." />
         </div>
         <div className="carousel-item">
-          <img src={car3} className="d-block w-100" alt="..." />
+          <Image src={car3} className="d-block w-100" alt="..." />
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -56,36 +58,42 @@ function Hero() {
 
       <div className='herocards'>
         <div className='herocards1'>
-          <a href="" className='text-decoration-none text-dark'><p> IMMUNE SUPPORTS <br />
-            <p className='ms-3 '>  20% OFF </p>
-          </p></a>
+          <Link href="/" className='text-decoration-none text-dark'>
+            <p> IMMUNE SUPPORTS <br />
+              <span className='ms-3 '>  20% OFF </span>
+            </p>
+          </Link>
           
           <p> </p>
         </div>
         <div className='herocards1'>
-          <a href="" className='text-decoration-none text-dark'><p> BEAUTY,BATH, & SELF-CARE <br />
-            <p className='ms-3'>  20% OFF </p>
-          </p>
-          <p> </p></a>
+          <Link href="/" className='text-decoration-none text-dark'>
+            <p> BEAUTY,BATH, & SELF-CARE <br />
+              <span className='ms-3'>  20% OFF </span>
+            </p>
+          </Link>
         </div>
         <div className='herocards1'>
-          <a href="" className='text-decoration-none text-dark'><p> HERBS & SPICES <br />
-            <p className='ms-3'> UP TO 30% OFF </p>
-          </p>
-          <p> </p></a>
+          <Link href="/" className='text-decoration-none text-dark'>
+            <p> HERBS & SPICES <br />
+              <span className='ms-3'> UP TO 30% OFF </span>
+            </p>
+          </Link>
         </div>
         <div className='herocards1'>
-          <a href="" className='text-decoration-none text-dark'><p> PREBIOTICS <br />
-            <p className='ms-3'> UP TO 50% OFF </p>
-          </p>
-          <p> </p></a>
+            <Link href="/" className='text-decoration-none text-dark'>
+              <p> PREBIOTICS <br />
+                <span className='ms-3'> UP TO 50% OFF </span>
+              </p>
+            </Link>
         </div>
         <div className='herocards1  '>
           <div className='mt-3 '>
-            <a href="#" className='seeallcard' > SEE ALL <svg viewBox="0 0 13 10" height="10px" width="15px">
-              <path d="M1,5 L11,5"></path>
-              <polyline points="8 1 12 5 8 9"></polyline>
-            </svg> </a>
+            <Link href="/" className='seeallcard' >SEE ALL <svg viewBox="0 0 13 10" height="10px" width="15px">
+                <path d="M1,5 L11,5"></path>
+                <polyline points="8 1 12 5 8 9"></polyline>
+              </svg> 
+            </Link>
           </div>
 
         </div>
