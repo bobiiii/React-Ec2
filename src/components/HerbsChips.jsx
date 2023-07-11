@@ -14,7 +14,6 @@ const HerbsChips = () => {
           fontWeight: '400',
           height: '24px',
           width: '100px',
-          height: '24px',
         }}
       />
 
