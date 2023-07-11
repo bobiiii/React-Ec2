@@ -1,0 +1,170 @@
+@import "../helperStyle/helper-style";
+
+.customerReviewH1 {
+  color: #000000;
+  @include fontStyle1(700, 24, 26);
+  margin-bottom: 10px;
+}
+
+.RatingTxt1 {
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #333333;
+}
+.subTxt1 {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #707070;
+}
+.writeReviewBtn {
+  width: 342px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #458500;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.CardBox {
+  width: 100%;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 16px;
+  border: 1px solid #e0e0e0;
+}
+
+.cardH1 {
+  color: #333333;
+  @include fontStyle1(700, 16, 22);
+}
+.cardH2 {
+  color: #333333;
+  @include fontStyle1(700, 20, 28);
+}
+
+.reportAbuse {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #126cc5;
+}
+.btnShare {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f38a00;
+}
+.btnAnswer {
+  width: 65px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  @include fontStyle1(400, 14, 20);
+}
+
+.grayBox {
+  width: 100%;
+  height: 200px;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  padding: 16px 16px;
+}
+
+.customerTitle {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  color: #126cc5;
+  margin-left: 8px;
+}
+
+.customerTitleDate {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.grayMiniTxt {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.miniVerticalDivider {
+  height: 12px;
+  border-left: 1.5px solid #666666;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.messageDesc {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #333333;
+}
+.disclaimer {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #f38a00;
+}
+.disclaimerMessage {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  color: #707070;
+  margin-left: 5px;
+}
+.thumbs {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #707070;
+}
+.seeMoreLine {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #126cc5;
+}
+
+.subTxt2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #333333;
+}
+
+.buttonChips {
+  border: 1px solid #cccccc;
+  height: 40px;
+  border-radius: 32px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.cusReviewImg {
+  width: 340px;
+  height: auto;
+}
+@include media(500px) {
+  .cusReviewImg {
+    width: 100%;
+    height: auto;
+  }
+  .writeReviewBtn {
+    width: 100%;
+    height: 48px;
+  }
+}
