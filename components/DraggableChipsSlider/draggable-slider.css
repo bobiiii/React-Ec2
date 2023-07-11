@@ -1,0 +1,100 @@
+.wrapper {
+  max-width: 97vw;
+  /* height: 100px; */
+  /* background-color: #fff; */
+  border-radius: 13px;
+  overflow-x: hidden;
+  margin-left: -30px;
+  /* padding: 35px ; */
+}
+
+/* .wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+.wrapper .icon {
+  position: absolute;
+  top: 110px;
+  height: 100px;
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.icon:first-child {
+  left: 0px;
+  /* background: linear-gradient(90deg, #fff 5%, transparent); */
+}
+
+.icon:last-child {
+  right: 0;
+  justify-content: flex-end;
+  /* background: linear-gradient(-90deg, #fff 5%, transparent); */
+}
+
+.icon i {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* line-height: 10px; */
+  cursor: pointer;
+  font: 0.6rem;
+  border-radius: 50%;
+  border: 1px solid #cccccc;
+  background-color: #f3f3f3;
+}
+
+.icon i:hover {
+  background-color: #efedfb;
+}
+
+.icon:first-child i {
+  margin-left: 10px;
+}
+.icon:last-child i {
+  margin-right: 10px;
+}
+
+.wrapper .tabs-box {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.wrapper .tabs-box::-webkit-scrollbar {
+  display: none;
+}
+.tabs-box .tab {
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: 1px solid #cccccc;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  border-radius: 30px;
+  pointer-events: none;
+  color: #666666;
+}
+
+.tabs-box.dragging .tab {
+  scroll-behavior: auto;
+  /* cursor: grab; */
+}
+
+@media screen and (max-width: 320px) {
+  .wrapper .icon {
+    position: absolute;
+    top: 107px;
+  }
+}
