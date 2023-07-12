@@ -6,23 +6,21 @@ import Footerend from './Footerend'
 import google from "../images/google.png" 
 import ftrimg from "../images/ftrimg.svg"
 import Image from 'next/image'
+import Link from 'next/link'
+
 function Footer() {
   return (
     <>
-      
       <section className=' ftrsection ' >
-        
-      
-        <div className="   this-footer-none-for-mobile " style={{    background: "#FAFAFA"}}>
-        
+        <div className="this-footer-none-for-mobile" style={{    background: "#FAFAFA"}}>
           <footer
             className="text-center text-lg-start text-gray ftrtext  "
             style={{ backgroundColor: '#F5F5F5', marginTop: "1em" }}
           >
             <section className="">
             <div className='footerimage' style={{ width: "100%",height:"100%" }}>
-        <Image src={ftrimg} alt="" style={{ width: "100%",height:"100%" }} />
-      </div>  
+              <Image src={ftrimg} alt="" style={{ width: "100%",height:"100%" }} />
+            </div>  
               <div className="container text-center text-md-start mt-5 ">
                 <div className="row mt-3 ">
 
@@ -34,16 +32,16 @@ function Footer() {
                       style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
                     />
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">About Us</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">About Us</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Rewards Program</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Rewards Program</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Affiliate Program</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Affiliate Program</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">We Give Back</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">We Give Back</Link>
                     </p>
                   </div>
 
@@ -55,16 +53,16 @@ function Footer() {
                       style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
                     />
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Corporate</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Corporate</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Press</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Press</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Partner With iHerb</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Partner With iHerb</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Help</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Help</Link>
                     </p>
                   </div>
 
@@ -76,19 +74,19 @@ function Footer() {
                       style={{ width: '60px', backgroundColor: '#7c4dff', height: '2px' }}
                     />
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">iHerb Blog</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">iHerb Blog</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">iHerb Community</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">iHerb Community</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none"><span className='text-danger'>New!</span> Influencers</a>
+                      <Link href="#!" className="text-secondary text-decoration-none"><span className='text-danger'>New!</span> Influencers</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none"><span className='text-danger'>New!</span> Weliness Quiz</a>
+                      <Link href="#!" className="text-secondary text-decoration-none"><span className='text-danger'>New!</span> Weliness Quiz</Link>
                     </p>
                     <p>
-                      <a href="#!" className="text-secondary text-decoration-none">Sales & Offers</a>
+                      <Link href="#!" className="text-secondary text-decoration-none">Sales & Offers</Link>
                     </p>
                   </div>
                   <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
@@ -100,19 +98,19 @@ function Footer() {
                     />
                     <div>
                       <p>
-                        <a href="#!" className="text-secondary text-decoration-none">Contact Us</a>
+                        <Link href="#!" className="text-secondary text-decoration-none">Contact Us</Link>
                       </p>
                       <p>
-                        <a href="#!" className="text-secondary text-decoration-none">Suggest a Product</a>
+                        <Link href="#!" className="text-secondary text-decoration-none">Suggest a Product</Link>
                       </p>
                       <p>
-                        <a href="#!" className="text-secondary text-decoration-none">Order Status</a>
+                        <Link href="#!" className="text-secondary text-decoration-none">Order Status</Link>
                       </p>
                       <p>
-                        <a href="#!" className="text-secondary text-decoration-none">Shipping</a>
+                        <Link href="/Dashboard" className="text-secondary text-decoration-none">Shipping</Link>
                       </p>
                       <p>
-                        <a href="#!" className="text-secondary text-decoration-none">Communication Preferences</a>
+                        <Link href="#!" className="text-secondary text-decoration-none">Communication Preferences</Link>
                       </p>
                     </div>
                   </div>
@@ -225,7 +223,7 @@ function Footer() {
   <div id="basicAccordionCollapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne"
     data-bs-parent="#basicAccordion">
     <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
-      <a href="" className='text-decoration-none text-dark'>heello</a>
+      <Link href="" className='text-decoration-none text-dark'>heello</Link>
     </div>
   </div>
 </div>
@@ -241,7 +239,7 @@ function Footer() {
   <div id="basicAccordionCollapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
     data-bs-parent="#basicAccordion">
     <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
-      <a href="" className='text-decoration-none text-dark'>heello</a>
+      <Link href="" className='text-decoration-none text-dark'>heello</Link>
     </div>
   </div>
 </div>
@@ -257,7 +255,7 @@ function Footer() {
   <div id="basicAccordionCollapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
     data-bs-parent="#basicAccordion" style={{backgroundColor:"#F5F5F5"}}>
     <div className="accordion-body">
-      <a href="" className='text-decoration-none text-dark'>heello</a>
+      <Link href="" className='text-decoration-none text-dark'>heello</Link>
     </div>
   </div>
 </div>
@@ -274,7 +272,7 @@ function Footer() {
   <div id="basicAccordionCollapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour"
     data-bs-parent="#basicAccordion">
     <div className="accordion-body" style={{backgroundColor:"#F5F5F5"}}>
-      <a href="" className='text-decoration-none text-dark'>World</a>
+      <Link href="" className='text-decoration-none text-dark'>World</Link>
     </div>
   </div>
 </div>

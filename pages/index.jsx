@@ -5,13 +5,11 @@ import NewArrivals from '../components/NewArrivals'
 import Speacials from '../components/Speacials'
 import Trending from '../components/Trending'
 import WallHerbLive from '../components/WallHerbLive'
-import Layout from '@/components/Layout'
 
 function Homepage() {
   const matches = useMediaQuery('(min-width:1450px)')
   return (
     <>
-    <Layout>
       <div className={matches && 'container'} style={{ background: '#fafafa' }}>
         <Hero />
         <Speacials />
@@ -26,7 +24,6 @@ function Homepage() {
           <WallHerbLive />
         </div>
       </div>
-      </Layout>
     </>
   )
 }
