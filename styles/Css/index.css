@@ -1123,7 +1123,7 @@
   width: 35%;
   background-color: #458500;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .blog-products-section {
@@ -2042,7 +2042,7 @@ button {
 .sec-last-cards-iamges-cont {
   width: 100%;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 

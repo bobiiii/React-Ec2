@@ -24,7 +24,7 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-3  navbar-main">
-              <li class="nav-item dropdown">
+              <li className="nav-item dropdown">
                 <a
                   className="nav-link active dropdown-toggle"
                   href="#"
@@ -39,9 +39,9 @@ function Header() {
                   className="dropdown-menu dropDownMenu"
                   aria-labelledby="navbarDropdown"
                 >
-                  <div class="mega-menu">
-                    <div class="row mega-row">
-                      <div class="col">
+                  <div className="mega-menu">
+                    <div className="row mega-row">
+                      <div className="col">
                         <h3>Supplements</h3>
                         <ul>
                           <li>
@@ -115,7 +115,7 @@ function Header() {
                           </li>
                         </ul>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         {/* <h3>Category 2</h3> */}
                         <ul>
                           <li>
@@ -193,7 +193,7 @@ function Header() {
                           </li>
                         </ul>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <ul>
                           <li>
                             <a href="#">5-HTP</a>
@@ -269,7 +269,7 @@ function Header() {
                           </li>
                         </ul>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <ul>
                           <h3>Bath</h3>
                           <li>
@@ -336,7 +336,7 @@ function Header() {
                           </li> */}
                         </ul>
                       </div>
-                      <div class="col">
+                      <div className="col">
                         <ul>
                           <h3>Grocery</h3>
                           <li>
