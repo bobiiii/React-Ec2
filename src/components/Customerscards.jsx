@@ -1,5 +1,6 @@
 import React from 'react'
 import CardBox from './CardBox'
+import Carouselcards from './Carouselcards'
 
 function Customerscards() {
   return (
@@ -11,11 +12,14 @@ function Customerscards() {
                <hr />
 
 
-               <div className='Customers-also-viewed-cards-cont'>
-                 <CardBox></CardBox>
+               {/* <div className='Customers-also-viewed-cards-cont'> */}
+                 {/* <CardBox></CardBox> */}
+       
 
-
-               </div>
+               {/* </div> */}
+          <div>
+            <Carouselcards />
+          </div>
 
        </div>
      

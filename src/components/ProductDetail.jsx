@@ -2,6 +2,7 @@ import SpecialOffer from './SpecialOffer'
 import ProductDetailsGrid from './ProductDetailsGrid'
 import { useMediaQuery } from '@mui/material'
 import HerbsChips from './HerbsChips'
+import RecentlyViewed from './RecentlyViewed'
 
 function ProductDetail() {
   const matchesMobile = useMediaQuery('(max-width:430px)')
@@ -83,6 +84,12 @@ function ProductDetail() {
       )}
 
       <ProductDetailsGrid />
+
+      {matchesMobile && (
+        <>
+        <RecentlyViewed/>
+        </>
+      )}
     </div>
   )
 }

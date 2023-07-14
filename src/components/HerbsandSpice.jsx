@@ -26,6 +26,7 @@ import HerbsSubscribeBox from './HerbsSubscribeBox'
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined'
 
 import HerbsChips from './HerbsChips'
+import RecentlyViewed from './RecentlyViewed'
 
 function HerbsandSpice() {
   const matchesMobile = useMediaQuery('(max-width:430px)')
@@ -1451,6 +1452,12 @@ function HerbsandSpice() {
             </div>
           </div>
         </div>
+
+         {matchesMobile && (
+        <>
+        <RecentlyViewed/>
+        </>
+      )}
       </div>
     </>
   )
